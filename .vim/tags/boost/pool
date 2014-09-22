@@ -1,0 +1,495 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_NO_PROPER_STL_DEALLOCATE	pool/pool_alloc.hpp	90;"	d
+BOOST_NO_TEMPLATE_CV_REF_OVERLOADS	pool/object_pool.hpp	25;"	d
+BOOST_OBJECT_POOL_HPP	pool/object_pool.hpp	10;"	d
+BOOST_POOLFWD_HPP	pool/poolfwd.hpp	10;"	d
+BOOST_POOL_ALLOC_HPP	pool/pool_alloc.hpp	11;"	d
+BOOST_POOL_GUARD_HPP	pool/detail/guard.hpp	10;"	d
+BOOST_POOL_HPP	pool/pool.hpp	10;"	d
+BOOST_POOL_MUTEX_HPP	pool/detail/mutex.hpp	10;"	d
+BOOST_POOL_VALIDATE_INTERNALS	pool/simple_segregated_storage.hpp	35;"	d
+BOOST_POOL_VALIDATE_INTERNALS	pool/simple_segregated_storage.hpp	37;"	d
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/object_pool.hpp	/^    element_type * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::object_pool	access:public	signature:()
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/object_pool.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(element_type * const chunk)$/;"	f	class:boost::object_pool	access:public	signature:(element_type * const chunk)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^    void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::pool	access:public	signature:()
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunk)$/;"	f	class:boost::pool	access:public	signature:(void * const chunk)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunks, const size_type n)$/;"	f	class:boost::pool	access:public	signature:(void * const chunks, const size_type n)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static char * malloc BOOST_PREVENT_MACRO_SUBSTITUTION(const size_type bytes)$/;"	f	struct:boost::default_user_allocator_malloc_free	access:public	signature:(const size_type bytes)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static char * malloc BOOST_PREVENT_MACRO_SUBSTITUTION(const size_type bytes)$/;"	f	struct:boost::default_user_allocator_new_delete	access:public	signature:(const size_type bytes)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static void free BOOST_PREVENT_MACRO_SUBSTITUTION(char * const block)$/;"	f	struct:boost::default_user_allocator_malloc_free	access:public	signature:(char * const block)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static void free BOOST_PREVENT_MACRO_SUBSTITUTION(char * const block)$/;"	f	struct:boost::default_user_allocator_new_delete	access:public	signature:(char * const block)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/simple_segregated_storage.hpp	/^    void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::simple_segregated_storage	access:public	signature:()
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/simple_segregated_storage.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunk)$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunk)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/singleton_pool.hpp	/^    static void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/singleton_pool.hpp	/^    static void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const ptr)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr)
+BOOST_PREVENT_MACRO_SUBSTITUTION	pool/singleton_pool.hpp	/^    static void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const ptr, const size_type n)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr, const size_type n)
+BOOST_SIMPLE_SEGREGATED_STORAGE_HPP	pool/simple_segregated_storage.hpp	10;"	d
+BOOST_SINGLETON_POOL_HPP	pool/singleton_pool.hpp	10;"	d
+BOOST_STATIC_CONSTANT	pool/pool.hpp	/^    BOOST_STATIC_CONSTANT(size_type, min_align =$/;"	p	class:boost::pool	access:private	signature:(size_type, min_align = (::boost::math::static_lcm< ::boost::alignment_of<void *>::value, ::boost::alignment_of<size_type>::value>::value) )
+BOOST_STATIC_CONSTANT	pool/pool.hpp	/^    BOOST_STATIC_CONSTANT(size_type, min_alloc_size =$/;"	p	class:boost::pool	access:private	signature:(size_type, min_alloc_size = (::boost::math::static_lcm<sizeof(void *), sizeof(size_type)>::value) )
+BOOST_STATIC_CONSTANT	pool/pool_alloc.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, next_size = NextSize); \/\/!< next_size publishes the values of the template parameter NextSize.$/;"	p	class:boost::pool_allocator	access:public	signature:(unsigned, next_size = NextSize)
+BOOST_STATIC_CONSTANT	pool/pool_alloc.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, next_size = NextSize);$/;"	p	class:boost::fast_pool_allocator	access:public	signature:(unsigned, next_size = NextSize)
+BOOST_STATIC_CONSTANT	pool/singleton_pool.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, next_size = NextSize); \/\/!< The number of chunks to allocate on the first allocation.$/;"	p	class:boost::singleton_pool	access:public	signature:(unsigned, next_size = NextSize)
+BOOST_STATIC_CONSTANT	pool/singleton_pool.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, requested_size = RequestedSize); \/\/!< The size of each chunk allocated by this pool.$/;"	p	class:boost::singleton_pool	access:public	signature:(unsigned, requested_size = RequestedSize)
+PODptr	pool/pool.hpp	/^    PODptr()$/;"	f	class:boost::details::PODptr	access:public	signature:()
+PODptr	pool/pool.hpp	/^    PODptr(char * const nptr, const size_type nsize)$/;"	f	class:boost::details::PODptr	access:public	signature:(char * const nptr, const size_type nsize)
+PODptr	pool/pool.hpp	/^class PODptr$/;"	c	namespace:boost::details
+add_block	pool/simple_segregated_storage.hpp	/^    void add_block(void * const block,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const block, const size_type nsz, const size_type npartition_sz)
+add_ordered_block	pool/simple_segregated_storage.hpp	/^    void add_ordered_block(void * const block,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const block, const size_type nsz, const size_type npartition_sz)
+address	pool/pool_alloc.hpp	/^    static const_pointer address(const_reference s)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const_reference s)
+address	pool/pool_alloc.hpp	/^    static const_pointer address(const_reference s)$/;"	f	class:boost::pool_allocator	access:public	signature:(const_reference s)
+address	pool/pool_alloc.hpp	/^    static pointer address(reference r)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(reference r)
+address	pool/pool_alloc.hpp	/^    static pointer address(reference r)$/;"	f	class:boost::pool_allocator	access:public	signature:(reference r)
+alloc_size	pool/pool.hpp	/^    size_type alloc_size() const$/;"	f	class:boost::pool	access:protected	signature:() const
+allocate	pool/pool_alloc.hpp	/^    static pointer allocate()$/;"	f	class:boost::fast_pool_allocator	access:public	signature:()
+allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const size_type n)
+allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n)$/;"	f	class:boost::pool_allocator	access:public	signature:(const size_type n)
+allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n, const void * const)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const size_type n, const void * const)
+allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n, const void * const)$/;"	f	class:boost::pool_allocator	access:public	signature:(const size_type n, const void * const)
+allocated	pool/pool_alloc.hpp	/^   static unsigned allocated;$/;"	m	struct:boost::debug_info	access:public
+allocated	pool/pool_alloc.hpp	/^unsigned debug_info<b>::allocated = 0;$/;"	m	class:boost::debug_info
+begin	pool/pool.hpp	/^    char * & begin()$/;"	f	class:boost::details::PODptr	access:public	signature:()
+begin	pool/pool.hpp	/^    char * begin() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost	pool/detail/guard.hpp	/^namespace boost {$/;"	n
+boost	pool/detail/mutex.hpp	/^namespace boost{ namespace details{ namespace pool{$/;"	n
+boost	pool/object_pool.hpp	/^namespace boost {$/;"	n
+boost	pool/pool.hpp	/^ namespace boost$/;"	n
+boost	pool/pool_alloc.hpp	/^namespace boost {$/;"	n
+boost	pool/poolfwd.hpp	/^namespace boost {$/;"	n
+boost	pool/simple_segregated_storage.hpp	/^namespace boost {$/;"	n
+boost	pool/singleton_pool.hpp	/^namespace boost {$/;"	n
+boost::debug_info	pool/pool_alloc.hpp	/^struct debug_info$/;"	s	namespace:boost
+boost::debug_info::allocated	pool/pool_alloc.hpp	/^   static unsigned allocated;$/;"	m	struct:boost::debug_info	access:public
+boost::debug_info::allocated	pool/pool_alloc.hpp	/^unsigned debug_info<b>::allocated = 0;$/;"	m	class:boost::debug_info
+boost::default_user_allocator_malloc_free	pool/pool.hpp	/^struct default_user_allocator_malloc_free$/;"	s	namespace:boost
+boost::default_user_allocator_malloc_free::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static char * malloc BOOST_PREVENT_MACRO_SUBSTITUTION(const size_type bytes)$/;"	f	struct:boost::default_user_allocator_malloc_free	access:public	signature:(const size_type bytes)
+boost::default_user_allocator_malloc_free::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static void free BOOST_PREVENT_MACRO_SUBSTITUTION(char * const block)$/;"	f	struct:boost::default_user_allocator_malloc_free	access:public	signature:(char * const block)
+boost::default_user_allocator_malloc_free::difference_type	pool/pool.hpp	/^  typedef std::ptrdiff_t difference_type; \/\/!< A signed integral type that can represent the difference of any two pointers.$/;"	t	struct:boost::default_user_allocator_malloc_free	access:public
+boost::default_user_allocator_malloc_free::size_type	pool/pool.hpp	/^  typedef std::size_t size_type; \/\/!< An unsigned integral type that can represent the size of the largest object to be allocated.$/;"	t	struct:boost::default_user_allocator_malloc_free	access:public
+boost::default_user_allocator_new_delete	pool/pool.hpp	/^struct default_user_allocator_new_delete$/;"	s	namespace:boost
+boost::default_user_allocator_new_delete::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static char * malloc BOOST_PREVENT_MACRO_SUBSTITUTION(const size_type bytes)$/;"	f	struct:boost::default_user_allocator_new_delete	access:public	signature:(const size_type bytes)
+boost::default_user_allocator_new_delete::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^  static void free BOOST_PREVENT_MACRO_SUBSTITUTION(char * const block)$/;"	f	struct:boost::default_user_allocator_new_delete	access:public	signature:(char * const block)
+boost::default_user_allocator_new_delete::difference_type	pool/pool.hpp	/^  typedef std::ptrdiff_t difference_type; \/\/!< A signed integral type that can represent the difference of any two pointers.$/;"	t	struct:boost::default_user_allocator_new_delete	access:public
+boost::default_user_allocator_new_delete::size_type	pool/pool.hpp	/^  typedef std::size_t size_type; \/\/!< An unsigned integral type that can represent the size of the largest object to be allocated.$/;"	t	struct:boost::default_user_allocator_new_delete	access:public
+boost::details	pool/detail/guard.hpp	/^namespace details {$/;"	n	namespace:boost
+boost::details	pool/detail/mutex.hpp	/^namespace boost{ namespace details{ namespace pool{$/;"	n	namespace:boost
+boost::details	pool/pool.hpp	/^namespace details$/;"	n	namespace:boost
+boost::details::PODptr	pool/pool.hpp	/^class PODptr$/;"	c	namespace:boost::details
+boost::details::PODptr::PODptr	pool/pool.hpp	/^    PODptr()$/;"	f	class:boost::details::PODptr	access:public	signature:()
+boost::details::PODptr::PODptr	pool/pool.hpp	/^    PODptr(char * const nptr, const size_type nsize)$/;"	f	class:boost::details::PODptr	access:public	signature:(char * const nptr, const size_type nsize)
+boost::details::PODptr::begin	pool/pool.hpp	/^    char * & begin()$/;"	f	class:boost::details::PODptr	access:public	signature:()
+boost::details::PODptr::begin	pool/pool.hpp	/^    char * begin() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::element_size	pool/pool.hpp	/^    size_type element_size() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::end	pool/pool.hpp	/^    char * end() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::invalidate	pool/pool.hpp	/^    void invalidate()$/;"	f	class:boost::details::PODptr	access:public	signature:()
+boost::details::PODptr::next	pool/pool.hpp	/^    PODptr next() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::next	pool/pool.hpp	/^    void next(const PODptr & arg) const$/;"	f	class:boost::details::PODptr	access:public	signature:(const PODptr & arg) const
+boost::details::PODptr::next_ptr	pool/pool.hpp	/^    char * & next_ptr() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::next_size	pool/pool.hpp	/^    size_type & next_size() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::ptr	pool/pool.hpp	/^    char * ptr;$/;"	m	class:boost::details::PODptr	access:private
+boost::details::PODptr::ptr_next_ptr	pool/pool.hpp	/^    char * ptr_next_ptr() const$/;"	f	class:boost::details::PODptr	access:private	signature:() const
+boost::details::PODptr::ptr_next_size	pool/pool.hpp	/^    char * ptr_next_size() const$/;"	f	class:boost::details::PODptr	access:private	signature:() const
+boost::details::PODptr::size_type	pool/pool.hpp	/^    typedef SizeType size_type;$/;"	t	class:boost::details::PODptr	access:public
+boost::details::PODptr::sz	pool/pool.hpp	/^    size_type sz;$/;"	m	class:boost::details::PODptr	access:private
+boost::details::PODptr::total_size	pool/pool.hpp	/^    size_type total_size() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::PODptr::valid	pool/pool.hpp	/^    bool valid() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+boost::details::pool	pool/detail/guard.hpp	/^namespace pool {$/;"	n	namespace:boost::details
+boost::details::pool	pool/detail/mutex.hpp	/^namespace boost{ namespace details{ namespace pool{$/;"	n	namespace:boost::details
+boost::details::pool::default_mutex	pool/detail/mutex.hpp	/^  typedef boost::mutex default_mutex;$/;"	t	namespace:boost::details::pool
+boost::details::pool::default_mutex	pool/detail/mutex.hpp	/^  typedef null_mutex default_mutex;$/;"	t	namespace:boost::details::pool
+boost::details::pool::guard	pool/detail/guard.hpp	/^class guard$/;"	c	namespace:boost::details::pool
+boost::details::pool::guard::guard	pool/detail/guard.hpp	/^    explicit guard(Mutex & nmtx)$/;"	f	class:boost::details::pool::guard	access:public	signature:(Mutex & nmtx)
+boost::details::pool::guard::guard	pool/detail/guard.hpp	/^    guard(const guard &); \/\/!< Guards the mutex, ensuring unlocked on destruction, even if exception is thrown.$/;"	p	class:boost::details::pool::guard	access:private	signature:(const guard &)
+boost::details::pool::guard::mtx	pool/detail/guard.hpp	/^    Mutex & mtx;$/;"	m	class:boost::details::pool::guard	access:private
+boost::details::pool::guard::operator =	pool/detail/guard.hpp	/^    void operator=(const guard &);$/;"	p	class:boost::details::pool::guard	access:private	signature:(const guard &)
+boost::details::pool::guard::~guard	pool/detail/guard.hpp	/^    ~guard()$/;"	f	class:boost::details::pool::guard	access:public	signature:()
+boost::details::pool::null_mutex	pool/detail/mutex.hpp	/^class null_mutex$/;"	c	namespace:boost::details::pool
+boost::details::pool::null_mutex::lock	pool/detail/mutex.hpp	/^    static void lock() { }$/;"	f	class:boost::details::pool::null_mutex	access:public	signature:()
+boost::details::pool::null_mutex::null_mutex	pool/detail/mutex.hpp	/^    null_mutex() { }$/;"	f	class:boost::details::pool::null_mutex	access:public	signature:()
+boost::details::pool::null_mutex::null_mutex	pool/detail/mutex.hpp	/^    null_mutex(const null_mutex &);$/;"	p	class:boost::details::pool::null_mutex	access:private	signature:(const null_mutex &)
+boost::details::pool::null_mutex::operator =	pool/detail/mutex.hpp	/^    void operator=(const null_mutex &);$/;"	p	class:boost::details::pool::null_mutex	access:private	signature:(const null_mutex &)
+boost::details::pool::null_mutex::unlock	pool/detail/mutex.hpp	/^    static void unlock() { }$/;"	f	class:boost::details::pool::null_mutex	access:public	signature:()
+boost::fast_pool_allocator	pool/pool_alloc.hpp	/^class fast_pool_allocator$/;"	c	namespace:boost
+boost::fast_pool_allocator	pool/pool_alloc.hpp	/^class fast_pool_allocator<void, UserAllocator, Mutex, NextSize, MaxSize>$/;"	c	namespace:boost
+boost::fast_pool_allocator::BOOST_STATIC_CONSTANT	pool/pool_alloc.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, next_size = NextSize);$/;"	p	class:boost::fast_pool_allocator	access:public	signature:(unsigned, next_size = NextSize)
+boost::fast_pool_allocator::address	pool/pool_alloc.hpp	/^    static const_pointer address(const_reference s)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const_reference s)
+boost::fast_pool_allocator::address	pool/pool_alloc.hpp	/^    static pointer address(reference r)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(reference r)
+boost::fast_pool_allocator::allocate	pool/pool_alloc.hpp	/^    static pointer allocate()$/;"	f	class:boost::fast_pool_allocator	access:public	signature:()
+boost::fast_pool_allocator::allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const size_type n)
+boost::fast_pool_allocator::allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n, const void * const)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const size_type n, const void * const)
+boost::fast_pool_allocator::const_pointer	pool/pool_alloc.hpp	/^    typedef const value_type * const_pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::const_pointer	pool/pool_alloc.hpp	/^    typedef const void* const_pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::const_reference	pool/pool_alloc.hpp	/^    typedef const value_type & const_reference;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::construct	pool/pool_alloc.hpp	/^    void construct(const pointer ptr, const value_type & t)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr, const value_type & t)
+boost::fast_pool_allocator::deallocate	pool/pool_alloc.hpp	/^    static void deallocate(const pointer ptr)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr)
+boost::fast_pool_allocator::deallocate	pool/pool_alloc.hpp	/^    static void deallocate(const pointer ptr, const size_type n)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr, const size_type n)
+boost::fast_pool_allocator::destroy	pool/pool_alloc.hpp	/^    void destroy(const pointer ptr)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr)
+boost::fast_pool_allocator::difference_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::fast_pool_allocator	pool/pool_alloc.hpp	/^    fast_pool_allocator($/;"	f	class:boost::fast_pool_allocator	access:public	signature:( const fast_pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> &)
+boost::fast_pool_allocator::fast_pool_allocator	pool/pool_alloc.hpp	/^    fast_pool_allocator()$/;"	f	class:boost::fast_pool_allocator	access:public	signature:()
+boost::fast_pool_allocator::max_size	pool/pool_alloc.hpp	/^    static size_type max_size()$/;"	f	class:boost::fast_pool_allocator	access:public	signature:()
+boost::fast_pool_allocator::mutex	pool/pool_alloc.hpp	/^    typedef Mutex mutex;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::operator !=	pool/pool_alloc.hpp	/^    bool operator!=(const fast_pool_allocator &) const$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const fast_pool_allocator &) const
+boost::fast_pool_allocator::operator ==	pool/pool_alloc.hpp	/^    bool operator==(const fast_pool_allocator &) const$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const fast_pool_allocator &) const
+boost::fast_pool_allocator::pointer	pool/pool_alloc.hpp	/^    typedef value_type * pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::pointer	pool/pool_alloc.hpp	/^    typedef void*       pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::rebind	pool/pool_alloc.hpp	/^    struct rebind$/;"	s	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::rebind	pool/pool_alloc.hpp	/^    template <class U> struct rebind$/;"	s	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::rebind::other	pool/pool_alloc.hpp	/^        typedef fast_pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::fast_pool_allocator::rebind	access:public
+boost::fast_pool_allocator::rebind::other	pool/pool_alloc.hpp	/^      typedef fast_pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::fast_pool_allocator::rebind	access:public
+boost::fast_pool_allocator::reference	pool/pool_alloc.hpp	/^    typedef value_type & reference;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::size_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::user_allocator	pool/pool_alloc.hpp	/^    typedef UserAllocator user_allocator;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::value_type	pool/pool_alloc.hpp	/^    typedef T value_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator::value_type	pool/pool_alloc.hpp	/^    typedef void        value_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+boost::fast_pool_allocator_tag	pool/pool_alloc.hpp	/^struct fast_pool_allocator_tag$/;"	s	namespace:boost
+boost::object_pool	pool/object_pool.hpp	/^class object_pool: protected pool<UserAllocator>$/;"	c	namespace:boost	inherits:pool
+boost::object_pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/object_pool.hpp	/^    element_type * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::object_pool	access:public	signature:()
+boost::object_pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/object_pool.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(element_type * const chunk)$/;"	f	class:boost::object_pool	access:public	signature:(element_type * const chunk)
+boost::object_pool::construct	pool/object_pool.hpp	/^    element_type * construct()$/;"	f	class:boost::object_pool	access:public	signature:()
+boost::object_pool::construct	pool/object_pool.hpp	/^    element_type * construct(Arg1&, ... ArgN&)$/;"	f	class:boost::object_pool	access:public	signature:(Arg1&, ... ArgN&)
+boost::object_pool::destroy	pool/object_pool.hpp	/^    void destroy(element_type * const chunk)$/;"	f	class:boost::object_pool	access:public	signature:(element_type * const chunk)
+boost::object_pool::difference_type	pool/object_pool.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type; \/\/!< pool<UserAllocator>::difference_type$/;"	t	class:boost::object_pool	access:public
+boost::object_pool::element_type	pool/object_pool.hpp	/^    typedef T element_type; \/\/!< ElementType$/;"	t	class:boost::object_pool	access:public
+boost::object_pool::get_next_size	pool/object_pool.hpp	/^    size_type get_next_size() const$/;"	f	class:boost::object_pool	access:public	signature:() const
+boost::object_pool::is_from	pool/object_pool.hpp	/^    bool is_from(element_type * const chunk) const$/;"	f	class:boost::object_pool	access:public	signature:(element_type * const chunk) const
+boost::object_pool::nextof	pool/object_pool.hpp	/^    static void * & nextof(void * const ptr)$/;"	f	class:boost::object_pool	access:protected	signature:(void * const ptr)
+boost::object_pool::object_pool	pool/object_pool.hpp	/^    explicit object_pool(const size_type arg_next_size = 32, const size_type arg_max_size = 0)$/;"	f	class:boost::object_pool	access:public	signature:(const size_type arg_next_size = 32, const size_type arg_max_size = 0)
+boost::object_pool::set_next_size	pool/object_pool.hpp	/^    void set_next_size(const size_type x)$/;"	f	class:boost::object_pool	access:public	signature:(const size_type x)
+boost::object_pool::size_type	pool/object_pool.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type; \/\/!<   pool<UserAllocator>::size_type$/;"	t	class:boost::object_pool	access:public
+boost::object_pool::store	pool/object_pool.hpp	/^    const pool<UserAllocator> & store() const$/;"	f	class:boost::object_pool	access:protected	signature:() const
+boost::object_pool::store	pool/object_pool.hpp	/^    pool<UserAllocator> & store()$/;"	f	class:boost::object_pool	access:protected	signature:()
+boost::object_pool::user_allocator	pool/object_pool.hpp	/^    typedef UserAllocator user_allocator; \/\/!<$/;"	t	class:boost::object_pool	access:public
+boost::object_pool::~object_pool	pool/object_pool.hpp	/^    ~object_pool();$/;"	p	class:boost::object_pool	access:public	signature:()
+boost::object_pool::~object_pool	pool/object_pool.hpp	/^object_pool<T, UserAllocator>::~object_pool()$/;"	f	class:boost::object_pool	signature:()
+boost::pool	pool/pool.hpp	/^class pool: protected simple_segregated_storage < typename UserAllocator::size_type >$/;"	c	namespace:boost	inherits:simple_segregated_storage
+boost::pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^    void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::pool	access:public	signature:()
+boost::pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunk)$/;"	f	class:boost::pool	access:public	signature:(void * const chunk)
+boost::pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/pool.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunks, const size_type n)$/;"	f	class:boost::pool	access:public	signature:(void * const chunks, const size_type n)
+boost::pool::BOOST_STATIC_CONSTANT	pool/pool.hpp	/^    BOOST_STATIC_CONSTANT(size_type, min_align =$/;"	p	class:boost::pool	access:private	signature:(size_type, min_align = (::boost::math::static_lcm< ::boost::alignment_of<void *>::value, ::boost::alignment_of<size_type>::value>::value) )
+boost::pool::BOOST_STATIC_CONSTANT	pool/pool.hpp	/^    BOOST_STATIC_CONSTANT(size_type, min_alloc_size =$/;"	p	class:boost::pool	access:private	signature:(size_type, min_alloc_size = (::boost::math::static_lcm<sizeof(void *), sizeof(size_type)>::value) )
+boost::pool::alloc_size	pool/pool.hpp	/^    size_type alloc_size() const$/;"	f	class:boost::pool	access:protected	signature:() const
+boost::pool::difference_type	pool/pool.hpp	/^    typedef typename UserAllocator::difference_type difference_type;  \/\/!< A signed integral type that can represent the difference of any two pointers.$/;"	t	class:boost::pool	access:public
+boost::pool::find_POD	pool/pool.hpp	/^    details::PODptr<size_type> find_POD(void * const chunk) const;$/;"	p	class:boost::pool	access:protected	signature:(void * const chunk) const
+boost::pool::find_POD	pool/pool.hpp	/^pool<UserAllocator>::find_POD(void * const chunk) const$/;"	f	class:boost::pool	signature:(void * const chunk) const
+boost::pool::get_max_size	pool/pool.hpp	/^    size_type get_max_size() const$/;"	f	class:boost::pool	access:public	signature:() const
+boost::pool::get_next_size	pool/pool.hpp	/^    size_type get_next_size() const$/;"	f	class:boost::pool	access:public	signature:() const
+boost::pool::get_requested_size	pool/pool.hpp	/^    size_type get_requested_size() const$/;"	f	class:boost::pool	access:public	signature:() const
+boost::pool::is_from	pool/pool.hpp	/^    bool is_from(void * const chunk) const$/;"	f	class:boost::pool	access:public	signature:(void * const chunk) const
+boost::pool::is_from	pool/pool.hpp	/^    static bool is_from(void * const chunk, char * const i,$/;"	f	class:boost::pool	access:protected	signature:(void * const chunk, char * const i, const size_type sizeof_i)
+boost::pool::list	pool/pool.hpp	/^    details::PODptr<size_type> list; \/\/!< List structure holding ordered blocks.$/;"	m	class:boost::pool	access:protected
+boost::pool::malloc_need_resize	pool/pool.hpp	/^    void * malloc_need_resize(); \/\/! Called if malloc needs to resize the free list.$/;"	p	class:boost::pool	access:private	signature:()
+boost::pool::malloc_need_resize	pool/pool.hpp	/^void * pool<UserAllocator>::malloc_need_resize()$/;"	f	class:boost::pool	signature:()
+boost::pool::max_size	pool/pool.hpp	/^    size_type max_size;$/;"	m	class:boost::pool	access:protected
+boost::pool::next_size	pool/pool.hpp	/^    size_type next_size;$/;"	m	class:boost::pool	access:protected
+boost::pool::nextof	pool/pool.hpp	/^    static void * & nextof(void * const ptr)$/;"	f	class:boost::pool	access:protected	signature:(void * const ptr)
+boost::pool::ordered_free	pool/pool.hpp	/^    void ordered_free(void * const chunk)$/;"	f	class:boost::pool	access:public	signature:(void * const chunk)
+boost::pool::ordered_free	pool/pool.hpp	/^    void ordered_free(void * const chunks, const size_type n)$/;"	f	class:boost::pool	access:public	signature:(void * const chunks, const size_type n)
+boost::pool::ordered_malloc	pool/pool.hpp	/^    void * ordered_malloc()$/;"	f	class:boost::pool	access:public	signature:()
+boost::pool::ordered_malloc	pool/pool.hpp	/^    void * ordered_malloc(size_type n);$/;"	p	class:boost::pool	access:public	signature:(size_type n)
+boost::pool::ordered_malloc	pool/pool.hpp	/^void * pool<UserAllocator>::ordered_malloc(const size_type n)$/;"	f	class:boost::pool	signature:(const size_type n)
+boost::pool::ordered_malloc_need_resize	pool/pool.hpp	/^    void * ordered_malloc_need_resize();  \/\/! Called if ordered_malloc needs to resize the free list.$/;"	p	class:boost::pool	access:private	signature:()
+boost::pool::ordered_malloc_need_resize	pool/pool.hpp	/^void * pool<UserAllocator>::ordered_malloc_need_resize()$/;"	f	class:boost::pool	signature:()
+boost::pool::pool	pool/pool.hpp	/^    explicit pool(const size_type nrequested_size,$/;"	f	class:boost::pool	access:public	signature:(const size_type nrequested_size, const size_type nnext_size = 32, const size_type nmax_size = 0)
+boost::pool::pool::min_align	pool/pool.hpp	/^typename pool<UserAllocator>::size_type const pool<UserAllocator>::min_align;$/;"	m	class:boost::pool::pool
+boost::pool::pool::min_alloc_size	pool/pool.hpp	/^typename pool<UserAllocator>::size_type const pool<UserAllocator>::min_alloc_size;$/;"	m	class:boost::pool::pool
+boost::pool::purge_memory	pool/pool.hpp	/^    bool purge_memory();$/;"	p	class:boost::pool	access:public	signature:()
+boost::pool::purge_memory	pool/pool.hpp	/^bool pool<UserAllocator>::purge_memory()$/;"	f	class:boost::pool	signature:()
+boost::pool::release_memory	pool/pool.hpp	/^    bool release_memory();$/;"	p	class:boost::pool	access:public	signature:()
+boost::pool::release_memory	pool/pool.hpp	/^bool pool<UserAllocator>::release_memory()$/;"	f	class:boost::pool	signature:()
+boost::pool::requested_size	pool/pool.hpp	/^    const size_type requested_size;$/;"	m	class:boost::pool	access:protected
+boost::pool::set_max_size	pool/pool.hpp	/^    void set_max_size(const size_type nmax_size)$/;"	f	class:boost::pool	access:public	signature:(const size_type nmax_size)
+boost::pool::set_next_size	pool/pool.hpp	/^    void set_next_size(const size_type nnext_size)$/;"	f	class:boost::pool	access:public	signature:(const size_type nnext_size)
+boost::pool::size_type	pool/pool.hpp	/^    typedef typename UserAllocator::size_type size_type;  \/\/!< An unsigned integral type that can represent the size of the largest object to be allocated.$/;"	t	class:boost::pool	access:public
+boost::pool::start_size	pool/pool.hpp	/^    size_type start_size;$/;"	m	class:boost::pool	access:protected
+boost::pool::store	pool/pool.hpp	/^    const simple_segregated_storage<size_type> & store() const$/;"	f	class:boost::pool	access:protected	signature:() const
+boost::pool::store	pool/pool.hpp	/^    simple_segregated_storage<size_type> & store()$/;"	f	class:boost::pool	access:protected	signature:()
+boost::pool::user_allocator	pool/pool.hpp	/^    typedef UserAllocator user_allocator; \/\/!< User allocator.$/;"	t	class:boost::pool	access:public
+boost::pool::~pool	pool/pool.hpp	/^    ~pool()$/;"	f	class:boost::pool	access:public	signature:()
+boost::pool_allocator	pool/pool_alloc.hpp	/^class pool_allocator$/;"	c	namespace:boost
+boost::pool_allocator	pool/pool_alloc.hpp	/^class pool_allocator<void, UserAllocator, Mutex, NextSize, MaxSize>$/;"	c	namespace:boost
+boost::pool_allocator::BOOST_STATIC_CONSTANT	pool/pool_alloc.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, next_size = NextSize); \/\/!< next_size publishes the values of the template parameter NextSize.$/;"	p	class:boost::pool_allocator	access:public	signature:(unsigned, next_size = NextSize)
+boost::pool_allocator::address	pool/pool_alloc.hpp	/^    static const_pointer address(const_reference s)$/;"	f	class:boost::pool_allocator	access:public	signature:(const_reference s)
+boost::pool_allocator::address	pool/pool_alloc.hpp	/^    static pointer address(reference r)$/;"	f	class:boost::pool_allocator	access:public	signature:(reference r)
+boost::pool_allocator::allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n)$/;"	f	class:boost::pool_allocator	access:public	signature:(const size_type n)
+boost::pool_allocator::allocate	pool/pool_alloc.hpp	/^    static pointer allocate(const size_type n, const void * const)$/;"	f	class:boost::pool_allocator	access:public	signature:(const size_type n, const void * const)
+boost::pool_allocator::const_pointer	pool/pool_alloc.hpp	/^    typedef const value_type * const_pointer;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::const_pointer	pool/pool_alloc.hpp	/^    typedef const void* const_pointer;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::const_reference	pool/pool_alloc.hpp	/^    typedef const value_type & const_reference;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::construct	pool/pool_alloc.hpp	/^    static void construct(const pointer ptr, const value_type & t)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pointer ptr, const value_type & t)
+boost::pool_allocator::deallocate	pool/pool_alloc.hpp	/^    static void deallocate(const pointer ptr, const size_type n)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pointer ptr, const size_type n)
+boost::pool_allocator::destroy	pool/pool_alloc.hpp	/^    static void destroy(const pointer ptr)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pointer ptr)
+boost::pool_allocator::difference_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::max_size	pool/pool_alloc.hpp	/^    static size_type max_size()$/;"	f	class:boost::pool_allocator	access:public	signature:()
+boost::pool_allocator::mutex	pool/pool_alloc.hpp	/^    typedef Mutex mutex; \/\/!< typedef mutex publishes the value of the template parameter Mutex.$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::operator !=	pool/pool_alloc.hpp	/^    bool operator!=(const pool_allocator &) const$/;"	f	class:boost::pool_allocator	access:public	signature:(const pool_allocator &) const
+boost::pool_allocator::operator ==	pool/pool_alloc.hpp	/^    bool operator==(const pool_allocator &) const$/;"	f	class:boost::pool_allocator	access:public	signature:(const pool_allocator &) const
+boost::pool_allocator::pointer	pool/pool_alloc.hpp	/^    typedef value_type * pointer; \/\/!<$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::pointer	pool/pool_alloc.hpp	/^    typedef void*       pointer;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::pool_allocator	pool/pool_alloc.hpp	/^    pool_allocator()$/;"	f	class:boost::pool_allocator	access:public	signature:()
+boost::pool_allocator::pool_allocator	pool/pool_alloc.hpp	/^    pool_allocator(const pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> &)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> &)
+boost::pool_allocator::rebind	pool/pool_alloc.hpp	/^    struct rebind$/;"	s	class:boost::pool_allocator	access:public
+boost::pool_allocator::rebind::other	pool/pool_alloc.hpp	/^       typedef pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::pool_allocator::rebind	access:public
+boost::pool_allocator::rebind::other	pool/pool_alloc.hpp	/^      typedef pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::pool_allocator::rebind	access:public
+boost::pool_allocator::reference	pool/pool_alloc.hpp	/^    typedef value_type & reference;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::size_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::user_allocator	pool/pool_alloc.hpp	/^    typedef UserAllocator user_allocator;  \/\/!< allocator that defines the method that the underlying Pool will use to allocate memory from the system.$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::value_type	pool/pool_alloc.hpp	/^    typedef T value_type;  \/\/!< value_type of template parameter T.$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator::value_type	pool/pool_alloc.hpp	/^    typedef void        value_type;$/;"	t	class:boost::pool_allocator	access:public
+boost::pool_allocator_tag	pool/pool_alloc.hpp	/^ struct pool_allocator_tag$/;"	s	namespace:boost
+boost::simple_segregated_storage	pool/simple_segregated_storage.hpp	/^class simple_segregated_storage$/;"	c	namespace:boost
+boost::simple_segregated_storage::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/simple_segregated_storage.hpp	/^    void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::simple_segregated_storage	access:public	signature:()
+boost::simple_segregated_storage::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/simple_segregated_storage.hpp	/^    void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const chunk)$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunk)
+boost::simple_segregated_storage::add_block	pool/simple_segregated_storage.hpp	/^    void add_block(void * const block,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const block, const size_type nsz, const size_type npartition_sz)
+boost::simple_segregated_storage::add_ordered_block	pool/simple_segregated_storage.hpp	/^    void add_ordered_block(void * const block,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const block, const size_type nsz, const size_type npartition_sz)
+boost::simple_segregated_storage::empty	pool/simple_segregated_storage.hpp	/^    bool empty() const$/;"	f	class:boost::simple_segregated_storage	access:public	signature:() const
+boost::simple_segregated_storage::find_prev	pool/simple_segregated_storage.hpp	/^    void * find_prev(void * ptr);$/;"	p	class:boost::simple_segregated_storage	access:protected	signature:(void * ptr)
+boost::simple_segregated_storage::find_prev	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::find_prev(void * const ptr)$/;"	f	class:boost::simple_segregated_storage	signature:(void * const ptr)
+boost::simple_segregated_storage::first	pool/simple_segregated_storage.hpp	/^    void * first; \/*!< This data member is the free list.$/;"	m	class:boost::simple_segregated_storage	access:protected
+boost::simple_segregated_storage::free_n	pool/simple_segregated_storage.hpp	/^    void free_n(void * const chunks, const size_type n,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunks, const size_type n, const size_type partition_size)
+boost::simple_segregated_storage::malloc_n	pool/simple_segregated_storage.hpp	/^   void * malloc_n(size_type n, size_type partition_size);$/;"	p	class:boost::simple_segregated_storage	access:public	signature:(size_type n, size_type partition_size)
+boost::simple_segregated_storage::malloc_n	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::malloc_n(const size_type n,$/;"	f	class:boost::simple_segregated_storage	signature:(const size_type n, const size_type partition_size)
+boost::simple_segregated_storage::nextof	pool/simple_segregated_storage.hpp	/^    static void * & nextof(void * const ptr)$/;"	f	class:boost::simple_segregated_storage	access:protected	signature:(void * const ptr)
+boost::simple_segregated_storage::operator =	pool/simple_segregated_storage.hpp	/^    void operator=(const simple_segregated_storage &);$/;"	p	class:boost::simple_segregated_storage	access:private	signature:(const simple_segregated_storage &)
+boost::simple_segregated_storage::ordered_free	pool/simple_segregated_storage.hpp	/^    void ordered_free(void * const chunk)$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunk)
+boost::simple_segregated_storage::ordered_free_n	pool/simple_segregated_storage.hpp	/^    void ordered_free_n(void * const chunks, const size_type n,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunks, const size_type n, const size_type partition_size)
+boost::simple_segregated_storage::segregate	pool/simple_segregated_storage.hpp	/^    static void * segregate(void * block,$/;"	p	class:boost::simple_segregated_storage	access:public	signature:(void * block, size_type nsz, size_type npartition_sz, void * end = 0)
+boost::simple_segregated_storage::segregate	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::segregate($/;"	f	class:boost::simple_segregated_storage	signature:( void * const block, const size_type sz, const size_type partition_sz, void * const end)
+boost::simple_segregated_storage::simple_segregated_storage	pool/simple_segregated_storage.hpp	/^    simple_segregated_storage()$/;"	f	class:boost::simple_segregated_storage	access:public	signature:()
+boost::simple_segregated_storage::simple_segregated_storage	pool/simple_segregated_storage.hpp	/^    simple_segregated_storage(const simple_segregated_storage &);$/;"	p	class:boost::simple_segregated_storage	access:private	signature:(const simple_segregated_storage &)
+boost::simple_segregated_storage::size_type	pool/simple_segregated_storage.hpp	/^    typedef SizeType size_type;$/;"	t	class:boost::simple_segregated_storage	access:public
+boost::simple_segregated_storage::try_malloc_n	pool/simple_segregated_storage.hpp	/^    static void * try_malloc_n(void * & start, size_type n,$/;"	p	class:boost::simple_segregated_storage	access:private	signature:(void * & start, size_type n, size_type partition_size)
+boost::simple_segregated_storage::try_malloc_n	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::try_malloc_n($/;"	f	class:boost::simple_segregated_storage	signature:( void * & start, size_type n, const size_type partition_size)
+boost::simple_segregated_storage::validate	pool/simple_segregated_storage.hpp	/^    void validate()$/;"	f	class:boost::simple_segregated_storage	access:public	signature:()
+boost::singleton_pool	pool/singleton_pool.hpp	/^class singleton_pool$/;"	c	namespace:boost
+boost::singleton_pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/singleton_pool.hpp	/^    static void * malloc BOOST_PREVENT_MACRO_SUBSTITUTION()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+boost::singleton_pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/singleton_pool.hpp	/^    static void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const ptr)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr)
+boost::singleton_pool::BOOST_PREVENT_MACRO_SUBSTITUTION	pool/singleton_pool.hpp	/^    static void free BOOST_PREVENT_MACRO_SUBSTITUTION(void * const ptr, const size_type n)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr, const size_type n)
+boost::singleton_pool::BOOST_STATIC_CONSTANT	pool/singleton_pool.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, next_size = NextSize); \/\/!< The number of chunks to allocate on the first allocation.$/;"	p	class:boost::singleton_pool	access:public	signature:(unsigned, next_size = NextSize)
+boost::singleton_pool::BOOST_STATIC_CONSTANT	pool/singleton_pool.hpp	/^    BOOST_STATIC_CONSTANT(unsigned, requested_size = RequestedSize); \/\/!< The size of each chunk allocated by this pool.$/;"	p	class:boost::singleton_pool	access:public	signature:(unsigned, requested_size = RequestedSize)
+boost::singleton_pool::create_object	pool/singleton_pool.hpp	/^   static object_creator create_object;$/;"	m	class:boost::singleton_pool	access:private
+boost::singleton_pool::create_object	pool/singleton_pool.hpp	/^typename singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::object_creator singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::create_object;$/;"	m	class:boost::singleton_pool
+boost::singleton_pool::difference_type	pool/singleton_pool.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type; \/\/!< difference_type of user allocator.$/;"	t	class:boost::singleton_pool	access:public
+boost::singleton_pool::get_pool	pool/singleton_pool.hpp	/^   static pool_type& get_pool()$/;"	f	class:boost::singleton_pool	access:private	signature:()
+boost::singleton_pool::is_from	pool/singleton_pool.hpp	/^    static bool is_from(void * const ptr)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr)
+boost::singleton_pool::mutex	pool/singleton_pool.hpp	/^    typedef Mutex mutex; \/\/!< The type of mutex used to synchonise access to this pool (default <tt>details::pool::default_mutex<\/tt>).$/;"	t	class:boost::singleton_pool	access:public
+boost::singleton_pool::object_creator	pool/singleton_pool.hpp	/^   struct object_creator$/;"	s	class:boost::singleton_pool	access:private
+boost::singleton_pool::object_creator::do_nothing	pool/singleton_pool.hpp	/^      inline void do_nothing() const$/;"	f	struct:boost::singleton_pool::object_creator	access:public	signature:() const
+boost::singleton_pool::object_creator::object_creator	pool/singleton_pool.hpp	/^      object_creator()$/;"	f	struct:boost::singleton_pool::object_creator	access:public	signature:()
+boost::singleton_pool::ordered_free	pool/singleton_pool.hpp	/^    static void ordered_free(void * const ptr)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr)
+boost::singleton_pool::ordered_free	pool/singleton_pool.hpp	/^    static void ordered_free(void * const ptr, const size_type n)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr, const size_type n)
+boost::singleton_pool::ordered_malloc	pool/singleton_pool.hpp	/^    static void * ordered_malloc()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+boost::singleton_pool::ordered_malloc	pool/singleton_pool.hpp	/^    static void * ordered_malloc(const size_type n)$/;"	f	class:boost::singleton_pool	access:public	signature:(const size_type n)
+boost::singleton_pool::p	pool/singleton_pool.hpp	/^    static pool<UserAllocator> p; \/\/!< For exposition only!$/;"	m	class:boost::singleton_pool	access:public
+boost::singleton_pool::pool_type	pool/singleton_pool.hpp	/^    struct pool_type: public Mutex, public pool<UserAllocator>$/;"	s	class:boost::singleton_pool	inherits:Mutex,pool	access:private
+boost::singleton_pool::pool_type::pool_type	pool/singleton_pool.hpp	/^      pool_type() : pool<UserAllocator>(RequestedSize, NextSize, MaxSize) {}$/;"	f	struct:boost::singleton_pool::pool_type	access:public	signature:()
+boost::singleton_pool::purge_memory	pool/singleton_pool.hpp	/^    static bool purge_memory()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+boost::singleton_pool::release_memory	pool/singleton_pool.hpp	/^    static bool release_memory()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+boost::singleton_pool::singleton_pool	pool/singleton_pool.hpp	/^    singleton_pool();$/;"	p	class:boost::singleton_pool	access:private	signature:()
+boost::singleton_pool::size_type	pool/singleton_pool.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type; \/\/!< size_type of user allocator.$/;"	t	class:boost::singleton_pool	access:public
+boost::singleton_pool::storage	pool/singleton_pool.hpp	/^   static storage_type storage;$/;"	m	class:boost::singleton_pool	access:private
+boost::singleton_pool::storage	pool/singleton_pool.hpp	/^typename singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::storage_type singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::storage;$/;"	m	class:boost::singleton_pool
+boost::singleton_pool::storage_type	pool/singleton_pool.hpp	/^   typedef boost::aligned_storage<sizeof(pool_type), boost::alignment_of<pool_type>::value> storage_type;$/;"	t	class:boost::singleton_pool	access:private
+boost::singleton_pool::tag	pool/singleton_pool.hpp	/^    typedef Tag tag; \/*!< The Tag template parameter uniquely$/;"	t	class:boost::singleton_pool	access:public
+boost::singleton_pool::user_allocator	pool/singleton_pool.hpp	/^    typedef UserAllocator user_allocator; \/\/!< The user-allocator used by this pool, default = <tt>default_user_allocator_new_delete<\/tt>.$/;"	t	class:boost::singleton_pool	access:public
+const_pointer	pool/pool_alloc.hpp	/^    typedef const value_type * const_pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+const_pointer	pool/pool_alloc.hpp	/^    typedef const value_type * const_pointer;$/;"	t	class:boost::pool_allocator	access:public
+const_pointer	pool/pool_alloc.hpp	/^    typedef const void* const_pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+const_pointer	pool/pool_alloc.hpp	/^    typedef const void* const_pointer;$/;"	t	class:boost::pool_allocator	access:public
+const_reference	pool/pool_alloc.hpp	/^    typedef const value_type & const_reference;$/;"	t	class:boost::fast_pool_allocator	access:public
+const_reference	pool/pool_alloc.hpp	/^    typedef const value_type & const_reference;$/;"	t	class:boost::pool_allocator	access:public
+construct	pool/object_pool.hpp	/^    element_type * construct()$/;"	f	class:boost::object_pool	access:public	signature:()
+construct	pool/object_pool.hpp	/^    element_type * construct(Arg1&, ... ArgN&)$/;"	f	class:boost::object_pool	access:public	signature:(Arg1&, ... ArgN&)
+construct	pool/pool_alloc.hpp	/^    static void construct(const pointer ptr, const value_type & t)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pointer ptr, const value_type & t)
+construct	pool/pool_alloc.hpp	/^    void construct(const pointer ptr, const value_type & t)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr, const value_type & t)
+create_object	pool/singleton_pool.hpp	/^   static object_creator create_object;$/;"	m	class:boost::singleton_pool	access:private
+create_object	pool/singleton_pool.hpp	/^typename singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::object_creator singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::create_object;$/;"	m	class:boost::singleton_pool
+deallocate	pool/pool_alloc.hpp	/^    static void deallocate(const pointer ptr)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr)
+deallocate	pool/pool_alloc.hpp	/^    static void deallocate(const pointer ptr, const size_type n)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr, const size_type n)
+deallocate	pool/pool_alloc.hpp	/^    static void deallocate(const pointer ptr, const size_type n)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pointer ptr, const size_type n)
+debug_info	pool/pool_alloc.hpp	/^struct debug_info$/;"	s	namespace:boost
+default_mutex	pool/detail/mutex.hpp	/^  typedef boost::mutex default_mutex;$/;"	t	namespace:boost::details::pool
+default_mutex	pool/detail/mutex.hpp	/^  typedef null_mutex default_mutex;$/;"	t	namespace:boost::details::pool
+default_user_allocator_malloc_free	pool/pool.hpp	/^struct default_user_allocator_malloc_free$/;"	s	namespace:boost
+default_user_allocator_new_delete	pool/pool.hpp	/^struct default_user_allocator_new_delete$/;"	s	namespace:boost
+destroy	pool/object_pool.hpp	/^    void destroy(element_type * const chunk)$/;"	f	class:boost::object_pool	access:public	signature:(element_type * const chunk)
+destroy	pool/pool_alloc.hpp	/^    static void destroy(const pointer ptr)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pointer ptr)
+destroy	pool/pool_alloc.hpp	/^    void destroy(const pointer ptr)$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const pointer ptr)
+details	pool/detail/guard.hpp	/^namespace details {$/;"	n	namespace:boost
+details	pool/detail/mutex.hpp	/^namespace boost{ namespace details{ namespace pool{$/;"	n	namespace:boost
+details	pool/pool.hpp	/^namespace details$/;"	n	namespace:boost
+difference_type	pool/object_pool.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type; \/\/!< pool<UserAllocator>::difference_type$/;"	t	class:boost::object_pool	access:public
+difference_type	pool/pool.hpp	/^    typedef typename UserAllocator::difference_type difference_type;  \/\/!< A signed integral type that can represent the difference of any two pointers.$/;"	t	class:boost::pool	access:public
+difference_type	pool/pool.hpp	/^  typedef std::ptrdiff_t difference_type; \/\/!< A signed integral type that can represent the difference of any two pointers.$/;"	t	struct:boost::default_user_allocator_malloc_free	access:public
+difference_type	pool/pool.hpp	/^  typedef std::ptrdiff_t difference_type; \/\/!< A signed integral type that can represent the difference of any two pointers.$/;"	t	struct:boost::default_user_allocator_new_delete	access:public
+difference_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+difference_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type;$/;"	t	class:boost::pool_allocator	access:public
+difference_type	pool/singleton_pool.hpp	/^    typedef typename pool<UserAllocator>::difference_type difference_type; \/\/!< difference_type of user allocator.$/;"	t	class:boost::singleton_pool	access:public
+do_nothing	pool/singleton_pool.hpp	/^      inline void do_nothing() const$/;"	f	struct:boost::singleton_pool::object_creator	access:public	signature:() const
+element_size	pool/pool.hpp	/^    size_type element_size() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+element_type	pool/object_pool.hpp	/^    typedef T element_type; \/\/!< ElementType$/;"	t	class:boost::object_pool	access:public
+empty	pool/simple_segregated_storage.hpp	/^    bool empty() const$/;"	f	class:boost::simple_segregated_storage	access:public	signature:() const
+end	pool/pool.hpp	/^    char * end() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+fast_pool_allocator	pool/pool_alloc.hpp	/^    fast_pool_allocator($/;"	f	class:boost::fast_pool_allocator	access:public	signature:( const fast_pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> &)
+fast_pool_allocator	pool/pool_alloc.hpp	/^    fast_pool_allocator()$/;"	f	class:boost::fast_pool_allocator	access:public	signature:()
+fast_pool_allocator	pool/pool_alloc.hpp	/^class fast_pool_allocator$/;"	c	namespace:boost
+fast_pool_allocator	pool/pool_alloc.hpp	/^class fast_pool_allocator<void, UserAllocator, Mutex, NextSize, MaxSize>$/;"	c	namespace:boost
+fast_pool_allocator_tag	pool/pool_alloc.hpp	/^struct fast_pool_allocator_tag$/;"	s	namespace:boost
+find_POD	pool/pool.hpp	/^    details::PODptr<size_type> find_POD(void * const chunk) const;$/;"	p	class:boost::pool	access:protected	signature:(void * const chunk) const
+find_POD	pool/pool.hpp	/^pool<UserAllocator>::find_POD(void * const chunk) const$/;"	f	class:boost::pool	signature:(void * const chunk) const
+find_prev	pool/simple_segregated_storage.hpp	/^    void * find_prev(void * ptr);$/;"	p	class:boost::simple_segregated_storage	access:protected	signature:(void * ptr)
+find_prev	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::find_prev(void * const ptr)$/;"	f	class:boost::simple_segregated_storage	signature:(void * const ptr)
+first	pool/simple_segregated_storage.hpp	/^    void * first; \/*!< This data member is the free list.$/;"	m	class:boost::simple_segregated_storage	access:protected
+free_n	pool/simple_segregated_storage.hpp	/^    void free_n(void * const chunks, const size_type n,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunks, const size_type n, const size_type partition_size)
+get_max_size	pool/pool.hpp	/^    size_type get_max_size() const$/;"	f	class:boost::pool	access:public	signature:() const
+get_next_size	pool/object_pool.hpp	/^    size_type get_next_size() const$/;"	f	class:boost::object_pool	access:public	signature:() const
+get_next_size	pool/pool.hpp	/^    size_type get_next_size() const$/;"	f	class:boost::pool	access:public	signature:() const
+get_pool	pool/singleton_pool.hpp	/^   static pool_type& get_pool()$/;"	f	class:boost::singleton_pool	access:private	signature:()
+get_requested_size	pool/pool.hpp	/^    size_type get_requested_size() const$/;"	f	class:boost::pool	access:public	signature:() const
+guard	pool/detail/guard.hpp	/^    explicit guard(Mutex & nmtx)$/;"	f	class:boost::details::pool::guard	access:public	signature:(Mutex & nmtx)
+guard	pool/detail/guard.hpp	/^    guard(const guard &); \/\/!< Guards the mutex, ensuring unlocked on destruction, even if exception is thrown.$/;"	p	class:boost::details::pool::guard	access:private	signature:(const guard &)
+guard	pool/detail/guard.hpp	/^class guard$/;"	c	namespace:boost::details::pool
+invalidate	pool/pool.hpp	/^    void invalidate()$/;"	f	class:boost::details::PODptr	access:public	signature:()
+is_from	pool/object_pool.hpp	/^    bool is_from(element_type * const chunk) const$/;"	f	class:boost::object_pool	access:public	signature:(element_type * const chunk) const
+is_from	pool/pool.hpp	/^    bool is_from(void * const chunk) const$/;"	f	class:boost::pool	access:public	signature:(void * const chunk) const
+is_from	pool/pool.hpp	/^    static bool is_from(void * const chunk, char * const i,$/;"	f	class:boost::pool	access:protected	signature:(void * const chunk, char * const i, const size_type sizeof_i)
+is_from	pool/singleton_pool.hpp	/^    static bool is_from(void * const ptr)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr)
+list	pool/pool.hpp	/^    details::PODptr<size_type> list; \/\/!< List structure holding ordered blocks.$/;"	m	class:boost::pool	access:protected
+lock	pool/detail/mutex.hpp	/^    static void lock() { }$/;"	f	class:boost::details::pool::null_mutex	access:public	signature:()
+malloc_n	pool/simple_segregated_storage.hpp	/^   void * malloc_n(size_type n, size_type partition_size);$/;"	p	class:boost::simple_segregated_storage	access:public	signature:(size_type n, size_type partition_size)
+malloc_n	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::malloc_n(const size_type n,$/;"	f	class:boost::simple_segregated_storage	signature:(const size_type n, const size_type partition_size)
+malloc_need_resize	pool/pool.hpp	/^    void * malloc_need_resize(); \/\/! Called if malloc needs to resize the free list.$/;"	p	class:boost::pool	access:private	signature:()
+malloc_need_resize	pool/pool.hpp	/^void * pool<UserAllocator>::malloc_need_resize()$/;"	f	class:boost::pool	signature:()
+max_size	pool/pool.hpp	/^    size_type max_size;$/;"	m	class:boost::pool	access:protected
+max_size	pool/pool_alloc.hpp	/^    static size_type max_size()$/;"	f	class:boost::fast_pool_allocator	access:public	signature:()
+max_size	pool/pool_alloc.hpp	/^    static size_type max_size()$/;"	f	class:boost::pool_allocator	access:public	signature:()
+min_align	pool/pool.hpp	/^typename pool<UserAllocator>::size_type const pool<UserAllocator>::min_align;$/;"	m	class:boost::pool::pool
+min_alloc_size	pool/pool.hpp	/^typename pool<UserAllocator>::size_type const pool<UserAllocator>::min_alloc_size;$/;"	m	class:boost::pool::pool
+mtx	pool/detail/guard.hpp	/^    Mutex & mtx;$/;"	m	class:boost::details::pool::guard	access:private
+mutex	pool/pool_alloc.hpp	/^    typedef Mutex mutex; \/\/!< typedef mutex publishes the value of the template parameter Mutex.$/;"	t	class:boost::pool_allocator	access:public
+mutex	pool/pool_alloc.hpp	/^    typedef Mutex mutex;$/;"	t	class:boost::fast_pool_allocator	access:public
+mutex	pool/singleton_pool.hpp	/^    typedef Mutex mutex; \/\/!< The type of mutex used to synchonise access to this pool (default <tt>details::pool::default_mutex<\/tt>).$/;"	t	class:boost::singleton_pool	access:public
+next	pool/pool.hpp	/^    PODptr next() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+next	pool/pool.hpp	/^    void next(const PODptr & arg) const$/;"	f	class:boost::details::PODptr	access:public	signature:(const PODptr & arg) const
+next_ptr	pool/pool.hpp	/^    char * & next_ptr() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+next_size	pool/pool.hpp	/^    size_type & next_size() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+next_size	pool/pool.hpp	/^    size_type next_size;$/;"	m	class:boost::pool	access:protected
+nextof	pool/object_pool.hpp	/^    static void * & nextof(void * const ptr)$/;"	f	class:boost::object_pool	access:protected	signature:(void * const ptr)
+nextof	pool/pool.hpp	/^    static void * & nextof(void * const ptr)$/;"	f	class:boost::pool	access:protected	signature:(void * const ptr)
+nextof	pool/simple_segregated_storage.hpp	/^    static void * & nextof(void * const ptr)$/;"	f	class:boost::simple_segregated_storage	access:protected	signature:(void * const ptr)
+null_mutex	pool/detail/mutex.hpp	/^    null_mutex() { }$/;"	f	class:boost::details::pool::null_mutex	access:public	signature:()
+null_mutex	pool/detail/mutex.hpp	/^    null_mutex(const null_mutex &);$/;"	p	class:boost::details::pool::null_mutex	access:private	signature:(const null_mutex &)
+null_mutex	pool/detail/mutex.hpp	/^class null_mutex$/;"	c	namespace:boost::details::pool
+object_creator	pool/singleton_pool.hpp	/^      object_creator()$/;"	f	struct:boost::singleton_pool::object_creator	access:public	signature:()
+object_creator	pool/singleton_pool.hpp	/^   struct object_creator$/;"	s	class:boost::singleton_pool	access:private
+object_pool	pool/object_pool.hpp	/^    explicit object_pool(const size_type arg_next_size = 32, const size_type arg_max_size = 0)$/;"	f	class:boost::object_pool	access:public	signature:(const size_type arg_next_size = 32, const size_type arg_max_size = 0)
+object_pool	pool/object_pool.hpp	/^class object_pool: protected pool<UserAllocator>$/;"	c	namespace:boost	inherits:pool
+operator !=	pool/pool_alloc.hpp	/^    bool operator!=(const fast_pool_allocator &) const$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const fast_pool_allocator &) const
+operator !=	pool/pool_alloc.hpp	/^    bool operator!=(const pool_allocator &) const$/;"	f	class:boost::pool_allocator	access:public	signature:(const pool_allocator &) const
+operator =	pool/detail/guard.hpp	/^    void operator=(const guard &);$/;"	p	class:boost::details::pool::guard	access:private	signature:(const guard &)
+operator =	pool/detail/mutex.hpp	/^    void operator=(const null_mutex &);$/;"	p	class:boost::details::pool::null_mutex	access:private	signature:(const null_mutex &)
+operator =	pool/simple_segregated_storage.hpp	/^    void operator=(const simple_segregated_storage &);$/;"	p	class:boost::simple_segregated_storage	access:private	signature:(const simple_segregated_storage &)
+operator ==	pool/pool_alloc.hpp	/^    bool operator==(const fast_pool_allocator &) const$/;"	f	class:boost::fast_pool_allocator	access:public	signature:(const fast_pool_allocator &) const
+operator ==	pool/pool_alloc.hpp	/^    bool operator==(const pool_allocator &) const$/;"	f	class:boost::pool_allocator	access:public	signature:(const pool_allocator &) const
+ordered_free	pool/pool.hpp	/^    void ordered_free(void * const chunk)$/;"	f	class:boost::pool	access:public	signature:(void * const chunk)
+ordered_free	pool/pool.hpp	/^    void ordered_free(void * const chunks, const size_type n)$/;"	f	class:boost::pool	access:public	signature:(void * const chunks, const size_type n)
+ordered_free	pool/simple_segregated_storage.hpp	/^    void ordered_free(void * const chunk)$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunk)
+ordered_free	pool/singleton_pool.hpp	/^    static void ordered_free(void * const ptr)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr)
+ordered_free	pool/singleton_pool.hpp	/^    static void ordered_free(void * const ptr, const size_type n)$/;"	f	class:boost::singleton_pool	access:public	signature:(void * const ptr, const size_type n)
+ordered_free_n	pool/simple_segregated_storage.hpp	/^    void ordered_free_n(void * const chunks, const size_type n,$/;"	f	class:boost::simple_segregated_storage	access:public	signature:(void * const chunks, const size_type n, const size_type partition_size)
+ordered_malloc	pool/pool.hpp	/^    void * ordered_malloc()$/;"	f	class:boost::pool	access:public	signature:()
+ordered_malloc	pool/pool.hpp	/^    void * ordered_malloc(size_type n);$/;"	p	class:boost::pool	access:public	signature:(size_type n)
+ordered_malloc	pool/pool.hpp	/^void * pool<UserAllocator>::ordered_malloc(const size_type n)$/;"	f	class:boost::pool	signature:(const size_type n)
+ordered_malloc	pool/singleton_pool.hpp	/^    static void * ordered_malloc()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+ordered_malloc	pool/singleton_pool.hpp	/^    static void * ordered_malloc(const size_type n)$/;"	f	class:boost::singleton_pool	access:public	signature:(const size_type n)
+ordered_malloc_need_resize	pool/pool.hpp	/^    void * ordered_malloc_need_resize();  \/\/! Called if ordered_malloc needs to resize the free list.$/;"	p	class:boost::pool	access:private	signature:()
+ordered_malloc_need_resize	pool/pool.hpp	/^void * pool<UserAllocator>::ordered_malloc_need_resize()$/;"	f	class:boost::pool	signature:()
+other	pool/pool_alloc.hpp	/^        typedef fast_pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::fast_pool_allocator::rebind	access:public
+other	pool/pool_alloc.hpp	/^       typedef pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::pool_allocator::rebind	access:public
+other	pool/pool_alloc.hpp	/^      typedef fast_pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::fast_pool_allocator::rebind	access:public
+other	pool/pool_alloc.hpp	/^      typedef pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> other;$/;"	t	struct:boost::pool_allocator::rebind	access:public
+p	pool/singleton_pool.hpp	/^    static pool<UserAllocator> p; \/\/!< For exposition only!$/;"	m	class:boost::singleton_pool	access:public
+pointer	pool/pool_alloc.hpp	/^    typedef value_type * pointer; \/\/!<$/;"	t	class:boost::pool_allocator	access:public
+pointer	pool/pool_alloc.hpp	/^    typedef value_type * pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+pointer	pool/pool_alloc.hpp	/^    typedef void*       pointer;$/;"	t	class:boost::fast_pool_allocator	access:public
+pointer	pool/pool_alloc.hpp	/^    typedef void*       pointer;$/;"	t	class:boost::pool_allocator	access:public
+pool	pool/detail/guard.hpp	/^namespace pool {$/;"	n	namespace:boost::details
+pool	pool/detail/mutex.hpp	/^namespace boost{ namespace details{ namespace pool{$/;"	n	namespace:boost::details
+pool	pool/pool.hpp	/^    explicit pool(const size_type nrequested_size,$/;"	f	class:boost::pool	access:public	signature:(const size_type nrequested_size, const size_type nnext_size = 32, const size_type nmax_size = 0)
+pool	pool/pool.hpp	/^class pool: protected simple_segregated_storage < typename UserAllocator::size_type >$/;"	c	namespace:boost	inherits:simple_segregated_storage
+pool_allocator	pool/pool_alloc.hpp	/^    pool_allocator()$/;"	f	class:boost::pool_allocator	access:public	signature:()
+pool_allocator	pool/pool_alloc.hpp	/^    pool_allocator(const pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> &)$/;"	f	class:boost::pool_allocator	access:public	signature:(const pool_allocator<U, UserAllocator, Mutex, NextSize, MaxSize> &)
+pool_allocator	pool/pool_alloc.hpp	/^class pool_allocator$/;"	c	namespace:boost
+pool_allocator	pool/pool_alloc.hpp	/^class pool_allocator<void, UserAllocator, Mutex, NextSize, MaxSize>$/;"	c	namespace:boost
+pool_allocator_tag	pool/pool_alloc.hpp	/^ struct pool_allocator_tag$/;"	s	namespace:boost
+pool_type	pool/singleton_pool.hpp	/^      pool_type() : pool<UserAllocator>(RequestedSize, NextSize, MaxSize) {}$/;"	f	struct:boost::singleton_pool::pool_type	access:public	signature:()
+pool_type	pool/singleton_pool.hpp	/^    struct pool_type: public Mutex, public pool<UserAllocator>$/;"	s	class:boost::singleton_pool	inherits:Mutex,pool	access:private
+ptr	pool/pool.hpp	/^    char * ptr;$/;"	m	class:boost::details::PODptr	access:private
+ptr_next_ptr	pool/pool.hpp	/^    char * ptr_next_ptr() const$/;"	f	class:boost::details::PODptr	access:private	signature:() const
+ptr_next_size	pool/pool.hpp	/^    char * ptr_next_size() const$/;"	f	class:boost::details::PODptr	access:private	signature:() const
+purge_memory	pool/pool.hpp	/^    bool purge_memory();$/;"	p	class:boost::pool	access:public	signature:()
+purge_memory	pool/pool.hpp	/^bool pool<UserAllocator>::purge_memory()$/;"	f	class:boost::pool	signature:()
+purge_memory	pool/singleton_pool.hpp	/^    static bool purge_memory()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+rebind	pool/pool_alloc.hpp	/^    struct rebind$/;"	s	class:boost::fast_pool_allocator	access:public
+rebind	pool/pool_alloc.hpp	/^    struct rebind$/;"	s	class:boost::pool_allocator	access:public
+rebind	pool/pool_alloc.hpp	/^    template <class U> struct rebind$/;"	s	class:boost::fast_pool_allocator	access:public
+reference	pool/pool_alloc.hpp	/^    typedef value_type & reference;$/;"	t	class:boost::fast_pool_allocator	access:public
+reference	pool/pool_alloc.hpp	/^    typedef value_type & reference;$/;"	t	class:boost::pool_allocator	access:public
+release_memory	pool/pool.hpp	/^    bool release_memory();$/;"	p	class:boost::pool	access:public	signature:()
+release_memory	pool/pool.hpp	/^bool pool<UserAllocator>::release_memory()$/;"	f	class:boost::pool	signature:()
+release_memory	pool/singleton_pool.hpp	/^    static bool release_memory()$/;"	f	class:boost::singleton_pool	access:public	signature:()
+requested_size	pool/pool.hpp	/^    const size_type requested_size;$/;"	m	class:boost::pool	access:protected
+segregate	pool/simple_segregated_storage.hpp	/^    static void * segregate(void * block,$/;"	p	class:boost::simple_segregated_storage	access:public	signature:(void * block, size_type nsz, size_type npartition_sz, void * end = 0)
+segregate	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::segregate($/;"	f	class:boost::simple_segregated_storage	signature:( void * const block, const size_type sz, const size_type partition_sz, void * const end)
+set_max_size	pool/pool.hpp	/^    void set_max_size(const size_type nmax_size)$/;"	f	class:boost::pool	access:public	signature:(const size_type nmax_size)
+set_next_size	pool/object_pool.hpp	/^    void set_next_size(const size_type x)$/;"	f	class:boost::object_pool	access:public	signature:(const size_type x)
+set_next_size	pool/pool.hpp	/^    void set_next_size(const size_type nnext_size)$/;"	f	class:boost::pool	access:public	signature:(const size_type nnext_size)
+simple_segregated_storage	pool/simple_segregated_storage.hpp	/^    simple_segregated_storage()$/;"	f	class:boost::simple_segregated_storage	access:public	signature:()
+simple_segregated_storage	pool/simple_segregated_storage.hpp	/^    simple_segregated_storage(const simple_segregated_storage &);$/;"	p	class:boost::simple_segregated_storage	access:private	signature:(const simple_segregated_storage &)
+simple_segregated_storage	pool/simple_segregated_storage.hpp	/^class simple_segregated_storage$/;"	c	namespace:boost
+singleton_pool	pool/singleton_pool.hpp	/^    singleton_pool();$/;"	p	class:boost::singleton_pool	access:private	signature:()
+singleton_pool	pool/singleton_pool.hpp	/^class singleton_pool$/;"	c	namespace:boost
+size_type	pool/object_pool.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type; \/\/!<   pool<UserAllocator>::size_type$/;"	t	class:boost::object_pool	access:public
+size_type	pool/pool.hpp	/^    typedef SizeType size_type;$/;"	t	class:boost::details::PODptr	access:public
+size_type	pool/pool.hpp	/^    typedef typename UserAllocator::size_type size_type;  \/\/!< An unsigned integral type that can represent the size of the largest object to be allocated.$/;"	t	class:boost::pool	access:public
+size_type	pool/pool.hpp	/^  typedef std::size_t size_type; \/\/!< An unsigned integral type that can represent the size of the largest object to be allocated.$/;"	t	struct:boost::default_user_allocator_malloc_free	access:public
+size_type	pool/pool.hpp	/^  typedef std::size_t size_type; \/\/!< An unsigned integral type that can represent the size of the largest object to be allocated.$/;"	t	struct:boost::default_user_allocator_new_delete	access:public
+size_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+size_type	pool/pool_alloc.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type;$/;"	t	class:boost::pool_allocator	access:public
+size_type	pool/simple_segregated_storage.hpp	/^    typedef SizeType size_type;$/;"	t	class:boost::simple_segregated_storage	access:public
+size_type	pool/singleton_pool.hpp	/^    typedef typename pool<UserAllocator>::size_type size_type; \/\/!< size_type of user allocator.$/;"	t	class:boost::singleton_pool	access:public
+start_size	pool/pool.hpp	/^    size_type start_size;$/;"	m	class:boost::pool	access:protected
+std	pool/pool.hpp	/^ namespace std { using ::malloc; using ::free; }$/;"	n
+storage	pool/singleton_pool.hpp	/^   static storage_type storage;$/;"	m	class:boost::singleton_pool	access:private
+storage	pool/singleton_pool.hpp	/^typename singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::storage_type singleton_pool<Tag, RequestedSize, UserAllocator, Mutex, NextSize, MaxSize>::storage;$/;"	m	class:boost::singleton_pool
+storage_type	pool/singleton_pool.hpp	/^   typedef boost::aligned_storage<sizeof(pool_type), boost::alignment_of<pool_type>::value> storage_type;$/;"	t	class:boost::singleton_pool	access:private
+store	pool/object_pool.hpp	/^    const pool<UserAllocator> & store() const$/;"	f	class:boost::object_pool	access:protected	signature:() const
+store	pool/object_pool.hpp	/^    pool<UserAllocator> & store()$/;"	f	class:boost::object_pool	access:protected	signature:()
+store	pool/pool.hpp	/^    const simple_segregated_storage<size_type> & store() const$/;"	f	class:boost::pool	access:protected	signature:() const
+store	pool/pool.hpp	/^    simple_segregated_storage<size_type> & store()$/;"	f	class:boost::pool	access:protected	signature:()
+sz	pool/pool.hpp	/^    size_type sz;$/;"	m	class:boost::details::PODptr	access:private
+tag	pool/singleton_pool.hpp	/^    typedef Tag tag; \/*!< The Tag template parameter uniquely$/;"	t	class:boost::singleton_pool	access:public
+total_size	pool/pool.hpp	/^    size_type total_size() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+try_malloc_n	pool/simple_segregated_storage.hpp	/^    static void * try_malloc_n(void * & start, size_type n,$/;"	p	class:boost::simple_segregated_storage	access:private	signature:(void * & start, size_type n, size_type partition_size)
+try_malloc_n	pool/simple_segregated_storage.hpp	/^void * simple_segregated_storage<SizeType>::try_malloc_n($/;"	f	class:boost::simple_segregated_storage	signature:( void * & start, size_type n, const size_type partition_size)
+unlock	pool/detail/mutex.hpp	/^    static void unlock() { }$/;"	f	class:boost::details::pool::null_mutex	access:public	signature:()
+user_allocator	pool/object_pool.hpp	/^    typedef UserAllocator user_allocator; \/\/!<$/;"	t	class:boost::object_pool	access:public
+user_allocator	pool/pool.hpp	/^    typedef UserAllocator user_allocator; \/\/!< User allocator.$/;"	t	class:boost::pool	access:public
+user_allocator	pool/pool_alloc.hpp	/^    typedef UserAllocator user_allocator;  \/\/!< allocator that defines the method that the underlying Pool will use to allocate memory from the system.$/;"	t	class:boost::pool_allocator	access:public
+user_allocator	pool/pool_alloc.hpp	/^    typedef UserAllocator user_allocator;$/;"	t	class:boost::fast_pool_allocator	access:public
+user_allocator	pool/singleton_pool.hpp	/^    typedef UserAllocator user_allocator; \/\/!< The user-allocator used by this pool, default = <tt>default_user_allocator_new_delete<\/tt>.$/;"	t	class:boost::singleton_pool	access:public
+valid	pool/pool.hpp	/^    bool valid() const$/;"	f	class:boost::details::PODptr	access:public	signature:() const
+validate	pool/simple_segregated_storage.hpp	/^    void validate()$/;"	f	class:boost::simple_segregated_storage	access:public	signature:()
+value_type	pool/pool_alloc.hpp	/^    typedef T value_type;  \/\/!< value_type of template parameter T.$/;"	t	class:boost::pool_allocator	access:public
+value_type	pool/pool_alloc.hpp	/^    typedef T value_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+value_type	pool/pool_alloc.hpp	/^    typedef void        value_type;$/;"	t	class:boost::fast_pool_allocator	access:public
+value_type	pool/pool_alloc.hpp	/^    typedef void        value_type;$/;"	t	class:boost::pool_allocator	access:public
+~guard	pool/detail/guard.hpp	/^    ~guard()$/;"	f	class:boost::details::pool::guard	access:public	signature:()
+~object_pool	pool/object_pool.hpp	/^    ~object_pool();$/;"	p	class:boost::object_pool	access:public	signature:()
+~object_pool	pool/object_pool.hpp	/^object_pool<T, UserAllocator>::~object_pool()$/;"	f	class:boost::object_pool	signature:()
+~pool	pool/pool.hpp	/^    ~pool()$/;"	f	class:boost::pool	access:public	signature:()

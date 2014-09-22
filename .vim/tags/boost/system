@@ -1,0 +1,559 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_CYGWIN_ERROR_HPP	system/cygwin_error.hpp	11;"	d
+BOOST_DYN_LINK	system/config.hpp	60;"	d
+BOOST_ERROR_CODE_HPP	system/error_code.hpp	12;"	d
+BOOST_LIB_NAME	system/config.hpp	55;"	d
+BOOST_LINUX_ERROR_HPP	system/linux_error.hpp	11;"	d
+BOOST_POSIX_API	system/api_config.hpp	39;"	d
+BOOST_SYSTEM_API_CONFIG_HPP	system/api_config.hpp	25;"	d
+BOOST_SYSTEM_CONFIG_HPP	system/config.hpp	11;"	d
+BOOST_SYSTEM_DECL	system/config.hpp	40;"	d
+BOOST_SYSTEM_DECL	system/config.hpp	42;"	d
+BOOST_SYSTEM_DECL	system/config.hpp	45;"	d
+BOOST_SYSTEM_DYN_LINK	system/config.hpp	27;"	d
+BOOST_SYSTEM_ERROR_HPP	system/system_error.hpp	9;"	d
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^                                           const error_condition & condition ) const  BOOST_SYSTEM_NOEXCEPT;$/;"	m	class:boost::system::error_category	access:public
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^                                           int condition ) const  BOOST_SYSTEM_NOEXCEPT;$/;"	m	class:boost::system::error_category	access:public
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^      inline virtual error_condition  default_error_condition( int ev ) const  BOOST_SYSTEM_NOEXCEPT;$/;"	m	class:boost::system::error_category	access:public
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^      virtual const char *     name() const BOOST_SYSTEM_NOEXCEPT = 0;$/;"	m	class:boost::system::error_category	access:public
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    BOOST_SYSTEM_DECL const error_category &  generic_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    BOOST_SYSTEM_DECL const error_category &  system_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    inline const error_category &  generic_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    inline const error_category &  system_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	35;"	d
+BOOST_SYSTEM_STATIC_LINK	system/config.hpp	23;"	d
+BOOST_SYSTEM_STATIC_LINK	system/config.hpp	29;"	d
+BOOST_WINDOWS_API	system/api_config.hpp	37;"	d
+BOOST_WINDOWS_ERROR_HPP	system/windows_error.hpp	11;"	d
+access_denied	system/windows_error.hpp	/^        access_denied = ERROR_ACCESS_DENIED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+address_family_not_supported	system/error_code.hpp	/^        address_family_not_supported = EAFNOSUPPORT,$/;"	e	enum:boost::system::errc::errc_t
+address_in_use	system/error_code.hpp	/^        address_in_use = EADDRINUSE,$/;"	e	enum:boost::system::errc::errc_t
+address_not_available	system/error_code.hpp	/^        address_not_available = EADDRNOTAVAIL,$/;"	e	enum:boost::system::errc::errc_t
+advertise_error	system/linux_error.hpp	/^        advertise_error = EADV,$/;"	e	enum:boost::system::linux_error::linux_errno
+already_connected	system/error_code.hpp	/^        already_connected = EISCONN,$/;"	e	enum:boost::system::errc::errc_t
+already_exists	system/windows_error.hpp	/^        already_exists = ERROR_ALREADY_EXISTS$/;"	e	enum:boost::system::windows_error::windows_error_code
+arena_trashed	system/windows_error.hpp	/^        arena_trashed = ERROR_ARENA_TRASHED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+argument_list_too_long	system/error_code.hpp	/^        argument_list_too_long = E2BIG,$/;"	e	enum:boost::system::errc::errc_t
+argument_out_of_domain	system/error_code.hpp	/^        argument_out_of_domain = EDOM,$/;"	e	enum:boost::system::errc::errc_t
+bad_address	system/error_code.hpp	/^        bad_address = EFAULT,$/;"	e	enum:boost::system::errc::errc_t
+bad_command	system/windows_error.hpp	/^        bad_command = ERROR_BAD_COMMAND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+bad_environment	system/windows_error.hpp	/^        bad_environment = ERROR_BAD_ENVIRONMENT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+bad_exchange	system/linux_error.hpp	/^        bad_exchange = EBADE,$/;"	e	enum:boost::system::linux_error::linux_errno
+bad_file_descriptor	system/error_code.hpp	/^        bad_file_descriptor = EBADF,$/;"	e	enum:boost::system::errc::errc_t
+bad_file_number	system/linux_error.hpp	/^        bad_file_number = EBADFD,$/;"	e	enum:boost::system::linux_error::linux_errno
+bad_font_format	system/linux_error.hpp	/^        bad_font_format = EBFONT,$/;"	e	enum:boost::system::linux_error::linux_errno
+bad_format	system/windows_error.hpp	/^        bad_format = ERROR_BAD_FORMAT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+bad_length	system/windows_error.hpp	/^        bad_length = ERROR_BAD_LENGTH,$/;"	e	enum:boost::system::windows_error::windows_error_code
+bad_message	system/error_code.hpp	/^        bad_message = EBADMSG,$/;"	e	enum:boost::system::errc::errc_t
+bad_net_path	system/windows_error.hpp	/^        bad_net_path = ERROR_BAD_NETPATH,$/;"	e	enum:boost::system::windows_error::windows_error_code
+bad_request_code	system/linux_error.hpp	/^        bad_request_code = EBADRQC,$/;"	e	enum:boost::system::linux_error::linux_errno
+bad_request_descriptor	system/linux_error.hpp	/^        bad_request_descriptor = EBADR,$/;"	e	enum:boost::system::linux_error::linux_errno
+bad_slot	system/linux_error.hpp	/^        bad_slot = EBADSLT,$/;"	e	enum:boost::system::linux_error::linux_errno
+bad_unit	system/windows_error.hpp	/^        bad_unit = ERROR_BAD_UNIT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost	system/cygwin_error.hpp	/^namespace boost$/;"	n
+boost	system/error_code.hpp	/^namespace boost$/;"	n
+boost	system/linux_error.hpp	/^namespace boost$/;"	n
+boost	system/system_error.hpp	/^namespace boost$/;"	n
+boost	system/windows_error.hpp	/^namespace boost$/;"	n
+boost::detail	system/error_code.hpp	/^  namespace detail { inline system::error_code * throws() { return 0; } }$/;"	n	namespace:boost
+boost::detail::throws	system/error_code.hpp	/^  namespace detail { inline system::error_code * throws() { return 0; } }$/;"	f	namespace:boost::detail	signature:()
+boost::system	system/cygwin_error.hpp	/^  namespace system$/;"	n	namespace:boost
+boost::system	system/error_code.hpp	/^  namespace system$/;"	n	namespace:boost
+boost::system	system/linux_error.hpp	/^  namespace system$/;"	n	namespace:boost
+boost::system	system/system_error.hpp	/^  namespace system$/;"	n	namespace:boost
+boost::system	system/windows_error.hpp	/^  namespace system$/;"	n	namespace:boost
+boost::system::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    BOOST_SYSTEM_DECL const error_category &  generic_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+boost::system::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    BOOST_SYSTEM_DECL const error_category &  system_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+boost::system::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    inline const error_category &  generic_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+boost::system::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^    inline const error_category &  system_category() BOOST_SYSTEM_NOEXCEPT;$/;"	m	namespace:boost::system
+boost::system::cygwin_error	system/cygwin_error.hpp	/^    namespace cygwin_error$/;"	n	namespace:boost::system
+boost::system::cygwin_error	system/cygwin_error.hpp	/^   namespace cygwin_error$/;"	n	namespace:boost::system
+boost::system::cygwin_error::cygwin_errno	system/cygwin_error.hpp	/^      enum cygwin_errno$/;"	g	namespace:boost::system::cygwin_error
+boost::system::cygwin_error::make_error_code	system/cygwin_error.hpp	/^      inline error_code make_error_code( cygwin_errno e )$/;"	f	namespace:boost::system::cygwin_error	signature:( cygwin_errno e )
+boost::system::cygwin_error::no_net	system/cygwin_error.hpp	/^        no_net = ENONET,$/;"	e	enum:boost::system::cygwin_error::cygwin_errno
+boost::system::cygwin_error::no_package	system/cygwin_error.hpp	/^        no_package = ENOPKG,$/;"	e	enum:boost::system::cygwin_error::cygwin_errno
+boost::system::cygwin_error::no_share	system/cygwin_error.hpp	/^        no_share = ENOSHARE$/;"	e	enum:boost::system::cygwin_error::cygwin_errno
+boost::system::errc	system/error_code.hpp	/^    namespace errc$/;"	n	namespace:boost::system
+boost::system::errc::address_family_not_supported	system/error_code.hpp	/^        address_family_not_supported = EAFNOSUPPORT,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::address_in_use	system/error_code.hpp	/^        address_in_use = EADDRINUSE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::address_not_available	system/error_code.hpp	/^        address_not_available = EADDRNOTAVAIL,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::already_connected	system/error_code.hpp	/^        already_connected = EISCONN,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::argument_list_too_long	system/error_code.hpp	/^        argument_list_too_long = E2BIG,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::argument_out_of_domain	system/error_code.hpp	/^        argument_out_of_domain = EDOM,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::bad_address	system/error_code.hpp	/^        bad_address = EFAULT,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::bad_file_descriptor	system/error_code.hpp	/^        bad_file_descriptor = EBADF,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::bad_message	system/error_code.hpp	/^        bad_message = EBADMSG,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::broken_pipe	system/error_code.hpp	/^        broken_pipe = EPIPE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::connection_aborted	system/error_code.hpp	/^        connection_aborted = ECONNABORTED,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::connection_already_in_progress	system/error_code.hpp	/^        connection_already_in_progress = EALREADY,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::connection_refused	system/error_code.hpp	/^        connection_refused = ECONNREFUSED,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::connection_reset	system/error_code.hpp	/^        connection_reset = ECONNRESET,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::cross_device_link	system/error_code.hpp	/^        cross_device_link = EXDEV,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::destination_address_required	system/error_code.hpp	/^        destination_address_required = EDESTADDRREQ,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::device_or_resource_busy	system/error_code.hpp	/^        device_or_resource_busy = EBUSY,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::directory_not_empty	system/error_code.hpp	/^        directory_not_empty = ENOTEMPTY,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::errc_t	system/error_code.hpp	/^      enum errc_t$/;"	g	namespace:boost::system::errc
+boost::system::errc::executable_format_error	system/error_code.hpp	/^        executable_format_error = ENOEXEC,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::file_exists	system/error_code.hpp	/^        file_exists = EEXIST,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::file_too_large	system/error_code.hpp	/^        file_too_large = EFBIG,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::filename_too_long	system/error_code.hpp	/^        filename_too_long = ENAMETOOLONG,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::function_not_supported	system/error_code.hpp	/^        function_not_supported = ENOSYS,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::host_unreachable	system/error_code.hpp	/^        host_unreachable = EHOSTUNREACH,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::identifier_removed	system/error_code.hpp	/^        identifier_removed = EIDRM,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::illegal_byte_sequence	system/error_code.hpp	/^        illegal_byte_sequence = EILSEQ,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::inappropriate_io_control_operation	system/error_code.hpp	/^        inappropriate_io_control_operation = ENOTTY,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::interrupted	system/error_code.hpp	/^        interrupted = EINTR,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::invalid_argument	system/error_code.hpp	/^        invalid_argument = EINVAL,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::invalid_seek	system/error_code.hpp	/^        invalid_seek = ESPIPE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::io_error	system/error_code.hpp	/^        io_error = EIO,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::is_a_directory	system/error_code.hpp	/^        is_a_directory = EISDIR,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::message_size	system/error_code.hpp	/^        message_size = EMSGSIZE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::network_down	system/error_code.hpp	/^        network_down = ENETDOWN,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::network_reset	system/error_code.hpp	/^        network_reset = ENETRESET,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::network_unreachable	system/error_code.hpp	/^        network_unreachable = ENETUNREACH,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_buffer_space	system/error_code.hpp	/^        no_buffer_space = ENOBUFS,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_child_process	system/error_code.hpp	/^        no_child_process = ECHILD,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_link	system/error_code.hpp	/^        no_link = ENOLINK,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_lock_available	system/error_code.hpp	/^        no_lock_available = ENOLCK,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_message	system/error_code.hpp	/^        no_message = ENOMSG,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_message_available	system/error_code.hpp	/^        no_message_available = ENODATA,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_protocol_option	system/error_code.hpp	/^        no_protocol_option = ENOPROTOOPT,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_space_on_device	system/error_code.hpp	/^        no_space_on_device = ENOSPC,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_stream_resources	system/error_code.hpp	/^        no_stream_resources = ENOSR,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_such_device	system/error_code.hpp	/^        no_such_device = ENODEV,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_such_device_or_address	system/error_code.hpp	/^        no_such_device_or_address = ENXIO,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_such_file_or_directory	system/error_code.hpp	/^        no_such_file_or_directory = ENOENT,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::no_such_process	system/error_code.hpp	/^        no_such_process = ESRCH,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::not_a_directory	system/error_code.hpp	/^        not_a_directory = ENOTDIR,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::not_a_socket	system/error_code.hpp	/^        not_a_socket = ENOTSOCK,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::not_a_stream	system/error_code.hpp	/^        not_a_stream = ENOSTR,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::not_connected	system/error_code.hpp	/^        not_connected = ENOTCONN,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::not_enough_memory	system/error_code.hpp	/^        not_enough_memory = ENOMEM,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::not_supported	system/error_code.hpp	/^        not_supported = ENOTSUP,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::operation_canceled	system/error_code.hpp	/^        operation_canceled = ECANCELED,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::operation_in_progress	system/error_code.hpp	/^        operation_in_progress = EINPROGRESS,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::operation_not_permitted	system/error_code.hpp	/^        operation_not_permitted = EPERM,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::operation_not_supported	system/error_code.hpp	/^        operation_not_supported = EOPNOTSUPP,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::operation_would_block	system/error_code.hpp	/^        operation_would_block = EWOULDBLOCK,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::owner_dead	system/error_code.hpp	/^        owner_dead = EOWNERDEAD,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::permission_denied	system/error_code.hpp	/^        permission_denied = EACCES,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::protocol_error	system/error_code.hpp	/^        protocol_error = EPROTO,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::protocol_not_supported	system/error_code.hpp	/^        protocol_not_supported = EPROTONOSUPPORT,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::read_only_file_system	system/error_code.hpp	/^        read_only_file_system = EROFS,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::resource_deadlock_would_occur	system/error_code.hpp	/^        resource_deadlock_would_occur = EDEADLK,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::resource_unavailable_try_again	system/error_code.hpp	/^        resource_unavailable_try_again = EAGAIN,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::result_out_of_range	system/error_code.hpp	/^        result_out_of_range = ERANGE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::state_not_recoverable	system/error_code.hpp	/^        state_not_recoverable = ENOTRECOVERABLE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::stream_timeout	system/error_code.hpp	/^        stream_timeout = ETIME,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::success	system/error_code.hpp	/^        success = 0,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::text_file_busy	system/error_code.hpp	/^        text_file_busy = ETXTBSY,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::timed_out	system/error_code.hpp	/^        timed_out = ETIMEDOUT,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::too_many_files_open	system/error_code.hpp	/^        too_many_files_open = EMFILE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::too_many_files_open_in_system	system/error_code.hpp	/^        too_many_files_open_in_system = ENFILE,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::too_many_links	system/error_code.hpp	/^        too_many_links = EMLINK,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::too_many_symbolic_link_levels	system/error_code.hpp	/^        too_many_symbolic_link_levels = ELOOP,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::value_too_large	system/error_code.hpp	/^        value_too_large = EOVERFLOW,$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errc::wrong_protocol_type	system/error_code.hpp	/^        wrong_protocol_type = EPROTOTYPE$/;"	e	enum:boost::system::errc::errc_t
+boost::system::errno_ecat	system/error_code.hpp	/^    static const error_category &  errno_ecat     = generic_category();$/;"	m	namespace:boost::system
+boost::system::error_category	system/error_code.hpp	/^    class error_category : public noncopyable$/;"	c	namespace:boost::system	inherits:noncopyable
+boost::system::error_category::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^                                           const error_condition & condition ) const  BOOST_SYSTEM_NOEXCEPT;$/;"	m	class:boost::system::error_category	access:public
+boost::system::error_category::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^                                           int condition ) const  BOOST_SYSTEM_NOEXCEPT;$/;"	m	class:boost::system::error_category	access:public
+boost::system::error_category::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^      inline virtual error_condition  default_error_condition( int ev ) const  BOOST_SYSTEM_NOEXCEPT;$/;"	m	class:boost::system::error_category	access:public
+boost::system::error_category::BOOST_SYSTEM_NOEXCEPT	system/error_code.hpp	/^      virtual const char *     name() const BOOST_SYSTEM_NOEXCEPT = 0;$/;"	m	class:boost::system::error_category	access:public
+boost::system::error_category::message	system/error_code.hpp	/^      virtual std::string      message( int ev ) const = 0;$/;"	p	class:boost::system::error_category	access:public	signature:( int ev ) const
+boost::system::error_category::~error_category	system/error_code.hpp	/^      virtual ~error_category(){}$/;"	f	class:boost::system::error_category	access:public	signature:()
+boost::system::error_code	system/error_code.hpp	/^    class error_code$/;"	c	namespace:boost::system
+boost::system::error_code::m_cat	system/error_code.hpp	/^      const error_category *  m_cat;$/;"	m	class:boost::system::error_code	access:private
+boost::system::error_code::m_val	system/error_code.hpp	/^      error_code( int val, const error_category & cat ) BOOST_SYSTEM_NOEXCEPT : m_val(val), m_cat(&cat) {}$/;"	p	class:boost::system::error_code	access:public	signature:(val)
+boost::system::error_code::m_val	system/error_code.hpp	/^      int                     m_val;$/;"	m	class:boost::system::error_code	access:private
+boost::system::error_code::message	system/error_code.hpp	/^      std::string             message() const  { return m_cat->message(value()); }$/;"	f	class:boost::system::error_code	access:public	signature:() const
+boost::system::error_code::system_category	system/error_code.hpp	/^      error_code() BOOST_SYSTEM_NOEXCEPT : m_val(0), m_cat(&system_category()) {}$/;"	f	class:boost::system::error_code	access:public	signature:()
+boost::system::error_code::unspecified_bool_true	system/error_code.hpp	/^      static void unspecified_bool_true() {}$/;"	f	class:boost::system::error_code	access:public	signature:()
+boost::system::error_code::unspecified_bool_type	system/error_code.hpp	/^      typedef void (*unspecified_bool_type)();$/;"	t	class:boost::system::error_code	access:public
+boost::system::error_condition	system/error_code.hpp	/^    class error_condition$/;"	c	namespace:boost::system
+boost::system::error_condition::generic_category	system/error_code.hpp	/^      error_condition() BOOST_SYSTEM_NOEXCEPT : m_val(0), m_cat(&generic_category()) {}$/;"	f	class:boost::system::error_condition	access:public	signature:()
+boost::system::error_condition::m_cat	system/error_code.hpp	/^      const error_category *  m_cat;$/;"	m	class:boost::system::error_condition	access:private
+boost::system::error_condition::m_val	system/error_code.hpp	/^      error_condition( int val, const error_category & cat ) BOOST_SYSTEM_NOEXCEPT : m_val(val), m_cat(&cat) {}$/;"	p	class:boost::system::error_condition	access:public	signature:(val)
+boost::system::error_condition::m_val	system/error_code.hpp	/^      int                     m_val;$/;"	m	class:boost::system::error_condition	access:private
+boost::system::error_condition::message	system/error_code.hpp	/^      std::string             message() const  { return m_cat->message(value()); }$/;"	f	class:boost::system::error_condition	access:public	signature:() const
+boost::system::error_condition::unspecified_bool_true	system/error_code.hpp	/^      static void unspecified_bool_true() {}$/;"	f	class:boost::system::error_condition	access:public	signature:()
+boost::system::error_condition::unspecified_bool_type	system/error_code.hpp	/^      typedef void (*unspecified_bool_type)();$/;"	t	class:boost::system::error_condition	access:public
+boost::system::get_generic_category	system/error_code.hpp	/^    inline const error_category &  get_generic_category() { return generic_category(); }$/;"	f	namespace:boost::system	signature:()
+boost::system::get_posix_category	system/error_code.hpp	/^    inline const error_category &  get_posix_category() { return generic_category(); }$/;"	f	namespace:boost::system	signature:()
+boost::system::get_system_category	system/error_code.hpp	/^    inline const error_category &  get_system_category() { return system_category(); }$/;"	f	namespace:boost::system	signature:()
+boost::system::hash_value	system/error_code.hpp	/^    inline std::size_t hash_value( const error_code & ec )$/;"	f	namespace:boost::system	signature:( const error_code & ec )
+boost::system::is_error_code_enum	system/cygwin_error.hpp	/^    template<> struct is_error_code_enum<cygwin_error::cygwin_errno>$/;"	s	namespace:boost::system
+boost::system::is_error_code_enum	system/error_code.hpp	/^    struct is_error_code_enum { static const bool value = false; };$/;"	s	namespace:boost::system
+boost::system::is_error_code_enum	system/linux_error.hpp	/^    template<> struct is_error_code_enum<linux_error::linux_errno>$/;"	s	namespace:boost::system
+boost::system::is_error_code_enum	system/windows_error.hpp	/^    template<> struct is_error_code_enum<windows_error::windows_error_code>$/;"	s	namespace:boost::system
+boost::system::is_error_code_enum::value	system/cygwin_error.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+boost::system::is_error_code_enum::value	system/error_code.hpp	/^    struct is_error_code_enum { static const bool value = false; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+boost::system::is_error_code_enum::value	system/linux_error.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+boost::system::is_error_code_enum::value	system/windows_error.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+boost::system::is_error_condition_enum	system/error_code.hpp	/^    struct is_error_condition_enum { static const bool value = false; };$/;"	s	namespace:boost::system
+boost::system::is_error_condition_enum	system/error_code.hpp	/^    template<> struct is_error_condition_enum<errc::errc_t>$/;"	s	namespace:boost::system
+boost::system::is_error_condition_enum::value	system/error_code.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_condition_enum	access:public
+boost::system::is_error_condition_enum::value	system/error_code.hpp	/^    struct is_error_condition_enum { static const bool value = false; };$/;"	m	struct:boost::system::is_error_condition_enum	access:public
+boost::system::linux_error	system/linux_error.hpp	/^    namespace linux_error$/;"	n	namespace:boost::system
+boost::system::linux_error::advertise_error	system/linux_error.hpp	/^        advertise_error = EADV,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::bad_exchange	system/linux_error.hpp	/^        bad_exchange = EBADE,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::bad_file_number	system/linux_error.hpp	/^        bad_file_number = EBADFD,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::bad_font_format	system/linux_error.hpp	/^        bad_font_format = EBFONT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::bad_request_code	system/linux_error.hpp	/^        bad_request_code = EBADRQC,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::bad_request_descriptor	system/linux_error.hpp	/^        bad_request_descriptor = EBADR,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::bad_slot	system/linux_error.hpp	/^        bad_slot = EBADSLT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::channel_range	system/linux_error.hpp	/^        channel_range = ECHRNG,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::communication_error	system/linux_error.hpp	/^        communication_error = ECOMM,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::dot_dot_error	system/linux_error.hpp	/^        dot_dot_error = EDOTDOT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::exchange_full	system/linux_error.hpp	/^        exchange_full = EXFULL,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::host_down	system/linux_error.hpp	/^        host_down = EHOSTDOWN,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::is_named_file_type	system/linux_error.hpp	/^        is_named_file_type= EISNAM,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::key_expired	system/linux_error.hpp	/^        key_expired = EKEYEXPIRED,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::key_rejected	system/linux_error.hpp	/^        key_rejected = EKEYREJECTED,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::key_revoked	system/linux_error.hpp	/^        key_revoked = EKEYREVOKED,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::level2_halt	system/linux_error.hpp	/^        level2_halt= EL2HLT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::level2_no_syncronized	system/linux_error.hpp	/^        level2_no_syncronized= EL2NSYNC,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::level3_halt	system/linux_error.hpp	/^        level3_halt = EL3HLT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::level3_reset	system/linux_error.hpp	/^        level3_reset = EL3RST,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::link_range	system/linux_error.hpp	/^        link_range = ELNRNG,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::linux_errno	system/linux_error.hpp	/^      enum linux_errno$/;"	g	namespace:boost::system::linux_error
+boost::system::linux_error::make_error_code	system/linux_error.hpp	/^      inline error_code make_error_code( linux_errno e )$/;"	f	namespace:boost::system::linux_error	signature:( linux_errno e )
+boost::system::linux_error::medium_type	system/linux_error.hpp	/^        medium_type = EMEDIUMTYPE,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_anode	system/linux_error.hpp	/^        no_anode= ENOANO,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_block_device	system/linux_error.hpp	/^        no_block_device = ENOTBLK,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_csi	system/linux_error.hpp	/^        no_csi = ENOCSI,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_key	system/linux_error.hpp	/^        no_key = ENOKEY,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_medium	system/linux_error.hpp	/^        no_medium = ENOMEDIUM,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_network	system/linux_error.hpp	/^        no_network = ENONET,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::no_package	system/linux_error.hpp	/^        no_package = ENOPKG,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::not_avail	system/linux_error.hpp	/^        not_avail = ENAVAIL,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::not_named_file_type	system/linux_error.hpp	/^        not_named_file_type= ENOTNAM,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::not_recoverable	system/linux_error.hpp	/^        not_recoverable = ENOTRECOVERABLE,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::not_unique	system/linux_error.hpp	/^        not_unique = ENOTUNIQ,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::owner_dead	system/linux_error.hpp	/^        owner_dead = EOWNERDEAD,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::protocol_no_supported	system/linux_error.hpp	/^        protocol_no_supported = EPFNOSUPPORT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::remote_address_changed	system/linux_error.hpp	/^        remote_address_changed = EREMCHG,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::remote_io_error	system/linux_error.hpp	/^        remote_io_error = EREMOTEIO,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::remote_object	system/linux_error.hpp	/^        remote_object = EREMOTE,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::restart_needed	system/linux_error.hpp	/^        restart_needed = ERESTART,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::shared_library_access	system/linux_error.hpp	/^        shared_library_access = ELIBACC,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::shared_library_bad	system/linux_error.hpp	/^        shared_library_bad = ELIBBAD,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::shared_library_execute	system/linux_error.hpp	/^        shared_library_execute = ELIBEXEC,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::shared_library_max_	system/linux_error.hpp	/^        shared_library_max_ = ELIBMAX,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::shared_library_section	system/linux_error.hpp	/^        shared_library_section= ELIBSCN,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::shutdown	system/linux_error.hpp	/^        shutdown = ESHUTDOWN,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::socket_type_not_supported	system/linux_error.hpp	/^        socket_type_not_supported = ESOCKTNOSUPPORT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::srmount_error	system/linux_error.hpp	/^        srmount_error = ESRMNT,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::stream_pipe_error	system/linux_error.hpp	/^        stream_pipe_error = ESTRPIPE,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::too_many_references	system/linux_error.hpp	/^        too_many_references = ETOOMANYREFS,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::too_many_users	system/linux_error.hpp	/^        too_many_users = EUSERS,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::unattached	system/linux_error.hpp	/^        unattached = EUNATCH,$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::linux_error::unclean	system/linux_error.hpp	/^        unclean = EUCLEAN$/;"	e	enum:boost::system::linux_error::linux_errno
+boost::system::native_ecat	system/error_code.hpp	/^    static const error_category &  native_ecat    = system_category();$/;"	m	namespace:boost::system
+boost::system::operator <<	system/error_code.hpp	/^      operator<< (std::basic_ostream<charT,traits>& os, error_code ec)$/;"	f	namespace:boost::system	signature:(std::basic_ostream<charT,traits>& os, error_code ec)
+boost::system::posix_category	system/error_code.hpp	/^    static const error_category &  posix_category = generic_category();$/;"	m	namespace:boost::system
+boost::system::system_error	system/system_error.hpp	/^    class BOOST_SYMBOL_VISIBLE system_error : public std::runtime_error$/;"	c	namespace:boost::system	inherits:std::runtime_error
+boost::system::system_error::code	system/system_error.hpp	/^      const error_code &  code() const throw() { return m_error_code; }$/;"	f	class:boost::system::system_error	access:public	signature:() const
+boost::system::system_error::m_error_code	system/system_error.hpp	/^      error_code           m_error_code;$/;"	m	class:boost::system::system_error	access:private
+boost::system::system_error::m_what	system/system_error.hpp	/^      mutable std::string  m_what;$/;"	m	class:boost::system::system_error	access:private
+boost::system::system_error::system_error	system/system_error.hpp	/^      system_error( error_code ec )$/;"	f	class:boost::system::system_error	access:public	signature:( error_code ec )
+boost::system::system_error::system_error	system/system_error.hpp	/^      system_error( error_code ec, const char* what_arg )$/;"	f	class:boost::system::system_error	access:public	signature:( error_code ec, const char* what_arg )
+boost::system::system_error::system_error	system/system_error.hpp	/^      system_error( error_code ec, const std::string & what_arg )$/;"	f	class:boost::system::system_error	access:public	signature:( error_code ec, const std::string & what_arg )
+boost::system::system_error::system_error	system/system_error.hpp	/^      system_error( int ev, const error_category & ecat )$/;"	f	class:boost::system::system_error	access:public	signature:( int ev, const error_category & ecat )
+boost::system::system_error::system_error	system/system_error.hpp	/^      system_error( int ev, const error_category & ecat,$/;"	f	class:boost::system::system_error	access:public	signature:( int ev, const error_category & ecat, const char * what_arg )
+boost::system::system_error::system_error	system/system_error.hpp	/^      system_error( int ev, const error_category & ecat,$/;"	f	class:boost::system::system_error	access:public	signature:( int ev, const error_category & ecat, const std::string & what_arg )
+boost::system::system_error::what	system/system_error.hpp	/^      const char *        what() const throw();$/;"	p	class:boost::system::system_error	access:public	signature:() const
+boost::system::system_error::what	system/system_error.hpp	/^    inline const char * system_error::what() const throw()$/;"	f	class:boost::system::system_error	signature:() const
+boost::system::system_error::~system_error	system/system_error.hpp	/^      virtual ~system_error() throw() {}$/;"	f	class:boost::system::system_error	access:public	signature:()
+boost::system::windows_error	system/windows_error.hpp	/^    namespace windows_error$/;"	n	namespace:boost::system
+boost::system::windows_error::access_denied	system/windows_error.hpp	/^        access_denied = ERROR_ACCESS_DENIED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::already_exists	system/windows_error.hpp	/^        already_exists = ERROR_ALREADY_EXISTS$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::arena_trashed	system/windows_error.hpp	/^        arena_trashed = ERROR_ARENA_TRASHED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::bad_command	system/windows_error.hpp	/^        bad_command = ERROR_BAD_COMMAND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::bad_environment	system/windows_error.hpp	/^        bad_environment = ERROR_BAD_ENVIRONMENT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::bad_format	system/windows_error.hpp	/^        bad_format = ERROR_BAD_FORMAT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::bad_length	system/windows_error.hpp	/^        bad_length = ERROR_BAD_LENGTH,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::bad_net_path	system/windows_error.hpp	/^        bad_net_path = ERROR_BAD_NETPATH,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::bad_unit	system/windows_error.hpp	/^        bad_unit = ERROR_BAD_UNIT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::broken_pipe	system/windows_error.hpp	/^        broken_pipe = ERROR_BROKEN_PIPE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::buffer_overflow	system/windows_error.hpp	/^        buffer_overflow = ERROR_BUFFER_OVERFLOW,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::busy	system/windows_error.hpp	/^        busy = ERROR_BUSY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::cancel_violation	system/windows_error.hpp	/^        cancel_violation = ERROR_CANCEL_VIOLATION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::cannot_make	system/windows_error.hpp	/^        cannot_make = ERROR_CANNOT_MAKE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::crc	system/windows_error.hpp	/^        crc = ERROR_CRC,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::current_directory	system/windows_error.hpp	/^        current_directory = ERROR_CURRENT_DIRECTORY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::disk_full	system/windows_error.hpp	/^        disk_full= ERROR_DISK_FULL,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::dup_name	system/windows_error.hpp	/^        dup_name = ERROR_DUP_NAME,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::file_exists	system/windows_error.hpp	/^        file_exists = ERROR_FILE_EXISTS,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::file_not_found	system/windows_error.hpp	/^        file_not_found = ERROR_FILE_NOT_FOUND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::gen_failure	system/windows_error.hpp	/^        gen_failure = ERROR_GEN_FAILURE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::handle_disk_full	system/windows_error.hpp	/^        handle_disk_full= ERROR_HANDLE_DISK_FULL,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::handle_eof	system/windows_error.hpp	/^        handle_eof = ERROR_HANDLE_EOF,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::invalid_access	system/windows_error.hpp	/^        invalid_access = ERROR_INVALID_ACCESS,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::invalid_block	system/windows_error.hpp	/^        invalid_block = ERROR_INVALID_BLOCK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::invalid_drive	system/windows_error.hpp	/^        invalid_drive = ERROR_INVALID_DRIVE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::invalid_function	system/windows_error.hpp	/^        invalid_function = ERROR_INVALID_FUNCTION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::invalid_handle	system/windows_error.hpp	/^        invalid_handle = ERROR_INVALID_HANDLE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::lock_failed	system/windows_error.hpp	/^        lock_failed = ERROR_LOCK_FAILED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::lock_violation	system/windows_error.hpp	/^        lock_violation = ERROR_LOCK_VIOLATION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::make_error_code	system/windows_error.hpp	/^      inline error_code make_error_code( windows_error_code e )$/;"	f	namespace:boost::system::windows_error	signature:( windows_error_code e )
+boost::system::windows_error::network_busy	system/windows_error.hpp	/^        network_busy = ERROR_NETWORK_BUSY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::no_more_files	system/windows_error.hpp	/^        no_more_files = ERROR_NO_MORE_FILES,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::not_dos_disk	system/windows_error.hpp	/^        not_dos_disk = ERROR_NOT_DOS_DISK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::not_enough_memory	system/windows_error.hpp	/^        not_enough_memory = ERROR_NOT_ENOUGH_MEMORY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::not_ready	system/windows_error.hpp	/^        not_ready = ERROR_NOT_READY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::not_same_device	system/windows_error.hpp	/^        not_same_device = ERROR_NOT_SAME_DEVICE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::open_failed	system/windows_error.hpp	/^        open_failed = ERROR_OPEN_FAILED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::out_of_paper	system/windows_error.hpp	/^        out_of_paper = ERROR_OUT_OF_PAPER,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::outofmemory	system/windows_error.hpp	/^        outofmemory = ERROR_OUTOFMEMORY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::path_not_found	system/windows_error.hpp	/^        path_not_found = ERROR_PATH_NOT_FOUND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::read_fault	system/windows_error.hpp	/^        read_fault = ERROR_READ_FAULT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::rem_not_list	system/windows_error.hpp	/^        rem_not_list = ERROR_REM_NOT_LIST,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::sector_not_found	system/windows_error.hpp	/^        sector_not_found = ERROR_SECTOR_NOT_FOUND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::seek	system/windows_error.hpp	/^        seek = ERROR_SEEK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::sharing_buffer_exceeded	system/windows_error.hpp	/^        sharing_buffer_exceeded = ERROR_SHARING_BUFFER_EXCEEDED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::sharing_violation	system/windows_error.hpp	/^        sharing_violation = ERROR_SHARING_VIOLATION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::success	system/windows_error.hpp	/^        success = 0,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::too_many_open_files	system/windows_error.hpp	/^        too_many_open_files = ERROR_TOO_MANY_OPEN_FILES,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::windows_error_code	system/windows_error.hpp	/^      enum windows_error_code$/;"	g	namespace:boost::system::windows_error
+boost::system::windows_error::write_fault	system/windows_error.hpp	/^        write_fault = ERROR_WRITE_FAULT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::write_protect	system/windows_error.hpp	/^        write_protect = ERROR_WRITE_PROTECT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::system::windows_error::wrong_disk	system/windows_error.hpp	/^        wrong_disk = ERROR_WRONG_DISK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+boost::throws	system/error_code.hpp	/^  inline system::error_code & throws()$/;"	f	namespace:boost	signature:()
+broken_pipe	system/error_code.hpp	/^        broken_pipe = EPIPE,$/;"	e	enum:boost::system::errc::errc_t
+broken_pipe	system/windows_error.hpp	/^        broken_pipe = ERROR_BROKEN_PIPE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+buffer_overflow	system/windows_error.hpp	/^        buffer_overflow = ERROR_BUFFER_OVERFLOW,$/;"	e	enum:boost::system::windows_error::windows_error_code
+busy	system/windows_error.hpp	/^        busy = ERROR_BUSY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+cancel_violation	system/windows_error.hpp	/^        cancel_violation = ERROR_CANCEL_VIOLATION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+cannot_make	system/windows_error.hpp	/^        cannot_make = ERROR_CANNOT_MAKE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+channel_range	system/linux_error.hpp	/^        channel_range = ECHRNG,$/;"	e	enum:boost::system::linux_error::linux_errno
+code	system/system_error.hpp	/^      const error_code &  code() const throw() { return m_error_code; }$/;"	f	class:boost::system::system_error	access:public	signature:() const
+communication_error	system/linux_error.hpp	/^        communication_error = ECOMM,$/;"	e	enum:boost::system::linux_error::linux_errno
+connection_aborted	system/error_code.hpp	/^        connection_aborted = ECONNABORTED,$/;"	e	enum:boost::system::errc::errc_t
+connection_already_in_progress	system/error_code.hpp	/^        connection_already_in_progress = EALREADY,$/;"	e	enum:boost::system::errc::errc_t
+connection_refused	system/error_code.hpp	/^        connection_refused = ECONNREFUSED,$/;"	e	enum:boost::system::errc::errc_t
+connection_reset	system/error_code.hpp	/^        connection_reset = ECONNRESET,$/;"	e	enum:boost::system::errc::errc_t
+crc	system/windows_error.hpp	/^        crc = ERROR_CRC,$/;"	e	enum:boost::system::windows_error::windows_error_code
+cross_device_link	system/error_code.hpp	/^        cross_device_link = EXDEV,$/;"	e	enum:boost::system::errc::errc_t
+current_directory	system/windows_error.hpp	/^        current_directory = ERROR_CURRENT_DIRECTORY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+cygwin_errno	system/cygwin_error.hpp	/^      enum cygwin_errno$/;"	g	namespace:boost::system::cygwin_error
+cygwin_error	system/cygwin_error.hpp	/^    namespace cygwin_error$/;"	n	namespace:boost::system
+cygwin_error	system/cygwin_error.hpp	/^   namespace cygwin_error$/;"	n	namespace:boost::system
+destination_address_required	system/error_code.hpp	/^        destination_address_required = EDESTADDRREQ,$/;"	e	enum:boost::system::errc::errc_t
+detail	system/error_code.hpp	/^  namespace detail { inline system::error_code * throws() { return 0; } }$/;"	n	namespace:boost
+device_or_resource_busy	system/error_code.hpp	/^        device_or_resource_busy = EBUSY,$/;"	e	enum:boost::system::errc::errc_t
+directory_not_empty	system/error_code.hpp	/^        directory_not_empty = ENOTEMPTY,$/;"	e	enum:boost::system::errc::errc_t
+disk_full	system/windows_error.hpp	/^        disk_full= ERROR_DISK_FULL,$/;"	e	enum:boost::system::windows_error::windows_error_code
+dot_dot_error	system/linux_error.hpp	/^        dot_dot_error = EDOTDOT,$/;"	e	enum:boost::system::linux_error::linux_errno
+dup_name	system/windows_error.hpp	/^        dup_name = ERROR_DUP_NAME,$/;"	e	enum:boost::system::windows_error::windows_error_code
+errc	system/error_code.hpp	/^    namespace errc$/;"	n	namespace:boost::system
+errc_t	system/error_code.hpp	/^      enum errc_t$/;"	g	namespace:boost::system::errc
+errno_ecat	system/error_code.hpp	/^    static const error_category &  errno_ecat     = generic_category();$/;"	m	namespace:boost::system
+error_category	system/error_code.hpp	/^    class error_category : public noncopyable$/;"	c	namespace:boost::system	inherits:noncopyable
+error_code	system/error_code.hpp	/^    class error_code$/;"	c	namespace:boost::system
+error_condition	system/error_code.hpp	/^    class error_condition$/;"	c	namespace:boost::system
+exchange_full	system/linux_error.hpp	/^        exchange_full = EXFULL,$/;"	e	enum:boost::system::linux_error::linux_errno
+executable_format_error	system/error_code.hpp	/^        executable_format_error = ENOEXEC,$/;"	e	enum:boost::system::errc::errc_t
+file_exists	system/error_code.hpp	/^        file_exists = EEXIST,$/;"	e	enum:boost::system::errc::errc_t
+file_exists	system/windows_error.hpp	/^        file_exists = ERROR_FILE_EXISTS,$/;"	e	enum:boost::system::windows_error::windows_error_code
+file_not_found	system/windows_error.hpp	/^        file_not_found = ERROR_FILE_NOT_FOUND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+file_too_large	system/error_code.hpp	/^        file_too_large = EFBIG,$/;"	e	enum:boost::system::errc::errc_t
+filename_too_long	system/error_code.hpp	/^        filename_too_long = ENAMETOOLONG,$/;"	e	enum:boost::system::errc::errc_t
+function_not_supported	system/error_code.hpp	/^        function_not_supported = ENOSYS,$/;"	e	enum:boost::system::errc::errc_t
+gen_failure	system/windows_error.hpp	/^        gen_failure = ERROR_GEN_FAILURE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+generic_category	system/error_code.hpp	/^      error_condition() BOOST_SYSTEM_NOEXCEPT : m_val(0), m_cat(&generic_category()) {}$/;"	f	class:boost::system::error_condition	access:public	signature:()
+get_generic_category	system/error_code.hpp	/^    inline const error_category &  get_generic_category() { return generic_category(); }$/;"	f	namespace:boost::system	signature:()
+get_posix_category	system/error_code.hpp	/^    inline const error_category &  get_posix_category() { return generic_category(); }$/;"	f	namespace:boost::system	signature:()
+get_system_category	system/error_code.hpp	/^    inline const error_category &  get_system_category() { return system_category(); }$/;"	f	namespace:boost::system	signature:()
+handle_disk_full	system/windows_error.hpp	/^        handle_disk_full= ERROR_HANDLE_DISK_FULL,$/;"	e	enum:boost::system::windows_error::windows_error_code
+handle_eof	system/windows_error.hpp	/^        handle_eof = ERROR_HANDLE_EOF,$/;"	e	enum:boost::system::windows_error::windows_error_code
+hash_value	system/error_code.hpp	/^    inline std::size_t hash_value( const error_code & ec )$/;"	f	namespace:boost::system	signature:( const error_code & ec )
+host_down	system/linux_error.hpp	/^        host_down = EHOSTDOWN,$/;"	e	enum:boost::system::linux_error::linux_errno
+host_unreachable	system/error_code.hpp	/^        host_unreachable = EHOSTUNREACH,$/;"	e	enum:boost::system::errc::errc_t
+identifier_removed	system/error_code.hpp	/^        identifier_removed = EIDRM,$/;"	e	enum:boost::system::errc::errc_t
+illegal_byte_sequence	system/error_code.hpp	/^        illegal_byte_sequence = EILSEQ,$/;"	e	enum:boost::system::errc::errc_t
+inappropriate_io_control_operation	system/error_code.hpp	/^        inappropriate_io_control_operation = ENOTTY,$/;"	e	enum:boost::system::errc::errc_t
+interrupted	system/error_code.hpp	/^        interrupted = EINTR,$/;"	e	enum:boost::system::errc::errc_t
+invalid_access	system/windows_error.hpp	/^        invalid_access = ERROR_INVALID_ACCESS,$/;"	e	enum:boost::system::windows_error::windows_error_code
+invalid_argument	system/error_code.hpp	/^        invalid_argument = EINVAL,$/;"	e	enum:boost::system::errc::errc_t
+invalid_block	system/windows_error.hpp	/^        invalid_block = ERROR_INVALID_BLOCK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+invalid_drive	system/windows_error.hpp	/^        invalid_drive = ERROR_INVALID_DRIVE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+invalid_function	system/windows_error.hpp	/^        invalid_function = ERROR_INVALID_FUNCTION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+invalid_handle	system/windows_error.hpp	/^        invalid_handle = ERROR_INVALID_HANDLE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+invalid_seek	system/error_code.hpp	/^        invalid_seek = ESPIPE,$/;"	e	enum:boost::system::errc::errc_t
+io_error	system/error_code.hpp	/^        io_error = EIO,$/;"	e	enum:boost::system::errc::errc_t
+is_a_directory	system/error_code.hpp	/^        is_a_directory = EISDIR,$/;"	e	enum:boost::system::errc::errc_t
+is_error_code_enum	system/cygwin_error.hpp	/^    template<> struct is_error_code_enum<cygwin_error::cygwin_errno>$/;"	s	namespace:boost::system
+is_error_code_enum	system/error_code.hpp	/^    struct is_error_code_enum { static const bool value = false; };$/;"	s	namespace:boost::system
+is_error_code_enum	system/linux_error.hpp	/^    template<> struct is_error_code_enum<linux_error::linux_errno>$/;"	s	namespace:boost::system
+is_error_code_enum	system/windows_error.hpp	/^    template<> struct is_error_code_enum<windows_error::windows_error_code>$/;"	s	namespace:boost::system
+is_error_condition_enum	system/error_code.hpp	/^    struct is_error_condition_enum { static const bool value = false; };$/;"	s	namespace:boost::system
+is_error_condition_enum	system/error_code.hpp	/^    template<> struct is_error_condition_enum<errc::errc_t>$/;"	s	namespace:boost::system
+is_named_file_type	system/linux_error.hpp	/^        is_named_file_type= EISNAM,$/;"	e	enum:boost::system::linux_error::linux_errno
+key_expired	system/linux_error.hpp	/^        key_expired = EKEYEXPIRED,$/;"	e	enum:boost::system::linux_error::linux_errno
+key_rejected	system/linux_error.hpp	/^        key_rejected = EKEYREJECTED,$/;"	e	enum:boost::system::linux_error::linux_errno
+key_revoked	system/linux_error.hpp	/^        key_revoked = EKEYREVOKED,$/;"	e	enum:boost::system::linux_error::linux_errno
+level2_halt	system/linux_error.hpp	/^        level2_halt= EL2HLT,$/;"	e	enum:boost::system::linux_error::linux_errno
+level2_no_syncronized	system/linux_error.hpp	/^        level2_no_syncronized= EL2NSYNC,$/;"	e	enum:boost::system::linux_error::linux_errno
+level3_halt	system/linux_error.hpp	/^        level3_halt = EL3HLT,$/;"	e	enum:boost::system::linux_error::linux_errno
+level3_reset	system/linux_error.hpp	/^        level3_reset = EL3RST,$/;"	e	enum:boost::system::linux_error::linux_errno
+link_range	system/linux_error.hpp	/^        link_range = ELNRNG,$/;"	e	enum:boost::system::linux_error::linux_errno
+linux_errno	system/linux_error.hpp	/^      enum linux_errno$/;"	g	namespace:boost::system::linux_error
+linux_error	system/linux_error.hpp	/^    namespace linux_error$/;"	n	namespace:boost::system
+lock_failed	system/windows_error.hpp	/^        lock_failed = ERROR_LOCK_FAILED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+lock_violation	system/windows_error.hpp	/^        lock_violation = ERROR_LOCK_VIOLATION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+m_cat	system/error_code.hpp	/^      const error_category *  m_cat;$/;"	m	class:boost::system::error_code	access:private
+m_cat	system/error_code.hpp	/^      const error_category *  m_cat;$/;"	m	class:boost::system::error_condition	access:private
+m_error_code	system/system_error.hpp	/^      error_code           m_error_code;$/;"	m	class:boost::system::system_error	access:private
+m_val	system/error_code.hpp	/^      error_code( int val, const error_category & cat ) BOOST_SYSTEM_NOEXCEPT : m_val(val), m_cat(&cat) {}$/;"	p	class:boost::system::error_code	access:public	signature:(val)
+m_val	system/error_code.hpp	/^      error_condition( int val, const error_category & cat ) BOOST_SYSTEM_NOEXCEPT : m_val(val), m_cat(&cat) {}$/;"	p	class:boost::system::error_condition	access:public	signature:(val)
+m_val	system/error_code.hpp	/^      int                     m_val;$/;"	m	class:boost::system::error_code	access:private
+m_val	system/error_code.hpp	/^      int                     m_val;$/;"	m	class:boost::system::error_condition	access:private
+m_what	system/system_error.hpp	/^      mutable std::string  m_what;$/;"	m	class:boost::system::system_error	access:private
+make_error_code	system/cygwin_error.hpp	/^      inline error_code make_error_code( cygwin_errno e )$/;"	f	namespace:boost::system::cygwin_error	signature:( cygwin_errno e )
+make_error_code	system/linux_error.hpp	/^      inline error_code make_error_code( linux_errno e )$/;"	f	namespace:boost::system::linux_error	signature:( linux_errno e )
+make_error_code	system/windows_error.hpp	/^      inline error_code make_error_code( windows_error_code e )$/;"	f	namespace:boost::system::windows_error	signature:( windows_error_code e )
+medium_type	system/linux_error.hpp	/^        medium_type = EMEDIUMTYPE,$/;"	e	enum:boost::system::linux_error::linux_errno
+message	system/error_code.hpp	/^      std::string             message() const  { return m_cat->message(value()); }$/;"	f	class:boost::system::error_code	access:public	signature:() const
+message	system/error_code.hpp	/^      std::string             message() const  { return m_cat->message(value()); }$/;"	f	class:boost::system::error_condition	access:public	signature:() const
+message	system/error_code.hpp	/^      virtual std::string      message( int ev ) const = 0;$/;"	p	class:boost::system::error_category	access:public	signature:( int ev ) const
+message_size	system/error_code.hpp	/^        message_size = EMSGSIZE,$/;"	e	enum:boost::system::errc::errc_t
+native_ecat	system/error_code.hpp	/^    static const error_category &  native_ecat    = system_category();$/;"	m	namespace:boost::system
+network_busy	system/windows_error.hpp	/^        network_busy = ERROR_NETWORK_BUSY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+network_down	system/error_code.hpp	/^        network_down = ENETDOWN,$/;"	e	enum:boost::system::errc::errc_t
+network_reset	system/error_code.hpp	/^        network_reset = ENETRESET,$/;"	e	enum:boost::system::errc::errc_t
+network_unreachable	system/error_code.hpp	/^        network_unreachable = ENETUNREACH,$/;"	e	enum:boost::system::errc::errc_t
+no_anode	system/linux_error.hpp	/^        no_anode= ENOANO,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_block_device	system/linux_error.hpp	/^        no_block_device = ENOTBLK,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_buffer_space	system/error_code.hpp	/^        no_buffer_space = ENOBUFS,$/;"	e	enum:boost::system::errc::errc_t
+no_child_process	system/error_code.hpp	/^        no_child_process = ECHILD,$/;"	e	enum:boost::system::errc::errc_t
+no_csi	system/linux_error.hpp	/^        no_csi = ENOCSI,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_key	system/linux_error.hpp	/^        no_key = ENOKEY,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_link	system/error_code.hpp	/^        no_link = ENOLINK,$/;"	e	enum:boost::system::errc::errc_t
+no_lock_available	system/error_code.hpp	/^        no_lock_available = ENOLCK,$/;"	e	enum:boost::system::errc::errc_t
+no_medium	system/linux_error.hpp	/^        no_medium = ENOMEDIUM,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_message	system/error_code.hpp	/^        no_message = ENOMSG,$/;"	e	enum:boost::system::errc::errc_t
+no_message_available	system/error_code.hpp	/^        no_message_available = ENODATA,$/;"	e	enum:boost::system::errc::errc_t
+no_more_files	system/windows_error.hpp	/^        no_more_files = ERROR_NO_MORE_FILES,$/;"	e	enum:boost::system::windows_error::windows_error_code
+no_net	system/cygwin_error.hpp	/^        no_net = ENONET,$/;"	e	enum:boost::system::cygwin_error::cygwin_errno
+no_network	system/linux_error.hpp	/^        no_network = ENONET,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_package	system/cygwin_error.hpp	/^        no_package = ENOPKG,$/;"	e	enum:boost::system::cygwin_error::cygwin_errno
+no_package	system/linux_error.hpp	/^        no_package = ENOPKG,$/;"	e	enum:boost::system::linux_error::linux_errno
+no_protocol_option	system/error_code.hpp	/^        no_protocol_option = ENOPROTOOPT,$/;"	e	enum:boost::system::errc::errc_t
+no_share	system/cygwin_error.hpp	/^        no_share = ENOSHARE$/;"	e	enum:boost::system::cygwin_error::cygwin_errno
+no_space_on_device	system/error_code.hpp	/^        no_space_on_device = ENOSPC,$/;"	e	enum:boost::system::errc::errc_t
+no_stream_resources	system/error_code.hpp	/^        no_stream_resources = ENOSR,$/;"	e	enum:boost::system::errc::errc_t
+no_such_device	system/error_code.hpp	/^        no_such_device = ENODEV,$/;"	e	enum:boost::system::errc::errc_t
+no_such_device_or_address	system/error_code.hpp	/^        no_such_device_or_address = ENXIO,$/;"	e	enum:boost::system::errc::errc_t
+no_such_file_or_directory	system/error_code.hpp	/^        no_such_file_or_directory = ENOENT,$/;"	e	enum:boost::system::errc::errc_t
+no_such_process	system/error_code.hpp	/^        no_such_process = ESRCH,$/;"	e	enum:boost::system::errc::errc_t
+not_a_directory	system/error_code.hpp	/^        not_a_directory = ENOTDIR,$/;"	e	enum:boost::system::errc::errc_t
+not_a_socket	system/error_code.hpp	/^        not_a_socket = ENOTSOCK,$/;"	e	enum:boost::system::errc::errc_t
+not_a_stream	system/error_code.hpp	/^        not_a_stream = ENOSTR,$/;"	e	enum:boost::system::errc::errc_t
+not_avail	system/linux_error.hpp	/^        not_avail = ENAVAIL,$/;"	e	enum:boost::system::linux_error::linux_errno
+not_connected	system/error_code.hpp	/^        not_connected = ENOTCONN,$/;"	e	enum:boost::system::errc::errc_t
+not_dos_disk	system/windows_error.hpp	/^        not_dos_disk = ERROR_NOT_DOS_DISK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+not_enough_memory	system/error_code.hpp	/^        not_enough_memory = ENOMEM,$/;"	e	enum:boost::system::errc::errc_t
+not_enough_memory	system/windows_error.hpp	/^        not_enough_memory = ERROR_NOT_ENOUGH_MEMORY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+not_named_file_type	system/linux_error.hpp	/^        not_named_file_type= ENOTNAM,$/;"	e	enum:boost::system::linux_error::linux_errno
+not_ready	system/windows_error.hpp	/^        not_ready = ERROR_NOT_READY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+not_recoverable	system/linux_error.hpp	/^        not_recoverable = ENOTRECOVERABLE,$/;"	e	enum:boost::system::linux_error::linux_errno
+not_same_device	system/windows_error.hpp	/^        not_same_device = ERROR_NOT_SAME_DEVICE,$/;"	e	enum:boost::system::windows_error::windows_error_code
+not_supported	system/error_code.hpp	/^        not_supported = ENOTSUP,$/;"	e	enum:boost::system::errc::errc_t
+not_unique	system/linux_error.hpp	/^        not_unique = ENOTUNIQ,$/;"	e	enum:boost::system::linux_error::linux_errno
+open_failed	system/windows_error.hpp	/^        open_failed = ERROR_OPEN_FAILED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+operation_canceled	system/error_code.hpp	/^        operation_canceled = ECANCELED,$/;"	e	enum:boost::system::errc::errc_t
+operation_in_progress	system/error_code.hpp	/^        operation_in_progress = EINPROGRESS,$/;"	e	enum:boost::system::errc::errc_t
+operation_not_permitted	system/error_code.hpp	/^        operation_not_permitted = EPERM,$/;"	e	enum:boost::system::errc::errc_t
+operation_not_supported	system/error_code.hpp	/^        operation_not_supported = EOPNOTSUPP,$/;"	e	enum:boost::system::errc::errc_t
+operation_would_block	system/error_code.hpp	/^        operation_would_block = EWOULDBLOCK,$/;"	e	enum:boost::system::errc::errc_t
+operator <<	system/error_code.hpp	/^      operator<< (std::basic_ostream<charT,traits>& os, error_code ec)$/;"	f	namespace:boost::system	signature:(std::basic_ostream<charT,traits>& os, error_code ec)
+out_of_paper	system/windows_error.hpp	/^        out_of_paper = ERROR_OUT_OF_PAPER,$/;"	e	enum:boost::system::windows_error::windows_error_code
+outofmemory	system/windows_error.hpp	/^        outofmemory = ERROR_OUTOFMEMORY,$/;"	e	enum:boost::system::windows_error::windows_error_code
+owner_dead	system/error_code.hpp	/^        owner_dead = EOWNERDEAD,$/;"	e	enum:boost::system::errc::errc_t
+owner_dead	system/linux_error.hpp	/^        owner_dead = EOWNERDEAD,$/;"	e	enum:boost::system::linux_error::linux_errno
+path_not_found	system/windows_error.hpp	/^        path_not_found = ERROR_PATH_NOT_FOUND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+permission_denied	system/error_code.hpp	/^        permission_denied = EACCES,$/;"	e	enum:boost::system::errc::errc_t
+posix_category	system/error_code.hpp	/^    static const error_category &  posix_category = generic_category();$/;"	m	namespace:boost::system
+protocol_error	system/error_code.hpp	/^        protocol_error = EPROTO,$/;"	e	enum:boost::system::errc::errc_t
+protocol_no_supported	system/linux_error.hpp	/^        protocol_no_supported = EPFNOSUPPORT,$/;"	e	enum:boost::system::linux_error::linux_errno
+protocol_not_supported	system/error_code.hpp	/^        protocol_not_supported = EPROTONOSUPPORT,$/;"	e	enum:boost::system::errc::errc_t
+read_fault	system/windows_error.hpp	/^        read_fault = ERROR_READ_FAULT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+read_only_file_system	system/error_code.hpp	/^        read_only_file_system = EROFS,$/;"	e	enum:boost::system::errc::errc_t
+rem_not_list	system/windows_error.hpp	/^        rem_not_list = ERROR_REM_NOT_LIST,$/;"	e	enum:boost::system::windows_error::windows_error_code
+remote_address_changed	system/linux_error.hpp	/^        remote_address_changed = EREMCHG,$/;"	e	enum:boost::system::linux_error::linux_errno
+remote_io_error	system/linux_error.hpp	/^        remote_io_error = EREMOTEIO,$/;"	e	enum:boost::system::linux_error::linux_errno
+remote_object	system/linux_error.hpp	/^        remote_object = EREMOTE,$/;"	e	enum:boost::system::linux_error::linux_errno
+resource_deadlock_would_occur	system/error_code.hpp	/^        resource_deadlock_would_occur = EDEADLK,$/;"	e	enum:boost::system::errc::errc_t
+resource_unavailable_try_again	system/error_code.hpp	/^        resource_unavailable_try_again = EAGAIN,$/;"	e	enum:boost::system::errc::errc_t
+restart_needed	system/linux_error.hpp	/^        restart_needed = ERESTART,$/;"	e	enum:boost::system::linux_error::linux_errno
+result_out_of_range	system/error_code.hpp	/^        result_out_of_range = ERANGE,$/;"	e	enum:boost::system::errc::errc_t
+sector_not_found	system/windows_error.hpp	/^        sector_not_found = ERROR_SECTOR_NOT_FOUND,$/;"	e	enum:boost::system::windows_error::windows_error_code
+seek	system/windows_error.hpp	/^        seek = ERROR_SEEK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+shared_library_access	system/linux_error.hpp	/^        shared_library_access = ELIBACC,$/;"	e	enum:boost::system::linux_error::linux_errno
+shared_library_bad	system/linux_error.hpp	/^        shared_library_bad = ELIBBAD,$/;"	e	enum:boost::system::linux_error::linux_errno
+shared_library_execute	system/linux_error.hpp	/^        shared_library_execute = ELIBEXEC,$/;"	e	enum:boost::system::linux_error::linux_errno
+shared_library_max_	system/linux_error.hpp	/^        shared_library_max_ = ELIBMAX,$/;"	e	enum:boost::system::linux_error::linux_errno
+shared_library_section	system/linux_error.hpp	/^        shared_library_section= ELIBSCN,$/;"	e	enum:boost::system::linux_error::linux_errno
+sharing_buffer_exceeded	system/windows_error.hpp	/^        sharing_buffer_exceeded = ERROR_SHARING_BUFFER_EXCEEDED,$/;"	e	enum:boost::system::windows_error::windows_error_code
+sharing_violation	system/windows_error.hpp	/^        sharing_violation = ERROR_SHARING_VIOLATION,$/;"	e	enum:boost::system::windows_error::windows_error_code
+shutdown	system/linux_error.hpp	/^        shutdown = ESHUTDOWN,$/;"	e	enum:boost::system::linux_error::linux_errno
+socket_type_not_supported	system/linux_error.hpp	/^        socket_type_not_supported = ESOCKTNOSUPPORT,$/;"	e	enum:boost::system::linux_error::linux_errno
+srmount_error	system/linux_error.hpp	/^        srmount_error = ESRMNT,$/;"	e	enum:boost::system::linux_error::linux_errno
+state_not_recoverable	system/error_code.hpp	/^        state_not_recoverable = ENOTRECOVERABLE,$/;"	e	enum:boost::system::errc::errc_t
+stream_pipe_error	system/linux_error.hpp	/^        stream_pipe_error = ESTRPIPE,$/;"	e	enum:boost::system::linux_error::linux_errno
+stream_timeout	system/error_code.hpp	/^        stream_timeout = ETIME,$/;"	e	enum:boost::system::errc::errc_t
+success	system/error_code.hpp	/^        success = 0,$/;"	e	enum:boost::system::errc::errc_t
+success	system/windows_error.hpp	/^        success = 0,$/;"	e	enum:boost::system::windows_error::windows_error_code
+system	system/cygwin_error.hpp	/^  namespace system$/;"	n	namespace:boost
+system	system/error_code.hpp	/^  namespace system$/;"	n	namespace:boost
+system	system/linux_error.hpp	/^  namespace system$/;"	n	namespace:boost
+system	system/system_error.hpp	/^  namespace system$/;"	n	namespace:boost
+system	system/windows_error.hpp	/^  namespace system$/;"	n	namespace:boost
+system_category	system/error_code.hpp	/^      error_code() BOOST_SYSTEM_NOEXCEPT : m_val(0), m_cat(&system_category()) {}$/;"	f	class:boost::system::error_code	access:public	signature:()
+system_error	system/system_error.hpp	/^      system_error( error_code ec )$/;"	f	class:boost::system::system_error	access:public	signature:( error_code ec )
+system_error	system/system_error.hpp	/^      system_error( error_code ec, const char* what_arg )$/;"	f	class:boost::system::system_error	access:public	signature:( error_code ec, const char* what_arg )
+system_error	system/system_error.hpp	/^      system_error( error_code ec, const std::string & what_arg )$/;"	f	class:boost::system::system_error	access:public	signature:( error_code ec, const std::string & what_arg )
+system_error	system/system_error.hpp	/^      system_error( int ev, const error_category & ecat )$/;"	f	class:boost::system::system_error	access:public	signature:( int ev, const error_category & ecat )
+system_error	system/system_error.hpp	/^      system_error( int ev, const error_category & ecat,$/;"	f	class:boost::system::system_error	access:public	signature:( int ev, const error_category & ecat, const char * what_arg )
+system_error	system/system_error.hpp	/^      system_error( int ev, const error_category & ecat,$/;"	f	class:boost::system::system_error	access:public	signature:( int ev, const error_category & ecat, const std::string & what_arg )
+system_error	system/system_error.hpp	/^    class BOOST_SYMBOL_VISIBLE system_error : public std::runtime_error$/;"	c	namespace:boost::system	inherits:std::runtime_error
+text_file_busy	system/error_code.hpp	/^        text_file_busy = ETXTBSY,$/;"	e	enum:boost::system::errc::errc_t
+throws	system/error_code.hpp	/^  inline system::error_code & throws()$/;"	f	namespace:boost	signature:()
+throws	system/error_code.hpp	/^  namespace detail { inline system::error_code * throws() { return 0; } }$/;"	f	namespace:boost::detail	signature:()
+timed_out	system/error_code.hpp	/^        timed_out = ETIMEDOUT,$/;"	e	enum:boost::system::errc::errc_t
+too_many_files_open	system/error_code.hpp	/^        too_many_files_open = EMFILE,$/;"	e	enum:boost::system::errc::errc_t
+too_many_files_open_in_system	system/error_code.hpp	/^        too_many_files_open_in_system = ENFILE,$/;"	e	enum:boost::system::errc::errc_t
+too_many_links	system/error_code.hpp	/^        too_many_links = EMLINK,$/;"	e	enum:boost::system::errc::errc_t
+too_many_open_files	system/windows_error.hpp	/^        too_many_open_files = ERROR_TOO_MANY_OPEN_FILES,$/;"	e	enum:boost::system::windows_error::windows_error_code
+too_many_references	system/linux_error.hpp	/^        too_many_references = ETOOMANYREFS,$/;"	e	enum:boost::system::linux_error::linux_errno
+too_many_symbolic_link_levels	system/error_code.hpp	/^        too_many_symbolic_link_levels = ELOOP,$/;"	e	enum:boost::system::errc::errc_t
+too_many_users	system/linux_error.hpp	/^        too_many_users = EUSERS,$/;"	e	enum:boost::system::linux_error::linux_errno
+unattached	system/linux_error.hpp	/^        unattached = EUNATCH,$/;"	e	enum:boost::system::linux_error::linux_errno
+unclean	system/linux_error.hpp	/^        unclean = EUCLEAN$/;"	e	enum:boost::system::linux_error::linux_errno
+unspecified_bool_true	system/error_code.hpp	/^      static void unspecified_bool_true() {}$/;"	f	class:boost::system::error_code	access:public	signature:()
+unspecified_bool_true	system/error_code.hpp	/^      static void unspecified_bool_true() {}$/;"	f	class:boost::system::error_condition	access:public	signature:()
+unspecified_bool_type	system/error_code.hpp	/^      typedef void (*unspecified_bool_type)();$/;"	t	class:boost::system::error_code	access:public
+unspecified_bool_type	system/error_code.hpp	/^      typedef void (*unspecified_bool_type)();$/;"	t	class:boost::system::error_condition	access:public
+value	system/cygwin_error.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+value	system/error_code.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_condition_enum	access:public
+value	system/error_code.hpp	/^    struct is_error_code_enum { static const bool value = false; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+value	system/error_code.hpp	/^    struct is_error_condition_enum { static const bool value = false; };$/;"	m	struct:boost::system::is_error_condition_enum	access:public
+value	system/linux_error.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+value	system/windows_error.hpp	/^      { static const bool value = true; };$/;"	m	struct:boost::system::is_error_code_enum	access:public
+value_too_large	system/error_code.hpp	/^        value_too_large = EOVERFLOW,$/;"	e	enum:boost::system::errc::errc_t
+what	system/system_error.hpp	/^      const char *        what() const throw();$/;"	p	class:boost::system::system_error	access:public	signature:() const
+what	system/system_error.hpp	/^    inline const char * system_error::what() const throw()$/;"	f	class:boost::system::system_error	signature:() const
+windows_error	system/windows_error.hpp	/^    namespace windows_error$/;"	n	namespace:boost::system
+windows_error_code	system/windows_error.hpp	/^      enum windows_error_code$/;"	g	namespace:boost::system::windows_error
+write_fault	system/windows_error.hpp	/^        write_fault = ERROR_WRITE_FAULT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+write_protect	system/windows_error.hpp	/^        write_protect = ERROR_WRITE_PROTECT,$/;"	e	enum:boost::system::windows_error::windows_error_code
+wrong_disk	system/windows_error.hpp	/^        wrong_disk = ERROR_WRONG_DISK,$/;"	e	enum:boost::system::windows_error::windows_error_code
+wrong_protocol_type	system/error_code.hpp	/^        wrong_protocol_type = EPROTOTYPE$/;"	e	enum:boost::system::errc::errc_t
+~error_category	system/error_code.hpp	/^      virtual ~error_category(){}$/;"	f	class:boost::system::error_category	access:public	signature:()
+~system_error	system/system_error.hpp	/^      virtual ~system_error() throw() {}$/;"	f	class:boost::system::system_error	access:public	signature:()

@@ -1,0 +1,1323 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARG_LIST_050329_HPP	parameter/aux_/arg_list.hpp	7;"	d
+BOOST_MPL_ASSERT	parameter/parameters.hpp	/^      BOOST_MPL_ASSERT(($/;"	p	struct:boost::parameter::aux::deduce_tag0	access:public	signature:( mpl::not_<mpl::and_< condition , aux::has_key_<UsedArgs, typename tag_type<spec>::type> > > )
+BOOST_MPL_ASSERT	parameter/parameters.hpp	/^      BOOST_MPL_ASSERT((boost::is_same<T,void>));$/;"	p	struct:parameter_::unmatched_argument	access:public	signature:(boost::is_same<T,void>)
+BOOST_MPL_ASSERT	parameter/preprocessor.hpp	/^    BOOST_MPL_ASSERT(($/;"	p	struct:boost::parameter::aux::apply_predicate	access:public	signature:( mpl::and_<mpl::false_,T> )
+BOOST_MPL_ASSERT_NOT	parameter/binding.hpp	/^    BOOST_MPL_ASSERT_NOT(($/;"	p	struct:boost::parameter::binding0	access:public	signature:( mpl::and_< is_same<Default, void_> , is_same<type, void_> > )
+BOOST_MPL_ASSERT_NOT	parameter/value_type.hpp	/^    BOOST_MPL_ASSERT_NOT(($/;"	p	struct:boost::parameter::value_type0	access:public	signature:( mpl::and_< is_same<Default, void_> , is_same<type, void_> > )
+BOOST_PARAMETERS_031014_HPP	parameter/parameters.hpp	7;"	d
+BOOST_PARAMETER_ARITY_RANGE	parameter/preprocessor.hpp	296;"	d
+BOOST_PARAMETER_ARITY_RANGE_M	parameter/preprocessor.hpp	289;"	d
+BOOST_PARAMETER_ARITY_RANGE_M_deduced_optional	parameter/preprocessor.hpp	285;"	d
+BOOST_PARAMETER_ARITY_RANGE_M_deduced_required	parameter/preprocessor.hpp	287;"	d
+BOOST_PARAMETER_ARITY_RANGE_M_optional	parameter/preprocessor.hpp	284;"	d
+BOOST_PARAMETER_ARITY_RANGE_M_required	parameter/preprocessor.hpp	286;"	d
+BOOST_PARAMETER_AUX_PARENTHESIZED_TYPE_DWA2006414_HPP	parameter/aux_/parenthesized_type.hpp	5;"	d
+BOOST_PARAMETER_AUX_RESULT_OF0_DWA2005511_HPP	parameter/aux_/result_of0.hpp	5;"	d
+BOOST_PARAMETER_AUX_TAG_DWA2005610_HPP	parameter/aux_/tag.hpp	5;"	d
+BOOST_PARAMETER_BASIC_CONST_MEMBER_FUNCTION	parameter/preprocessor.hpp	983;"	d
+BOOST_PARAMETER_BASIC_FUNCTION	parameter/preprocessor.hpp	956;"	d
+BOOST_PARAMETER_BASIC_FUNCTION_AUX	parameter/preprocessor.hpp	944;"	d
+BOOST_PARAMETER_BASIC_MEMBER_FUNCTION	parameter/preprocessor.hpp	975;"	d
+BOOST_PARAMETER_BASIC_MEMBER_FUNCTION_AUX	parameter/preprocessor.hpp	964;"	d
+BOOST_PARAMETER_BASIC_NAME	parameter/name.hpp	91;"	d
+BOOST_PARAMETER_BINDING_DWA200558_HPP	parameter/binding.hpp	5;"	d
+BOOST_PARAMETER_CALL_HAS_KEY	parameter/aux_/arg_list.hpp	233;"	d
+BOOST_PARAMETER_CALL_HAS_KEY	parameter/aux_/arg_list.hpp	240;"	d
+BOOST_PARAMETER_CALL_HAS_KEY	parameter/aux_/arg_list.hpp	248;"	d
+BOOST_PARAMETER_CAST_060902_HPP	parameter/aux_/cast.hpp	6;"	d
+BOOST_PARAMETER_COMPLEX_NAME	parameter/name.hpp	124;"	d
+BOOST_PARAMETER_COMPLEX_NAME_NAMESPACE	parameter/name.hpp	121;"	d
+BOOST_PARAMETER_COMPLEX_NAME_TAG	parameter/name.hpp	118;"	d
+BOOST_PARAMETER_COMPLEX_NAME_TUPLE	parameter/name.hpp	115;"	d
+BOOST_PARAMETER_COMPLEX_NAME_TUPLE1	parameter/name.hpp	112;"	d
+BOOST_PARAMETER_CONFIG_050403_HPP	parameter/config.hpp	7;"	d
+BOOST_PARAMETER_CONSTRUCTOR	parameter/preprocessor.hpp	1135;"	d
+BOOST_PARAMETER_CONSTRUCTOR_AUX	parameter/preprocessor.hpp	1125;"	d
+BOOST_PARAMETER_CONST_MEMBER_FUNCTION	parameter/preprocessor.hpp	1011;"	d
+BOOST_PARAMETER_FLATTEN	parameter/aux_/preprocessor/flatten.hpp	104;"	d
+BOOST_PARAMETER_FLATTEN_051217_HPP	parameter/aux_/preprocessor/flatten.hpp	6;"	d
+BOOST_PARAMETER_FLATTEN_ARGS	parameter/aux_/preprocessor/flatten.hpp	29;"	d
+BOOST_PARAMETER_FLATTEN_ARITY_optional	parameter/aux_/preprocessor/flatten.hpp	32;"	d
+BOOST_PARAMETER_FLATTEN_ARITY_required	parameter/aux_/preprocessor/flatten.hpp	35;"	d
+BOOST_PARAMETER_FLATTEN_IDENTITY	parameter/aux_/preprocessor/flatten.hpp	62;"	d
+BOOST_PARAMETER_FLATTEN_QUALIFIER	parameter/aux_/preprocessor/flatten.hpp	26;"	d
+BOOST_PARAMETER_FLATTEN_SPEC	parameter/aux_/preprocessor/flatten.hpp	99;"	d
+BOOST_PARAMETER_FLATTEN_SPEC0	parameter/aux_/preprocessor/flatten.hpp	39;"	d
+BOOST_PARAMETER_FLATTEN_SPEC0_DUMMY_ELEM	parameter/aux_/preprocessor/flatten.hpp	38;"	d
+BOOST_PARAMETER_FLATTEN_SPEC_AS_DEDUCED	parameter/aux_/preprocessor/flatten.hpp	78;"	d
+BOOST_PARAMETER_FLATTEN_SPEC_AUX	parameter/aux_/preprocessor/flatten.hpp	53;"	d
+BOOST_PARAMETER_FLATTEN_SPEC_deduced	parameter/aux_/preprocessor/flatten.hpp	91;"	d
+BOOST_PARAMETER_FLATTEN_SPEC_deduced_M	parameter/aux_/preprocessor/flatten.hpp	80;"	d
+BOOST_PARAMETER_FLATTEN_SPEC_optional	parameter/aux_/preprocessor/flatten.hpp	64;"	d
+BOOST_PARAMETER_FLATTEN_SPEC_required	parameter/aux_/preprocessor/flatten.hpp	75;"	d
+BOOST_PARAMETER_FLATTEN_SPLIT	parameter/aux_/preprocessor/flatten.hpp	23;"	d
+BOOST_PARAMETER_FLATTEN_SPLIT_deduced	parameter/aux_/preprocessor/flatten.hpp	21;"	d
+BOOST_PARAMETER_FLATTEN_SPLIT_optional	parameter/aux_/preprocessor/flatten.hpp	20;"	d
+BOOST_PARAMETER_FLATTEN_SPLIT_required	parameter/aux_/preprocessor/flatten.hpp	19;"	d
+BOOST_PARAMETER_FN_ARG_DEFAULT	parameter/preprocessor.hpp	316;"	d
+BOOST_PARAMETER_FN_ARG_KEYWORD	parameter/preprocessor.hpp	351;"	d
+BOOST_PARAMETER_FN_ARG_NAME	parameter/preprocessor.hpp	308;"	d
+BOOST_PARAMETER_FN_ARG_PRED	parameter/preprocessor.hpp	312;"	d
+BOOST_PARAMETER_FN_ARG_QUALIFIER	parameter/preprocessor.hpp	304;"	d
+BOOST_PARAMETER_FORWARD_TYPEDEF	parameter/parameters.hpp	701;"	d
+BOOST_PARAMETER_FORWARD_TYPEDEFS	parameter/parameters.hpp	704;"	d
+BOOST_PARAMETER_FOR_EACH	parameter/aux_/preprocessor/for_each.hpp	99;"	d
+BOOST_PARAMETER_FOR_EACH_051217_HPP	parameter/aux_/preprocessor/for_each.hpp	6;"	d
+BOOST_PARAMETER_FOR_EACH_R	parameter/aux_/preprocessor/for_each.hpp	91;"	d
+BOOST_PARAMETER_FOR_EACH_build_end_sentinel	parameter/aux_/preprocessor/for_each.hpp	84;"	d
+BOOST_PARAMETER_FOR_EACH_build_end_sentinel_tuple	parameter/aux_/preprocessor/for_each.hpp	86;"	d
+BOOST_PARAMETER_FOR_EACH_head	parameter/aux_/preprocessor/for_each.hpp	22;"	d
+BOOST_PARAMETER_FOR_EACH_head_aux2	parameter/aux_/preprocessor/for_each.hpp	19;"	d
+BOOST_PARAMETER_FOR_EACH_head_aux3	parameter/aux_/preprocessor/for_each.hpp	20;"	d
+BOOST_PARAMETER_FOR_EACH_head_aux4	parameter/aux_/preprocessor/for_each.hpp	21;"	d
+BOOST_PARAMETER_FOR_EACH_macro	parameter/aux_/preprocessor/for_each.hpp	73;"	d
+BOOST_PARAMETER_FOR_EACH_op	parameter/aux_/preprocessor/for_each.hpp	63;"	d
+BOOST_PARAMETER_FOR_EACH_pred	parameter/aux_/preprocessor/for_each.hpp	45;"	d
+BOOST_PARAMETER_FOR_EACH_pred	parameter/aux_/preprocessor/for_each.hpp	53;"	d
+BOOST_PARAMETER_FOR_EACH_pred_SPLIT_FIRST	parameter/aux_/preprocessor/for_each.hpp	42;"	d
+BOOST_PARAMETER_FOR_EACH_pred_aux0	parameter/aux_/preprocessor/for_each.hpp	38;"	d
+BOOST_PARAMETER_FOR_EACH_pred_aux2	parameter/aux_/preprocessor/for_each.hpp	31;"	d
+BOOST_PARAMETER_FOR_EACH_pred_aux3	parameter/aux_/preprocessor/for_each.hpp	33;"	d
+BOOST_PARAMETER_FOR_EACH_pred_aux4	parameter/aux_/preprocessor/for_each.hpp	35;"	d
+BOOST_PARAMETER_FOR_EACH_pred_aux_BOOST_PARAMETER_FOR_EACH_END_SENTINEL	parameter/aux_/preprocessor/for_each.hpp	25;"	d
+BOOST_PARAMETER_FOR_EACH_pred_aux_check	parameter/aux_/preprocessor/for_each.hpp	26;"	d
+BOOST_PARAMETER_FUN	parameter/macros.hpp	79;"	d
+BOOST_PARAMETER_FUNCTION	parameter/preprocessor.hpp	936;"	d
+BOOST_PARAMETER_FUNCTION_ARGUMENT	parameter/preprocessor.hpp	1020;"	d
+BOOST_PARAMETER_FUNCTION_AUX	parameter/preprocessor.hpp	924;"	d
+BOOST_PARAMETER_FUNCTION_CAST	parameter/aux_/cast.hpp	133;"	d
+BOOST_PARAMETER_FUNCTION_CAST	parameter/aux_/cast.hpp	23;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_ARGUMENTS	parameter/preprocessor.hpp	675;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_EVAL_ACTUAL_DEFAULT	parameter/preprocessor.hpp	728;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_EVAL_DEFAULT	parameter/preprocessor.hpp	691;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_EVAL_DEFAULT_BODY	parameter/preprocessor.hpp	735;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION	parameter/preprocessor.hpp	821;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION0	parameter/preprocessor.hpp	789;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION_ARG	parameter/preprocessor.hpp	657;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION_ARG_NAME	parameter/preprocessor.hpp	648;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION_BODY	parameter/preprocessor.hpp	707;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION_GET_ARG	parameter/preprocessor.hpp	696;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION_PARAMETER	parameter/preprocessor.hpp	662;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_FUNCTION_TEMPLATE_ARG	parameter/preprocessor.hpp	652;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_GET_ARG	parameter/preprocessor.hpp	842;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_LAYER	parameter/preprocessor.hpp	910;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_LAYER_AUX	parameter/preprocessor.hpp	875;"	d
+BOOST_PARAMETER_FUNCTION_DEFAULT_NAME	parameter/preprocessor.hpp	666;"	d
+BOOST_PARAMETER_FUNCTION_FWD_COMBINATION	parameter/preprocessor.hpp	1143;"	d
+BOOST_PARAMETER_FUNCTION_FWD_COMBINATIONS	parameter/preprocessor.hpp	1174;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTOR	parameter/preprocessor.hpp	1103;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTOR0	parameter/preprocessor.hpp	1068;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTOR00	parameter/preprocessor.hpp	1036;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTORS	parameter/preprocessor.hpp	1119;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTORS0	parameter/preprocessor.hpp	1111;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTOR_ARITY_0	parameter/preprocessor.hpp	1082;"	d
+BOOST_PARAMETER_FUNCTION_FWD_CONSTRUCTOR_ARITY_N	parameter/preprocessor.hpp	1090;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTION	parameter/preprocessor.hpp	468;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTION0	parameter/preprocessor.hpp	437;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTION00	parameter/preprocessor.hpp	392;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTIONS	parameter/preprocessor.hpp	486;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTIONS0	parameter/preprocessor.hpp	476;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTION_ARITY_0	parameter/preprocessor.hpp	447;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTION_ARITY_N	parameter/preprocessor.hpp	455;"	d
+BOOST_PARAMETER_FUNCTION_FWD_FUNCTION_TEMPLATE_Z	parameter/preprocessor.hpp	358;"	d
+BOOST_PARAMETER_FUNCTION_FWD_MATCH_Z	parameter/preprocessor.hpp	363;"	d
+BOOST_PARAMETER_FUNCTION_FWD_PRODUCT	parameter/preprocessor.hpp	1078;"	d
+BOOST_PARAMETER_FUNCTION_HEAD	parameter/preprocessor.hpp	917;"	d
+BOOST_PARAMETER_FUNCTION_IMPL_FWD	parameter/preprocessor.hpp	608;"	d
+BOOST_PARAMETER_FUNCTION_IMPL_HEAD	parameter/preprocessor.hpp	602;"	d
+BOOST_PARAMETER_FUNCTION_INITIAL_DISPATCH_FUNCTION	parameter/preprocessor.hpp	854;"	d
+BOOST_PARAMETER_FUNCTION_IS_KEYWORD_QUALIFIER	parameter/preprocessor.hpp	324;"	d
+BOOST_PARAMETER_FUNCTION_KEYWORD	parameter/preprocessor.hpp	343;"	d
+BOOST_PARAMETER_FUNCTION_KEYWORD_GET	parameter/preprocessor.hpp	332;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS	parameter/preprocessor.hpp	557;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS_M	parameter/preprocessor.hpp	513;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS_NAME	parameter/preprocessor.hpp	372;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS_QUALIFIER_deduced_optional	parameter/preprocessor.hpp	499;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS_QUALIFIER_deduced_required	parameter/preprocessor.hpp	502;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS_QUALIFIER_optional	parameter/preprocessor.hpp	493;"	d
+BOOST_PARAMETER_FUNCTION_PARAMETERS_QUALIFIER_required	parameter/preprocessor.hpp	496;"	d
+BOOST_PARAMETER_FUNCTION_RESULT	parameter/preprocessor.hpp	588;"	d
+BOOST_PARAMETER_FUNCTION_RESULT_	parameter/preprocessor.hpp	579;"	d
+BOOST_PARAMETER_FUNCTION_RESULT_ARG	parameter/preprocessor.hpp	575;"	d
+BOOST_PARAMETER_FUNCTION_RESULT_NAME	parameter/preprocessor.hpp	380;"	d
+BOOST_PARAMETER_FUNCTION_SPLIT_ARG	parameter/preprocessor.hpp	634;"	d
+BOOST_PARAMETER_FUNCTION_SPLIT_ARGS	parameter/preprocessor.hpp	641;"	d
+BOOST_PARAMETER_FUNCTION_SPLIT_ARG_deduced_optional	parameter/preprocessor.hpp	631;"	d
+BOOST_PARAMETER_FUNCTION_SPLIT_ARG_deduced_required	parameter/preprocessor.hpp	620;"	d
+BOOST_PARAMETER_FUNCTION_SPLIT_ARG_optional	parameter/preprocessor.hpp	623;"	d
+BOOST_PARAMETER_FUNCTION_SPLIT_ARG_required	parameter/preprocessor.hpp	612;"	d
+BOOST_PARAMETER_FUN_DECL	parameter/macros.hpp	39;"	d
+BOOST_PARAMETER_FUN_TEMPLATE_HEAD0	parameter/macros.hpp	23;"	d
+BOOST_PARAMETER_FUN_TEMPLATE_HEAD1	parameter/macros.hpp	20;"	d
+BOOST_PARAMETER_IMPL	parameter/preprocessor.hpp	389;"	d
+BOOST_PARAMETER_INVOKER_051210_HPP	parameter/aux_/python/invoker.hpp	6;"	d
+BOOST_PARAMETER_IS_BINARY	parameter/name.hpp	66;"	d
+BOOST_PARAMETER_IS_BINARY_C	parameter/name.hpp	69;"	d
+BOOST_PARAMETER_IS_MAYBE_050329_HPP	parameter/aux_/is_maybe.hpp	7;"	d
+BOOST_PARAMETER_IS_NULLARY	parameter/preprocessor.hpp	232;"	d
+BOOST_PARAMETER_IS_NULLARY_C	parameter/preprocessor.hpp	235;"	d
+BOOST_PARAMETER_KEYWORD	parameter/keyword.hpp	114;"	d
+BOOST_PARAMETER_KEYWORD	parameter/keyword.hpp	130;"	d
+BOOST_PARAMETER_MACROS_050412_HPP	parameter/macros.hpp	7;"	d
+BOOST_PARAMETER_MATCH	parameter/match.hpp	49;"	d
+BOOST_PARAMETER_MATCH_DEFAULTS	parameter/match.hpp	26;"	d
+BOOST_PARAMETER_MATCH_DEFAULTS	parameter/match.hpp	37;"	d
+BOOST_PARAMETER_MATCH_DWA2005714_HPP	parameter/match.hpp	5;"	d
+BOOST_PARAMETER_MATCH_TYPE	parameter/macros.hpp	27;"	d
+BOOST_PARAMETER_MATCH_TYPE	parameter/macros.hpp	35;"	d
+BOOST_PARAMETER_MAX_ARITY	parameter/config.hpp	10;"	d
+BOOST_PARAMETER_MAYBE_091021_HPP	parameter/aux_/maybe.hpp	9;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION	parameter/preprocessor.hpp	1004;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_AUX	parameter/preprocessor.hpp	993;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_CHECK_STATIC_static	parameter/preprocessor.hpp	243;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_IS_STATIC	parameter/preprocessor.hpp	244;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_NAME	parameter/preprocessor.hpp	275;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_STATIC	parameter/preprocessor.hpp	269;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_STRIP_STATIC	parameter/preprocessor.hpp	251;"	d
+BOOST_PARAMETER_MEMBER_FUNCTION_STRIP_STATIC_static	parameter/preprocessor.hpp	250;"	d
+BOOST_PARAMETER_MEMFUN	parameter/macros.hpp	90;"	d
+BOOST_PARAMETER_NAME	parameter/name.hpp	135;"	d
+BOOST_PARAMETER_NAME_060806_HPP	parameter/name.hpp	6;"	d
+BOOST_PARAMETER_NAME_OBJECT	parameter/name.hpp	79;"	d
+BOOST_PARAMETER_PARENTHESIZED_BASE	parameter/preprocessor.hpp	1028;"	d
+BOOST_PARAMETER_PARENTHESIZED_TYPE	parameter/aux_/parenthesized_type.hpp	14;"	d
+BOOST_PARAMETER_PREDICATE_TYPE	parameter/preprocessor.hpp	508;"	d
+BOOST_PARAMETER_PREPROCESSOR_060206_HPP	parameter/preprocessor.hpp	6;"	d
+BOOST_PARAMETER_PYTHON_060209_HPP	parameter/python.hpp	6;"	d
+BOOST_PARAMETER_PY_ARG_TYPES	parameter/aux_/python/invoker_iterate.hpp	12;"	d
+BOOST_PARAMETER_PY_ARG_TYPES	parameter/aux_/python/invoker_iterate.hpp	91;"	d
+BOOST_PARAMETER_SEQ_ENUM	parameter/match.hpp	13;"	d
+BOOST_PARAMETER_SEQ_ENUM	parameter/match.hpp	15;"	d
+BOOST_PARAMETER_SEQ_ENUM_I	parameter/match.hpp	12;"	d
+BOOST_PARAMETER_SET_060912_HPP	parameter/aux_/set.hpp	6;"	d
+BOOST_PARAMETER_SIMPLE_NAME	parameter/name.hpp	132;"	d
+BOOST_PARAMETER_TAGGED_ARGUMENT_050328_HPP	parameter/aux_/tagged_argument.hpp	7;"	d
+BOOST_PARAMETER_TEMPLATE_ARGS	parameter/parameters.hpp	708;"	d
+BOOST_PARAMETER_TEMPLATE_ARGS	parameter/parameters.hpp	716;"	d
+BOOST_PARAMETER_TEMPLATE_KEYWORD	parameter/name.hpp	144;"	d
+BOOST_PARAMETER_TEMPLATE_KEYWORD_060203_HPP	parameter/aux_/template_keyword.hpp	6;"	d
+BOOST_PARAMETER_VALUE_TYPE_060921_HPP	parameter/value_type.hpp	6;"	d
+BOOST_PARAMETER_VOID_050329_HPP	parameter/aux_/void.hpp	7;"	d
+BOOST_PARAMETER_arg_list	parameter/aux_/overloads.hpp	52;"	d
+BOOST_PARAMETER_arg_list	parameter/aux_/overloads.hpp	84;"	d
+BOOST_PARAMETER_arg_pack_init	parameter/aux_/overloads.hpp	61;"	d
+BOOST_PARAMETER_build_arg_list	parameter/parameters.hpp	666;"	d
+BOOST_PARAMETER_build_deduced_list	parameter/parameters.hpp	676;"	d
+BOOST_PARAMETER_close_list	parameter/aux_/overloads.hpp	50;"	d
+BOOST_PARAMETER_close_list	parameter/aux_/overloads.hpp	86;"	d
+BOOST_PARAMETER_lazy_default_fallback	parameter/aux_/default.hpp	53;"	d
+BOOST_PARAMETER_lazy_default_fallback	parameter/aux_/default.hpp	63;"	d
+BOOST_PARAMETER_make_arg_list	parameter/parameters.hpp	659;"	d
+BOOST_PARAMETER_make_deduced_list	parameter/parameters.hpp	672;"	d
+BOOST_PARAMETER_open_list	parameter/aux_/overloads.hpp	46;"	d
+BOOST_PARAMETER_open_list	parameter/aux_/overloads.hpp	85;"	d
+BOOST_PARAMETER_right_angle	parameter/parameters.hpp	664;"	d
+BOOST_PARAMETER_satisfies	parameter/parameters.hpp	742;"	d
+BOOST_PARAMETER_satisfies	parameter/parameters.hpp	755;"	d
+BOOST_PARAMETETER_FUNCTION_EAT_KEYWORD_QUALIFIER_in_out	parameter/preprocessor.hpp	321;"	d
+BOOST_PARAMETETER_FUNCTION_EAT_KEYWORD_QUALIFIER_out	parameter/preprocessor.hpp	320;"	d
+BOOST_PARAMETETER_FUNCTION_GET_KEYWORD_QUALIFIER_in_out	parameter/preprocessor.hpp	331;"	d
+BOOST_PARAMETETER_FUNCTION_GET_KEYWORD_QUALIFIER_out	parameter/preprocessor.hpp	330;"	d
+BOOST_PP_ENUM_BINARY_PARAMS	parameter/aux_/arg_list.hpp	/^        BOOST_PP_ENUM_BINARY_PARAMS(BOOST_PARAMETER_MAX_ARITY, A, & a)$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(BOOST_PARAMETER_MAX_ARITY, A, & a)
+BOOST_PP_ENUM_BINARY_PARAMS	parameter/aux_/overloads.hpp	/^operator()(BOOST_PP_ENUM_BINARY_PARAMS(N, A, & a)) const$/;"	f	signature:(N, A, & a) const
+BOOST_PP_ENUM_PARAMS	parameter/aux_/arg_list.hpp	/^        BOOST_PP_ENUM_PARAMS($/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(BOOST_PARAMETER_MAX_ARITY, void_ BOOST_PP_INTERCEPT )
+BOOST_PP_ITERATION_PARAMS_1	parameter/aux_/python/invoker.hpp	113;"	d
+BOOST_PP_ITERATION_PARAMS_1	parameter/aux_/python/invoker.hpp	117;"	d
+BOOST_PP_ITERATION_PARAMS_1	parameter/aux_/python/invoker.hpp	121;"	d
+BOOST_PP_ITERATION_PARAMS_1	parameter/aux_/python/invoker.hpp	125;"	d
+BOOST_PP_ITERATION_PARAMS_1	parameter/parameters.hpp	919;"	d
+BOOST_STATIC_CONSTANT	parameter/aux_/maybe.hpp	/^  BOOST_STATIC_CONSTANT(std::size_t, value = sizeof(T));$/;"	p	struct:boost::parameter::aux::referent_size	access:public	signature:(std::size_t, value = sizeof(T))
+BOOST_STATIC_CONSTANT	parameter/aux_/unwrap_cv_reference.hpp	/^    BOOST_STATIC_CONSTANT($/;"	p	struct:boost::parameter::aux::is_cv_reference_wrapper	access:public	signature:( bool, value = ( sizeof(is_cv_reference_wrapper_check((T*)0)) == sizeof(yes_tag) ) )
+BOOST_STATIC_CONSTANT	parameter/preprocessor.hpp	/^        BOOST_STATIC_CONSTANT(bool, result = $/;"	p	struct:boost::parameter::aux::funptr_predicate::apply	access:public	signature:(bool, result = sizeof(check_predicate(boost::type<T>(), (Args*)0, &p)) == 1 )
+DEFAULT_050329_HPP	parameter/aux_/default.hpp	7;"	d
+KEYWORD_050328_HPP	parameter/keyword.hpp	7;"	d
+N	parameter/aux_/overloads.hpp	44;"	d
+N	parameter/aux_/overloads.hpp	87;"	d
+N	parameter/aux_/python/invoker_iterate.hpp	10;"	d
+N	parameter/aux_/python/invoker_iterate.hpp	92;"	d
+PARAMETER_REQUIREMENTS_050331_HPP	parameter/aux_/parameter_requirements.hpp	7;"	d
+UNWRAP_CV_REFERENCE_050328_HPP	parameter/aux_/unwrap_cv_reference.hpp	7;"	d
+YESNO_050328_HPP	parameter/aux_/yesno.hpp	7;"	d
+apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::arg_list::binding	access:public
+apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::arg_list::key_owner	access:public
+apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::empty_arg_list::binding	access:public
+apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::empty_arg_list::key_owner	access:public
+apply	parameter/aux_/arg_list.hpp	/^      struct apply$/;"	s	struct:boost::mpl::begin_impl	access:public
+apply	parameter/aux_/arg_list.hpp	/^      struct apply$/;"	s	struct:boost::mpl::end_impl	access:public
+apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_call_invoker	access:public
+apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_init_invoker	access:public
+apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_invoker	access:public
+apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_member_invoker	access:public
+apply	parameter/aux_/tagged_argument.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::tagged_argument::binding	access:public
+apply	parameter/parameters.hpp	/^      struct apply$/;"	s	struct:boost::parameter::aux::tag_keyword_arg	inherits:tag	access:public
+apply	parameter/parameters.hpp	/^      struct apply$/;"	s	struct:boost::parameter::aux::tag_template_keyword_arg	access:public
+apply	parameter/preprocessor.hpp	/^    struct apply$/;"	s	struct:boost::parameter::aux::funptr_predicate	access:public
+apply_predicate	parameter/preprocessor.hpp	/^struct apply_predicate$/;"	s	namespace:boost::parameter::aux
+arg	parameter/aux_/arg_list.hpp	/^    TaggedArg arg;      \/\/ Stores the argument$/;"	m	struct:boost::parameter::aux::arg_list	access:public
+arg	parameter/parameters.hpp	/^      typedef Arg arg;$/;"	t	struct:boost::parameter::aux::item	access:public
+arg0	parameter/aux_/python/invoker_iterate.hpp	/^    >::type arg0;$/;"	t	struct:invoker	access:public
+arg_from_python	parameter/python.hpp	/^      arg_from_python(PyObject* p)$/;"	f	struct:boost::python::arg_from_python	access:public	signature:(PyObject* p)
+arg_from_python	parameter/python.hpp	/^  struct arg_from_python<parameter::aux::maybe<T> >$/;"	s	namespace:boost::python	inherits:arg_from_python
+arg_list	parameter/aux_/arg_list.hpp	/^    arg_list(TaggedArg head, Next const& tail)$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(TaggedArg head, Next const& tail)
+arg_list	parameter/aux_/arg_list.hpp	/^struct arg_list : Next$/;"	s	namespace:boost::parameter::aux	inherits:Next
+arg_list	parameter/aux_/arg_list.hpp	/^template <> struct arg_list<int,int> {};$/;"	s	namespace:boost::parameter::aux
+arg_list_iterator	parameter/aux_/arg_list.hpp	/^struct arg_list_iterator$/;"	s	namespace:boost::parameter::aux
+arg_list_iterator	parameter/aux_/arg_list.hpp	/^struct arg_list_iterator<empty_arg_list> {};$/;"	s	namespace:boost::parameter::aux
+arg_spec	parameter/python.hpp	/^  struct arg_spec$/;"	s	namespace:boost::parameter::python::aux
+argument	parameter/parameters.hpp	/^      typedef typename List::arg argument;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+argument_pack	parameter/parameters.hpp	/^      >::type argument_pack;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+argument_pack	parameter/preprocessor.hpp	/^struct argument_pack$/;"	s	namespace:boost::parameter::aux
+as_lvalue	parameter/preprocessor.hpp	/^T const& as_lvalue(T const& value, int)$/;"	f	namespace:boost::parameter::aux	signature:(T const& value, int)
+as_lvalue	parameter/preprocessor.hpp	/^T& as_lvalue(T& value, long)$/;"	f	namespace:boost::parameter::aux	signature:(T& value, long)
+as_parameter_requirements	parameter/parameters.hpp	/^  struct as_parameter_requirements$/;"	s	namespace:boost::parameter::aux
+as_placeholder_expr	parameter/aux_/cast.hpp	/^struct as_placeholder_expr$/;"	s	namespace:boost::parameter::aux
+aux	parameter/aux_/arg_list.hpp	/^namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/cast.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/default.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/is_maybe.hpp	/^namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/maybe.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/parameter_requirements.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/parenthesized_type.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost::parameter
+aux	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n	namespace:boost::parameter::python
+aux	parameter/aux_/result_of0.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost::parameter
+aux	parameter/aux_/set.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/tag.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost::parameter
+aux	parameter/aux_/tagged_argument.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/template_keyword.hpp	/^namespace aux $/;"	n	namespace:boost::parameter
+aux	parameter/aux_/unwrap_cv_reference.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/aux_/void.hpp	/^namespace aux $/;"	n	namespace:boost::parameter
+aux	parameter/aux_/yesno.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/name.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/parameters.hpp	/^namespace aux { struct use_default {}; }$/;"	n	namespace:boost::parameter
+aux	parameter/parameters.hpp	/^namespace aux$/;"	n	namespace:boost::parameter
+aux	parameter/preprocessor.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+aux	parameter/python.hpp	/^namespace aux$/;"	n	namespace:boost::parameter::python
+aux	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n	namespace:boost::parameter::python
+begin_impl	parameter/aux_/arg_list.hpp	/^  struct begin_impl<parameter::aux::arg_list_tag>$/;"	s	namespace:boost::mpl
+bind	parameter/parameters.hpp	/^    struct bind$/;"	s	struct:boost::parameter::parameters	access:public
+binding	parameter/aux_/arg_list.hpp	/^    struct binding$/;"	s	struct:boost::parameter::aux::arg_list	access:public
+binding	parameter/aux_/arg_list.hpp	/^    struct binding$/;"	s	struct:boost::parameter::aux::empty_arg_list	access:public
+binding	parameter/aux_/tagged_argument.hpp	/^    struct binding$/;"	s	struct:boost::parameter::aux::tagged_argument	access:public
+binding	parameter/binding.hpp	/^struct binding$/;"	s	namespace:boost::parameter
+binding0	parameter/binding.hpp	/^struct binding0$/;"	s	namespace:boost::parameter
+bits	parameter/python.hpp	/^      typedef typename State::second bits;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+boost	parameter/aux_/arg_list.hpp	/^namespace boost { namespace parameter {$/;"	n
+boost	parameter/aux_/cast.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/default.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/is_maybe.hpp	/^namespace boost {$/;"	n
+boost	parameter/aux_/maybe.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/parameter_requirements.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/parenthesized_type.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n
+boost	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n
+boost	parameter/aux_/result_of0.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n
+boost	parameter/aux_/set.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/tag.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n
+boost	parameter/aux_/tagged_argument.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/template_keyword.hpp	/^namespace boost { namespace parameter { $/;"	n
+boost	parameter/aux_/unwrap_cv_reference.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/aux_/unwrap_cv_reference.hpp	/^namespace boost { template<class T> class reference_wrapper; }$/;"	n
+boost	parameter/aux_/void.hpp	/^namespace boost { namespace parameter { $/;"	n
+boost	parameter/aux_/yesno.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/binding.hpp	/^namespace boost { namespace parameter { $/;"	n
+boost	parameter/keyword.hpp	/^namespace boost { namespace parameter {$/;"	n
+boost	parameter/name.hpp	/^namespace boost { namespace mpl {$/;"	n
+boost	parameter/name.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/parameters.hpp	/^namespace boost {$/;"	n
+boost	parameter/preprocessor.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n
+boost	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python $/;"	n
+boost	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n
+boost	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python {$/;"	n
+boost	parameter/python.hpp	/^namespace boost { namespace python $/;"	n
+boost	parameter/value_type.hpp	/^namespace boost { namespace parameter { $/;"	n
+boost::mpl	parameter/aux_/arg_list.hpp	/^namespace mpl$/;"	n	namespace:boost
+boost::mpl	parameter/name.hpp	/^namespace boost { namespace mpl {$/;"	n	namespace:boost
+boost::mpl::begin_impl	parameter/aux_/arg_list.hpp	/^  struct begin_impl<parameter::aux::arg_list_tag>$/;"	s	namespace:boost::mpl
+boost::mpl::begin_impl::apply	parameter/aux_/arg_list.hpp	/^      struct apply$/;"	s	struct:boost::mpl::begin_impl	access:public
+boost::mpl::begin_impl::apply::type	parameter/aux_/arg_list.hpp	/^          typedef parameter::aux::arg_list_iterator<S> type;$/;"	t	struct:boost::mpl::begin_impl::apply	access:public
+boost::mpl::end_impl	parameter/aux_/arg_list.hpp	/^  struct end_impl<parameter::aux::arg_list_tag>$/;"	s	namespace:boost::mpl
+boost::mpl::end_impl::apply	parameter/aux_/arg_list.hpp	/^      struct apply$/;"	s	struct:boost::mpl::end_impl	access:public
+boost::mpl::end_impl::apply::type	parameter/aux_/arg_list.hpp	/^          typedef parameter::aux::arg_list_iterator<parameter::aux::empty_arg_list> type;$/;"	t	struct:boost::mpl::end_impl::apply	access:public
+boost::mpl::lambda	parameter/name.hpp	/^struct lambda<$/;"	s	namespace:boost::mpl
+boost::mpl::lambda::is_le	parameter/name.hpp	/^    typedef true_ is_le;$/;"	t	struct:boost::mpl::lambda	access:public
+boost::mpl::lambda::result_	parameter/name.hpp	/^    typedef bind3< quote3<parameter::value_type>, arg<2>, T, void> result_;$/;"	t	struct:boost::mpl::lambda	access:public
+boost::mpl::lambda::type	parameter/name.hpp	/^    typedef result_ type;$/;"	t	struct:boost::mpl::lambda	access:public
+boost::parameter	parameter/aux_/arg_list.hpp	/^namespace boost { namespace parameter {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/cast.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/default.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/is_maybe.hpp	/^namespace parameter {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/maybe.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/parameter_requirements.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/parenthesized_type.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost
+boost::parameter	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/result_of0.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost
+boost::parameter	parameter/aux_/set.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/tag.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost
+boost::parameter	parameter/aux_/tagged_argument.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/template_keyword.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+boost::parameter	parameter/aux_/unwrap_cv_reference.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/aux_/void.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+boost::parameter	parameter/aux_/yesno.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/binding.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+boost::parameter	parameter/keyword.hpp	/^namespace boost { namespace parameter {$/;"	n	namespace:boost
+boost::parameter	parameter/name.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/parameters.hpp	/^namespace parameter {$/;"	n	namespace:boost
+boost::parameter	parameter/preprocessor.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+boost::parameter	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python $/;"	n	namespace:boost
+boost::parameter	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n	namespace:boost
+boost::parameter	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python {$/;"	n	namespace:boost
+boost::parameter	parameter/value_type.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+boost::parameter::aux	parameter/aux_/arg_list.hpp	/^namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/cast.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/default.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/is_maybe.hpp	/^namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/maybe.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/parameter_requirements.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/parenthesized_type.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/result_of0.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/set.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/tag.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/tagged_argument.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/template_keyword.hpp	/^namespace aux $/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/unwrap_cv_reference.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/void.hpp	/^namespace aux $/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/aux_/yesno.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/name.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/parameters.hpp	/^namespace aux { struct use_default {}; }$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/parameters.hpp	/^namespace aux$/;"	n	namespace:boost::parameter
+boost::parameter::aux	parameter/preprocessor.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::aux::apply_predicate	parameter/preprocessor.hpp	/^struct apply_predicate$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::apply_predicate::BOOST_MPL_ASSERT	parameter/preprocessor.hpp	/^    BOOST_MPL_ASSERT(($/;"	p	struct:boost::parameter::aux::apply_predicate	access:public	signature:( mpl::and_<mpl::false_,T> )
+boost::parameter::aux::apply_predicate::type	parameter/preprocessor.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::aux::apply_predicate	access:public
+boost::parameter::aux::arg_list	parameter/aux_/arg_list.hpp	/^struct arg_list : Next$/;"	s	namespace:boost::parameter::aux	inherits:Next
+boost::parameter::aux::arg_list	parameter/aux_/arg_list.hpp	/^template <> struct arg_list<int,int> {};$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::arg_list::BOOST_PP_ENUM_BINARY_PARAMS	parameter/aux_/arg_list.hpp	/^        BOOST_PP_ENUM_BINARY_PARAMS(BOOST_PARAMETER_MAX_ARITY, A, & a)$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(BOOST_PARAMETER_MAX_ARITY, A, & a)
+boost::parameter::aux::arg_list::arg	parameter/aux_/arg_list.hpp	/^    TaggedArg arg;      \/\/ Stores the argument$/;"	m	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::arg_list	parameter/aux_/arg_list.hpp	/^    arg_list(TaggedArg head, Next const& tail)$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(TaggedArg head, Next const& tail)
+boost::parameter::aux::arg_list::binding	parameter/aux_/arg_list.hpp	/^    struct binding$/;"	s	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::binding::apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::arg_list::binding	access:public
+boost::parameter::aux::arg_list::binding::apply::type	parameter/aux_/arg_list.hpp	/^          >::type type;$/;"	t	struct:boost::parameter::aux::arg_list::binding::apply	access:public
+boost::parameter::aux::arg_list::get	parameter/aux_/arg_list.hpp	/^    reference get(default_<key_type,Default> const& d) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(default_<key_type,Default> const& d) const
+boost::parameter::aux::arg_list::get	parameter/aux_/arg_list.hpp	/^    reference get(keyword<key_type> const&) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(keyword<key_type> const&) const
+boost::parameter::aux::arg_list::get	parameter/aux_/arg_list.hpp	/^    reference get(lazy_default<key_type, Default>) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(lazy_default<key_type, Default>) const
+boost::parameter::aux::arg_list::get_default	parameter/aux_/arg_list.hpp	/^    reference get_default(D const& d, mpl::true_) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(D const& d, mpl::true_) const
+boost::parameter::aux::arg_list::get_default	parameter/aux_/arg_list.hpp	/^    reference get_default(D const&, mpl::false_) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(D const&, mpl::false_) const
+boost::parameter::aux::arg_list::has_key	parameter/aux_/arg_list.hpp	/^    static yes_tag has_key(key_type*);$/;"	p	struct:boost::parameter::aux::arg_list	access:public	signature:(key_type*)
+boost::parameter::aux::arg_list::holds_maybe	parameter/aux_/arg_list.hpp	/^    typedef typename is_maybe<typename TaggedArg::value_type>::type holds_maybe;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::key_owner	parameter/aux_/arg_list.hpp	/^    struct key_owner$/;"	s	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::key_owner::apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::arg_list::key_owner	access:public
+boost::parameter::aux::arg_list::key_owner::apply::type	parameter/aux_/arg_list.hpp	/^          >::type type;$/;"	t	struct:boost::parameter::aux::arg_list::key_owner::apply	access:public
+boost::parameter::aux::arg_list::key_type	parameter/aux_/arg_list.hpp	/^    typedef typename TaggedArg::key_type key_type;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::operator *	parameter/aux_/arg_list.hpp	/^    friend yes_tag operator*(arg_list, key_type*);$/;"	p	struct:boost::parameter::aux::arg_list	access:friend	signature:(arg_list, key_type*)
+boost::parameter::aux::arg_list::operator ,	parameter/aux_/arg_list.hpp	/^    operator,(tagged_argument<KW,T2> x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(tagged_argument<KW,T2> x) const
+boost::parameter::aux::arg_list::operator []	parameter/aux_/arg_list.hpp	/^    operator[](default_<KW, Default> x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(default_<KW, Default> x) const
+boost::parameter::aux::arg_list::operator []	parameter/aux_/arg_list.hpp	/^    operator[](keyword<KW> const& x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(keyword<KW> const& x) const
+boost::parameter::aux::arg_list::operator []	parameter/aux_/arg_list.hpp	/^    operator[](lazy_default<KW,F> x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(lazy_default<KW,F> x) const
+boost::parameter::aux::arg_list::operator []	parameter/aux_/arg_list.hpp	/^    reference operator[](default_<key_type, Default> const& d) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(default_<key_type, Default> const& d) const
+boost::parameter::aux::arg_list::operator []	parameter/aux_/arg_list.hpp	/^    reference operator[](keyword<key_type> const&) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(keyword<key_type> const&) const
+boost::parameter::aux::arg_list::operator []	parameter/aux_/arg_list.hpp	/^    reference operator[](lazy_default<key_type, Default>) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(lazy_default<key_type, Default>) const
+boost::parameter::aux::arg_list::reference	parameter/aux_/arg_list.hpp	/^    >::type reference;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::satisfies	parameter/aux_/arg_list.hpp	/^    satisfies($/;"	p	struct:boost::parameter::aux::arg_list	access:public	signature:( parameter_requirements<key_type,Predicate,HasDefault>* , ArgPack* )
+boost::parameter::aux::arg_list::self	parameter/aux_/arg_list.hpp	/^    typedef arg_list<TaggedArg,Next> self;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::tag	parameter/aux_/arg_list.hpp	/^    typedef arg_list_tag tag; \/\/ For dispatching to sequence intrinsics$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::tail_type	parameter/aux_/arg_list.hpp	/^    typedef Next tail_type;        \/\/ For the benefit of iterators$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::type	parameter/aux_/arg_list.hpp	/^    typedef self type;             \/\/ Convenience for users$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list::value_type	parameter/aux_/arg_list.hpp	/^    >::type value_type;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+boost::parameter::aux::arg_list_iterator	parameter/aux_/arg_list.hpp	/^struct arg_list_iterator$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::arg_list_iterator	parameter/aux_/arg_list.hpp	/^struct arg_list_iterator<empty_arg_list> {};$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::arg_list_iterator::category	parameter/aux_/arg_list.hpp	/^    typedef mpl::forward_iterator_tag category;$/;"	t	struct:boost::parameter::aux::arg_list_iterator	access:public
+boost::parameter::aux::arg_list_iterator::next	parameter/aux_/arg_list.hpp	/^    typedef arg_list_iterator<typename ArgumentPack::tail_type> next;$/;"	t	struct:boost::parameter::aux::arg_list_iterator	access:public
+boost::parameter::aux::arg_list_iterator::type	parameter/aux_/arg_list.hpp	/^    typedef typename ArgumentPack::key_type type;$/;"	t	struct:boost::parameter::aux::arg_list_iterator	access:public
+boost::parameter::aux::argument_pack	parameter/preprocessor.hpp	/^struct argument_pack$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::argument_pack::result	parameter/preprocessor.hpp	/^    >::type result;$/;"	t	struct:boost::parameter::aux::argument_pack	access:public
+boost::parameter::aux::argument_pack::type	parameter/preprocessor.hpp	/^    typedef typename mpl::first<result>::type type;$/;"	t	struct:boost::parameter::aux::argument_pack	access:public
+boost::parameter::aux::as_lvalue	parameter/preprocessor.hpp	/^T const& as_lvalue(T const& value, int)$/;"	f	namespace:boost::parameter::aux	signature:(T const& value, int)
+boost::parameter::aux::as_lvalue	parameter/preprocessor.hpp	/^T& as_lvalue(T& value, long)$/;"	f	namespace:boost::parameter::aux	signature:(T& value, long)
+boost::parameter::aux::as_parameter_requirements	parameter/parameters.hpp	/^  struct as_parameter_requirements$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::as_parameter_requirements::type	parameter/parameters.hpp	/^      > type;$/;"	t	struct:boost::parameter::aux::as_parameter_requirements	access:public
+boost::parameter::aux::as_placeholder_expr	parameter/aux_/cast.hpp	/^struct as_placeholder_expr$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::as_placeholder_expr::type	parameter/aux_/cast.hpp	/^    typedef T type;$/;"	t	struct:boost::parameter::aux::as_placeholder_expr	access:public
+boost::parameter::aux::cast	parameter/aux_/cast.hpp	/^struct cast<void(T), Args>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::cast	parameter/aux_/cast.hpp	/^struct cast<void*(T), Args>$/;"	s	namespace:boost::parameter::aux	inherits:cast
+boost::parameter::aux::cast	parameter/aux_/cast.hpp	/^struct cast<void*, Args>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::cast	parameter/aux_/cast.hpp	/^struct cast<voidstar(T), Args>$/;"	s	namespace:boost::parameter::aux	inherits:cast
+boost::parameter::aux::cast::execute	parameter/aux_/cast.hpp	/^    static U& execute(U& value)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(U& value)
+boost::parameter::aux::cast::execute	parameter/aux_/cast.hpp	/^    static type0 execute(type0 value)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(type0 value)
+boost::parameter::aux::cast::execute	parameter/aux_/cast.hpp	/^    static use_default_tag execute(use_default_tag)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(use_default_tag)
+boost::parameter::aux::cast::reference	parameter/aux_/cast.hpp	/^    >::type reference;$/;"	t	struct:boost::parameter::aux::cast	access:public
+boost::parameter::aux::cast::remove_const	parameter/aux_/cast.hpp	/^    static U& remove_const(U& x)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(U& x)
+boost::parameter::aux::cast::remove_const	parameter/aux_/cast.hpp	/^    static reference remove_const(U const& x)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(U const& x)
+boost::parameter::aux::cast::remove_const	parameter/aux_/cast.hpp	/^    static use_default_tag remove_const(use_default_tag)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(use_default_tag)
+boost::parameter::aux::cast::type0	parameter/aux_/cast.hpp	/^        as_placeholder_expr<T>, Args, Args>::type type0;$/;"	t	struct:boost::parameter::aux::cast	access:public
+boost::parameter::aux::deduce_tag	parameter/parameters.hpp	/^  struct deduce_tag$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::deduce_tag0	parameter/parameters.hpp	/^  struct deduce_tag0$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::deduce_tag0::BOOST_MPL_ASSERT	parameter/parameters.hpp	/^      BOOST_MPL_ASSERT(($/;"	p	struct:boost::parameter::aux::deduce_tag0	access:public	signature:( mpl::not_<mpl::and_< condition , aux::has_key_<UsedArgs, typename tag_type<spec>::type> > > )
+boost::parameter::aux::deduce_tag0::condition	parameter/parameters.hpp	/^      >::type condition;$/;"	t	struct:boost::parameter::aux::deduce_tag0	access:public
+boost::parameter::aux::deduce_tag0::spec	parameter/parameters.hpp	/^      typedef typename DeducedArgs::spec spec;$/;"	t	struct:boost::parameter::aux::deduce_tag0	access:public
+boost::parameter::aux::deduce_tag0::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::deduce_tag0	access:public
+boost::parameter::aux::deduce_tag::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::deduce_tag	access:public
+boost::parameter::aux::deduced_item	parameter/parameters.hpp	/^  struct deduced_item$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::deduced_item::spec	parameter/parameters.hpp	/^      typedef ParameterSpec spec;$/;"	t	struct:boost::parameter::aux::deduced_item	access:public
+boost::parameter::aux::deduced_item::tail	parameter/parameters.hpp	/^      typedef Tail tail;$/;"	t	struct:boost::parameter::aux::deduced_item	access:public
+boost::parameter::aux::default_	parameter/aux_/default.hpp	/^struct default_$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::default_::default_	parameter/aux_/default.hpp	/^    default_(Value& x)$/;"	f	struct:boost::parameter::aux::default_	access:public	signature:(Value& x)
+boost::parameter::aux::default_::value	parameter/aux_/default.hpp	/^    Value& value;$/;"	m	struct:boost::parameter::aux::default_	access:public
+boost::parameter::aux::empty_arg_list	parameter/aux_/arg_list.hpp	/^struct empty_arg_list$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::empty_arg_list::BOOST_PP_ENUM_PARAMS	parameter/aux_/arg_list.hpp	/^        BOOST_PP_ENUM_PARAMS($/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(BOOST_PARAMETER_MAX_ARITY, void_ BOOST_PP_INTERCEPT )
+boost::parameter::aux::empty_arg_list::binding	parameter/aux_/arg_list.hpp	/^    struct binding$/;"	s	struct:boost::parameter::aux::empty_arg_list	access:public
+boost::parameter::aux::empty_arg_list::binding::apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::empty_arg_list::binding	access:public
+boost::parameter::aux::empty_arg_list::binding::apply::type	parameter/aux_/arg_list.hpp	/^            typedef Default type;$/;"	t	struct:boost::parameter::aux::empty_arg_list::binding::apply	access:public
+boost::parameter::aux::empty_arg_list::empty_arg_list	parameter/aux_/arg_list.hpp	/^    empty_arg_list() {}$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:()
+boost::parameter::aux::empty_arg_list::get	parameter/aux_/arg_list.hpp	/^    T& get(default_<K,T> x) const$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(default_<K,T> x) const
+boost::parameter::aux::empty_arg_list::get	parameter/aux_/arg_list.hpp	/^    get(lazy_default<K,F> x) const$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(lazy_default<K,F> x) const
+boost::parameter::aux::empty_arg_list::has_key	parameter/aux_/arg_list.hpp	/^    static no_tag has_key(KW*);$/;"	p	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(KW*)
+boost::parameter::aux::empty_arg_list::key_owner	parameter/aux_/arg_list.hpp	/^    struct key_owner$/;"	s	struct:boost::parameter::aux::empty_arg_list	access:public
+boost::parameter::aux::empty_arg_list::key_owner::apply	parameter/aux_/arg_list.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::empty_arg_list::key_owner	access:public
+boost::parameter::aux::empty_arg_list::key_owner::apply::type	parameter/aux_/arg_list.hpp	/^            typedef empty_arg_list type;$/;"	t	struct:boost::parameter::aux::empty_arg_list::key_owner::apply	access:public
+boost::parameter::aux::empty_arg_list::operator []	parameter/aux_/arg_list.hpp	/^    Default& operator[](default_<K, Default> x) const$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(default_<K, Default> x) const
+boost::parameter::aux::empty_arg_list::operator []	parameter/aux_/arg_list.hpp	/^    operator[]($/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:( BOOST_PARAMETER_lazy_default_fallback<K,F> x) const
+boost::parameter::aux::empty_arg_list::satisfies	parameter/aux_/arg_list.hpp	/^    satisfies(ParameterRequirements*, ArgPack*);$/;"	p	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(ParameterRequirements*, ArgPack*)
+boost::parameter::aux::empty_arg_list::tag	parameter/aux_/arg_list.hpp	/^    typedef arg_list_tag tag; \/\/ For dispatching to sequence intrinsics$/;"	t	struct:boost::parameter::aux::empty_arg_list	access:public
+boost::parameter::aux::empty_arg_list::type	parameter/aux_/arg_list.hpp	/^    typedef empty_arg_list type;   \/\/ convenience$/;"	t	struct:boost::parameter::aux::empty_arg_list	access:public
+boost::parameter::aux::funptr_predicate	parameter/preprocessor.hpp	/^struct funptr_predicate$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::funptr_predicate	parameter/preprocessor.hpp	/^struct funptr_predicate<void**>$/;"	s	namespace:boost::parameter::aux	inherits:mpl::always
+boost::parameter::aux::funptr_predicate::apply	parameter/preprocessor.hpp	/^    struct apply$/;"	s	struct:boost::parameter::aux::funptr_predicate	access:public
+boost::parameter::aux::funptr_predicate::apply::BOOST_STATIC_CONSTANT	parameter/preprocessor.hpp	/^        BOOST_STATIC_CONSTANT(bool, result = $/;"	p	struct:boost::parameter::aux::funptr_predicate::apply	access:public	signature:(bool, result = sizeof(check_predicate(boost::type<T>(), (Args*)0, &p)) == 1 )
+boost::parameter::aux::funptr_predicate::apply::type	parameter/preprocessor.hpp	/^        typedef mpl::bool_<apply<T,Args>::result> type;$/;"	t	struct:boost::parameter::aux::funptr_predicate::apply	access:public
+boost::parameter::aux::funptr_predicate::check_predicate	parameter/preprocessor.hpp	/^     >::type check_predicate(type<T>, Args*, void*(*)(P0));$/;"	p	struct:boost::parameter::aux::funptr_predicate	access:public	signature:(type<T>, Args*, void*(*)(P0))
+boost::parameter::aux::funptr_predicate::check_predicate	parameter/preprocessor.hpp	/^    check_predicate(type<T>, Args*, void**(*)(P0));$/;"	p	struct:boost::parameter::aux::funptr_predicate	access:public	signature:(type<T>, Args*, void**(*)(P0))
+boost::parameter::aux::funptr_predicate::p	parameter/preprocessor.hpp	/^    static P p;$/;"	m	struct:boost::parameter::aux::funptr_predicate	access:public
+boost::parameter::aux::get_predicate	parameter/parameters.hpp	/^  struct get_predicate$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::get_predicate::type	parameter/parameters.hpp	/^      type;$/;"	t	struct:boost::parameter::aux::get_predicate	access:public
+boost::parameter::aux::get_predicate_or_default	parameter/parameters.hpp	/^  struct get_predicate_or_default$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::get_predicate_or_default	parameter/parameters.hpp	/^  struct get_predicate_or_default<use_default>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::get_predicate_or_default::type	parameter/parameters.hpp	/^      typedef T type;$/;"	t	struct:boost::parameter::aux::get_predicate_or_default	access:public
+boost::parameter::aux::get_predicate_or_default::type	parameter/parameters.hpp	/^      typedef mpl::always<mpl::true_> type;$/;"	t	struct:boost::parameter::aux::get_predicate_or_default	access:public
+boost::parameter::aux::get_reference	parameter/aux_/arg_list.hpp	/^struct get_reference$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::get_reference::type	parameter/aux_/arg_list.hpp	/^    typedef typename T::reference type;$/;"	t	struct:boost::parameter::aux::get_reference	access:public
+boost::parameter::aux::get_tag_type	parameter/parameters.hpp	/^  struct get_tag_type$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if
+boost::parameter::aux::get_tag_type0	parameter/parameters.hpp	/^  struct get_tag_type0$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::get_tag_type0::type	parameter/parameters.hpp	/^      typedef typename T::key_type type;$/;"	t	struct:boost::parameter::aux::get_tag_type0	access:public
+boost::parameter::aux::get_type	parameter/aux_/unwrap_cv_reference.hpp	/^struct get_type$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::get_type::type	parameter/aux_/unwrap_cv_reference.hpp	/^    typedef typename T::type type;$/;"	t	struct:boost::parameter::aux::get_type	access:public
+boost::parameter::aux::has_default	parameter/parameters.hpp	/^  struct has_default$/;"	s	namespace:boost::parameter::aux	inherits:mpl::not_
+boost::parameter::aux::has_key_	parameter/aux_/set.hpp	/^struct has_key_$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::has_key_::type	parameter/aux_/set.hpp	/^    typedef typename mpl::has_key<Set, K>::type type;$/;"	t	struct:boost::parameter::aux::has_key_	access:public
+boost::parameter::aux::insert_	parameter/aux_/set.hpp	/^struct insert_$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::insert_::type	parameter/aux_/set.hpp	/^    typedef typename mpl::insert<Set, K>::type type;$/;"	t	struct:boost::parameter::aux::insert_	access:public
+boost::parameter::aux::insert_tagged	parameter/parameters.hpp	/^  struct insert_tagged$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::insert_tagged::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::insert_tagged	access:public
+boost::parameter::aux::is_cv_reference_wrapper	parameter/aux_/unwrap_cv_reference.hpp	/^struct is_cv_reference_wrapper$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::is_cv_reference_wrapper	parameter/aux_/unwrap_cv_reference.hpp	/^struct is_cv_reference_wrapper<int>$/;"	s	namespace:boost::parameter::aux	inherits:mpl::false_
+boost::parameter::aux::is_cv_reference_wrapper::BOOST_STATIC_CONSTANT	parameter/aux_/unwrap_cv_reference.hpp	/^    BOOST_STATIC_CONSTANT($/;"	p	struct:boost::parameter::aux::is_cv_reference_wrapper	access:public	signature:( bool, value = ( sizeof(is_cv_reference_wrapper_check((T*)0)) == sizeof(yes_tag) ) )
+boost::parameter::aux::is_cv_reference_wrapper::type	parameter/aux_/unwrap_cv_reference.hpp	/^    value> type;$/;"	t	struct:boost::parameter::aux::is_cv_reference_wrapper	access:public
+boost::parameter::aux::is_cv_reference_wrapper_check	parameter/aux_/unwrap_cv_reference.hpp	/^no_tag is_cv_reference_wrapper_check(...);$/;"	p	namespace:boost::parameter::aux	signature:(....)
+boost::parameter::aux::is_cv_reference_wrapper_check	parameter/aux_/unwrap_cv_reference.hpp	/^yes_tag is_cv_reference_wrapper_check(reference_wrapper<U> const volatile*);$/;"	p	namespace:boost::parameter::aux	signature:(reference_wrapper<U> const volatile*)
+boost::parameter::aux::is_deduced	parameter/parameters.hpp	/^  struct is_deduced$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if::type
+boost::parameter::aux::is_deduced0	parameter/parameters.hpp	/^  struct is_deduced0$/;"	s	namespace:boost::parameter::aux	inherits:is_deduced_aux::type
+boost::parameter::aux::is_maybe	parameter/aux_/is_maybe.hpp	/^struct is_maybe$/;"	s	namespace:boost::parameter::aux	inherits:is_base_and_derived
+boost::parameter::aux::is_name_tag	parameter/name.hpp	/^struct is_name_tag$/;"	s	namespace:boost::parameter::aux	inherits:mpl::false_
+boost::parameter::aux::is_named_argument	parameter/parameters.hpp	/^  struct is_named_argument$/;"	s	namespace:boost::parameter::aux	inherits:mpl::or_
+boost::parameter::aux::is_pointer_convertible	parameter/aux_/template_keyword.hpp	/^  struct is_pointer_convertible$/;"	s	namespace:boost::parameter::aux	inherits:is_convertible
+boost::parameter::aux::is_tagged_argument	parameter/aux_/tagged_argument.hpp	/^struct is_tagged_argument$/;"	s	namespace:boost::parameter::aux	inherits:mpl::and_
+boost::parameter::aux::is_tagged_argument_aux	parameter/aux_/tagged_argument.hpp	/^struct is_tagged_argument_aux$/;"	s	namespace:boost::parameter::aux	inherits:is_convertible
+boost::parameter::aux::is_template_keyword	parameter/aux_/template_keyword.hpp	/^  struct is_template_keyword$/;"	s	namespace:boost::parameter::aux	inherits:mpl::and_
+boost::parameter::aux::item	parameter/parameters.hpp	/^  struct item$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::item::arg	parameter/parameters.hpp	/^      typedef Arg arg;$/;"	t	struct:boost::parameter::aux::item	access:public
+boost::parameter::aux::item::is_arg_const	parameter/parameters.hpp	/^      typedef is_const<Arg> is_arg_const;$/;"	t	struct:boost::parameter::aux::item	access:public
+boost::parameter::aux::item::spec	parameter/parameters.hpp	/^      typedef Spec spec;$/;"	t	struct:boost::parameter::aux::item	access:public
+boost::parameter::aux::item::tail	parameter/parameters.hpp	/^      typedef Tail tail;$/;"	t	struct:boost::parameter::aux::item	access:public
+boost::parameter::aux::lazy_default	parameter/aux_/default.hpp	/^struct lazy_default$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::lazy_default	parameter/aux_/default.hpp	/^struct lazy_default$/;"	s	namespace:boost::parameter::aux	inherits:lazy_default_base
+boost::parameter::aux::lazy_default::compute_default	parameter/aux_/default.hpp	/^    DefaultComputer const& compute_default;$/;"	m	struct:boost::parameter::aux::lazy_default	access:public
+boost::parameter::aux::lazy_default::lazy_default	parameter/aux_/default.hpp	/^      lazy_default(DefaultComputer const & x)$/;"	f	struct:boost::parameter::aux::lazy_default	access:public	signature:(DefaultComputer const & x)
+boost::parameter::aux::lazy_default::lazy_default	parameter/aux_/default.hpp	/^    lazy_default(const DefaultComputer& x)$/;"	f	struct:boost::parameter::aux::lazy_default	access:public	signature:(const DefaultComputer& x)
+boost::parameter::aux::lazy_default_base	parameter/aux_/default.hpp	/^struct lazy_default_base$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::lazy_default_base::compute_default	parameter/aux_/default.hpp	/^    DefaultComputer const& compute_default;$/;"	m	struct:boost::parameter::aux::lazy_default_base	access:public
+boost::parameter::aux::lazy_default_base::lazy_default_base	parameter/aux_/default.hpp	/^    lazy_default_base(DefaultComputer const& x)$/;"	f	struct:boost::parameter::aux::lazy_default_base	access:public	signature:(DefaultComputer const& x)
+boost::parameter::aux::make_arg_list	parameter/parameters.hpp	/^  struct make_arg_list$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_arg_list0	parameter/parameters.hpp	/^  struct make_arg_list0$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_arg_list00	parameter/parameters.hpp	/^  struct make_arg_list00$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_arg_list00::argument	parameter/parameters.hpp	/^      typedef typename List::arg argument;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::argument_pack	parameter/parameters.hpp	/^      >::type argument_pack;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::deduced_data	parameter/parameters.hpp	/^      >::type deduced_data;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::error	parameter/parameters.hpp	/^      >::type error;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::is_tagged	parameter/parameters.hpp	/^      typedef is_named_argument<argument> is_tagged;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::parameter_spec	parameter/parameters.hpp	/^      typedef typename List::spec parameter_spec;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::positional	parameter/parameters.hpp	/^      > positional;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::tag_	parameter/parameters.hpp	/^      typedef typename tag_type<parameter_spec>::type tag_;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::tagged	parameter/parameters.hpp	/^      >::type tagged;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list00::used_args	parameter/parameters.hpp	/^      >::type used_args;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+boost::parameter::aux::make_arg_list0::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list0	access:public
+boost::parameter::aux::make_arg_list::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list	access:public
+boost::parameter::aux::make_arg_list_aux	parameter/parameters.hpp	/^  struct make_arg_list_aux$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_arg_list_aux::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list_aux	access:public
+boost::parameter::aux::make_deduced_item	parameter/parameters.hpp	/^  struct make_deduced_item$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_deduced_item::type	parameter/parameters.hpp	/^      typedef deduced_item<Spec, typename Tail::type> type;$/;"	t	struct:boost::parameter::aux::make_deduced_item	access:public
+boost::parameter::aux::make_deduced_items	parameter/parameters.hpp	/^  struct make_deduced_items$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_deduced_items::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_deduced_items	access:public
+boost::parameter::aux::make_item	parameter/parameters.hpp	/^  struct make_item$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_item::type	parameter/parameters.hpp	/^      typedef item<Spec, Arg, typename Tail::type> type;$/;"	t	struct:boost::parameter::aux::make_item	access:public
+boost::parameter::aux::make_items	parameter/parameters.hpp	/^  struct make_items$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::make_items::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_items	access:public
+boost::parameter::aux::match	parameter/preprocessor.hpp	/^struct match$/;"	s	namespace:boost::parameter::aux	inherits:Parameters::,match
+boost::parameter::aux::maybe	parameter/aux_/maybe.hpp	/^struct maybe : maybe_base$/;"	s	namespace:boost::parameter::aux	inherits:maybe_base
+boost::parameter::aux::maybe::construct	parameter/aux_/maybe.hpp	/^    reference construct(U const& value_) const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(U const& value_) const
+boost::parameter::aux::maybe::construct	parameter/aux_/maybe.hpp	/^    reference construct(reference value_) const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(reference value_) const
+boost::parameter::aux::maybe::construct2	parameter/aux_/maybe.hpp	/^    reference construct2(U const& value_) const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(U const& value_) const
+boost::parameter::aux::maybe::constructed	parameter/aux_/maybe.hpp	/^    mutable bool constructed;$/;"	m	struct:boost::parameter::aux::maybe	access:private
+boost::parameter::aux::maybe::destroy	parameter/aux_/maybe.hpp	/^    void destroy()$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:()
+boost::parameter::aux::maybe::get	parameter/aux_/maybe.hpp	/^    reference get() const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:() const
+boost::parameter::aux::maybe::m_storage	parameter/aux_/maybe.hpp	/^    >::type m_storage;$/;"	m	struct:boost::parameter::aux::maybe	access:private
+boost::parameter::aux::maybe::maybe	parameter/aux_/maybe.hpp	/^    explicit maybe(T value_)$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(T value_)
+boost::parameter::aux::maybe::maybe	parameter/aux_/maybe.hpp	/^    maybe()$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:()
+boost::parameter::aux::maybe::non_cv_value	parameter/aux_/maybe.hpp	/^    >::type non_cv_value;$/;"	t	struct:boost::parameter::aux::maybe	access:public
+boost::parameter::aux::maybe::operator safe_bool	parameter/aux_/maybe.hpp	/^    operator safe_bool() const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:() const
+boost::parameter::aux::maybe::reference	parameter/aux_/maybe.hpp	/^    >::type reference;$/;"	t	struct:boost::parameter::aux::maybe	access:public
+boost::parameter::aux::maybe::value	parameter/aux_/maybe.hpp	/^    boost::optional<T> value;$/;"	m	struct:boost::parameter::aux::maybe	access:private
+boost::parameter::aux::maybe::~maybe	parameter/aux_/maybe.hpp	/^    ~maybe()$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:()
+boost::parameter::aux::maybe_base	parameter/aux_/is_maybe.hpp	/^struct maybe_base {};$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::msvc_store_argument_type	parameter/aux_/parenthesized_type.hpp	/^msvc_store_argument_type(void(*)(T));$/;"	p	namespace:boost::parameter::aux	signature:(void(*)(T))
+boost::parameter::aux::msvc_store_predicate_type	parameter/preprocessor.hpp	/^msvc_store_predicate_type(void*(*)(void*(T)));$/;"	p	namespace:boost::parameter::aux	signature:(void*(*)(void*(T)))
+boost::parameter::aux::msvc_store_predicate_type	parameter/preprocessor.hpp	/^msvc_store_predicate_type(void*(*)(void**(T)));$/;"	p	namespace:boost::parameter::aux	signature:(void*(*)(void**(T)))
+boost::parameter::aux::msvc_store_type	parameter/aux_/parenthesized_type.hpp	/^struct msvc_store_type : msvc_type_memory<Address>$/;"	s	namespace:boost::parameter::aux	inherits:msvc_type_memory
+boost::parameter::aux::msvc_store_type::location	parameter/aux_/parenthesized_type.hpp	/^    typedef msvc_type_memory<Address> location;$/;"	t	struct:boost::parameter::aux::msvc_store_type	access:public
+boost::parameter::aux::msvc_store_type::location::storage	parameter/aux_/parenthesized_type.hpp	/^    struct location::storage $/;"	s	class:boost::parameter::aux::msvc_store_type::location	access:public
+boost::parameter::aux::msvc_store_type::location::storage::type	parameter/aux_/parenthesized_type.hpp	/^        typedef Value type;$/;"	t	struct:boost::parameter::aux::msvc_store_type::location::storage	access:public
+boost::parameter::aux::msvc_store_type::storage_impl	parameter/aux_/parenthesized_type.hpp	/^    struct storage_impl<true>  $/;"	s	struct:boost::parameter::aux::msvc_store_type	access:public
+boost::parameter::aux::msvc_store_type::storage_impl::type	parameter/aux_/parenthesized_type.hpp	/^        typedef Value type;$/;"	t	struct:boost::parameter::aux::msvc_store_type::storage_impl	access:public
+boost::parameter::aux::msvc_type_memory	parameter/aux_/parenthesized_type.hpp	/^struct msvc_type_memory$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::msvc_type_memory::storage	parameter/aux_/parenthesized_type.hpp	/^    typedef storage_impl<true> storage;$/;"	t	struct:boost::parameter::aux::msvc_type_memory	access:public
+boost::parameter::aux::name_tag	parameter/name.hpp	/^struct name_tag$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::name_tag_base	parameter/name.hpp	/^struct name_tag_base$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::no_tag	parameter/aux_/yesno.hpp	/^typedef char (&no_tag)[2];$/;"	t	namespace:boost::parameter::aux
+boost::parameter::aux::operator *	parameter/aux_/arg_list.hpp	/^no_tag operator*(empty_arg_list, KW*);$/;"	p	namespace:boost::parameter::aux	signature:(empty_arg_list, KW*)
+boost::parameter::aux::parameter_requirements	parameter/aux_/parameter_requirements.hpp	/^struct parameter_requirements$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::parameter_requirements::has_default	parameter/aux_/parameter_requirements.hpp	/^    typedef HasDefault has_default;$/;"	t	struct:boost::parameter::aux::parameter_requirements	access:public
+boost::parameter::aux::parameter_requirements::keyword	parameter/aux_/parameter_requirements.hpp	/^    typedef Keyword keyword;$/;"	t	struct:boost::parameter::aux::parameter_requirements	access:public
+boost::parameter::aux::parameter_requirements::predicate	parameter/aux_/parameter_requirements.hpp	/^    typedef Predicate predicate;$/;"	t	struct:boost::parameter::aux::parameter_requirements	access:public
+boost::parameter::aux::predicate	parameter/parameters.hpp	/^  struct predicate$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if
+boost::parameter::aux::referent_size	parameter/aux_/maybe.hpp	/^struct referent_size<T&>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::referent_size::BOOST_STATIC_CONSTANT	parameter/aux_/maybe.hpp	/^  BOOST_STATIC_CONSTANT(std::size_t, value = sizeof(T));$/;"	p	struct:boost::parameter::aux::referent_size	access:public	signature:(std::size_t, value = sizeof(T))
+boost::parameter::aux::referent_storage	parameter/aux_/maybe.hpp	/^struct referent_storage$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::referent_storage::type	parameter/aux_/maybe.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::aux::referent_storage	access:public
+boost::parameter::aux::result_of0	parameter/aux_/result_of0.hpp	/^struct result_of0 : result_of<F()>$/;"	s	namespace:boost::parameter::aux	inherits:result_of
+boost::parameter::aux::satisfies	parameter/parameters.hpp	/^  struct satisfies$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::satisfies::bound	parameter/parameters.hpp	/^      >::type bound;$/;"	t	struct:boost::parameter::aux::satisfies	access:public
+boost::parameter::aux::satisfies::type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::satisfies	access:public
+boost::parameter::aux::satisfies_requirements_of	parameter/parameters.hpp	/^  struct satisfies_requirements_of$/;"	s	namespace:boost::parameter::aux	inherits:satisfies
+boost::parameter::aux::set0	parameter/aux_/set.hpp	/^typedef mpl::set0<> set0;$/;"	t	namespace:boost::parameter::aux
+boost::parameter::aux::tag	parameter/aux_/tag.hpp	/^struct tag$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::tag	parameter/aux_/tag.hpp	/^struct tag<Keyword,ActualArg,mpl::false_>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::tag::type	parameter/aux_/tag.hpp	/^    > type;$/;"	t	struct:boost::parameter::aux::tag	access:public
+boost::parameter::aux::tag_deduced	parameter/parameters.hpp	/^  struct tag_deduced$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::tag_deduced::type	parameter/parameters.hpp	/^      > type;$/;"	t	struct:boost::parameter::aux::tag_deduced	access:public
+boost::parameter::aux::tag_keyword_arg	parameter/parameters.hpp	/^  struct tag_keyword_arg$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::tag_keyword_arg::apply	parameter/parameters.hpp	/^      struct apply$/;"	s	struct:boost::parameter::aux::tag_keyword_arg	inherits:tag	access:public
+boost::parameter::aux::tag_template_keyword_arg	parameter/parameters.hpp	/^  struct tag_template_keyword_arg$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::tag_template_keyword_arg::apply	parameter/parameters.hpp	/^      struct apply$/;"	s	struct:boost::parameter::aux::tag_template_keyword_arg	access:public
+boost::parameter::aux::tag_template_keyword_arg::apply::type	parameter/parameters.hpp	/^          typedef template_keyword<K,T> type;$/;"	t	struct:boost::parameter::aux::tag_template_keyword_arg::apply	access:public
+boost::parameter::aux::tag_type	parameter/parameters.hpp	/^  struct tag_type$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if
+boost::parameter::aux::tagged_argument	parameter/aux_/tagged_argument.hpp	/^struct tagged_argument : tagged_argument_base$/;"	s	namespace:boost::parameter::aux	inherits:tagged_argument_base
+boost::parameter::aux::tagged_argument::binding	parameter/aux_/tagged_argument.hpp	/^    struct binding$/;"	s	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::binding::apply	parameter/aux_/tagged_argument.hpp	/^        struct apply$/;"	s	struct:boost::parameter::aux::tagged_argument::binding	access:public
+boost::parameter::aux::tagged_argument::binding::apply::type	parameter/aux_/tagged_argument.hpp	/^          >::type type;$/;"	t	struct:boost::parameter::aux::tagged_argument::binding::apply	access:public
+boost::parameter::aux::tagged_argument::get_with_default	parameter/aux_/tagged_argument.hpp	/^    Default& get_with_default(default_<KW,Default> const& x, int) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<KW,Default> const& x, int) const
+boost::parameter::aux::tagged_argument::get_with_default	parameter/aux_/tagged_argument.hpp	/^    reference get_with_default(default_<key_type,Default> const&, long) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<key_type,Default> const&, long) const
+boost::parameter::aux::tagged_argument::get_with_lazy_default	parameter/aux_/tagged_argument.hpp	/^    get_with_lazy_default(lazy_default<KW,F> const& x, int) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<KW,F> const& x, int) const
+boost::parameter::aux::tagged_argument::get_with_lazy_default	parameter/aux_/tagged_argument.hpp	/^    reference get_with_lazy_default(lazy_default<key_type,F> const&, long) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<key_type,F> const&, long) const
+boost::parameter::aux::tagged_argument::key_type	parameter/aux_/tagged_argument.hpp	/^    typedef Keyword key_type;$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::operator ,	parameter/aux_/tagged_argument.hpp	/^    operator,(tagged_argument<Keyword2, Arg2> x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(tagged_argument<Keyword2, Arg2> x) const
+boost::parameter::aux::tagged_argument::operator =	parameter/aux_/tagged_argument.hpp	/^    void operator=(tagged_argument const&);$/;"	p	struct:boost::parameter::aux::tagged_argument	access:private	signature:(tagged_argument const&)
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    Default& operator[](default_<KW,Default> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<KW,Default> const& x) const
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    operator[](default_<KW,Default> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<KW,Default> const& x) const
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    operator[](lazy_default<KW,F> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<KW,F> const& x) const
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    reference operator[](default_<key_type,Default> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<key_type,Default> const& x) const
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    reference operator[](keyword<Keyword> const&) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(keyword<Keyword> const&) const
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    reference operator[](lazy_default<key_type,F> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<key_type,F> const& x) const
+boost::parameter::aux::tagged_argument::operator []	parameter/aux_/tagged_argument.hpp	/^    typename result_of0<F>::type operator[](lazy_default<KW,F> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<KW,F> const& x) const
+boost::parameter::aux::tagged_argument::reference	parameter/aux_/tagged_argument.hpp	/^    typedef Arg& reference;$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::satisfies	parameter/aux_/tagged_argument.hpp	/^    satisfies($/;"	p	struct:boost::parameter::aux::tagged_argument	access:public	signature:( parameter_requirements<key_type,Predicate,HasDefault>* )
+boost::parameter::aux::tagged_argument::satisfies	parameter/aux_/tagged_argument.hpp	/^    satisfies(ParameterRequirements*);$/;"	p	struct:boost::parameter::aux::tagged_argument	access:public	signature:(ParameterRequirements*)
+boost::parameter::aux::tagged_argument::tag	parameter/aux_/tagged_argument.hpp	/^    typedef arg_list_tag tag; \/\/ For dispatching to sequence intrinsics$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::tagged_argument	parameter/aux_/tagged_argument.hpp	/^    tagged_argument(reference x) : value(x) {}$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(reference x)
+boost::parameter::aux::tagged_argument::tail_type	parameter/aux_/tagged_argument.hpp	/^    typedef empty_arg_list tail_type;        \/\/ For the benefit of iterators$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::type	parameter/aux_/tagged_argument.hpp	/^    typedef tagged_argument type;            \/\/ Convenience for users$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::value	parameter/aux_/tagged_argument.hpp	/^    reference value;$/;"	m	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument::value_type	parameter/aux_/tagged_argument.hpp	/^    typedef Arg value_type;$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+boost::parameter::aux::tagged_argument_base	parameter/aux_/tagged_argument.hpp	/^struct tagged_argument_base {};$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::template_keyword_tag	parameter/aux_/template_keyword.hpp	/^  struct template_keyword_tag {}; $/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::to_yesno	parameter/aux_/yesno.hpp	/^no_tag to_yesno(mpl::false_);$/;"	p	namespace:boost::parameter::aux	signature:(mpl::false_)
+boost::parameter::aux::to_yesno	parameter/aux_/yesno.hpp	/^yes_tag to_yesno(mpl::true_);$/;"	p	namespace:boost::parameter::aux	signature:(mpl::true_)
+boost::parameter::aux::unaryfunptr_arg_type	parameter/aux_/parenthesized_type.hpp	/^struct unaryfunptr_arg_type$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unaryfunptr_arg_type	parameter/aux_/parenthesized_type.hpp	/^struct unaryfunptr_arg_type<void(*)(Arg)>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unaryfunptr_arg_type	parameter/aux_/parenthesized_type.hpp	/^struct unaryfunptr_arg_type<void(*)(void)>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unaryfunptr_arg_type::dummy	parameter/aux_/parenthesized_type.hpp	/^    enum { dummy = sizeof(msvc_store_argument_type((FunctionPointer)0)) };$/;"	e	enum:boost::parameter::aux::unaryfunptr_arg_type::__anon1
+boost::parameter::aux::unaryfunptr_arg_type::type	parameter/aux_/parenthesized_type.hpp	/^    typedef Arg type;$/;"	t	struct:boost::parameter::aux::unaryfunptr_arg_type	access:public
+boost::parameter::aux::unaryfunptr_arg_type::type	parameter/aux_/parenthesized_type.hpp	/^    typedef typename msvc_type_memory<FunctionPointer>::storage::type type;$/;"	t	struct:boost::parameter::aux::unaryfunptr_arg_type	access:public
+boost::parameter::aux::unaryfunptr_arg_type::type	parameter/aux_/parenthesized_type.hpp	/^    typedef void type;$/;"	t	struct:boost::parameter::aux::unaryfunptr_arg_type	access:public
+boost::parameter::aux::unwrap_cv_reference	parameter/aux_/unwrap_cv_reference.hpp	/^struct unwrap_cv_reference$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_cv_reference	parameter/aux_/unwrap_cv_reference.hpp	/^struct unwrap_cv_reference<T const, mpl::false_>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_cv_reference	parameter/aux_/unwrap_cv_reference.hpp	/^struct unwrap_cv_reference<T, mpl::true_>$/;"	s	namespace:boost::parameter::aux	inherits:T
+boost::parameter::aux::unwrap_cv_reference::type	parameter/aux_/unwrap_cv_reference.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::aux::unwrap_cv_reference	access:public
+boost::parameter::aux::unwrap_cv_reference::type	parameter/aux_/unwrap_cv_reference.hpp	/^    typedef T const type;$/;"	t	struct:boost::parameter::aux::unwrap_cv_reference	access:public
+boost::parameter::aux::unwrap_cv_reference::type	parameter/aux_/unwrap_cv_reference.hpp	/^    typedef T type;$/;"	t	struct:boost::parameter::aux::unwrap_cv_reference	access:public
+boost::parameter::aux::unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void (Target)>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void *(Predicate)>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void*(*)(void**)>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void*>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<voidstar (Predicate)>$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::unwrap_predicate::dummy	parameter/preprocessor.hpp	/^    enum { dummy = sizeof(msvc_store_predicate_type(f)) };$/;"	e	enum:boost::parameter::aux::unwrap_predicate::__anon2
+boost::parameter::aux::unwrap_predicate::f	parameter/preprocessor.hpp	/^    static FunctionType f;$/;"	m	struct:boost::parameter::aux::unwrap_predicate	access:public
+boost::parameter::aux::unwrap_predicate::type	parameter/preprocessor.hpp	/^    typedef Predicate type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+boost::parameter::aux::unwrap_predicate::type	parameter/preprocessor.hpp	/^    typedef is_convertible<mpl::_, Target> type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+boost::parameter::aux::unwrap_predicate::type	parameter/preprocessor.hpp	/^    typedef mpl::always<mpl::true_> type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+boost::parameter::aux::unwrap_predicate::type	parameter/preprocessor.hpp	/^    typedef typename msvc_type_memory<FunctionType>::storage::type type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+boost::parameter::aux::use_default	parameter/parameters.hpp	/^namespace aux { struct use_default {}; }$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::use_default_tag	parameter/aux_/cast.hpp	/^struct use_default_tag {};$/;"	s	namespace:boost::parameter::aux
+boost::parameter::aux::void_reference	parameter/aux_/void.hpp	/^  inline void_& void_reference()$/;"	f	namespace:boost::parameter::aux	signature:()
+boost::parameter::aux::voidstar	parameter/aux_/cast.hpp	/^typedef void* voidstar;$/;"	t	namespace:boost::parameter::aux
+boost::parameter::aux::voidstar	parameter/preprocessor.hpp	/^typedef void* voidstar;$/;"	t	namespace:boost::parameter::aux
+boost::parameter::aux::yes_tag	parameter/aux_/yesno.hpp	/^typedef char yes_tag;$/;"	t	namespace:boost::parameter::aux
+boost::parameter::binding	parameter/binding.hpp	/^struct binding$/;"	s	namespace:boost::parameter
+boost::parameter::binding0	parameter/binding.hpp	/^struct binding0$/;"	s	namespace:boost::parameter
+boost::parameter::binding0::BOOST_MPL_ASSERT_NOT	parameter/binding.hpp	/^    BOOST_MPL_ASSERT_NOT(($/;"	p	struct:boost::parameter::binding0	access:public	signature:( mpl::and_< is_same<Default, void_> , is_same<type, void_> > )
+boost::parameter::binding0::type	parameter/binding.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::binding0	access:public
+boost::parameter::binding::type	parameter/binding.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::binding	access:public
+boost::parameter::deduced	parameter/parameters.hpp	/^struct deduced$/;"	s	namespace:boost::parameter
+boost::parameter::deduced::key_type	parameter/parameters.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::deduced	access:public
+boost::parameter::keyword	parameter/keyword.hpp	/^struct keyword$/;"	s	namespace:boost::parameter
+boost::parameter::keyword::aux::tag::operator =	parameter/keyword.hpp	/^    operator=(T const& x) const$/;"	f	class:boost::parameter::keyword::aux::tag	access:public	signature:(T const& x) const
+boost::parameter::keyword::aux::tag::operator =	parameter/keyword.hpp	/^    operator=(T& x) const$/;"	f	class:boost::parameter::keyword::aux::tag	access:public	signature:(T& x) const
+boost::parameter::keyword::get	parameter/keyword.hpp	/^    static keyword<Tag>& get()$/;"	f	struct:boost::parameter::keyword	access:public	signature:()
+boost::parameter::keyword::instance	parameter/keyword.hpp	/^    static keyword<Tag> const instance;$/;"	m	struct:boost::parameter::keyword	access:public
+boost::parameter::keyword::instance	parameter/keyword.hpp	/^keyword<Tag> const keyword<Tag>::instance = {};$/;"	m	class:boost::parameter::keyword
+boost::parameter::keyword::operator |	parameter/keyword.hpp	/^    operator|(Default& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(Default& default_) const
+boost::parameter::keyword::operator |	parameter/keyword.hpp	/^    operator|(const Default& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(const Default& default_) const volatile
+boost::parameter::keyword::operator ||	parameter/keyword.hpp	/^    operator||(Default const& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(Default const& default_) const volatile
+boost::parameter::keyword::operator ||	parameter/keyword.hpp	/^    operator||(Default& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(Default& default_) const
+boost::parameter::lazy_binding	parameter/binding.hpp	/^struct lazy_binding$/;"	s	namespace:boost::parameter
+boost::parameter::lazy_binding::type	parameter/binding.hpp	/^  >::type type;$/;"	t	struct:boost::parameter::lazy_binding	access:public
+boost::parameter::lazy_value_type	parameter/value_type.hpp	/^struct lazy_value_type$/;"	s	namespace:boost::parameter
+boost::parameter::lazy_value_type::type	parameter/value_type.hpp	/^  >::type type;$/;"	t	struct:boost::parameter::lazy_value_type	access:public
+boost::parameter::optional	parameter/parameters.hpp	/^struct optional$/;"	s	namespace:boost::parameter
+boost::parameter::optional::key_type	parameter/parameters.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::optional	access:public
+boost::parameter::optional::predicate	parameter/parameters.hpp	/^    typedef Predicate predicate;$/;"	t	struct:boost::parameter::optional	access:public
+boost::parameter::parameters	parameter/parameters.hpp	/^struct parameters$/;"	s	namespace:boost::parameter
+boost::parameter::parameters::bind	parameter/parameters.hpp	/^    struct bind$/;"	s	struct:boost::parameter::parameters	access:public
+boost::parameter::parameters::bind::result	parameter/parameters.hpp	/^        >::type result;$/;"	t	struct:boost::parameter::parameters::bind	access:public
+boost::parameter::parameters::bind::type	parameter/parameters.hpp	/^        typedef typename mpl::first<result>::type type;$/;"	t	struct:boost::parameter::parameters::bind	access:public
+boost::parameter::parameters::deduced_list	parameter/parameters.hpp	/^    )::type deduced_list;$/;"	t	struct:boost::parameter::parameters	access:public
+boost::parameter::parameters::match	parameter/parameters.hpp	/^    struct match$/;"	s	struct:boost::parameter::parameters	inherits:match_base::type	access:public
+boost::parameter::parameters::match_base	parameter/parameters.hpp	/^    struct match_base$/;"	s	struct:boost::parameter::parameters	inherits:mpl::if_	access:public
+boost::parameter::parameters::operator ()	parameter/parameters.hpp	/^    aux::empty_arg_list operator()() const$/;"	f	struct:boost::parameter::parameters	access:public	signature:() const
+boost::parameter::parameters::operator ()	parameter/parameters.hpp	/^    operator()(A0& a0) const$/;"	f	struct:boost::parameter::parameters	access:public	signature:(A0& a0) const
+boost::parameter::parameters::operator ()	parameter/parameters.hpp	/^    operator()(A0& a0, A1& a1) const$/;"	f	struct:boost::parameter::parameters	access:public	signature:(A0& a0, A1& a1) const
+boost::parameter::python	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n	namespace:boost::parameter
+boost::parameter::python	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python $/;"	n	namespace:boost::parameter
+boost::parameter::python	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n	namespace:boost::parameter
+boost::parameter::python	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python {$/;"	n	namespace:boost::parameter
+boost::parameter::python::aux	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n	namespace:boost::parameter::python
+boost::parameter::python::aux	parameter/python.hpp	/^namespace aux$/;"	n	namespace:boost::parameter::python
+boost::parameter::python::aux	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n	namespace:boost::parameter::python
+boost::parameter::python::aux::arg_spec	parameter/python.hpp	/^  struct arg_spec$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::arg_spec::keyword	parameter/python.hpp	/^      typedef K keyword;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+boost::parameter::python::aux::arg_spec::optimized_default	parameter/python.hpp	/^      typedef Optimized optimized_default;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+boost::parameter::python::aux::arg_spec::required	parameter/python.hpp	/^      typedef Required required;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+boost::parameter::python::aux::arg_spec::type	parameter/python.hpp	/^      typedef T type;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+boost::parameter::python::aux::call_invoker	parameter/aux_/python/invoker.hpp	/^struct call_invoker<0, T, R, Args>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::call_invoker::execute	parameter/aux_/python/invoker.hpp	/^    static R execute(T& self)$/;"	f	struct:boost::parameter::python::aux::call_invoker	access:public	signature:(T& self)
+boost::parameter::python::aux::call_policies_as_options	parameter/python.hpp	/^  struct call_policies_as_options$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::call_policies_as_options::call_policies	parameter/python.hpp	/^      CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::aux::call_policies_as_options	access:public
+boost::parameter::python::aux::call_policies_as_options::call_policies_as_options	parameter/python.hpp	/^      call_policies_as_options(CallPolicies const& call_policies)$/;"	f	struct:boost::parameter::python::aux::call_policies_as_options	access:public	signature:(CallPolicies const& call_policies)
+boost::parameter::python::aux::call_policies_as_options::doc	parameter/python.hpp	/^      char const* doc() const$/;"	f	struct:boost::parameter::python::aux::call_policies_as_options	access:public	signature:() const
+boost::parameter::python::aux::call_policies_as_options::policies	parameter/python.hpp	/^      CallPolicies const& policies() const$/;"	f	struct:boost::parameter::python::aux::call_policies_as_options	access:public	signature:() const
+boost::parameter::python::aux::combinations_op	parameter/python.hpp	/^  struct combinations_op$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::combinations_op::bits	parameter/python.hpp	/^      typedef typename State::second bits;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+boost::parameter::python::aux::combinations_op::next_bits	parameter/python.hpp	/^      >::type next_bits;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+boost::parameter::python::aux::combinations_op::result	parameter/python.hpp	/^      >::type result;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+boost::parameter::python::aux::combinations_op::result0	parameter/python.hpp	/^      typedef typename State::first result0;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+boost::parameter::python::aux::combinations_op::type	parameter/python.hpp	/^      > type;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+boost::parameter::python::aux::def_class	parameter/python.hpp	/^  struct def_class$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::def_class::cl	parameter/python.hpp	/^      Class& cl;$/;"	m	struct:boost::parameter::python::aux::def_class	access:public
+boost::parameter::python::aux::def_class::def	parameter/python.hpp	/^      void def(F f, Keywords const& keywords, not_specified const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, Keywords const& keywords, not_specified const*) const
+boost::parameter::python::aux::def_class::def	parameter/python.hpp	/^      void def(F f, Keywords const& keywords, void const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, Keywords const& keywords, void const*) const
+boost::parameter::python::aux::def_class::def	parameter/python.hpp	/^      void def(F f, not_specified const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, not_specified const*) const
+boost::parameter::python::aux::def_class::def	parameter/python.hpp	/^      void def(F f, void const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, void const*) const
+boost::parameter::python::aux::def_class::def_class	parameter/python.hpp	/^      def_class(Class& cl, char const* name, Options options = Options())$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(Class& cl, char const* name, Options options = Options())
+boost::parameter::python::aux::def_class::name	parameter/python.hpp	/^      char const* name;$/;"	m	struct:boost::parameter::python::aux::def_class	access:public
+boost::parameter::python::aux::def_class::operator ()	parameter/python.hpp	/^      void operator()(F f) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f) const
+boost::parameter::python::aux::def_class::operator ()	parameter/python.hpp	/^      void operator()(F f, Keywords const& keywords) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, Keywords const& keywords) const
+boost::parameter::python::aux::def_class::options	parameter/python.hpp	/^      Options options;$/;"	m	struct:boost::parameter::python::aux::def_class	access:public
+boost::parameter::python::aux::def_combination	parameter/python.hpp	/^  void def_combination($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, Specs*, Bits, Invoker*)
+boost::parameter::python::aux::def_combination_aux	parameter/python.hpp	/^  void def_combination_aux($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, End, End, Keywords const& keywords)
+boost::parameter::python::aux::def_combination_aux	parameter/python.hpp	/^  void def_combination_aux($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, End, End, no_keywords const&)
+boost::parameter::python::aux::def_combination_aux	parameter/python.hpp	/^  void def_combination_aux($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, Iter, End, Keywords const& keywords)
+boost::parameter::python::aux::def_combination_aux0	parameter/python.hpp	/^  void def_combination_aux0($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, Iter, End, Keywords const& keywords, mpl::false_)
+boost::parameter::python::aux::def_combination_aux0	parameter/python.hpp	/^  void def_combination_aux0($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, Iter, End, Keywords const& keywords, mpl::true_)
+boost::parameter::python::aux::def_combinations	parameter/python.hpp	/^  void def_combinations($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, Specs*, Bits, End, Invoker*)
+boost::parameter::python::aux::def_combinations	parameter/python.hpp	/^  void def_combinations($/;"	f	namespace:boost::parameter::python::aux	signature:( Def, Specs*, End, End, Invoker*)
+boost::parameter::python::aux::def_function	parameter/python.hpp	/^  struct def_function$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::def_function::def_function	parameter/python.hpp	/^      def_function(char const* name)$/;"	f	struct:boost::parameter::python::aux::def_function	access:public	signature:(char const* name)
+boost::parameter::python::aux::def_function::name	parameter/python.hpp	/^      char const* name;$/;"	m	struct:boost::parameter::python::aux::def_function	access:public
+boost::parameter::python::aux::def_function::operator ()	parameter/python.hpp	/^      void operator()(F f) const$/;"	f	struct:boost::parameter::python::aux::def_function	access:public	signature:(F f) const
+boost::parameter::python::aux::def_function::operator ()	parameter/python.hpp	/^      void operator()(F f, Keywords const& keywords) const$/;"	f	struct:boost::parameter::python::aux::def_function	access:public	signature:(F f, Keywords const& keywords) const
+boost::parameter::python::aux::def_init	parameter/python.hpp	/^  struct def_init$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::def_init::call_policies	parameter/python.hpp	/^      CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::aux::def_init	access:public
+boost::parameter::python::aux::def_init::cl	parameter/python.hpp	/^      Class& cl;$/;"	m	struct:boost::parameter::python::aux::def_init	access:public
+boost::parameter::python::aux::def_init::def_init	parameter/python.hpp	/^      def_init(Class& cl, CallPolicies call_policies = CallPolicies())$/;"	f	struct:boost::parameter::python::aux::def_init	access:public	signature:(Class& cl, CallPolicies call_policies = CallPolicies())
+boost::parameter::python::aux::def_init::operator ()	parameter/python.hpp	/^      void operator()(F f) const$/;"	f	struct:boost::parameter::python::aux::def_init	access:public	signature:(F f) const
+boost::parameter::python::aux::def_init::operator ()	parameter/python.hpp	/^      void operator()(F f, Keywords const& keywords) const$/;"	f	struct:boost::parameter::python::aux::def_init	access:public	signature:(F f, Keywords const& keywords) const
+boost::parameter::python::aux::empty_tag	parameter/python.hpp	/^  struct empty_tag {};$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::empty_tag_to_python	parameter/python.hpp	/^  struct empty_tag_to_python$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::empty_tag_to_python::convert	parameter/python.hpp	/^      static PyObject* convert(empty_tag)$/;"	f	struct:boost::parameter::python::aux::empty_tag_to_python	access:public	signature:(empty_tag)
+boost::parameter::python::aux::init_invoker	parameter/aux_/python/invoker.hpp	/^struct init_invoker<0, T, Args>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::init_invoker::execute	parameter/aux_/python/invoker.hpp	/^    static T* execute(T& self)$/;"	f	struct:boost::parameter::python::aux::init_invoker	access:public	signature:(T& self)
+boost::parameter::python::aux::initialize_converter	parameter/python.hpp	/^  inline void initialize_converter()$/;"	f	namespace:boost::parameter::python::aux	signature:()
+boost::parameter::python::aux::invoker	parameter/aux_/python/invoker.hpp	/^struct invoker<0, M, R, Args>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::invoker::execute	parameter/aux_/python/invoker.hpp	/^    static R execute()$/;"	f	struct:boost::parameter::python::aux::invoker	access:public	signature:()
+boost::parameter::python::aux::is_optional	parameter/python.hpp	/^  struct is_optional$/;"	s	namespace:boost::parameter::python::aux	inherits:mpl::not_
+boost::parameter::python::aux::keyword	parameter/python.hpp	/^  struct keyword$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::keyword	parameter/python.hpp	/^  struct keyword<K**>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::keyword	parameter/python.hpp	/^  struct keyword<K*>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::keyword::type	parameter/python.hpp	/^      typedef K type;$/;"	t	struct:boost::parameter::python::aux::keyword	access:public
+boost::parameter::python::aux::make_arg_spec	parameter/python.hpp	/^  struct make_arg_spec$/;"	s	namespace:boost::parameter::python::aux	inherits:make_arg_spec_impl
+boost::parameter::python::aux::make_arg_spec_impl	parameter/python.hpp	/^  struct make_arg_spec_impl$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_arg_spec_impl	parameter/python.hpp	/^  struct make_arg_spec_impl<K, T, typename K::third>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_arg_spec_impl::type	parameter/python.hpp	/^      > type;$/;"	t	struct:boost::parameter::python::aux::make_arg_spec_impl	access:public
+boost::parameter::python::aux::make_call_invoker	parameter/aux_/python/invoker.hpp	/^struct make_call_invoker$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_call_invoker::apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_call_invoker	access:public
+boost::parameter::python::aux::make_call_invoker::apply::type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_call_invoker::apply	access:public
+boost::parameter::python::aux::make_init_invoker	parameter/aux_/python/invoker.hpp	/^struct make_init_invoker$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_init_invoker::apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_init_invoker	access:public
+boost::parameter::python::aux::make_init_invoker::apply::type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_init_invoker::apply	access:public
+boost::parameter::python::aux::make_invoker	parameter/aux_/python/invoker.hpp	/^struct make_invoker$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_invoker::apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_invoker	access:public
+boost::parameter::python::aux::make_invoker::apply::type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_invoker::apply	access:public
+boost::parameter::python::aux::make_kw_spec	parameter/python.hpp	/^  struct make_kw_spec<K(T)>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_kw_spec::type	parameter/python.hpp	/^      > type;$/;"	t	struct:boost::parameter::python::aux::make_kw_spec	access:public
+boost::parameter::python::aux::make_member_invoker	parameter/aux_/python/invoker.hpp	/^struct make_member_invoker$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::make_member_invoker::apply	parameter/aux_/python/invoker.hpp	/^    struct apply$/;"	s	struct:boost::parameter::python::aux::make_member_invoker	access:public
+boost::parameter::python::aux::make_member_invoker::apply::type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_member_invoker::apply	access:public
+boost::parameter::python::aux::member_invoker	parameter/aux_/python/invoker.hpp	/^struct member_invoker<0, M, R, T, Args>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::member_invoker::execute	parameter/aux_/python/invoker.hpp	/^    static R execute(T& self)$/;"	f	struct:boost::parameter::python::aux::member_invoker	access:public	signature:(T& self)
+boost::parameter::python::aux::no_keywords	parameter/python.hpp	/^  struct no_keywords$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::no_keywords::operator ,	parameter/python.hpp	/^      T const& operator,(T const& x) const$/;"	f	struct:boost::parameter::python::aux::no_keywords	access:public	signature:(T const& x) const
+boost::parameter::python::aux::not_specified	parameter/python.hpp	/^  struct not_specified {};$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::optimized	parameter/python.hpp	/^  struct optimized$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::optimized	parameter/python.hpp	/^  struct optimized<K**>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::optimized::type	parameter/python.hpp	/^      typedef mpl::false_ type;$/;"	t	struct:boost::parameter::python::aux::optimized	access:public
+boost::parameter::python::aux::optimized::type	parameter/python.hpp	/^      typedef mpl::true_ type;$/;"	t	struct:boost::parameter::python::aux::optimized	access:public
+boost::parameter::python::aux::required	parameter/python.hpp	/^  struct required$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::required	parameter/python.hpp	/^  struct required<K*>$/;"	s	namespace:boost::parameter::python::aux
+boost::parameter::python::aux::required::type	parameter/python.hpp	/^      typedef mpl::false_ type;$/;"	t	struct:boost::parameter::python::aux::required	access:public
+boost::parameter::python::aux::required::type	parameter/python.hpp	/^      typedef mpl::true_ type;$/;"	t	struct:boost::parameter::python::aux::required	access:public
+boost::parameter::python::aux::unspecified_type	parameter/python.hpp	/^  inline PyObject* unspecified_type()$/;"	f	namespace:boost::parameter::python::aux	signature:()
+boost::parameter::python::call	parameter/python.hpp	/^struct call $/;"	s	namespace:boost::parameter::python	inherits:boost::python::def_visitor
+boost::parameter::python::call::call	parameter/python.hpp	/^    call(CallPolicies const& call_policies = CallPolicies())$/;"	f	struct:boost::parameter::python::call	access:public	signature:(CallPolicies const& call_policies = CallPolicies())
+boost::parameter::python::call::call_policies	parameter/python.hpp	/^    CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::call	access:public
+boost::parameter::python::call::operator []	parameter/python.hpp	/^    operator[](CallPolicies1 const& call_policies) const$/;"	f	struct:boost::parameter::python::call	access:public	signature:(CallPolicies1 const& call_policies) const
+boost::parameter::python::call::visit	parameter/python.hpp	/^    void visit(Class& cl) const$/;"	f	struct:boost::parameter::python::call	access:public	signature:(Class& cl) const
+boost::parameter::python::def	parameter/python.hpp	/^void def(Class& cl, char const* name, Signature)$/;"	f	namespace:boost::parameter::python	signature:(Class& cl, char const* name, Signature)
+boost::parameter::python::def	parameter/python.hpp	/^void def(char const* name, Signature)$/;"	f	namespace:boost::parameter::python	signature:(char const* name, Signature)
+boost::parameter::python::function	parameter/python.hpp	/^struct function $/;"	s	namespace:boost::parameter::python	inherits:boost::python::def_visitor
+boost::parameter::python::function::visit	parameter/python.hpp	/^    void visit(Class& cl, char const* name, Options const& options) const$/;"	f	struct:boost::parameter::python::function	access:public	signature:(Class& cl, char const* name, Options const& options) const
+boost::parameter::python::init	parameter/python.hpp	/^struct init $/;"	s	namespace:boost::parameter::python	inherits:boost::python::def_visitor
+boost::parameter::python::init::call_policies	parameter/python.hpp	/^    CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::init	access:public
+boost::parameter::python::init::init	parameter/python.hpp	/^    init(CallPolicies call_policies = CallPolicies())$/;"	f	struct:boost::parameter::python::init	access:public	signature:(CallPolicies call_policies = CallPolicies())
+boost::parameter::python::init::operator []	parameter/python.hpp	/^    operator[](CallPolicies1 const& call_policies) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(CallPolicies1 const& call_policies) const
+boost::parameter::python::init::visit	parameter/python.hpp	/^    void visit(Class& cl) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(Class& cl) const
+boost::parameter::python::init::visit_aux	parameter/python.hpp	/^    void visit_aux(Class& cl, mpl::false_) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(Class& cl, mpl::false_) const
+boost::parameter::python::init::visit_aux	parameter/python.hpp	/^    void visit_aux(Class& cl, mpl::true_) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(Class& cl, mpl::true_) const
+boost::parameter::required	parameter/parameters.hpp	/^struct required$/;"	s	namespace:boost::parameter
+boost::parameter::required::key_type	parameter/parameters.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::required	access:public
+boost::parameter::required::predicate	parameter/parameters.hpp	/^    typedef Predicate predicate;$/;"	t	struct:boost::parameter::required	access:public
+boost::parameter::template_keyword	parameter/aux_/template_keyword.hpp	/^struct template_keyword$/;"	s	namespace:boost::parameter	inherits:aux::template_keyword_tag
+boost::parameter::template_keyword::key_type	parameter/aux_/template_keyword.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::template_keyword	access:public
+boost::parameter::template_keyword::reference	parameter/aux_/template_keyword.hpp	/^    typedef value_type reference;$/;"	t	struct:boost::parameter::template_keyword	access:public
+boost::parameter::template_keyword::value_type	parameter/aux_/template_keyword.hpp	/^    typedef T value_type;$/;"	t	struct:boost::parameter::template_keyword	access:public
+boost::parameter::value_type	parameter/value_type.hpp	/^struct value_type$/;"	s	namespace:boost::parameter
+boost::parameter::value_type0	parameter/value_type.hpp	/^struct value_type0$/;"	s	namespace:boost::parameter
+boost::parameter::value_type0::BOOST_MPL_ASSERT_NOT	parameter/value_type.hpp	/^    BOOST_MPL_ASSERT_NOT(($/;"	p	struct:boost::parameter::value_type0	access:public	signature:( mpl::and_< is_same<Default, void_> , is_same<type, void_> > )
+boost::parameter::value_type0::type	parameter/value_type.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::value_type0	access:public
+boost::parameter::value_type::type	parameter/value_type.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::value_type	access:public
+boost::parameter::void_	parameter/aux_/void.hpp	/^struct void_ {}; $/;"	s	namespace:boost::parameter
+boost::python	parameter/python.hpp	/^namespace boost { namespace python $/;"	n	namespace:boost
+boost::python::arg_from_python	parameter/python.hpp	/^  struct arg_from_python<parameter::aux::maybe<T> >$/;"	s	namespace:boost::python	inherits:arg_from_python
+boost::python::arg_from_python::arg_from_python	parameter/python.hpp	/^      arg_from_python(PyObject* p)$/;"	f	struct:boost::python::arg_from_python	access:public	signature:(PyObject* p)
+boost::python::arg_from_python::convertible	parameter/python.hpp	/^      bool convertible() const$/;"	f	struct:boost::python::arg_from_python	access:public	signature:() const
+boost::python::arg_from_python::empty	parameter/python.hpp	/^      bool empty;$/;"	m	struct:boost::python::arg_from_python	access:public
+boost::python::arg_from_python::operator ()	parameter/python.hpp	/^      parameter::aux::maybe<T> operator()()$/;"	f	struct:boost::python::arg_from_python	access:public	signature:()
+bound	parameter/parameters.hpp	/^      >::type bound;$/;"	t	struct:boost::parameter::aux::satisfies	access:public
+call	parameter/python.hpp	/^    call(CallPolicies const& call_policies = CallPolicies())$/;"	f	struct:boost::parameter::python::call	access:public	signature:(CallPolicies const& call_policies = CallPolicies())
+call	parameter/python.hpp	/^struct call $/;"	s	namespace:boost::parameter::python	inherits:boost::python::def_visitor
+call_invoker	parameter/aux_/python/invoker.hpp	/^struct call_invoker<0, T, R, Args>$/;"	s	namespace:boost::parameter::python::aux
+call_policies	parameter/python.hpp	/^      CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::aux::call_policies_as_options	access:public
+call_policies	parameter/python.hpp	/^      CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::aux::def_init	access:public
+call_policies	parameter/python.hpp	/^    CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::call	access:public
+call_policies	parameter/python.hpp	/^    CallPolicies call_policies;$/;"	m	struct:boost::parameter::python::init	access:public
+call_policies_as_options	parameter/python.hpp	/^      call_policies_as_options(CallPolicies const& call_policies)$/;"	f	struct:boost::parameter::python::aux::call_policies_as_options	access:public	signature:(CallPolicies const& call_policies)
+call_policies_as_options	parameter/python.hpp	/^  struct call_policies_as_options$/;"	s	namespace:boost::parameter::python::aux
+cast	parameter/aux_/cast.hpp	/^struct cast<void(T), Args>$/;"	s	namespace:boost::parameter::aux
+cast	parameter/aux_/cast.hpp	/^struct cast<void*(T), Args>$/;"	s	namespace:boost::parameter::aux	inherits:cast
+cast	parameter/aux_/cast.hpp	/^struct cast<void*, Args>$/;"	s	namespace:boost::parameter::aux
+cast	parameter/aux_/cast.hpp	/^struct cast<voidstar(T), Args>$/;"	s	namespace:boost::parameter::aux	inherits:cast
+category	parameter/aux_/arg_list.hpp	/^    typedef mpl::forward_iterator_tag category;$/;"	t	struct:boost::parameter::aux::arg_list_iterator	access:public
+check_predicate	parameter/preprocessor.hpp	/^     >::type check_predicate(type<T>, Args*, void*(*)(P0));$/;"	p	struct:boost::parameter::aux::funptr_predicate	access:public	signature:(type<T>, Args*, void*(*)(P0))
+check_predicate	parameter/preprocessor.hpp	/^    check_predicate(type<T>, Args*, void**(*)(P0));$/;"	p	struct:boost::parameter::aux::funptr_predicate	access:public	signature:(type<T>, Args*, void**(*)(P0))
+cl	parameter/python.hpp	/^      Class& cl;$/;"	m	struct:boost::parameter::python::aux::def_class	access:public
+cl	parameter/python.hpp	/^      Class& cl;$/;"	m	struct:boost::parameter::python::aux::def_init	access:public
+combinations_op	parameter/python.hpp	/^  struct combinations_op$/;"	s	namespace:boost::parameter::python::aux
+compute_default	parameter/aux_/default.hpp	/^    DefaultComputer const& compute_default;$/;"	m	struct:boost::parameter::aux::lazy_default	access:public
+compute_default	parameter/aux_/default.hpp	/^    DefaultComputer const& compute_default;$/;"	m	struct:boost::parameter::aux::lazy_default_base	access:public
+condition	parameter/parameters.hpp	/^      >::type condition;$/;"	t	struct:boost::parameter::aux::deduce_tag0	access:public
+construct	parameter/aux_/maybe.hpp	/^    reference construct(U const& value_) const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(U const& value_) const
+construct	parameter/aux_/maybe.hpp	/^    reference construct(reference value_) const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(reference value_) const
+construct2	parameter/aux_/maybe.hpp	/^    reference construct2(U const& value_) const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(U const& value_) const
+constructed	parameter/aux_/maybe.hpp	/^    mutable bool constructed;$/;"	m	struct:boost::parameter::aux::maybe	access:private
+convert	parameter/python.hpp	/^      static PyObject* convert(empty_tag)$/;"	f	struct:boost::parameter::python::aux::empty_tag_to_python	access:public	signature:(empty_tag)
+convertible	parameter/python.hpp	/^      bool convertible() const$/;"	f	struct:boost::python::arg_from_python	access:public	signature:() const
+deduce_tag	parameter/parameters.hpp	/^  struct deduce_tag$/;"	s	namespace:boost::parameter::aux
+deduce_tag0	parameter/parameters.hpp	/^  struct deduce_tag0$/;"	s	namespace:boost::parameter::aux
+deduced	parameter/parameters.hpp	/^struct deduced$/;"	s	namespace:boost::parameter
+deduced_data	parameter/parameters.hpp	/^      >::type deduced_data;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+deduced_item	parameter/parameters.hpp	/^  struct deduced_item$/;"	s	namespace:boost::parameter::aux
+deduced_list	parameter/parameters.hpp	/^    )::type deduced_list;$/;"	t	struct:boost::parameter::parameters	access:public
+def	parameter/python.hpp	/^      void def(F f, Keywords const& keywords, not_specified const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, Keywords const& keywords, not_specified const*) const
+def	parameter/python.hpp	/^      void def(F f, Keywords const& keywords, void const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, Keywords const& keywords, void const*) const
+def	parameter/python.hpp	/^      void def(F f, not_specified const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, not_specified const*) const
+def	parameter/python.hpp	/^      void def(F f, void const*) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, void const*) const
+def	parameter/python.hpp	/^void def(Class& cl, char const* name, Signature)$/;"	f	namespace:boost::parameter::python	signature:(Class& cl, char const* name, Signature)
+def	parameter/python.hpp	/^void def(char const* name, Signature)$/;"	f	namespace:boost::parameter::python	signature:(char const* name, Signature)
+def_class	parameter/python.hpp	/^      def_class(Class& cl, char const* name, Options options = Options())$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(Class& cl, char const* name, Options options = Options())
+def_class	parameter/python.hpp	/^  struct def_class$/;"	s	namespace:boost::parameter::python::aux
+def_combination	parameter/python.hpp	/^  void def_combination($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, Specs*, Bits, Invoker*)
+def_combination_aux	parameter/python.hpp	/^  void def_combination_aux($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, End, End, Keywords const& keywords)
+def_combination_aux	parameter/python.hpp	/^  void def_combination_aux($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, End, End, no_keywords const&)
+def_combination_aux	parameter/python.hpp	/^  void def_combination_aux($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, Iter, End, Keywords const& keywords)
+def_combination_aux0	parameter/python.hpp	/^  void def_combination_aux0($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, Iter, End, Keywords const& keywords, mpl::false_)
+def_combination_aux0	parameter/python.hpp	/^  void def_combination_aux0($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, F f, Iter, End, Keywords const& keywords, mpl::true_)
+def_combinations	parameter/python.hpp	/^  void def_combinations($/;"	f	namespace:boost::parameter::python::aux	signature:( Def def, Specs*, Bits, End, Invoker*)
+def_combinations	parameter/python.hpp	/^  void def_combinations($/;"	f	namespace:boost::parameter::python::aux	signature:( Def, Specs*, End, End, Invoker*)
+def_function	parameter/python.hpp	/^      def_function(char const* name)$/;"	f	struct:boost::parameter::python::aux::def_function	access:public	signature:(char const* name)
+def_function	parameter/python.hpp	/^  struct def_function$/;"	s	namespace:boost::parameter::python::aux
+def_init	parameter/python.hpp	/^      def_init(Class& cl, CallPolicies call_policies = CallPolicies())$/;"	f	struct:boost::parameter::python::aux::def_init	access:public	signature:(Class& cl, CallPolicies call_policies = CallPolicies())
+def_init	parameter/python.hpp	/^  struct def_init$/;"	s	namespace:boost::parameter::python::aux
+default_	parameter/aux_/default.hpp	/^    default_(Value& x)$/;"	f	struct:boost::parameter::aux::default_	access:public	signature:(Value& x)
+default_	parameter/aux_/default.hpp	/^struct default_$/;"	s	namespace:boost::parameter::aux
+destroy	parameter/aux_/maybe.hpp	/^    void destroy()$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:()
+doc	parameter/python.hpp	/^      char const* doc() const$/;"	f	struct:boost::parameter::python::aux::call_policies_as_options	access:public	signature:() const
+dummy	parameter/aux_/parenthesized_type.hpp	/^    enum { dummy = sizeof(msvc_store_argument_type((FunctionPointer)0)) };$/;"	e	enum:boost::parameter::aux::unaryfunptr_arg_type::__anon1
+dummy	parameter/preprocessor.hpp	/^    enum { dummy = sizeof(msvc_store_predicate_type(f)) };$/;"	e	enum:boost::parameter::aux::unwrap_predicate::__anon2
+empty	parameter/python.hpp	/^      bool empty;$/;"	m	struct:boost::python::arg_from_python	access:public
+empty_arg_list	parameter/aux_/arg_list.hpp	/^    empty_arg_list() {}$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:()
+empty_arg_list	parameter/aux_/arg_list.hpp	/^struct empty_arg_list$/;"	s	namespace:boost::parameter::aux
+empty_tag	parameter/python.hpp	/^  struct empty_tag {};$/;"	s	namespace:boost::parameter::python::aux
+empty_tag_to_python	parameter/python.hpp	/^  struct empty_tag_to_python$/;"	s	namespace:boost::parameter::python::aux
+end_impl	parameter/aux_/arg_list.hpp	/^  struct end_impl<parameter::aux::arg_list_tag>$/;"	s	namespace:boost::mpl
+error	parameter/parameters.hpp	/^      >::type error;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+execute	parameter/aux_/cast.hpp	/^    static U& execute(U& value)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(U& value)
+execute	parameter/aux_/cast.hpp	/^    static type0 execute(type0 value)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(type0 value)
+execute	parameter/aux_/cast.hpp	/^    static use_default_tag execute(use_default_tag)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(use_default_tag)
+execute	parameter/aux_/python/invoker.hpp	/^    static R execute()$/;"	f	struct:boost::parameter::python::aux::invoker	access:public	signature:()
+execute	parameter/aux_/python/invoker.hpp	/^    static R execute(T& self)$/;"	f	struct:boost::parameter::python::aux::call_invoker	access:public	signature:(T& self)
+execute	parameter/aux_/python/invoker.hpp	/^    static R execute(T& self)$/;"	f	struct:boost::parameter::python::aux::member_invoker	access:public	signature:(T& self)
+execute	parameter/aux_/python/invoker.hpp	/^    static T* execute(T& self)$/;"	f	struct:boost::parameter::python::aux::init_invoker	access:public	signature:(T& self)
+execute	parameter/aux_/python/invoker_iterate.hpp	/^    execute($/;"	f	struct:invoker	access:public	signature:( T& self , BOOST_PP_ENUM_BINARY_PARAMS(N, arg, a) )
+f	parameter/preprocessor.hpp	/^    static FunctionType f;$/;"	m	struct:boost::parameter::aux::unwrap_predicate	access:public
+false_	parameter/preprocessor.hpp	140;"	d
+function	parameter/python.hpp	/^struct function $/;"	s	namespace:boost::parameter::python	inherits:boost::python::def_visitor
+funptr_predicate	parameter/preprocessor.hpp	/^struct funptr_predicate$/;"	s	namespace:boost::parameter::aux
+funptr_predicate	parameter/preprocessor.hpp	/^struct funptr_predicate<void**>$/;"	s	namespace:boost::parameter::aux	inherits:mpl::always
+get	parameter/aux_/arg_list.hpp	/^    T& get(default_<K,T> x) const$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(default_<K,T> x) const
+get	parameter/aux_/arg_list.hpp	/^    get(lazy_default<K,F> x) const$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(lazy_default<K,F> x) const
+get	parameter/aux_/arg_list.hpp	/^    reference get(default_<key_type,Default> const& d) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(default_<key_type,Default> const& d) const
+get	parameter/aux_/arg_list.hpp	/^    reference get(keyword<key_type> const&) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(keyword<key_type> const&) const
+get	parameter/aux_/arg_list.hpp	/^    reference get(lazy_default<key_type, Default>) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(lazy_default<key_type, Default>) const
+get	parameter/aux_/maybe.hpp	/^    reference get() const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:() const
+get	parameter/keyword.hpp	/^    static keyword<Tag>& get()$/;"	f	struct:boost::parameter::keyword	access:public	signature:()
+get_default	parameter/aux_/arg_list.hpp	/^    reference get_default(D const& d, mpl::true_) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(D const& d, mpl::true_) const
+get_default	parameter/aux_/arg_list.hpp	/^    reference get_default(D const&, mpl::false_) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(D const&, mpl::false_) const
+get_predicate	parameter/parameters.hpp	/^  struct get_predicate$/;"	s	namespace:boost::parameter::aux
+get_predicate_or_default	parameter/parameters.hpp	/^  struct get_predicate_or_default$/;"	s	namespace:boost::parameter::aux
+get_predicate_or_default	parameter/parameters.hpp	/^  struct get_predicate_or_default<use_default>$/;"	s	namespace:boost::parameter::aux
+get_reference	parameter/aux_/arg_list.hpp	/^struct get_reference$/;"	s	namespace:boost::parameter::aux
+get_tag_type	parameter/parameters.hpp	/^  struct get_tag_type$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if
+get_tag_type0	parameter/parameters.hpp	/^  struct get_tag_type0$/;"	s	namespace:boost::parameter::aux
+get_type	parameter/aux_/unwrap_cv_reference.hpp	/^struct get_type$/;"	s	namespace:boost::parameter::aux
+get_with_default	parameter/aux_/tagged_argument.hpp	/^    Default& get_with_default(default_<KW,Default> const& x, int) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<KW,Default> const& x, int) const
+get_with_default	parameter/aux_/tagged_argument.hpp	/^    reference get_with_default(default_<key_type,Default> const&, long) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<key_type,Default> const&, long) const
+get_with_lazy_default	parameter/aux_/tagged_argument.hpp	/^    get_with_lazy_default(lazy_default<KW,F> const& x, int) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<KW,F> const& x, int) const
+get_with_lazy_default	parameter/aux_/tagged_argument.hpp	/^    reference get_with_lazy_default(lazy_default<key_type,F> const&, long) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<key_type,F> const&, long) const
+has_default	parameter/aux_/parameter_requirements.hpp	/^    typedef HasDefault has_default;$/;"	t	struct:boost::parameter::aux::parameter_requirements	access:public
+has_default	parameter/parameters.hpp	/^  struct has_default$/;"	s	namespace:boost::parameter::aux	inherits:mpl::not_
+has_key	parameter/aux_/arg_list.hpp	/^    static no_tag has_key(KW*);$/;"	p	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(KW*)
+has_key	parameter/aux_/arg_list.hpp	/^    static yes_tag has_key(key_type*);$/;"	p	struct:boost::parameter::aux::arg_list	access:public	signature:(key_type*)
+has_key_	parameter/aux_/set.hpp	/^struct has_key_$/;"	s	namespace:boost::parameter::aux
+holds_maybe	parameter/aux_/arg_list.hpp	/^    typedef typename is_maybe<typename TaggedArg::value_type>::type holds_maybe;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+init	parameter/python.hpp	/^    init(CallPolicies call_policies = CallPolicies())$/;"	f	struct:boost::parameter::python::init	access:public	signature:(CallPolicies call_policies = CallPolicies())
+init	parameter/python.hpp	/^struct init $/;"	s	namespace:boost::parameter::python	inherits:boost::python::def_visitor
+init_invoker	parameter/aux_/python/invoker.hpp	/^struct init_invoker<0, T, Args>$/;"	s	namespace:boost::parameter::python::aux
+initialize_converter	parameter/python.hpp	/^  inline void initialize_converter()$/;"	f	namespace:boost::parameter::python::aux	signature:()
+insert_	parameter/aux_/set.hpp	/^struct insert_$/;"	s	namespace:boost::parameter::aux
+insert_tagged	parameter/parameters.hpp	/^  struct insert_tagged$/;"	s	namespace:boost::parameter::aux
+instance	parameter/keyword.hpp	/^    static keyword<Tag> const instance;$/;"	m	struct:boost::parameter::keyword	access:public
+instance	parameter/keyword.hpp	/^keyword<Tag> const keyword<Tag>::instance = {};$/;"	m	class:boost::parameter::keyword
+invoker	parameter/aux_/python/invoker.hpp	/^struct invoker<0, M, R, Args>$/;"	s	namespace:boost::parameter::python::aux
+invoker	parameter/aux_/python/invoker_iterate.hpp	/^struct invoker<N, M, R, Args>$/;"	s
+invoker::arg0	parameter/aux_/python/invoker_iterate.hpp	/^    >::type arg0;$/;"	t	struct:invoker	access:public
+invoker::execute	parameter/aux_/python/invoker_iterate.hpp	/^    execute($/;"	f	struct:invoker	access:public	signature:( T& self , BOOST_PP_ENUM_BINARY_PARAMS(N, arg, a) )
+invoker::iter0	parameter/aux_/python/invoker_iterate.hpp	/^    typedef typename mpl::begin<Args>::type iter0;$/;"	t	struct:invoker	access:public
+invoker::kw0	parameter/aux_/python/invoker_iterate.hpp	/^    typedef typename spec0::keyword kw0;$/;"	t	struct:invoker	access:public
+invoker::spec0	parameter/aux_/python/invoker_iterate.hpp	/^    typedef typename mpl::deref<iter0>::type spec0;$/;"	t	struct:invoker	access:public
+is_arg_const	parameter/parameters.hpp	/^      typedef is_const<Arg> is_arg_const;$/;"	t	struct:boost::parameter::aux::item	access:public
+is_cv_reference_wrapper	parameter/aux_/unwrap_cv_reference.hpp	/^struct is_cv_reference_wrapper$/;"	s	namespace:boost::parameter::aux
+is_cv_reference_wrapper	parameter/aux_/unwrap_cv_reference.hpp	/^struct is_cv_reference_wrapper<int>$/;"	s	namespace:boost::parameter::aux	inherits:mpl::false_
+is_cv_reference_wrapper_check	parameter/aux_/unwrap_cv_reference.hpp	/^no_tag is_cv_reference_wrapper_check(...);$/;"	p	namespace:boost::parameter::aux	signature:(....)
+is_cv_reference_wrapper_check	parameter/aux_/unwrap_cv_reference.hpp	/^yes_tag is_cv_reference_wrapper_check(reference_wrapper<U> const volatile*);$/;"	p	namespace:boost::parameter::aux	signature:(reference_wrapper<U> const volatile*)
+is_deduced	parameter/parameters.hpp	/^  struct is_deduced$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if::type
+is_deduced0	parameter/parameters.hpp	/^  struct is_deduced0$/;"	s	namespace:boost::parameter::aux	inherits:is_deduced_aux::type
+is_le	parameter/name.hpp	/^    typedef true_ is_le;$/;"	t	struct:boost::mpl::lambda	access:public
+is_maybe	parameter/aux_/is_maybe.hpp	/^struct is_maybe$/;"	s	namespace:boost::parameter::aux	inherits:is_base_and_derived
+is_name_tag	parameter/name.hpp	/^struct is_name_tag$/;"	s	namespace:boost::parameter::aux	inherits:mpl::false_
+is_named_argument	parameter/parameters.hpp	/^  struct is_named_argument$/;"	s	namespace:boost::parameter::aux	inherits:mpl::or_
+is_optional	parameter/python.hpp	/^  struct is_optional$/;"	s	namespace:boost::parameter::python::aux	inherits:mpl::not_
+is_pointer_convertible	parameter/aux_/template_keyword.hpp	/^  struct is_pointer_convertible$/;"	s	namespace:boost::parameter::aux	inherits:is_convertible
+is_tagged	parameter/parameters.hpp	/^      typedef is_named_argument<argument> is_tagged;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+is_tagged_argument	parameter/aux_/tagged_argument.hpp	/^struct is_tagged_argument$/;"	s	namespace:boost::parameter::aux	inherits:mpl::and_
+is_tagged_argument_aux	parameter/aux_/tagged_argument.hpp	/^struct is_tagged_argument_aux$/;"	s	namespace:boost::parameter::aux	inherits:is_convertible
+is_template_keyword	parameter/aux_/template_keyword.hpp	/^  struct is_template_keyword$/;"	s	namespace:boost::parameter::aux	inherits:mpl::and_
+item	parameter/parameters.hpp	/^  struct item$/;"	s	namespace:boost::parameter::aux
+iter0	parameter/aux_/python/invoker_iterate.hpp	/^    typedef typename mpl::begin<Args>::type iter0;$/;"	t	struct:invoker	access:public
+key_owner	parameter/aux_/arg_list.hpp	/^    struct key_owner$/;"	s	struct:boost::parameter::aux::arg_list	access:public
+key_owner	parameter/aux_/arg_list.hpp	/^    struct key_owner$/;"	s	struct:boost::parameter::aux::empty_arg_list	access:public
+key_type	parameter/aux_/arg_list.hpp	/^    typedef typename TaggedArg::key_type key_type;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+key_type	parameter/aux_/tagged_argument.hpp	/^    typedef Keyword key_type;$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+key_type	parameter/aux_/template_keyword.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::template_keyword	access:public
+key_type	parameter/parameters.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::deduced	access:public
+key_type	parameter/parameters.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::optional	access:public
+key_type	parameter/parameters.hpp	/^    typedef Tag key_type;$/;"	t	struct:boost::parameter::required	access:public
+keyword	parameter/aux_/parameter_requirements.hpp	/^    typedef Keyword keyword;$/;"	t	struct:boost::parameter::aux::parameter_requirements	access:public
+keyword	parameter/keyword.hpp	/^struct keyword$/;"	s	namespace:boost::parameter
+keyword	parameter/python.hpp	/^      typedef K keyword;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+keyword	parameter/python.hpp	/^  struct keyword$/;"	s	namespace:boost::parameter::python::aux
+keyword	parameter/python.hpp	/^  struct keyword<K**>$/;"	s	namespace:boost::parameter::python::aux
+keyword	parameter/python.hpp	/^  struct keyword<K*>$/;"	s	namespace:boost::parameter::python::aux
+kw0	parameter/aux_/python/invoker_iterate.hpp	/^    typedef typename spec0::keyword kw0;$/;"	t	struct:invoker	access:public
+lambda	parameter/name.hpp	/^struct lambda<$/;"	s	namespace:boost::mpl
+lazy_binding	parameter/binding.hpp	/^struct lazy_binding$/;"	s	namespace:boost::parameter
+lazy_default	parameter/aux_/default.hpp	/^      lazy_default(DefaultComputer const & x)$/;"	f	struct:boost::parameter::aux::lazy_default	access:public	signature:(DefaultComputer const & x)
+lazy_default	parameter/aux_/default.hpp	/^    lazy_default(const DefaultComputer& x)$/;"	f	struct:boost::parameter::aux::lazy_default	access:public	signature:(const DefaultComputer& x)
+lazy_default	parameter/aux_/default.hpp	/^struct lazy_default$/;"	s	namespace:boost::parameter::aux
+lazy_default	parameter/aux_/default.hpp	/^struct lazy_default$/;"	s	namespace:boost::parameter::aux	inherits:lazy_default_base
+lazy_default_base	parameter/aux_/default.hpp	/^    lazy_default_base(DefaultComputer const& x)$/;"	f	struct:boost::parameter::aux::lazy_default_base	access:public	signature:(DefaultComputer const& x)
+lazy_default_base	parameter/aux_/default.hpp	/^struct lazy_default_base$/;"	s	namespace:boost::parameter::aux
+lazy_value_type	parameter/value_type.hpp	/^struct lazy_value_type$/;"	s	namespace:boost::parameter
+location	parameter/aux_/parenthesized_type.hpp	/^    typedef msvc_type_memory<Address> location;$/;"	t	struct:boost::parameter::aux::msvc_store_type	access:public
+m_storage	parameter/aux_/maybe.hpp	/^    >::type m_storage;$/;"	m	struct:boost::parameter::aux::maybe	access:private
+make_arg_list	parameter/parameters.hpp	/^  struct make_arg_list$/;"	s	namespace:boost::parameter::aux
+make_arg_list0	parameter/parameters.hpp	/^  struct make_arg_list0$/;"	s	namespace:boost::parameter::aux
+make_arg_list00	parameter/parameters.hpp	/^  struct make_arg_list00$/;"	s	namespace:boost::parameter::aux
+make_arg_list_aux	parameter/parameters.hpp	/^  struct make_arg_list_aux$/;"	s	namespace:boost::parameter::aux
+make_arg_spec	parameter/python.hpp	/^  struct make_arg_spec$/;"	s	namespace:boost::parameter::python::aux	inherits:make_arg_spec_impl
+make_arg_spec_impl	parameter/python.hpp	/^  struct make_arg_spec_impl$/;"	s	namespace:boost::parameter::python::aux
+make_arg_spec_impl	parameter/python.hpp	/^  struct make_arg_spec_impl<K, T, typename K::third>$/;"	s	namespace:boost::parameter::python::aux
+make_call_invoker	parameter/aux_/python/invoker.hpp	/^struct make_call_invoker$/;"	s	namespace:boost::parameter::python::aux
+make_deduced_item	parameter/parameters.hpp	/^  struct make_deduced_item$/;"	s	namespace:boost::parameter::aux
+make_deduced_items	parameter/parameters.hpp	/^  struct make_deduced_items$/;"	s	namespace:boost::parameter::aux
+make_init_invoker	parameter/aux_/python/invoker.hpp	/^struct make_init_invoker$/;"	s	namespace:boost::parameter::python::aux
+make_invoker	parameter/aux_/python/invoker.hpp	/^struct make_invoker$/;"	s	namespace:boost::parameter::python::aux
+make_item	parameter/parameters.hpp	/^  struct make_item$/;"	s	namespace:boost::parameter::aux
+make_items	parameter/parameters.hpp	/^  struct make_items$/;"	s	namespace:boost::parameter::aux
+make_kw_spec	parameter/python.hpp	/^  struct make_kw_spec<K(T)>$/;"	s	namespace:boost::parameter::python::aux
+make_member_invoker	parameter/aux_/python/invoker.hpp	/^struct make_member_invoker$/;"	s	namespace:boost::parameter::python::aux
+match	parameter/parameters.hpp	/^    struct match$/;"	s	struct:boost::parameter::parameters	inherits:match_base::type	access:public
+match	parameter/preprocessor.hpp	/^struct match$/;"	s	namespace:boost::parameter::aux	inherits:Parameters::,match
+match_base	parameter/parameters.hpp	/^    struct match_base$/;"	s	struct:boost::parameter::parameters	inherits:mpl::if_	access:public
+maybe	parameter/aux_/maybe.hpp	/^    explicit maybe(T value_)$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:(T value_)
+maybe	parameter/aux_/maybe.hpp	/^    maybe()$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:()
+maybe	parameter/aux_/maybe.hpp	/^struct maybe : maybe_base$/;"	s	namespace:boost::parameter::aux	inherits:maybe_base
+maybe_base	parameter/aux_/is_maybe.hpp	/^struct maybe_base {};$/;"	s	namespace:boost::parameter::aux
+member_invoker	parameter/aux_/python/invoker.hpp	/^struct member_invoker<0, M, R, T, Args>$/;"	s	namespace:boost::parameter::python::aux
+mpl	parameter/aux_/arg_list.hpp	/^namespace mpl$/;"	n	namespace:boost
+mpl	parameter/name.hpp	/^namespace boost { namespace mpl {$/;"	n	namespace:boost
+msvc_store_argument_type	parameter/aux_/parenthesized_type.hpp	/^msvc_store_argument_type(void(*)(T));$/;"	p	namespace:boost::parameter::aux	signature:(void(*)(T))
+msvc_store_predicate_type	parameter/preprocessor.hpp	/^msvc_store_predicate_type(void*(*)(void*(T)));$/;"	p	namespace:boost::parameter::aux	signature:(void*(*)(void*(T)))
+msvc_store_predicate_type	parameter/preprocessor.hpp	/^msvc_store_predicate_type(void*(*)(void**(T)));$/;"	p	namespace:boost::parameter::aux	signature:(void*(*)(void**(T)))
+msvc_store_type	parameter/aux_/parenthesized_type.hpp	/^struct msvc_store_type : msvc_type_memory<Address>$/;"	s	namespace:boost::parameter::aux	inherits:msvc_type_memory
+msvc_type_memory	parameter/aux_/parenthesized_type.hpp	/^struct msvc_type_memory$/;"	s	namespace:boost::parameter::aux
+name	parameter/python.hpp	/^      char const* name;$/;"	m	struct:boost::parameter::python::aux::def_class	access:public
+name	parameter/python.hpp	/^      char const* name;$/;"	m	struct:boost::parameter::python::aux::def_function	access:public
+name_tag	parameter/name.hpp	/^struct name_tag$/;"	s	namespace:boost::parameter::aux
+name_tag_base	parameter/name.hpp	/^struct name_tag_base$/;"	s	namespace:boost::parameter::aux
+next	parameter/aux_/arg_list.hpp	/^    typedef arg_list_iterator<typename ArgumentPack::tail_type> next;$/;"	t	struct:boost::parameter::aux::arg_list_iterator	access:public
+next_bits	parameter/python.hpp	/^      >::type next_bits;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+no_keywords	parameter/python.hpp	/^  struct no_keywords$/;"	s	namespace:boost::parameter::python::aux
+no_tag	parameter/aux_/yesno.hpp	/^typedef char (&no_tag)[2];$/;"	t	namespace:boost::parameter::aux
+non_cv_value	parameter/aux_/maybe.hpp	/^    >::type non_cv_value;$/;"	t	struct:boost::parameter::aux::maybe	access:public
+not_specified	parameter/python.hpp	/^  struct not_specified {};$/;"	s	namespace:boost::parameter::python::aux
+operator ()	parameter/parameters.hpp	/^    aux::empty_arg_list operator()() const$/;"	f	struct:boost::parameter::parameters	access:public	signature:() const
+operator ()	parameter/parameters.hpp	/^    operator()(A0& a0) const$/;"	f	struct:boost::parameter::parameters	access:public	signature:(A0& a0) const
+operator ()	parameter/parameters.hpp	/^    operator()(A0& a0, A1& a1) const$/;"	f	struct:boost::parameter::parameters	access:public	signature:(A0& a0, A1& a1) const
+operator ()	parameter/python.hpp	/^      parameter::aux::maybe<T> operator()()$/;"	f	struct:boost::python::arg_from_python	access:public	signature:()
+operator ()	parameter/python.hpp	/^      void operator()(F f) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f) const
+operator ()	parameter/python.hpp	/^      void operator()(F f) const$/;"	f	struct:boost::parameter::python::aux::def_function	access:public	signature:(F f) const
+operator ()	parameter/python.hpp	/^      void operator()(F f) const$/;"	f	struct:boost::parameter::python::aux::def_init	access:public	signature:(F f) const
+operator ()	parameter/python.hpp	/^      void operator()(F f, Keywords const& keywords) const$/;"	f	struct:boost::parameter::python::aux::def_class	access:public	signature:(F f, Keywords const& keywords) const
+operator ()	parameter/python.hpp	/^      void operator()(F f, Keywords const& keywords) const$/;"	f	struct:boost::parameter::python::aux::def_function	access:public	signature:(F f, Keywords const& keywords) const
+operator ()	parameter/python.hpp	/^      void operator()(F f, Keywords const& keywords) const$/;"	f	struct:boost::parameter::python::aux::def_init	access:public	signature:(F f, Keywords const& keywords) const
+operator *	parameter/aux_/arg_list.hpp	/^    friend yes_tag operator*(arg_list, key_type*);$/;"	p	struct:boost::parameter::aux::arg_list	access:friend	signature:(arg_list, key_type*)
+operator *	parameter/aux_/arg_list.hpp	/^no_tag operator*(empty_arg_list, KW*);$/;"	p	namespace:boost::parameter::aux	signature:(empty_arg_list, KW*)
+operator ,	parameter/aux_/arg_list.hpp	/^    operator,(tagged_argument<KW,T2> x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(tagged_argument<KW,T2> x) const
+operator ,	parameter/aux_/tagged_argument.hpp	/^    operator,(tagged_argument<Keyword2, Arg2> x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(tagged_argument<Keyword2, Arg2> x) const
+operator ,	parameter/python.hpp	/^      T const& operator,(T const& x) const$/;"	f	struct:boost::parameter::python::aux::no_keywords	access:public	signature:(T const& x) const
+operator =	parameter/aux_/tagged_argument.hpp	/^    void operator=(tagged_argument const&);$/;"	p	struct:boost::parameter::aux::tagged_argument	access:private	signature:(tagged_argument const&)
+operator =	parameter/keyword.hpp	/^    operator=(T const& x) const$/;"	f	class:boost::parameter::keyword::aux::tag	access:public	signature:(T const& x) const
+operator =	parameter/keyword.hpp	/^    operator=(T& x) const$/;"	f	class:boost::parameter::keyword::aux::tag	access:public	signature:(T& x) const
+operator []	parameter/aux_/arg_list.hpp	/^    Default& operator[](default_<K, Default> x) const$/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(default_<K, Default> x) const
+operator []	parameter/aux_/arg_list.hpp	/^    operator[]($/;"	f	struct:boost::parameter::aux::empty_arg_list	access:public	signature:( BOOST_PARAMETER_lazy_default_fallback<K,F> x) const
+operator []	parameter/aux_/arg_list.hpp	/^    operator[](default_<KW, Default> x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(default_<KW, Default> x) const
+operator []	parameter/aux_/arg_list.hpp	/^    operator[](keyword<KW> const& x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(keyword<KW> const& x) const
+operator []	parameter/aux_/arg_list.hpp	/^    operator[](lazy_default<KW,F> x) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(lazy_default<KW,F> x) const
+operator []	parameter/aux_/arg_list.hpp	/^    reference operator[](default_<key_type, Default> const& d) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(default_<key_type, Default> const& d) const
+operator []	parameter/aux_/arg_list.hpp	/^    reference operator[](keyword<key_type> const&) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(keyword<key_type> const&) const
+operator []	parameter/aux_/arg_list.hpp	/^    reference operator[](lazy_default<key_type, Default>) const$/;"	f	struct:boost::parameter::aux::arg_list	access:public	signature:(lazy_default<key_type, Default>) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    Default& operator[](default_<KW,Default> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<KW,Default> const& x) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    operator[](default_<KW,Default> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<KW,Default> const& x) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    operator[](lazy_default<KW,F> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<KW,F> const& x) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    reference operator[](default_<key_type,Default> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(default_<key_type,Default> const& x) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    reference operator[](keyword<Keyword> const&) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(keyword<Keyword> const&) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    reference operator[](lazy_default<key_type,F> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<key_type,F> const& x) const
+operator []	parameter/aux_/tagged_argument.hpp	/^    typename result_of0<F>::type operator[](lazy_default<KW,F> const& x) const$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(lazy_default<KW,F> const& x) const
+operator []	parameter/python.hpp	/^    operator[](CallPolicies1 const& call_policies) const$/;"	f	struct:boost::parameter::python::call	access:public	signature:(CallPolicies1 const& call_policies) const
+operator []	parameter/python.hpp	/^    operator[](CallPolicies1 const& call_policies) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(CallPolicies1 const& call_policies) const
+operator safe_bool	parameter/aux_/maybe.hpp	/^    operator safe_bool() const$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:() const
+operator |	parameter/keyword.hpp	/^    operator|(Default& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(Default& default_) const
+operator |	parameter/keyword.hpp	/^    operator|(const Default& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(const Default& default_) const volatile
+operator ||	parameter/keyword.hpp	/^    operator||(Default const& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(Default const& default_) const volatile
+operator ||	parameter/keyword.hpp	/^    operator||(Default& default_) const$/;"	f	struct:boost::parameter::keyword	access:public	signature:(Default& default_) const
+optimized	parameter/python.hpp	/^  struct optimized$/;"	s	namespace:boost::parameter::python::aux
+optimized	parameter/python.hpp	/^  struct optimized<K**>$/;"	s	namespace:boost::parameter::python::aux
+optimized_default	parameter/python.hpp	/^      typedef Optimized optimized_default;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+optional	parameter/parameters.hpp	/^struct optional$/;"	s	namespace:boost::parameter
+options	parameter/python.hpp	/^      Options options;$/;"	m	struct:boost::parameter::python::aux::def_class	access:public
+p	parameter/preprocessor.hpp	/^    static P p;$/;"	m	struct:boost::parameter::aux::funptr_predicate	access:public
+parameter	parameter/aux_/arg_list.hpp	/^namespace boost { namespace parameter {$/;"	n	namespace:boost
+parameter	parameter/aux_/cast.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/default.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/is_maybe.hpp	/^namespace parameter {$/;"	n	namespace:boost
+parameter	parameter/aux_/maybe.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/parameter_requirements.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/parenthesized_type.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost
+parameter	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/result_of0.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost
+parameter	parameter/aux_/set.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/tag.hpp	/^namespace boost { namespace parameter { namespace aux { $/;"	n	namespace:boost
+parameter	parameter/aux_/tagged_argument.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/template_keyword.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+parameter	parameter/aux_/unwrap_cv_reference.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/aux_/void.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+parameter	parameter/aux_/yesno.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/binding.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+parameter	parameter/keyword.hpp	/^namespace boost { namespace parameter {$/;"	n	namespace:boost
+parameter	parameter/name.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/parameters.hpp	/^namespace parameter {$/;"	n	namespace:boost
+parameter	parameter/preprocessor.hpp	/^namespace boost { namespace parameter { namespace aux {$/;"	n	namespace:boost
+parameter	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python $/;"	n	namespace:boost
+parameter	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n	namespace:boost
+parameter	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python {$/;"	n	namespace:boost
+parameter	parameter/value_type.hpp	/^namespace boost { namespace parameter { $/;"	n	namespace:boost
+parameter_	parameter/parameters.hpp	/^namespace parameter_$/;"	n
+parameter_::unmatched_argument	parameter/parameters.hpp	/^  struct unmatched_argument$/;"	s	namespace:parameter_
+parameter_::unmatched_argument::BOOST_MPL_ASSERT	parameter/parameters.hpp	/^      BOOST_MPL_ASSERT((boost::is_same<T,void>));$/;"	p	struct:parameter_::unmatched_argument	access:public	signature:(boost::is_same<T,void>)
+parameter_::unmatched_argument::type	parameter/parameters.hpp	/^      typedef int type;$/;"	t	struct:parameter_::unmatched_argument	access:public
+parameter_requirements	parameter/aux_/parameter_requirements.hpp	/^struct parameter_requirements$/;"	s	namespace:boost::parameter::aux
+parameter_spec	parameter/parameters.hpp	/^      typedef typename List::spec parameter_spec;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+parameters	parameter/parameters.hpp	/^struct parameters$/;"	s	namespace:boost::parameter
+policies	parameter/python.hpp	/^      CallPolicies const& policies() const$/;"	f	struct:boost::parameter::python::aux::call_policies_as_options	access:public	signature:() const
+positional	parameter/parameters.hpp	/^      > positional;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+predicate	parameter/aux_/parameter_requirements.hpp	/^    typedef Predicate predicate;$/;"	t	struct:boost::parameter::aux::parameter_requirements	access:public
+predicate	parameter/parameters.hpp	/^    typedef Predicate predicate;$/;"	t	struct:boost::parameter::optional	access:public
+predicate	parameter/parameters.hpp	/^    typedef Predicate predicate;$/;"	t	struct:boost::parameter::required	access:public
+predicate	parameter/parameters.hpp	/^  struct predicate$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if
+python	parameter/aux_/python/invoker.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux {$/;"	n	namespace:boost::parameter
+python	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python $/;"	n	namespace:boost::parameter
+python	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python { namespace aux $/;"	n	namespace:boost::parameter
+python	parameter/python.hpp	/^namespace boost { namespace parameter { namespace python {$/;"	n	namespace:boost::parameter
+python	parameter/python.hpp	/^namespace boost { namespace python $/;"	n	namespace:boost
+reference	parameter/aux_/arg_list.hpp	/^    >::type reference;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+reference	parameter/aux_/cast.hpp	/^    >::type reference;$/;"	t	struct:boost::parameter::aux::cast	access:public
+reference	parameter/aux_/maybe.hpp	/^    >::type reference;$/;"	t	struct:boost::parameter::aux::maybe	access:public
+reference	parameter/aux_/tagged_argument.hpp	/^    typedef Arg& reference;$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+reference	parameter/aux_/template_keyword.hpp	/^    typedef value_type reference;$/;"	t	struct:boost::parameter::template_keyword	access:public
+referent_size	parameter/aux_/maybe.hpp	/^struct referent_size<T&>$/;"	s	namespace:boost::parameter::aux
+referent_storage	parameter/aux_/maybe.hpp	/^struct referent_storage$/;"	s	namespace:boost::parameter::aux
+remove_const	parameter/aux_/cast.hpp	/^    static U& remove_const(U& x)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(U& x)
+remove_const	parameter/aux_/cast.hpp	/^    static reference remove_const(U const& x)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(U const& x)
+remove_const	parameter/aux_/cast.hpp	/^    static use_default_tag remove_const(use_default_tag)$/;"	f	struct:boost::parameter::aux::cast	access:public	signature:(use_default_tag)
+required	parameter/parameters.hpp	/^struct required$/;"	s	namespace:boost::parameter
+required	parameter/python.hpp	/^      typedef Required required;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+required	parameter/python.hpp	/^  struct required$/;"	s	namespace:boost::parameter::python::aux
+required	parameter/python.hpp	/^  struct required<K*>$/;"	s	namespace:boost::parameter::python::aux
+result	parameter/parameters.hpp	/^        >::type result;$/;"	t	struct:boost::parameter::parameters::bind	access:public
+result	parameter/preprocessor.hpp	/^    >::type result;$/;"	t	struct:boost::parameter::aux::argument_pack	access:public
+result	parameter/python.hpp	/^      >::type result;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+result0	parameter/python.hpp	/^      typedef typename State::first result0;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+result_	parameter/name.hpp	/^    typedef bind3< quote3<parameter::value_type>, arg<2>, T, void> result_;$/;"	t	struct:boost::mpl::lambda	access:public
+result_of0	parameter/aux_/result_of0.hpp	/^struct result_of0 : result_of<F()>$/;"	s	namespace:boost::parameter::aux	inherits:result_of
+satisfies	parameter/aux_/arg_list.hpp	/^    satisfies($/;"	p	struct:boost::parameter::aux::arg_list	access:public	signature:( parameter_requirements<key_type,Predicate,HasDefault>* , ArgPack* )
+satisfies	parameter/aux_/arg_list.hpp	/^    satisfies(ParameterRequirements*, ArgPack*);$/;"	p	struct:boost::parameter::aux::empty_arg_list	access:public	signature:(ParameterRequirements*, ArgPack*)
+satisfies	parameter/aux_/tagged_argument.hpp	/^    satisfies($/;"	p	struct:boost::parameter::aux::tagged_argument	access:public	signature:( parameter_requirements<key_type,Predicate,HasDefault>* )
+satisfies	parameter/aux_/tagged_argument.hpp	/^    satisfies(ParameterRequirements*);$/;"	p	struct:boost::parameter::aux::tagged_argument	access:public	signature:(ParameterRequirements*)
+satisfies	parameter/parameters.hpp	/^  struct satisfies$/;"	s	namespace:boost::parameter::aux
+satisfies_requirements_of	parameter/parameters.hpp	/^  struct satisfies_requirements_of$/;"	s	namespace:boost::parameter::aux	inherits:satisfies
+self	parameter/aux_/arg_list.hpp	/^    typedef arg_list<TaggedArg,Next> self;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+set0	parameter/aux_/set.hpp	/^typedef mpl::set0<> set0;$/;"	t	namespace:boost::parameter::aux
+spec	parameter/parameters.hpp	/^      typedef ParameterSpec spec;$/;"	t	struct:boost::parameter::aux::deduced_item	access:public
+spec	parameter/parameters.hpp	/^      typedef Spec spec;$/;"	t	struct:boost::parameter::aux::item	access:public
+spec	parameter/parameters.hpp	/^      typedef typename DeducedArgs::spec spec;$/;"	t	struct:boost::parameter::aux::deduce_tag0	access:public
+spec0	parameter/aux_/python/invoker_iterate.hpp	/^    typedef typename mpl::deref<iter0>::type spec0;$/;"	t	struct:invoker	access:public
+storage	parameter/aux_/parenthesized_type.hpp	/^    struct location::storage $/;"	s	class:boost::parameter::aux::msvc_store_type::location	access:public
+storage	parameter/aux_/parenthesized_type.hpp	/^    typedef storage_impl<true> storage;$/;"	t	struct:boost::parameter::aux::msvc_type_memory	access:public
+storage_impl	parameter/aux_/parenthesized_type.hpp	/^    struct storage_impl<true>  $/;"	s	struct:boost::parameter::aux::msvc_store_type	access:public
+tag	parameter/aux_/arg_list.hpp	/^    typedef arg_list_tag tag; \/\/ For dispatching to sequence intrinsics$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+tag	parameter/aux_/arg_list.hpp	/^    typedef arg_list_tag tag; \/\/ For dispatching to sequence intrinsics$/;"	t	struct:boost::parameter::aux::empty_arg_list	access:public
+tag	parameter/aux_/tag.hpp	/^struct tag$/;"	s	namespace:boost::parameter::aux
+tag	parameter/aux_/tag.hpp	/^struct tag<Keyword,ActualArg,mpl::false_>$/;"	s	namespace:boost::parameter::aux
+tag	parameter/aux_/tagged_argument.hpp	/^    typedef arg_list_tag tag; \/\/ For dispatching to sequence intrinsics$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+tag_	parameter/parameters.hpp	/^      typedef typename tag_type<parameter_spec>::type tag_;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+tag_deduced	parameter/parameters.hpp	/^  struct tag_deduced$/;"	s	namespace:boost::parameter::aux
+tag_keyword_arg	parameter/parameters.hpp	/^  struct tag_keyword_arg$/;"	s	namespace:boost::parameter::aux
+tag_template_keyword_arg	parameter/parameters.hpp	/^  struct tag_template_keyword_arg$/;"	s	namespace:boost::parameter::aux
+tag_type	parameter/parameters.hpp	/^  struct tag_type$/;"	s	namespace:boost::parameter::aux	inherits:mpl::eval_if
+tagged	parameter/parameters.hpp	/^      >::type tagged;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+tagged_argument	parameter/aux_/tagged_argument.hpp	/^    tagged_argument(reference x) : value(x) {}$/;"	f	struct:boost::parameter::aux::tagged_argument	access:public	signature:(reference x)
+tagged_argument	parameter/aux_/tagged_argument.hpp	/^struct tagged_argument : tagged_argument_base$/;"	s	namespace:boost::parameter::aux	inherits:tagged_argument_base
+tagged_argument_base	parameter/aux_/tagged_argument.hpp	/^struct tagged_argument_base {};$/;"	s	namespace:boost::parameter::aux
+tail	parameter/parameters.hpp	/^      typedef Tail tail;$/;"	t	struct:boost::parameter::aux::deduced_item	access:public
+tail	parameter/parameters.hpp	/^      typedef Tail tail;$/;"	t	struct:boost::parameter::aux::item	access:public
+tail_type	parameter/aux_/arg_list.hpp	/^    typedef Next tail_type;        \/\/ For the benefit of iterators$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+tail_type	parameter/aux_/tagged_argument.hpp	/^    typedef empty_arg_list tail_type;        \/\/ For the benefit of iterators$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+template_keyword	parameter/aux_/template_keyword.hpp	/^struct template_keyword$/;"	s	namespace:boost::parameter	inherits:aux::template_keyword_tag
+template_keyword_tag	parameter/aux_/template_keyword.hpp	/^  struct template_keyword_tag {}; $/;"	s	namespace:boost::parameter::aux
+to_yesno	parameter/aux_/yesno.hpp	/^no_tag to_yesno(mpl::false_);$/;"	p	namespace:boost::parameter::aux	signature:(mpl::false_)
+to_yesno	parameter/aux_/yesno.hpp	/^yes_tag to_yesno(mpl::true_);$/;"	p	namespace:boost::parameter::aux	signature:(mpl::true_)
+type	parameter/aux_/arg_list.hpp	/^            typedef Default type;$/;"	t	struct:boost::parameter::aux::empty_arg_list::binding::apply	access:public
+type	parameter/aux_/arg_list.hpp	/^            typedef empty_arg_list type;$/;"	t	struct:boost::parameter::aux::empty_arg_list::key_owner::apply	access:public
+type	parameter/aux_/arg_list.hpp	/^          >::type type;$/;"	t	struct:boost::parameter::aux::arg_list::binding::apply	access:public
+type	parameter/aux_/arg_list.hpp	/^          >::type type;$/;"	t	struct:boost::parameter::aux::arg_list::key_owner::apply	access:public
+type	parameter/aux_/arg_list.hpp	/^          typedef parameter::aux::arg_list_iterator<S> type;$/;"	t	struct:boost::mpl::begin_impl::apply	access:public
+type	parameter/aux_/arg_list.hpp	/^          typedef parameter::aux::arg_list_iterator<parameter::aux::empty_arg_list> type;$/;"	t	struct:boost::mpl::end_impl::apply	access:public
+type	parameter/aux_/arg_list.hpp	/^    typedef empty_arg_list type;   \/\/ convenience$/;"	t	struct:boost::parameter::aux::empty_arg_list	access:public
+type	parameter/aux_/arg_list.hpp	/^    typedef self type;             \/\/ Convenience for users$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+type	parameter/aux_/arg_list.hpp	/^    typedef typename ArgumentPack::key_type type;$/;"	t	struct:boost::parameter::aux::arg_list_iterator	access:public
+type	parameter/aux_/arg_list.hpp	/^    typedef typename T::reference type;$/;"	t	struct:boost::parameter::aux::get_reference	access:public
+type	parameter/aux_/cast.hpp	/^    typedef T type;$/;"	t	struct:boost::parameter::aux::as_placeholder_expr	access:public
+type	parameter/aux_/maybe.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::aux::referent_storage	access:public
+type	parameter/aux_/parenthesized_type.hpp	/^        typedef Value type;$/;"	t	struct:boost::parameter::aux::msvc_store_type::location::storage	access:public
+type	parameter/aux_/parenthesized_type.hpp	/^        typedef Value type;$/;"	t	struct:boost::parameter::aux::msvc_store_type::storage_impl	access:public
+type	parameter/aux_/parenthesized_type.hpp	/^    typedef Arg type;$/;"	t	struct:boost::parameter::aux::unaryfunptr_arg_type	access:public
+type	parameter/aux_/parenthesized_type.hpp	/^    typedef typename msvc_type_memory<FunctionPointer>::storage::type type;$/;"	t	struct:boost::parameter::aux::unaryfunptr_arg_type	access:public
+type	parameter/aux_/parenthesized_type.hpp	/^    typedef void type;$/;"	t	struct:boost::parameter::aux::unaryfunptr_arg_type	access:public
+type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_call_invoker::apply	access:public
+type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_init_invoker::apply	access:public
+type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_invoker::apply	access:public
+type	parameter/aux_/python/invoker.hpp	/^        > type;$/;"	t	struct:boost::parameter::python::aux::make_member_invoker::apply	access:public
+type	parameter/aux_/set.hpp	/^    typedef typename mpl::has_key<Set, K>::type type;$/;"	t	struct:boost::parameter::aux::has_key_	access:public
+type	parameter/aux_/set.hpp	/^    typedef typename mpl::insert<Set, K>::type type;$/;"	t	struct:boost::parameter::aux::insert_	access:public
+type	parameter/aux_/tag.hpp	/^    > type;$/;"	t	struct:boost::parameter::aux::tag	access:public
+type	parameter/aux_/tagged_argument.hpp	/^          >::type type;$/;"	t	struct:boost::parameter::aux::tagged_argument::binding::apply	access:public
+type	parameter/aux_/tagged_argument.hpp	/^    typedef tagged_argument type;            \/\/ Convenience for users$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+type	parameter/aux_/unwrap_cv_reference.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::aux::unwrap_cv_reference	access:public
+type	parameter/aux_/unwrap_cv_reference.hpp	/^    typedef T const type;$/;"	t	struct:boost::parameter::aux::unwrap_cv_reference	access:public
+type	parameter/aux_/unwrap_cv_reference.hpp	/^    typedef T type;$/;"	t	struct:boost::parameter::aux::unwrap_cv_reference	access:public
+type	parameter/aux_/unwrap_cv_reference.hpp	/^    typedef typename T::type type;$/;"	t	struct:boost::parameter::aux::get_type	access:public
+type	parameter/aux_/unwrap_cv_reference.hpp	/^    value> type;$/;"	t	struct:boost::parameter::aux::is_cv_reference_wrapper	access:public
+type	parameter/binding.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::binding	access:public
+type	parameter/binding.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::binding0	access:public
+type	parameter/binding.hpp	/^  >::type type;$/;"	t	struct:boost::parameter::lazy_binding	access:public
+type	parameter/name.hpp	/^    typedef result_ type;$/;"	t	struct:boost::mpl::lambda	access:public
+type	parameter/parameters.hpp	/^          typedef template_keyword<K,T> type;$/;"	t	struct:boost::parameter::aux::tag_template_keyword_arg::apply	access:public
+type	parameter/parameters.hpp	/^        typedef typename mpl::first<result>::type type;$/;"	t	struct:boost::parameter::parameters::bind	access:public
+type	parameter/parameters.hpp	/^      > type;$/;"	t	struct:boost::parameter::aux::as_parameter_requirements	access:public
+type	parameter/parameters.hpp	/^      > type;$/;"	t	struct:boost::parameter::aux::tag_deduced	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::deduce_tag	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::deduce_tag0	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::insert_tagged	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list0	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_arg_list_aux	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_deduced_items	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::make_items	access:public
+type	parameter/parameters.hpp	/^      >::type type;$/;"	t	struct:boost::parameter::aux::satisfies	access:public
+type	parameter/parameters.hpp	/^      type;$/;"	t	struct:boost::parameter::aux::get_predicate	access:public
+type	parameter/parameters.hpp	/^      typedef T type;$/;"	t	struct:boost::parameter::aux::get_predicate_or_default	access:public
+type	parameter/parameters.hpp	/^      typedef deduced_item<Spec, typename Tail::type> type;$/;"	t	struct:boost::parameter::aux::make_deduced_item	access:public
+type	parameter/parameters.hpp	/^      typedef int type;$/;"	t	struct:parameter_::unmatched_argument	access:public
+type	parameter/parameters.hpp	/^      typedef item<Spec, Arg, typename Tail::type> type;$/;"	t	struct:boost::parameter::aux::make_item	access:public
+type	parameter/parameters.hpp	/^      typedef mpl::always<mpl::true_> type;$/;"	t	struct:boost::parameter::aux::get_predicate_or_default	access:public
+type	parameter/parameters.hpp	/^      typedef typename T::key_type type;$/;"	t	struct:boost::parameter::aux::get_tag_type0	access:public
+type	parameter/preprocessor.hpp	/^        typedef mpl::bool_<apply<T,Args>::result> type;$/;"	t	struct:boost::parameter::aux::funptr_predicate::apply	access:public
+type	parameter/preprocessor.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::aux::apply_predicate	access:public
+type	parameter/preprocessor.hpp	/^    typedef Predicate type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+type	parameter/preprocessor.hpp	/^    typedef is_convertible<mpl::_, Target> type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+type	parameter/preprocessor.hpp	/^    typedef mpl::always<mpl::true_> type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+type	parameter/preprocessor.hpp	/^    typedef typename mpl::first<result>::type type;$/;"	t	struct:boost::parameter::aux::argument_pack	access:public
+type	parameter/preprocessor.hpp	/^    typedef typename msvc_type_memory<FunctionType>::storage::type type;$/;"	t	struct:boost::parameter::aux::unwrap_predicate	access:public
+type	parameter/python.hpp	/^      > type;$/;"	t	struct:boost::parameter::python::aux::combinations_op	access:public
+type	parameter/python.hpp	/^      > type;$/;"	t	struct:boost::parameter::python::aux::make_arg_spec_impl	access:public
+type	parameter/python.hpp	/^      > type;$/;"	t	struct:boost::parameter::python::aux::make_kw_spec	access:public
+type	parameter/python.hpp	/^      typedef K type;$/;"	t	struct:boost::parameter::python::aux::keyword	access:public
+type	parameter/python.hpp	/^      typedef T type;$/;"	t	struct:boost::parameter::python::aux::arg_spec	access:public
+type	parameter/python.hpp	/^      typedef mpl::false_ type;$/;"	t	struct:boost::parameter::python::aux::optimized	access:public
+type	parameter/python.hpp	/^      typedef mpl::false_ type;$/;"	t	struct:boost::parameter::python::aux::required	access:public
+type	parameter/python.hpp	/^      typedef mpl::true_ type;$/;"	t	struct:boost::parameter::python::aux::optimized	access:public
+type	parameter/python.hpp	/^      typedef mpl::true_ type;$/;"	t	struct:boost::parameter::python::aux::required	access:public
+type	parameter/value_type.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::value_type	access:public
+type	parameter/value_type.hpp	/^    >::type type;$/;"	t	struct:boost::parameter::value_type0	access:public
+type	parameter/value_type.hpp	/^  >::type type;$/;"	t	struct:boost::parameter::lazy_value_type	access:public
+type0	parameter/aux_/cast.hpp	/^        as_placeholder_expr<T>, Args, Args>::type type0;$/;"	t	struct:boost::parameter::aux::cast	access:public
+unaryfunptr_arg_type	parameter/aux_/parenthesized_type.hpp	/^struct unaryfunptr_arg_type$/;"	s	namespace:boost::parameter::aux
+unaryfunptr_arg_type	parameter/aux_/parenthesized_type.hpp	/^struct unaryfunptr_arg_type<void(*)(Arg)>$/;"	s	namespace:boost::parameter::aux
+unaryfunptr_arg_type	parameter/aux_/parenthesized_type.hpp	/^struct unaryfunptr_arg_type<void(*)(void)>$/;"	s	namespace:boost::parameter::aux
+unmatched_argument	parameter/parameters.hpp	/^  struct unmatched_argument$/;"	s	namespace:parameter_
+unspecified_type	parameter/python.hpp	/^  inline PyObject* unspecified_type()$/;"	f	namespace:boost::parameter::python::aux	signature:()
+unwrap_cv_reference	parameter/aux_/unwrap_cv_reference.hpp	/^struct unwrap_cv_reference$/;"	s	namespace:boost::parameter::aux
+unwrap_cv_reference	parameter/aux_/unwrap_cv_reference.hpp	/^struct unwrap_cv_reference<T const, mpl::false_>$/;"	s	namespace:boost::parameter::aux
+unwrap_cv_reference	parameter/aux_/unwrap_cv_reference.hpp	/^struct unwrap_cv_reference<T, mpl::true_>$/;"	s	namespace:boost::parameter::aux	inherits:T
+unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate$/;"	s	namespace:boost::parameter::aux
+unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void (Target)>$/;"	s	namespace:boost::parameter::aux
+unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void *(Predicate)>$/;"	s	namespace:boost::parameter::aux
+unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void*(*)(void**)>$/;"	s	namespace:boost::parameter::aux
+unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<void*>$/;"	s	namespace:boost::parameter::aux
+unwrap_predicate	parameter/preprocessor.hpp	/^struct unwrap_predicate<voidstar (Predicate)>$/;"	s	namespace:boost::parameter::aux
+use_default	parameter/parameters.hpp	/^namespace aux { struct use_default {}; }$/;"	s	namespace:boost::parameter::aux
+use_default_tag	parameter/aux_/cast.hpp	/^struct use_default_tag {};$/;"	s	namespace:boost::parameter::aux
+used_args	parameter/parameters.hpp	/^      >::type used_args;$/;"	t	struct:boost::parameter::aux::make_arg_list00	access:public
+value	parameter/aux_/default.hpp	/^    Value& value;$/;"	m	struct:boost::parameter::aux::default_	access:public
+value	parameter/aux_/maybe.hpp	/^    boost::optional<T> value;$/;"	m	struct:boost::parameter::aux::maybe	access:private
+value	parameter/aux_/tagged_argument.hpp	/^    reference value;$/;"	m	struct:boost::parameter::aux::tagged_argument	access:public
+value_type	parameter/aux_/arg_list.hpp	/^    >::type value_type;$/;"	t	struct:boost::parameter::aux::arg_list	access:public
+value_type	parameter/aux_/tagged_argument.hpp	/^    typedef Arg value_type;$/;"	t	struct:boost::parameter::aux::tagged_argument	access:public
+value_type	parameter/aux_/template_keyword.hpp	/^    typedef T value_type;$/;"	t	struct:boost::parameter::template_keyword	access:public
+value_type	parameter/value_type.hpp	/^struct value_type$/;"	s	namespace:boost::parameter
+value_type0	parameter/value_type.hpp	/^struct value_type0$/;"	s	namespace:boost::parameter
+visit	parameter/python.hpp	/^    void visit(Class& cl) const$/;"	f	struct:boost::parameter::python::call	access:public	signature:(Class& cl) const
+visit	parameter/python.hpp	/^    void visit(Class& cl) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(Class& cl) const
+visit	parameter/python.hpp	/^    void visit(Class& cl, char const* name, Options const& options) const$/;"	f	struct:boost::parameter::python::function	access:public	signature:(Class& cl, char const* name, Options const& options) const
+visit_aux	parameter/python.hpp	/^    void visit_aux(Class& cl, mpl::false_) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(Class& cl, mpl::false_) const
+visit_aux	parameter/python.hpp	/^    void visit_aux(Class& cl, mpl::true_) const$/;"	f	struct:boost::parameter::python::init	access:public	signature:(Class& cl, mpl::true_) const
+void_	parameter/aux_/void.hpp	/^struct void_ {}; $/;"	s	namespace:boost::parameter
+void_reference	parameter/aux_/void.hpp	/^  inline void_& void_reference()$/;"	f	namespace:boost::parameter::aux	signature:()
+voidstar	parameter/aux_/cast.hpp	/^typedef void* voidstar;$/;"	t	namespace:boost::parameter::aux
+voidstar	parameter/preprocessor.hpp	/^typedef void* voidstar;$/;"	t	namespace:boost::parameter::aux
+yes_tag	parameter/aux_/yesno.hpp	/^typedef char yes_tag;$/;"	t	namespace:boost::parameter::aux
+~maybe	parameter/aux_/maybe.hpp	/^    ~maybe()$/;"	f	struct:boost::parameter::aux::maybe	access:public	signature:()

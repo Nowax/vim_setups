@@ -1,0 +1,1243 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_ATOMIC_ADDRESS_LOCK_FREE	atomic/atomic.hpp	71;"	d
+BOOST_ATOMIC_ARM_ASM_END	atomic/detail/gcc-armv6plus.hpp	234;"	d
+BOOST_ATOMIC_ARM_ASM_END	atomic/detail/gcc-armv6plus.hpp	71;"	d
+BOOST_ATOMIC_ARM_ASM_START	atomic/detail/gcc-armv6plus.hpp	233;"	d
+BOOST_ATOMIC_ARM_ASM_START	atomic/detail/gcc-armv6plus.hpp	70;"	d
+BOOST_ATOMIC_ARM_DMB	atomic/detail/gcc-armv6plus.hpp	79;"	d
+BOOST_ATOMIC_ASM_SLOWPATH_CLEAR	atomic/detail/gcc-ppc.hpp	181;"	d
+BOOST_ATOMIC_ATOMIC_HPP	atomic/atomic.hpp	2;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/atomic.hpp	74;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	249;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/gcc-atomic.hpp	109;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/gcc-cas.hpp	154;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/gcc-ppc.hpp	169;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	140;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/gcc-x86.hpp	224;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/linux-arm.hpp	184;"	d
+BOOST_ATOMIC_BOOL_LOCK_FREE	atomic/detail/windows.hpp	182;"	d
+BOOST_ATOMIC_BUILD_DLL	atomic/detail/link.hpp	23;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/atomic.hpp	36;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	241;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/detail/gcc-atomic.hpp	82;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/detail/gcc-ppc.hpp	157;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	132;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/detail/gcc-x86.hpp	208;"	d
+BOOST_ATOMIC_CHAR16_T_LOCK_FREE	atomic/detail/linux-arm.hpp	176;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/atomic.hpp	40;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	242;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/detail/gcc-atomic.hpp	85;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/detail/gcc-ppc.hpp	158;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	133;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/detail/gcc-x86.hpp	209;"	d
+BOOST_ATOMIC_CHAR32_T_LOCK_FREE	atomic/detail/linux-arm.hpp	177;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/atomic.hpp	32;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	240;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/gcc-atomic.hpp	79;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/gcc-cas.hpp	148;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/gcc-ppc.hpp	156;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	131;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/gcc-x86.hpp	207;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/linux-arm.hpp	175;"	d
+BOOST_ATOMIC_CHAR_LOCK_FREE	atomic/detail/windows.hpp	172;"	d
+BOOST_ATOMIC_COMPILER_BARRIER	atomic/detail/windows.hpp	135;"	d
+BOOST_ATOMIC_COMPILER_BARRIER	atomic/detail/windows.hpp	49;"	d
+BOOST_ATOMIC_COMPILER_BARRIER	atomic/detail/windows.hpp	53;"	d
+BOOST_ATOMIC_COMPILER_BARRIER	atomic/detail/windows.hpp	57;"	d
+BOOST_ATOMIC_DECL	atomic/detail/link.hpp	22;"	d
+BOOST_ATOMIC_DECL	atomic/detail/link.hpp	25;"	d
+BOOST_ATOMIC_DECL	atomic/detail/link.hpp	31;"	d
+BOOST_ATOMIC_DECLARE_ADDITIVE_OPERATORS	atomic/detail/base.hpp	45;"	d
+BOOST_ATOMIC_DECLARE_BASE_OPERATORS	atomic/detail/base.hpp	26;"	d
+BOOST_ATOMIC_DECLARE_BIT_OPERATORS	atomic/detail/base.hpp	119;"	d
+BOOST_ATOMIC_DECLARE_INTEGRAL_OPERATORS	atomic/detail/base.hpp	146;"	d
+BOOST_ATOMIC_DECLARE_POINTER_OPERATORS	atomic/detail/base.hpp	138;"	d
+BOOST_ATOMIC_DECLARE_VOID_POINTER_ADDITIVE_OPERATORS	atomic/detail/base.hpp	82;"	d
+BOOST_ATOMIC_DECLARE_VOID_POINTER_OPERATORS	atomic/detail/base.hpp	142;"	d
+BOOST_ATOMIC_DETAIL_BASE_HPP	atomic/detail/base.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_CAS128STRONG_HPP	atomic/detail/cas128strong.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_CAS32STRONG_HPP	atomic/detail/cas32strong.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_CAS32WEAK_HPP	atomic/detail/cas32weak.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_CAS64STRONG_HPP	atomic/detail/cas64strong.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_CAS64STRONG_PTR_HPP	atomic/detail/cas64strong-ptr.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_CONFIG_HPP	atomic/detail/config.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GCC_ALPHA_HPP	atomic/detail/gcc-alpha.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GCC_ARMV6PLUS_HPP	atomic/detail/gcc-armv6plus.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GCC_ATOMIC_HPP	atomic/detail/gcc-atomic.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GCC_PPC_HPP	atomic/detail/gcc-ppc.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GCC_SPARC_HPP	atomic/detail/gcc-sparcv9.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GCC_X86_HPP	atomic/detail/gcc-x86.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_GENERIC_CAS_HPP	atomic/detail/gcc-cas.hpp	12;"	d
+BOOST_ATOMIC_DETAIL_GENERIC_CAS_HPP	atomic/detail/generic-cas.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_INTERLOCKED_HPP	atomic/detail/interlocked.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_LINK_HPP	atomic/detail/link.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_LINUX_ARM_HPP	atomic/detail/linux-arm.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_LOCKPOOL_HPP	atomic/detail/lockpool.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_PLATFORM_HPP	atomic/detail/platform.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_TYPE_CLASSIFICATION_HPP	atomic/detail/type-classification.hpp	2;"	d
+BOOST_ATOMIC_DETAIL_WINDOWS_HPP	atomic/detail/windows.hpp	2;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/atomic.hpp	204;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	229;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/gcc-atomic.hpp	68;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/gcc-cas.hpp	138;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/gcc-ppc.hpp	150;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	125;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/gcc-x86.hpp	201;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/linux-arm.hpp	167;"	d
+BOOST_ATOMIC_FLAG_LOCK_FREE	atomic/detail/windows.hpp	166;"	d
+BOOST_ATOMIC_HAVE_CAS32	atomic/detail/generic-cas.hpp	33;"	d
+BOOST_ATOMIC_HAVE_CAS64	atomic/detail/generic-cas.hpp	41;"	d
+BOOST_ATOMIC_INT128_LOCK_FREE	atomic/atomic.hpp	64;"	d
+BOOST_ATOMIC_INT128_LOCK_FREE	atomic/detail/gcc-atomic.hpp	103;"	d
+BOOST_ATOMIC_INT128_LOCK_FREE	atomic/detail/gcc-x86.hpp	220;"	d
+BOOST_ATOMIC_INTERLOCKED_AND	atomic/detail/interlocked.hpp	42;"	d
+BOOST_ATOMIC_INTERLOCKED_AND16	atomic/detail/interlocked.hpp	81;"	d
+BOOST_ATOMIC_INTERLOCKED_AND64	atomic/detail/interlocked.hpp	97;"	d
+BOOST_ATOMIC_INTERLOCKED_AND8	atomic/detail/interlocked.hpp	67;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE	atomic/detail/interlocked.hpp	122;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE	atomic/detail/interlocked.hpp	162;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE	atomic/detail/interlocked.hpp	21;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE	atomic/detail/interlocked.hpp	39;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE16	atomic/detail/interlocked.hpp	78;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE64	atomic/detail/interlocked.hpp	128;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE64	atomic/detail/interlocked.hpp	175;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE64	atomic/detail/interlocked.hpp	48;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE8	atomic/detail/interlocked.hpp	64;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	104;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	110;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	132;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	138;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	179;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	185;"	d
+BOOST_ATOMIC_INTERLOCKED_COMPARE_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	24;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE	atomic/detail/interlocked.hpp	123;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE	atomic/detail/interlocked.hpp	163;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE	atomic/detail/interlocked.hpp	22;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE	atomic/detail/interlocked.hpp	41;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE16	atomic/detail/interlocked.hpp	80;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE64	atomic/detail/interlocked.hpp	129;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE64	atomic/detail/interlocked.hpp	176;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE64	atomic/detail/interlocked.hpp	96;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE8	atomic/detail/interlocked.hpp	66;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD	atomic/detail/interlocked.hpp	124;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD	atomic/detail/interlocked.hpp	164;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD	atomic/detail/interlocked.hpp	23;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD	atomic/detail/interlocked.hpp	40;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD16	atomic/detail/interlocked.hpp	79;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD64	atomic/detail/interlocked.hpp	130;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD64	atomic/detail/interlocked.hpp	177;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD64	atomic/detail/interlocked.hpp	95;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD8	atomic/detail/interlocked.hpp	65;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	106;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	112;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	134;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	140;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	181;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	187;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_ADD_POINTER	atomic/detail/interlocked.hpp	26;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	105;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	111;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	133;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	139;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	180;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	186;"	d
+BOOST_ATOMIC_INTERLOCKED_EXCHANGE_POINTER	atomic/detail/interlocked.hpp	25;"	d
+BOOST_ATOMIC_INTERLOCKED_IMPORT	atomic/detail/interlocked.hpp	147;"	d
+BOOST_ATOMIC_INTERLOCKED_IMPORT	atomic/detail/interlocked.hpp	149;"	d
+BOOST_ATOMIC_INTERLOCKED_IMPORT	atomic/detail/interlocked.hpp	197;"	d
+BOOST_ATOMIC_INTERLOCKED_OR	atomic/detail/interlocked.hpp	43;"	d
+BOOST_ATOMIC_INTERLOCKED_OR16	atomic/detail/interlocked.hpp	82;"	d
+BOOST_ATOMIC_INTERLOCKED_OR64	atomic/detail/interlocked.hpp	98;"	d
+BOOST_ATOMIC_INTERLOCKED_OR8	atomic/detail/interlocked.hpp	68;"	d
+BOOST_ATOMIC_INTERLOCKED_XOR	atomic/detail/interlocked.hpp	44;"	d
+BOOST_ATOMIC_INTERLOCKED_XOR16	atomic/detail/interlocked.hpp	83;"	d
+BOOST_ATOMIC_INTERLOCKED_XOR64	atomic/detail/interlocked.hpp	99;"	d
+BOOST_ATOMIC_INTERLOCKED_XOR8	atomic/detail/interlocked.hpp	69;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/atomic.hpp	52;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	245;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/gcc-atomic.hpp	94;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/gcc-cas.hpp	150;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/gcc-ppc.hpp	161;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	136;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/gcc-x86.hpp	212;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/linux-arm.hpp	180;"	d
+BOOST_ATOMIC_INT_LOCK_FREE	atomic/detail/windows.hpp	174;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/atomic.hpp	60;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	247;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/gcc-atomic.hpp	100;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/gcc-cas.hpp	152;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/gcc-ppc.hpp	165;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	138;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/gcc-x86.hpp	216;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/linux-arm.hpp	182;"	d
+BOOST_ATOMIC_LLONG_LOCK_FREE	atomic/detail/windows.hpp	177;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/atomic.hpp	56;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	246;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/gcc-atomic.hpp	97;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/gcc-cas.hpp	151;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/gcc-ppc.hpp	162;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	137;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/gcc-x86.hpp	213;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/linux-arm.hpp	181;"	d
+BOOST_ATOMIC_LONG_LOCK_FREE	atomic/detail/windows.hpp	175;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/atomic.hpp	68;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	248;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/gcc-atomic.hpp	106;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/gcc-cas.hpp	153;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/gcc-ppc.hpp	163;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	139;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/gcc-x86.hpp	223;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/linux-arm.hpp	183;"	d
+BOOST_ATOMIC_POINTER_LOCK_FREE	atomic/detail/windows.hpp	181;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/atomic.hpp	48;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	244;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/gcc-atomic.hpp	91;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/gcc-cas.hpp	149;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/gcc-ppc.hpp	160;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	135;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/gcc-x86.hpp	211;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/linux-arm.hpp	179;"	d
+BOOST_ATOMIC_SHORT_LOCK_FREE	atomic/detail/windows.hpp	173;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/atomic.hpp	85;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/gcc-armv6plus.hpp	189;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/gcc-atomic.hpp	120;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/gcc-ppc.hpp	2932;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/gcc-sparcv9.hpp	170;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/gcc-x86.hpp	254;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/linux-arm.hpp	129;"	d
+BOOST_ATOMIC_SIGNAL_FENCE	atomic/detail/windows.hpp	128;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/atomic.hpp	78;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/gcc-armv6plus.hpp	174;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/gcc-atomic.hpp	114;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/gcc-cas.hpp	23;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/gcc-ppc.hpp	2911;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/gcc-sparcv9.hpp	144;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/gcc-x86.hpp	228;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/linux-arm.hpp	115;"	d
+BOOST_ATOMIC_THREAD_FENCE	atomic/detail/windows.hpp	119;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/atomic.hpp	44;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/detail/gcc-armv6plus.hpp	243;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/detail/gcc-atomic.hpp	88;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/detail/gcc-ppc.hpp	159;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/detail/gcc-sparcv9.hpp	134;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/detail/gcc-x86.hpp	210;"	d
+BOOST_ATOMIC_WCHAR_T_LOCK_FREE	atomic/detail/linux-arm.hpp	178;"	d
+BOOST_ATOMIC_X86_FENCE_INSTR	atomic/detail/gcc-x86.hpp	25;"	d
+BOOST_ATOMIC_X86_HAS_CMPXCHG16B	atomic/detail/gcc-atomic.hpp	32;"	d
+BOOST_ATOMIC_X86_HAS_CMPXCHG16B	atomic/detail/gcc-x86.hpp	42;"	d
+BOOST_ATOMIC_X86_HAS_CMPXCHG8B	atomic/detail/gcc-atomic.hpp	28;"	d
+BOOST_ATOMIC_X86_HAS_CMPXCHG8B	atomic/detail/gcc-x86.hpp	38;"	d
+BOOST_ATOMIC_X86_HAS_CMPXCHG8B	atomic/detail/windows.hpp	38;"	d
+BOOST_ATOMIC_X86_PAUSE	atomic/detail/gcc-atomic.hpp	24;"	d
+BOOST_ATOMIC_X86_PAUSE	atomic/detail/gcc-x86.hpp	30;"	d
+BOOST_ATOMIC_X86_PAUSE	atomic/detail/windows.hpp	32;"	d
+BOOST_ATOMIC_X86_PAUSE	atomic/detail/windows.hpp	34;"	d
+BOOST_DYN_LINK	atomic/detail/link.hpp	43;"	d
+BOOST_LIB_NAME	atomic/detail/link.hpp	39;"	d
+InterlockedCompareExchange	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT long __stdcall InterlockedCompareExchange(long volatile*, long, long);$/;"	p	signature:(long volatile*, long, long)
+InterlockedCompareExchange64	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT __int64 __stdcall InterlockedCompareExchange64(__int64 volatile*, __int64, __int64);$/;"	p	signature:(__int64 volatile*, __int64, __int64)
+InterlockedCompareExchangePointer	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT void* __stdcall InterlockedCompareExchangePointer(void* volatile *, void*, void*);$/;"	p	signature:(void* volatile *, void*, void*)
+InterlockedExchange	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT long __stdcall InterlockedExchange(long volatile*, long);$/;"	p	signature:(long volatile*, long)
+InterlockedExchange64	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT __int64 __stdcall InterlockedExchange64(__int64 volatile*, __int64);$/;"	p	signature:(__int64 volatile*, __int64)
+InterlockedExchangeAdd	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT long __stdcall InterlockedExchangeAdd(long volatile*, long);$/;"	p	signature:(long volatile*, long)
+InterlockedExchangeAdd64	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT __int64 __stdcall InterlockedExchangeAdd64(__int64 volatile*, __int64);$/;"	p	signature:(__int64 volatile*, __int64)
+InterlockedExchangePointer	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT void* __stdcall InterlockedExchangePointer(void* volatile *, void*);$/;"	p	signature:(void* volatile *, void*)
+_	atomic/detail/type-classification.hpp	/^    enum _$/;"	g	struct:boost::atomics::detail::storage_size_of	access:public
+_ReadWriteBarrier	atomic/detail/windows.hpp	/^extern "C" void _ReadWriteBarrier(void);$/;"	p	signature:(void)
+_mm_mfence	atomic/detail/windows.hpp	/^extern "C" void _mm_mfence(void);$/;"	p	signature:(void)
+_mm_pause	atomic/detail/windows.hpp	/^extern "C" void _mm_pause(void);$/;"	p	signature:(void)
+arm_barrier	atomic/detail/linux-arm.hpp	/^arm_barrier(void)$/;"	f	namespace:boost::atomics::detail	signature:(void)
+atomic	atomic/atomic.hpp	/^    BOOST_DEFAULTED_FUNCTION(atomic(void), BOOST_NOEXCEPT {})$/;"	p	class:boost::atomic	access:public	signature:(void)
+atomic	atomic/atomic.hpp	/^class atomic :$/;"	c	namespace:boost	inherits:atomics::detail::base_atomic
+atomic_address	atomic/atomic.hpp	/^typedef atomic<void*> atomic_address;$/;"	t	namespace:boost
+atomic_alpha_32	atomic/detail/gcc-alpha.hpp	/^    atomic_alpha_32() {}$/;"	f	class:boost::atomics::detail::atomic_alpha_32	access:public	signature:()
+atomic_alpha_32	atomic/detail/gcc-alpha.hpp	/^class atomic_alpha_32$/;"	c	namespace:boost::atomics::detail
+atomic_alpha_64	atomic/detail/gcc-alpha.hpp	/^    atomic_alpha_64() {}$/;"	f	class:boost::atomics::detail::atomic_alpha_64	access:public	signature:()
+atomic_alpha_64	atomic/detail/gcc-alpha.hpp	/^class atomic_alpha_64$/;"	c	namespace:boost::atomics::detail
+atomic_bool	atomic/atomic.hpp	/^typedef atomic<bool> atomic_bool;$/;"	t	namespace:boost
+atomic_char	atomic/atomic.hpp	/^typedef atomic<char> atomic_char;$/;"	t	namespace:boost
+atomic_char16_t	atomic/atomic.hpp	/^typedef atomic<char16_t> atomic_char16_t;$/;"	t	namespace:boost
+atomic_char32_t	atomic/atomic.hpp	/^typedef atomic<char32_t> atomic_char32_t;$/;"	t	namespace:boost
+atomic_flag	atomic/atomic.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/gcc-armv6plus.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/gcc-atomic.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/gcc-atomic.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/gcc-cas.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomics::detail::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/gcc-cas.hpp	/^class atomic_flag$/;"	c	namespace:boost::atomics::detail
+atomic_flag	atomic/detail/gcc-ppc.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/gcc-ppc.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/gcc-sparcv9.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/gcc-sparcv9.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/gcc-x86.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/gcc-x86.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/linux-arm.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/linux-arm.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_flag	atomic/detail/windows.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+atomic_flag	atomic/detail/windows.hpp	/^class atomic_flag$/;"	c	namespace:boost
+atomic_generic_cas32	atomic/detail/generic-cas.hpp	/^    atomic_generic_cas32() {}$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:()
+atomic_generic_cas32	atomic/detail/generic-cas.hpp	/^    explicit atomic_generic_cas32(T v) : i((int32_t)v) {}$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(T v)
+atomic_generic_cas32	atomic/detail/generic-cas.hpp	/^class atomic_generic_cas32$/;"	c	namespace:boost::atomics::detail
+atomic_int	atomic/atomic.hpp	/^typedef atomic<int> atomic_int;$/;"	t	namespace:boost
+atomic_int16_t	atomic/atomic.hpp	/^typedef atomic<int16_t> atomic_int16_t;$/;"	t	namespace:boost
+atomic_int32_t	atomic/atomic.hpp	/^typedef atomic<int32_t> atomic_int32_t;$/;"	t	namespace:boost
+atomic_int64_t	atomic/atomic.hpp	/^typedef atomic<int64_t> atomic_int64_t;$/;"	t	namespace:boost
+atomic_int8_t	atomic/atomic.hpp	/^typedef atomic<int8_t> atomic_int8_t;$/;"	t	namespace:boost
+atomic_int_fast16_t	atomic/atomic.hpp	/^typedef atomic<int_fast16_t> atomic_int_fast16_t;$/;"	t	namespace:boost
+atomic_int_fast32_t	atomic/atomic.hpp	/^typedef atomic<int_fast32_t> atomic_int_fast32_t;$/;"	t	namespace:boost
+atomic_int_fast64_t	atomic/atomic.hpp	/^typedef atomic<int_fast64_t> atomic_int_fast64_t;$/;"	t	namespace:boost
+atomic_int_fast8_t	atomic/atomic.hpp	/^typedef atomic<int_fast8_t> atomic_int_fast8_t;$/;"	t	namespace:boost
+atomic_int_least16_t	atomic/atomic.hpp	/^typedef atomic<int_least16_t> atomic_int_least16_t;$/;"	t	namespace:boost
+atomic_int_least32_t	atomic/atomic.hpp	/^typedef atomic<int_least32_t> atomic_int_least32_t;$/;"	t	namespace:boost
+atomic_int_least64_t	atomic/atomic.hpp	/^typedef atomic<int_least64_t> atomic_int_least64_t;$/;"	t	namespace:boost
+atomic_int_least8_t	atomic/atomic.hpp	/^typedef atomic<int_least8_t> atomic_int_least8_t;$/;"	t	namespace:boost
+atomic_intmax_t	atomic/atomic.hpp	/^typedef atomic<intmax_t> atomic_intmax_t;$/;"	t	namespace:boost
+atomic_intptr_t	atomic/atomic.hpp	/^typedef atomic<intptr_t> atomic_intptr_t;$/;"	t	namespace:boost
+atomic_llong	atomic/atomic.hpp	/^typedef atomic<boost::long_long_type> atomic_llong;$/;"	t	namespace:boost
+atomic_long	atomic/atomic.hpp	/^typedef atomic<long> atomic_long;$/;"	t	namespace:boost
+atomic_ptrdiff_t	atomic/atomic.hpp	/^typedef atomic<std::ptrdiff_t> atomic_ptrdiff_t;$/;"	t	namespace:boost
+atomic_schar	atomic/atomic.hpp	/^typedef atomic<signed char> atomic_schar;$/;"	t	namespace:boost
+atomic_short	atomic/atomic.hpp	/^typedef atomic<short> atomic_short;$/;"	t	namespace:boost
+atomic_signal_fence	atomic/atomic.hpp	/^inline void atomic_signal_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_signal_fence	atomic/detail/gcc-armv6plus.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+atomic_signal_fence	atomic/detail/gcc-atomic.hpp	/^BOOST_FORCEINLINE void atomic_signal_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_signal_fence	atomic/detail/gcc-ppc.hpp	/^atomic_signal_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_signal_fence	atomic/detail/gcc-sparcv9.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+atomic_signal_fence	atomic/detail/gcc-x86.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+atomic_signal_fence	atomic/detail/linux-arm.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+atomic_signal_fence	atomic/detail/windows.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+atomic_size_t	atomic/atomic.hpp	/^typedef atomic<std::size_t> atomic_size_t;$/;"	t	namespace:boost
+atomic_thread_fence	atomic/atomic.hpp	/^inline void atomic_thread_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+atomic_thread_fence	atomic/detail/gcc-armv6plus.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/gcc-atomic.hpp	/^BOOST_FORCEINLINE void atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/gcc-cas.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/gcc-ppc.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/gcc-sparcv9.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/gcc-x86.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/linux-arm.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_thread_fence	atomic/detail/windows.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+atomic_uchar	atomic/atomic.hpp	/^typedef atomic<unsigned char> atomic_uchar;$/;"	t	namespace:boost
+atomic_uint	atomic/atomic.hpp	/^typedef atomic<unsigned int> atomic_uint;$/;"	t	namespace:boost
+atomic_uint16_t	atomic/atomic.hpp	/^typedef atomic<uint16_t> atomic_uint16_t;$/;"	t	namespace:boost
+atomic_uint32_t	atomic/atomic.hpp	/^typedef atomic<uint32_t> atomic_uint32_t;$/;"	t	namespace:boost
+atomic_uint64_t	atomic/atomic.hpp	/^typedef atomic<uint64_t> atomic_uint64_t;$/;"	t	namespace:boost
+atomic_uint8_t	atomic/atomic.hpp	/^typedef atomic<uint8_t> atomic_uint8_t;$/;"	t	namespace:boost
+atomic_uint_fast16_t	atomic/atomic.hpp	/^typedef atomic<uint_fast16_t> atomic_uint_fast16_t;$/;"	t	namespace:boost
+atomic_uint_fast32_t	atomic/atomic.hpp	/^typedef atomic<uint_fast32_t> atomic_uint_fast32_t;$/;"	t	namespace:boost
+atomic_uint_fast64_t	atomic/atomic.hpp	/^typedef atomic<uint_fast64_t> atomic_uint_fast64_t;$/;"	t	namespace:boost
+atomic_uint_fast8_t	atomic/atomic.hpp	/^typedef atomic<uint_fast8_t> atomic_uint_fast8_t;$/;"	t	namespace:boost
+atomic_uint_least16_t	atomic/atomic.hpp	/^typedef atomic<uint_least16_t> atomic_uint_least16_t;$/;"	t	namespace:boost
+atomic_uint_least32_t	atomic/atomic.hpp	/^typedef atomic<uint_least32_t> atomic_uint_least32_t;$/;"	t	namespace:boost
+atomic_uint_least64_t	atomic/atomic.hpp	/^typedef atomic<uint_least64_t> atomic_uint_least64_t;$/;"	t	namespace:boost
+atomic_uint_least8_t	atomic/atomic.hpp	/^typedef atomic<uint_least8_t> atomic_uint_least8_t;$/;"	t	namespace:boost
+atomic_uintmax_t	atomic/atomic.hpp	/^typedef atomic<uintmax_t> atomic_uintmax_t;$/;"	t	namespace:boost
+atomic_uintptr_t	atomic/atomic.hpp	/^typedef atomic<uintptr_t> atomic_uintptr_t;$/;"	t	namespace:boost
+atomic_ullong	atomic/atomic.hpp	/^typedef atomic<boost::ulong_long_type> atomic_ullong;$/;"	t	namespace:boost
+atomic_ulong	atomic/atomic.hpp	/^typedef atomic<unsigned long> atomic_ulong;$/;"	t	namespace:boost
+atomic_ushort	atomic/atomic.hpp	/^typedef atomic<unsigned short> atomic_ushort;$/;"	t	namespace:boost
+atomic_wchar_t	atomic/atomic.hpp	/^typedef atomic<wchar_t> atomic_wchar_t;$/;"	t	namespace:boost
+atomics	atomic/detail/base.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/cas128strong.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/cas32strong.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/cas32weak.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/cas64strong-ptr.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/cas64strong.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-alpha.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-armv6plus.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-atomic.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-cas.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-ppc.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-sparcv9.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/gcc-x86.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/generic-cas.hpp	/^    namespace boost { namespace atomics { namespace detail {$/;"	n	namespace:boost
+atomics	atomic/detail/generic-cas.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/interlocked.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/linux-arm.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/lockpool.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/type-classification.hpp	/^namespace atomics {$/;"	n	namespace:boost
+atomics	atomic/detail/windows.hpp	/^namespace atomics {$/;"	n	namespace:boost
+base_atomic	atomic/detail/base.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/base.hpp	/^class base_atomic$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/base.hpp	/^class base_atomic<T *, void *, Size, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/base.hpp	/^class base_atomic<T, int, Size, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/base.hpp	/^class base_atomic<void *, void *, Size, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas128strong.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/cas128strong.hpp	/^class base_atomic<T, int, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas128strong.hpp	/^class base_atomic<T, void, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas64strong-ptr.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/cas64strong-ptr.hpp	/^class base_atomic<T *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas64strong-ptr.hpp	/^class base_atomic<void *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas64strong.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/cas64strong.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/cas64strong.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T*, void*, sizeof(void*), Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<void*, void*, sizeof(void*), Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 1, false>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 1, true>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 2, false>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 2, true>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<void *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 1, false>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 1, true>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 2, false>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 2, true>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<void *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+base_atomic	atomic/detail/windows.hpp	/^    explicit base_atomic(value_type const& v) : v_(0)$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(value_type const& v)
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T*, void*, sizeof_pointer, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+base_atomic	atomic/detail/windows.hpp	/^class base_atomic<void*, void*, sizeof_pointer, Sign>$/;"	c	namespace:boost::atomics::detail
+base_type	atomic/detail/lockpool.hpp	/^        typedef lock_type::scoped_lock base_type;$/;"	t	class:boost::atomics::detail::lockpool::scoped_lock	access:private
+boost	atomic/atomic.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/base.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/cas128strong.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/cas32strong.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/cas32weak.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/cas64strong-ptr.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/cas64strong.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-alpha.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-armv6plus.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-atomic.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-cas.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-ppc.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-sparcv9.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/gcc-x86.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/generic-cas.hpp	/^    namespace boost { namespace atomics { namespace detail {$/;"	n
+boost	atomic/detail/generic-cas.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/interlocked.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/linux-arm.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/lockpool.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/type-classification.hpp	/^namespace boost {$/;"	n
+boost	atomic/detail/windows.hpp	/^namespace boost {$/;"	n
+boost::atomic	atomic/atomic.hpp	/^class atomic :$/;"	c	namespace:boost	inherits:atomics::detail::base_atomic
+boost::atomic::atomic	atomic/atomic.hpp	/^    BOOST_DEFAULTED_FUNCTION(atomic(void), BOOST_NOEXCEPT {})$/;"	p	class:boost::atomic	access:public	signature:(void)
+boost::atomic::super	atomic/atomic.hpp	/^    > super;$/;"	t	class:boost::atomic	access:private
+boost::atomic::super	atomic/atomic.hpp	/^    explicit BOOST_CONSTEXPR atomic(value_arg_type v) BOOST_NOEXCEPT : super(v) {}$/;"	f	class:boost::atomic	access:public	signature:(v)
+boost::atomic::value_arg_type	atomic/atomic.hpp	/^    typedef typename super::value_arg_type value_arg_type;$/;"	t	class:boost::atomic	access:private
+boost::atomic::value_type	atomic/atomic.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomic	access:private
+boost::atomic_address	atomic/atomic.hpp	/^typedef atomic<void*> atomic_address;$/;"	t	namespace:boost
+boost::atomic_bool	atomic/atomic.hpp	/^typedef atomic<bool> atomic_bool;$/;"	t	namespace:boost
+boost::atomic_char	atomic/atomic.hpp	/^typedef atomic<char> atomic_char;$/;"	t	namespace:boost
+boost::atomic_char16_t	atomic/atomic.hpp	/^typedef atomic<char16_t> atomic_char16_t;$/;"	t	namespace:boost
+boost::atomic_char32_t	atomic/atomic.hpp	/^typedef atomic<char32_t> atomic_char32_t;$/;"	t	namespace:boost
+boost::atomic_flag	atomic/atomic.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/gcc-armv6plus.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/gcc-atomic.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/gcc-ppc.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/gcc-sparcv9.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/gcc-x86.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/linux-arm.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag	atomic/detail/windows.hpp	/^class atomic_flag$/;"	c	namespace:boost
+boost::atomic_flag::atomic_flag	atomic/detail/gcc-atomic.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::atomic_flag	atomic/detail/gcc-ppc.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::atomic_flag	atomic/detail/gcc-sparcv9.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::atomic_flag	atomic/detail/gcc-x86.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::atomic_flag	atomic/detail/linux-arm.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::atomic_flag	atomic/detail/windows.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::operator =	atomic/detail/gcc-atomic.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::operator =	atomic/detail/gcc-ppc.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::operator =	atomic/detail/gcc-sparcv9.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::operator =	atomic/detail/gcc-x86.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::operator =	atomic/detail/linux-arm.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::operator =	atomic/detail/windows.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomic_flag::v_	atomic/atomic.hpp	/^    BOOST_CONSTEXPR atomic_flag(void) BOOST_NOEXCEPT : v_(false) {}$/;"	f	class:boost::atomic_flag	access:public	signature:(false)
+boost::atomic_flag::v_	atomic/atomic.hpp	/^    atomic<bool> v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/gcc-armv6plus.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/gcc-atomic.hpp	/^    BOOST_CONSTEXPR atomic_flag(void) BOOST_NOEXCEPT : v_(false) {}$/;"	f	class:boost::atomic_flag	access:public	signature:(false)
+boost::atomic_flag::v_	atomic/detail/gcc-atomic.hpp	/^    bool v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/gcc-ppc.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/gcc-sparcv9.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/gcc-x86.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/linux-arm.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_flag::v_	atomic/detail/windows.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+boost::atomic_int	atomic/atomic.hpp	/^typedef atomic<int> atomic_int;$/;"	t	namespace:boost
+boost::atomic_int16_t	atomic/atomic.hpp	/^typedef atomic<int16_t> atomic_int16_t;$/;"	t	namespace:boost
+boost::atomic_int32_t	atomic/atomic.hpp	/^typedef atomic<int32_t> atomic_int32_t;$/;"	t	namespace:boost
+boost::atomic_int64_t	atomic/atomic.hpp	/^typedef atomic<int64_t> atomic_int64_t;$/;"	t	namespace:boost
+boost::atomic_int8_t	atomic/atomic.hpp	/^typedef atomic<int8_t> atomic_int8_t;$/;"	t	namespace:boost
+boost::atomic_int_fast16_t	atomic/atomic.hpp	/^typedef atomic<int_fast16_t> atomic_int_fast16_t;$/;"	t	namespace:boost
+boost::atomic_int_fast32_t	atomic/atomic.hpp	/^typedef atomic<int_fast32_t> atomic_int_fast32_t;$/;"	t	namespace:boost
+boost::atomic_int_fast64_t	atomic/atomic.hpp	/^typedef atomic<int_fast64_t> atomic_int_fast64_t;$/;"	t	namespace:boost
+boost::atomic_int_fast8_t	atomic/atomic.hpp	/^typedef atomic<int_fast8_t> atomic_int_fast8_t;$/;"	t	namespace:boost
+boost::atomic_int_least16_t	atomic/atomic.hpp	/^typedef atomic<int_least16_t> atomic_int_least16_t;$/;"	t	namespace:boost
+boost::atomic_int_least32_t	atomic/atomic.hpp	/^typedef atomic<int_least32_t> atomic_int_least32_t;$/;"	t	namespace:boost
+boost::atomic_int_least64_t	atomic/atomic.hpp	/^typedef atomic<int_least64_t> atomic_int_least64_t;$/;"	t	namespace:boost
+boost::atomic_int_least8_t	atomic/atomic.hpp	/^typedef atomic<int_least8_t> atomic_int_least8_t;$/;"	t	namespace:boost
+boost::atomic_intmax_t	atomic/atomic.hpp	/^typedef atomic<intmax_t> atomic_intmax_t;$/;"	t	namespace:boost
+boost::atomic_intptr_t	atomic/atomic.hpp	/^typedef atomic<intptr_t> atomic_intptr_t;$/;"	t	namespace:boost
+boost::atomic_llong	atomic/atomic.hpp	/^typedef atomic<boost::long_long_type> atomic_llong;$/;"	t	namespace:boost
+boost::atomic_long	atomic/atomic.hpp	/^typedef atomic<long> atomic_long;$/;"	t	namespace:boost
+boost::atomic_ptrdiff_t	atomic/atomic.hpp	/^typedef atomic<std::ptrdiff_t> atomic_ptrdiff_t;$/;"	t	namespace:boost
+boost::atomic_schar	atomic/atomic.hpp	/^typedef atomic<signed char> atomic_schar;$/;"	t	namespace:boost
+boost::atomic_short	atomic/atomic.hpp	/^typedef atomic<short> atomic_short;$/;"	t	namespace:boost
+boost::atomic_signal_fence	atomic/atomic.hpp	/^inline void atomic_signal_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_signal_fence	atomic/detail/gcc-armv6plus.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+boost::atomic_signal_fence	atomic/detail/gcc-atomic.hpp	/^BOOST_FORCEINLINE void atomic_signal_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_signal_fence	atomic/detail/gcc-ppc.hpp	/^atomic_signal_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_signal_fence	atomic/detail/gcc-sparcv9.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+boost::atomic_signal_fence	atomic/detail/gcc-x86.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+boost::atomic_signal_fence	atomic/detail/linux-arm.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+boost::atomic_signal_fence	atomic/detail/windows.hpp	/^atomic_signal_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+boost::atomic_size_t	atomic/atomic.hpp	/^typedef atomic<std::size_t> atomic_size_t;$/;"	t	namespace:boost
+boost::atomic_thread_fence	atomic/atomic.hpp	/^inline void atomic_thread_fence(memory_order)$/;"	f	namespace:boost	signature:(memory_order)
+boost::atomic_thread_fence	atomic/detail/gcc-armv6plus.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/gcc-atomic.hpp	/^BOOST_FORCEINLINE void atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/gcc-cas.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/gcc-ppc.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/gcc-sparcv9.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/gcc-x86.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/linux-arm.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_thread_fence	atomic/detail/windows.hpp	/^atomic_thread_fence(memory_order order)$/;"	f	namespace:boost	signature:(memory_order order)
+boost::atomic_uchar	atomic/atomic.hpp	/^typedef atomic<unsigned char> atomic_uchar;$/;"	t	namespace:boost
+boost::atomic_uint	atomic/atomic.hpp	/^typedef atomic<unsigned int> atomic_uint;$/;"	t	namespace:boost
+boost::atomic_uint16_t	atomic/atomic.hpp	/^typedef atomic<uint16_t> atomic_uint16_t;$/;"	t	namespace:boost
+boost::atomic_uint32_t	atomic/atomic.hpp	/^typedef atomic<uint32_t> atomic_uint32_t;$/;"	t	namespace:boost
+boost::atomic_uint64_t	atomic/atomic.hpp	/^typedef atomic<uint64_t> atomic_uint64_t;$/;"	t	namespace:boost
+boost::atomic_uint8_t	atomic/atomic.hpp	/^typedef atomic<uint8_t> atomic_uint8_t;$/;"	t	namespace:boost
+boost::atomic_uint_fast16_t	atomic/atomic.hpp	/^typedef atomic<uint_fast16_t> atomic_uint_fast16_t;$/;"	t	namespace:boost
+boost::atomic_uint_fast32_t	atomic/atomic.hpp	/^typedef atomic<uint_fast32_t> atomic_uint_fast32_t;$/;"	t	namespace:boost
+boost::atomic_uint_fast64_t	atomic/atomic.hpp	/^typedef atomic<uint_fast64_t> atomic_uint_fast64_t;$/;"	t	namespace:boost
+boost::atomic_uint_fast8_t	atomic/atomic.hpp	/^typedef atomic<uint_fast8_t> atomic_uint_fast8_t;$/;"	t	namespace:boost
+boost::atomic_uint_least16_t	atomic/atomic.hpp	/^typedef atomic<uint_least16_t> atomic_uint_least16_t;$/;"	t	namespace:boost
+boost::atomic_uint_least32_t	atomic/atomic.hpp	/^typedef atomic<uint_least32_t> atomic_uint_least32_t;$/;"	t	namespace:boost
+boost::atomic_uint_least64_t	atomic/atomic.hpp	/^typedef atomic<uint_least64_t> atomic_uint_least64_t;$/;"	t	namespace:boost
+boost::atomic_uint_least8_t	atomic/atomic.hpp	/^typedef atomic<uint_least8_t> atomic_uint_least8_t;$/;"	t	namespace:boost
+boost::atomic_uintmax_t	atomic/atomic.hpp	/^typedef atomic<uintmax_t> atomic_uintmax_t;$/;"	t	namespace:boost
+boost::atomic_uintptr_t	atomic/atomic.hpp	/^typedef atomic<uintptr_t> atomic_uintptr_t;$/;"	t	namespace:boost
+boost::atomic_ullong	atomic/atomic.hpp	/^typedef atomic<boost::ulong_long_type> atomic_ullong;$/;"	t	namespace:boost
+boost::atomic_ulong	atomic/atomic.hpp	/^typedef atomic<unsigned long> atomic_ulong;$/;"	t	namespace:boost
+boost::atomic_ushort	atomic/atomic.hpp	/^typedef atomic<unsigned short> atomic_ushort;$/;"	t	namespace:boost
+boost::atomic_wchar_t	atomic/atomic.hpp	/^typedef atomic<wchar_t> atomic_wchar_t;$/;"	t	namespace:boost
+boost::atomics	atomic/detail/base.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/cas128strong.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/cas32strong.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/cas32weak.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/cas64strong-ptr.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/cas64strong.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-alpha.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-armv6plus.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-atomic.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-cas.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-ppc.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-sparcv9.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/gcc-x86.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/generic-cas.hpp	/^    namespace boost { namespace atomics { namespace detail {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/generic-cas.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/interlocked.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/linux-arm.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/lockpool.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/type-classification.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics	atomic/detail/windows.hpp	/^namespace atomics {$/;"	n	namespace:boost
+boost::atomics::detail	atomic/detail/base.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/cas128strong.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/cas32strong.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/cas32weak.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/cas64strong-ptr.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/cas64strong.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-alpha.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-armv6plus.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-atomic.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-cas.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-ppc.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-sparcv9.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/gcc-x86.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/generic-cas.hpp	/^    namespace boost { namespace atomics { namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/generic-cas.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/interlocked.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/linux-arm.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/lockpool.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/type-classification.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail	atomic/detail/windows.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+boost::atomics::detail::InterlockedCompareExchange	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT long __stdcall InterlockedCompareExchange(long volatile*, long, long);$/;"	p	signature:(long volatile*, long, long)
+boost::atomics::detail::InterlockedCompareExchange64	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT __int64 __stdcall InterlockedCompareExchange64(__int64 volatile*, __int64, __int64);$/;"	p	signature:(__int64 volatile*, __int64, __int64)
+boost::atomics::detail::InterlockedCompareExchangePointer	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT void* __stdcall InterlockedCompareExchangePointer(void* volatile *, void*, void*);$/;"	p	signature:(void* volatile *, void*, void*)
+boost::atomics::detail::InterlockedExchange	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT long __stdcall InterlockedExchange(long volatile*, long);$/;"	p	signature:(long volatile*, long)
+boost::atomics::detail::InterlockedExchange64	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT __int64 __stdcall InterlockedExchange64(__int64 volatile*, __int64);$/;"	p	signature:(__int64 volatile*, __int64)
+boost::atomics::detail::InterlockedExchangeAdd	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT long __stdcall InterlockedExchangeAdd(long volatile*, long);$/;"	p	signature:(long volatile*, long)
+boost::atomics::detail::InterlockedExchangeAdd64	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT __int64 __stdcall InterlockedExchangeAdd64(__int64 volatile*, __int64);$/;"	p	signature:(__int64 volatile*, __int64)
+boost::atomics::detail::InterlockedExchangePointer	atomic/detail/interlocked.hpp	/^BOOST_ATOMIC_INTERLOCKED_IMPORT void* __stdcall InterlockedExchangePointer(void* volatile *, void*);$/;"	p	signature:(void* volatile *, void*)
+boost::atomics::detail::arm_barrier	atomic/detail/linux-arm.hpp	/^arm_barrier(void)$/;"	f	namespace:boost::atomics::detail	signature:(void)
+boost::atomics::detail::atomic_alpha_32	atomic/detail/gcc-alpha.hpp	/^class atomic_alpha_32$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::atomic_alpha_32::atomic_alpha_32	atomic/detail/gcc-alpha.hpp	/^    atomic_alpha_32() {}$/;"	f	class:boost::atomics::detail::atomic_alpha_32	access:public	signature:()
+boost::atomics::detail::atomic_alpha_32::i	atomic/detail/gcc-alpha.hpp	/^    BOOST_CONSTEXPR atomic_alpha_32(T v) BOOST_NOEXCEPT: i(v) {}$/;"	f	class:boost::atomics::detail::atomic_alpha_32	access:public	signature:(v)
+boost::atomics::detail::atomic_alpha_32::i	atomic/detail/gcc-alpha.hpp	/^    T i;$/;"	m	class:boost::atomics::detail::atomic_alpha_32	access:private
+boost::atomics::detail::atomic_alpha_32::integral_type	atomic/detail/gcc-alpha.hpp	/^    typedef T integral_type;$/;"	t	class:boost::atomics::detail::atomic_alpha_32	access:public
+boost::atomics::detail::atomic_alpha_64	atomic/detail/gcc-alpha.hpp	/^class atomic_alpha_64$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::atomic_alpha_64::atomic_alpha_64	atomic/detail/gcc-alpha.hpp	/^    atomic_alpha_64() {}$/;"	f	class:boost::atomics::detail::atomic_alpha_64	access:public	signature:()
+boost::atomics::detail::atomic_alpha_64::i	atomic/detail/gcc-alpha.hpp	/^    BOOST_CONSTEXPR atomic_alpha_64(T v) BOOST_NOEXCEPT: i(v) {}$/;"	f	class:boost::atomics::detail::atomic_alpha_64	access:public	signature:(v)
+boost::atomics::detail::atomic_alpha_64::i	atomic/detail/gcc-alpha.hpp	/^    T i;$/;"	m	class:boost::atomics::detail::atomic_alpha_64	access:private
+boost::atomics::detail::atomic_alpha_64::integral_type	atomic/detail/gcc-alpha.hpp	/^    typedef T integral_type;$/;"	t	class:boost::atomics::detail::atomic_alpha_64	access:public
+boost::atomics::detail::atomic_alpha_64::load	atomic/detail/gcc-alpha.hpp	/^    T load(memory_order order=memory_order_seq_cst) const volatile$/;"	f	class:boost::atomics::detail::atomic_alpha_64	access:public	signature:(memory_order order=memory_order_seq_cst) const volatile
+boost::atomics::detail::atomic_flag	atomic/detail/gcc-cas.hpp	/^class atomic_flag$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::atomic_flag::atomic_flag	atomic/detail/gcc-cas.hpp	/^    atomic_flag(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomics::detail::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomics::detail::atomic_flag::operator =	atomic/detail/gcc-cas.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomics::detail::atomic_flag	access:private	signature:(const atomic_flag &)
+boost::atomics::detail::atomic_flag::v_	atomic/detail/gcc-cas.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomics::detail::atomic_flag	access:private
+boost::atomics::detail::atomic_generic_cas32	atomic/detail/generic-cas.hpp	/^class atomic_generic_cas32$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::atomic_generic_cas32::atomic_generic_cas32	atomic/detail/generic-cas.hpp	/^    atomic_generic_cas32() {}$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:()
+boost::atomics::detail::atomic_generic_cas32::atomic_generic_cas32	atomic/detail/generic-cas.hpp	/^    explicit atomic_generic_cas32(T v) : i((int32_t)v) {}$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(T v)
+boost::atomics::detail::atomic_generic_cas32::compare_exchange_strong	atomic/detail/generic-cas.hpp	/^    bool compare_exchange_strong($/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:( T &expected, T desired, memory_order success_order, memory_order failure_order) volatile
+boost::atomics::detail::atomic_generic_cas32::compare_exchange_weak	atomic/detail/generic-cas.hpp	/^    bool compare_exchange_weak($/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:( T &expected, T desired, memory_order success_order, memory_order failure_order) volatile
+boost::atomics::detail::atomic_generic_cas32::exchange	atomic/detail/generic-cas.hpp	/^    T exchange(T r, memory_order order=memory_order_seq_cst) volatile$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(T r, memory_order order=memory_order_seq_cst) volatile
+boost::atomics::detail::atomic_generic_cas32::i	atomic/detail/generic-cas.hpp	/^    mutable int32_t i;$/;"	m	class:boost::atomics::detail::atomic_generic_cas32	access:private
+boost::atomics::detail::atomic_generic_cas32::integral_type	atomic/detail/generic-cas.hpp	/^    typedef T integral_type;$/;"	t	class:boost::atomics::detail::atomic_generic_cas32	access:public
+boost::atomics::detail::atomic_generic_cas32::is_lock_free	atomic/detail/generic-cas.hpp	/^    bool is_lock_free(void) const volatile {return true;}$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(void) const volatile
+boost::atomics::detail::atomic_generic_cas32::load	atomic/detail/generic-cas.hpp	/^    T load(memory_order order=memory_order_seq_cst) const volatile$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(memory_order order=memory_order_seq_cst) const volatile
+boost::atomics::detail::atomic_generic_cas32::store	atomic/detail/generic-cas.hpp	/^    void store(T v, memory_order order=memory_order_seq_cst) volatile$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(T v, memory_order order=memory_order_seq_cst) volatile
+boost::atomics::detail::atomic_generic_cas32::this_type	atomic/detail/generic-cas.hpp	/^    typedef atomic_generic_cas32 this_type;$/;"	t	class:boost::atomics::detail::atomic_generic_cas32	access:private
+boost::atomics::detail::base_atomic	atomic/detail/base.hpp	/^class base_atomic$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/base.hpp	/^class base_atomic<T *, void *, Size, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/base.hpp	/^class base_atomic<T, int, Size, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/base.hpp	/^class base_atomic<void *, void *, Size, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas128strong.hpp	/^class base_atomic<T, int, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas128strong.hpp	/^class base_atomic<T, void, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32strong.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas32weak.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas64strong-ptr.hpp	/^class base_atomic<T *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas64strong-ptr.hpp	/^class base_atomic<void *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas64strong.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/cas64strong.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T*, void*, sizeof(void*), Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 16, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-atomic.hpp	/^class base_atomic<void*, void*, sizeof(void*), Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 1, false>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 1, true>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 2, false>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 2, true>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-ppc.hpp	/^class base_atomic<void *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 1, false>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 1, true>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 2, false>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 2, true>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<void *, void *, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/gcc-x86.hpp	/^class base_atomic<void *, void *, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T*, void*, sizeof_pointer, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, int, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 1, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 2, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 4, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<T, void, 8, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic	atomic/detail/windows.hpp	/^class base_atomic<void*, void*, sizeof_pointer, Sign>$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/base.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/cas128strong.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/cas32strong.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/cas32weak.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/cas64strong-ptr.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/cas64strong.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/gcc-atomic.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/gcc-ppc.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/gcc-sparcv9.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/gcc-x86.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/windows.hpp	/^    BOOST_DEFAULTED_FUNCTION(base_atomic(void), {})$/;"	p	class:boost::atomics::detail::base_atomic	access:public	signature:(void)
+boost::atomics::detail::base_atomic::base_atomic	atomic/detail/windows.hpp	/^    explicit base_atomic(value_type const& v) : v_(0)$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(value_type const& v)
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/base.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/base.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas128strong.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas32strong.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas32strong.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas32weak.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas32weak.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/cas64strong.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-atomic.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-atomic.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-ppc.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-ppc.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-x86.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/gcc-x86.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/windows.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::difference_type	atomic/detail/windows.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::fetch_sub	atomic/detail/base.hpp	/^    value_type fetch_sub(difference_type v, memory_order \/*order*\/ = memory_order_seq_cst) volatile$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(difference_type v, memory_order = memory_order_seq_cst) volatile
+boost::atomics::detail::base_atomic::guard_type	atomic/detail/base.hpp	/^    typedef lockpool::scoped_lock guard_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::is_lock_free	atomic/detail/cas32strong.hpp	/^    is_lock_free(void) const volatile$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(void) const volatile
+boost::atomics::detail::base_atomic::load	atomic/detail/cas32strong.hpp	/^    load(memory_order order = memory_order_seq_cst) const volatile$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(memory_order order = memory_order_seq_cst) const volatile
+boost::atomics::detail::base_atomic::reinterpret_cast	atomic/detail/gcc-atomic.hpp	/^        v_(reinterpret_cast<storage_type const&>(v))$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::reinterpret_cast	atomic/detail/gcc-x86.hpp	/^        v_(reinterpret_cast<storage_type const&>(v))$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::reinterpret_cast	atomic/detail/windows.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type const& v) BOOST_NOEXCEPT : v_(reinterpret_cast< storage_type const& >(v))$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/cas128strong.hpp	/^    typedef storage128_type storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/cas32strong.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/cas32weak.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/cas64strong.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef storage128_type storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint16_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint8_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-ppc.hpp	/^    typedef int32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-ppc.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-ppc.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef int32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint16_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint8_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/windows.hpp	/^    typedef uint16_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/windows.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/windows.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/windows.hpp	/^    typedef uint8_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::storage_type	atomic/detail/windows.hpp	/^    typedef value_type storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/base.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/cas128strong.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/cas32strong.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/cas32weak.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/cas64strong.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/gcc-atomic.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/gcc-ppc.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/gcc-x86.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::this_type	atomic/detail/windows.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/base.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type const& v) BOOST_NOEXCEPT : v_(v)$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/base.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/base.hpp	/^    T v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/base.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas128strong.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas128strong.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas128strong.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas32strong.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas32strong.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas32strong.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas32weak.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas32weak.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas32weak.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas64strong-ptr.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas64strong-ptr.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas64strong.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas64strong.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/cas64strong.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-atomic.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-atomic.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-atomic.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-ppc.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-ppc.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-ppc.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-sparcv9.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-sparcv9.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-sparcv9.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-x86.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-x86.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/gcc-x86.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/windows.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT: v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+boost::atomics::detail::base_atomic::v_	atomic/detail/windows.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::v_	atomic/detail/windows.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/base.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/base.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas128strong.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas128strong.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas32strong.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas32strong.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas32weak.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas32weak.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas64strong.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/cas64strong.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-atomic.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-atomic.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-ppc.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-ppc.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-x86.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/gcc-x86.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/windows.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_arg_type	atomic/detail/windows.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+boost::atomics::detail::base_atomic::value_type	atomic/detail/base.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/base.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/base.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas128strong.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas32strong.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas32strong.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas32strong.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas32weak.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas32weak.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas32weak.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/cas64strong.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-atomic.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-atomic.hpp	/^    typedef T* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-atomic.hpp	/^    typedef void* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-ppc.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-ppc.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-ppc.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-x86.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-x86.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/gcc-x86.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/windows.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/windows.hpp	/^    typedef T* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::base_atomic::value_type	atomic/detail/windows.hpp	/^    typedef void* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+boost::atomics::detail::calculate_failure_order	atomic/detail/base.hpp	/^calculate_failure_order(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::classify	atomic/detail/type-classification.hpp	/^struct classify$/;"	s	namespace:boost::atomics::detail
+boost::atomics::detail::classify	atomic/detail/type-classification.hpp	/^struct classify<T*, false> {typedef void* type;};$/;"	s	namespace:boost::atomics::detail
+boost::atomics::detail::classify	atomic/detail/type-classification.hpp	/^struct classify<T, true> {typedef int type;};$/;"	s	namespace:boost::atomics::detail
+boost::atomics::detail::classify::type	atomic/detail/type-classification.hpp	/^    typedef void type;$/;"	t	struct:boost::atomics::detail::classify	access:public
+boost::atomics::detail::classify::type	atomic/detail/type-classification.hpp	/^struct classify<T*, false> {typedef void* type;};$/;"	t	struct:boost::atomics::detail::classify	access:public
+boost::atomics::detail::classify::type	atomic/detail/type-classification.hpp	/^struct classify<T, true> {typedef int type;};$/;"	t	struct:boost::atomics::detail::classify	access:public
+boost::atomics::detail::fence_after	atomic/detail/gcc-alpha.hpp	/^inline void fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::fence_before	atomic/detail/gcc-alpha.hpp	/^inline void fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::fenced_compare_exchange_strong_32	atomic/detail/generic-cas.hpp	/^    fenced_compare_exchange_strong_32(volatile int32_t *ptr, int32_t expected, int32_t desired)$/;"	f	namespace:boost::atomics::detail	signature:(volatile int32_t *ptr, int32_t expected, int32_t desired)
+boost::atomics::detail::fenced_compare_exchange_strong_64	atomic/detail/generic-cas.hpp	/^    fenced_compare_exchange_strong_64(int64_t *ptr, int64_t expected, int64_t desired)$/;"	f	namespace:boost::atomics::detail	signature:(int64_t *ptr, int64_t expected, int64_t desired)
+boost::atomics::detail::hardware_full_fence	atomic/detail/windows.hpp	/^BOOST_FORCEINLINE void hardware_full_fence(void)$/;"	f	namespace:boost::atomics::detail	signature:(void)
+boost::atomics::detail::lockpool	atomic/detail/lockpool.hpp	/^class lockpool$/;"	c	namespace:boost::atomics::detail
+boost::atomics::detail::lockpool::get_lock_for	atomic/detail/lockpool.hpp	/^    static BOOST_ATOMIC_DECL lock_type& get_lock_for(const volatile void * addr);$/;"	p	class:boost::atomics::detail::lockpool	access:private	signature:(const volatile void * addr)
+boost::atomics::detail::lockpool::lock_type	atomic/detail/lockpool.hpp	/^    typedef boost::detail::lightweight_mutex lock_type;$/;"	t	class:boost::atomics::detail::lockpool	access:public
+boost::atomics::detail::lockpool::scoped_lock	atomic/detail/lockpool.hpp	/^    class scoped_lock :$/;"	c	class:boost::atomics::detail::lockpool	inherits:lock_type::scoped_lock	access:public
+boost::atomics::detail::lockpool::scoped_lock::base_type	atomic/detail/lockpool.hpp	/^        typedef lock_type::scoped_lock base_type;$/;"	t	class:boost::atomics::detail::lockpool::scoped_lock	access:private
+boost::atomics::detail::lockpool::scoped_lock::scoped_lock	atomic/detail/lockpool.hpp	/^        explicit scoped_lock(const volatile void * addr) : base_type(get_lock_for(addr))$/;"	f	class:boost::atomics::detail::lockpool::scoped_lock	access:public	signature:(const volatile void * addr)
+boost::atomics::detail::msvc_sizeof_pointer_workaround	atomic/detail/windows.hpp	/^enum msvc_sizeof_pointer_workaround { sizeof_pointer = sizeof(void*) };$/;"	g	namespace:boost::atomics::detail
+boost::atomics::detail::operator !=	atomic/detail/cas128strong.hpp	/^inline bool operator!= (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+boost::atomics::detail::operator !=	atomic/detail/gcc-atomic.hpp	/^inline bool operator!= (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+boost::atomics::detail::operator ==	atomic/detail/cas128strong.hpp	/^inline bool operator== (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+boost::atomics::detail::operator ==	atomic/detail/gcc-atomic.hpp	/^inline bool operator== (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+boost::atomics::detail::platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 1> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+boost::atomics::detail::platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 2> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+boost::atomics::detail::platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 4> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_typical
+boost::atomics::detail::platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 8> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_typical
+boost::atomics::detail::platform_atomic_integral	atomic/detail/generic-cas.hpp	/^class platform_atomic_integral<T, 1> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+boost::atomics::detail::platform_atomic_integral	atomic/detail/generic-cas.hpp	/^class platform_atomic_integral<T, 2> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+boost::atomics::detail::platform_atomic_integral	atomic/detail/generic-cas.hpp	/^class platform_atomic_integral<T, 4> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_exchange
+boost::atomics::detail::platform_atomic_integral::platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^    platform_atomic_integral(void) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(void)
+boost::atomics::detail::platform_atomic_integral::platform_atomic_integral	atomic/detail/generic-cas.hpp	/^    explicit platform_atomic_integral(T v) : super(v) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(T v)
+boost::atomics::detail::platform_atomic_integral::platform_atomic_integral	atomic/detail/generic-cas.hpp	/^    platform_atomic_integral(void) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(void)
+boost::atomics::detail::platform_atomic_integral::super	atomic/detail/gcc-alpha.hpp	/^    BOOST_CONSTEXPR platform_atomic_integral(T v) BOOST_NOEXCEPT: super(v) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(v)
+boost::atomics::detail::platform_atomic_integral::super	atomic/detail/gcc-alpha.hpp	/^    typedef build_atomic_from_larger_type<atomic_alpha_32<uint32_t>, T> super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+boost::atomics::detail::platform_atomic_integral::super	atomic/detail/gcc-alpha.hpp	/^    typedef build_atomic_from_typical<build_exchange<atomic_alpha_32<T> > > super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+boost::atomics::detail::platform_atomic_integral::super	atomic/detail/gcc-alpha.hpp	/^    typedef build_atomic_from_typical<build_exchange<atomic_alpha_64<T> > > super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+boost::atomics::detail::platform_atomic_integral::super	atomic/detail/generic-cas.hpp	/^    typedef build_atomic_from_exchange<atomic_generic_cas32<T> > super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+boost::atomics::detail::platform_atomic_integral::super	atomic/detail/generic-cas.hpp	/^    typedef build_atomic_from_larger_type<atomic_generic_cas32<int32_t>, T> super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+boost::atomics::detail::platform_atomic_thread_fence	atomic/detail/gcc-alpha.hpp	/^inline void platform_atomic_thread_fence(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_cmpxchg32	atomic/detail/linux-arm.hpp	/^platform_cmpxchg32(T & expected, T desired, volatile T * ptr)$/;"	f	namespace:boost::atomics::detail	signature:(T & expected, T desired, volatile T * ptr)
+boost::atomics::detail::platform_cmpxchg32_strong	atomic/detail/gcc-cas.hpp	/^platform_cmpxchg32_strong(T & expected, T desired, volatile T * ptr)$/;"	f	namespace:boost::atomics::detail	signature:(T & expected, T desired, volatile T * ptr)
+boost::atomics::detail::platform_fence_after	atomic/detail/gcc-cas.hpp	/^platform_fence_after(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+boost::atomics::detail::platform_fence_after	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after	atomic/detail/gcc-x86.hpp	/^platform_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after	atomic/detail/linux-arm.hpp	/^platform_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after	atomic/detail/windows.hpp	/^platform_fence_after(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+boost::atomics::detail::platform_fence_after_load	atomic/detail/gcc-cas.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_load	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_load	atomic/detail/gcc-x86.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_load	atomic/detail/linux-arm.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_load	atomic/detail/windows.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_store	atomic/detail/gcc-cas.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_store	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_store	atomic/detail/gcc-x86.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_store	atomic/detail/linux-arm.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_after_store	atomic/detail/windows.hpp	/^platform_fence_after_store(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+boost::atomics::detail::platform_fence_before	atomic/detail/gcc-cas.hpp	/^platform_fence_before(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+boost::atomics::detail::platform_fence_before	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_before	atomic/detail/gcc-x86.hpp	/^platform_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_before	atomic/detail/linux-arm.hpp	/^platform_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_before	atomic/detail/windows.hpp	/^platform_fence_before(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+boost::atomics::detail::platform_fence_before_store	atomic/detail/gcc-cas.hpp	/^platform_fence_before_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_before_store	atomic/detail/gcc-x86.hpp	/^platform_fence_before_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_before_store	atomic/detail/linux-arm.hpp	/^platform_fence_before_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::platform_fence_before_store	atomic/detail/windows.hpp	/^platform_fence_before_store(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+boost::atomics::detail::ppc_fence_after	atomic/detail/gcc-ppc.hpp	/^ppc_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::ppc_fence_after_store	atomic/detail/gcc-ppc.hpp	/^ppc_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::ppc_fence_before	atomic/detail/gcc-ppc.hpp	/^ppc_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+boost::atomics::detail::sizeof_pointer	atomic/detail/windows.hpp	/^enum msvc_sizeof_pointer_workaround { sizeof_pointer = sizeof(void*) };$/;"	e	enum:boost::atomics::detail::msvc_sizeof_pointer_workaround
+boost::atomics::detail::storage128_type	atomic/detail/cas128strong.hpp	/^typedef boost::uint128_type storage128_type;$/;"	t	namespace:boost::atomics::detail
+boost::atomics::detail::storage128_type	atomic/detail/gcc-atomic.hpp	/^typedef boost::uint128_type storage128_type;$/;"	t	namespace:boost::atomics::detail
+boost::atomics::detail::storage_size_of	atomic/detail/type-classification.hpp	/^struct storage_size_of$/;"	s	namespace:boost::atomics::detail
+boost::atomics::detail::storage_size_of::_	atomic/detail/type-classification.hpp	/^    enum _$/;"	g	struct:boost::atomics::detail::storage_size_of	access:public
+boost::atomics::detail::storage_size_of::size	atomic/detail/type-classification.hpp	/^        size = sizeof(T),$/;"	e	enum:boost::atomics::detail::storage_size_of::_
+boost::atomics::detail::storage_size_of::value	atomic/detail/type-classification.hpp	/^        value = (size == 3 ? 4 : (size >= 5 && size <= 7 ? 8 : (size >= 9 && size <= 15 ? 16 : size)))$/;"	e	enum:boost::atomics::detail::storage_size_of::_
+calculate_failure_order	atomic/detail/base.hpp	/^calculate_failure_order(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+classify	atomic/detail/type-classification.hpp	/^struct classify$/;"	s	namespace:boost::atomics::detail
+classify	atomic/detail/type-classification.hpp	/^struct classify<T*, false> {typedef void* type;};$/;"	s	namespace:boost::atomics::detail
+classify	atomic/detail/type-classification.hpp	/^struct classify<T, true> {typedef int type;};$/;"	s	namespace:boost::atomics::detail
+compare_exchange_strong	atomic/detail/generic-cas.hpp	/^    bool compare_exchange_strong($/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:( T &expected, T desired, memory_order success_order, memory_order failure_order) volatile
+compare_exchange_weak	atomic/detail/generic-cas.hpp	/^    bool compare_exchange_weak($/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:( T &expected, T desired, memory_order success_order, memory_order failure_order) volatile
+detail	atomic/detail/base.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/cas128strong.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/cas32strong.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/cas32weak.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/cas64strong-ptr.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/cas64strong.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-alpha.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-armv6plus.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-atomic.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-cas.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-ppc.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-sparcv9.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/gcc-x86.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/generic-cas.hpp	/^    namespace boost { namespace atomics { namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/generic-cas.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/interlocked.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/linux-arm.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/lockpool.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/type-classification.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+detail	atomic/detail/windows.hpp	/^namespace detail {$/;"	n	namespace:boost::atomics
+difference_type	atomic/detail/base.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/base.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas128strong.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas32strong.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas32strong.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas32weak.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas32weak.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/cas64strong.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-atomic.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-atomic.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-ppc.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-ppc.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-x86.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/gcc-x86.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/windows.hpp	/^    typedef T difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+difference_type	atomic/detail/windows.hpp	/^    typedef std::ptrdiff_t difference_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+exchange	atomic/detail/generic-cas.hpp	/^    T exchange(T r, memory_order order=memory_order_seq_cst) volatile$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(T r, memory_order order=memory_order_seq_cst) volatile
+fence_after	atomic/detail/gcc-alpha.hpp	/^inline void fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+fence_before	atomic/detail/gcc-alpha.hpp	/^inline void fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+fenced_compare_exchange_strong_32	atomic/detail/generic-cas.hpp	/^    fenced_compare_exchange_strong_32(volatile int32_t *ptr, int32_t expected, int32_t desired)$/;"	f	namespace:boost::atomics::detail	signature:(volatile int32_t *ptr, int32_t expected, int32_t desired)
+fenced_compare_exchange_strong_64	atomic/detail/generic-cas.hpp	/^    fenced_compare_exchange_strong_64(int64_t *ptr, int64_t expected, int64_t desired)$/;"	f	namespace:boost::atomics::detail	signature:(int64_t *ptr, int64_t expected, int64_t desired)
+fetch_sub	atomic/detail/base.hpp	/^    value_type fetch_sub(difference_type v, memory_order \/*order*\/ = memory_order_seq_cst) volatile$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(difference_type v, memory_order = memory_order_seq_cst) volatile
+get_lock_for	atomic/detail/lockpool.hpp	/^    static BOOST_ATOMIC_DECL lock_type& get_lock_for(const volatile void * addr);$/;"	p	class:boost::atomics::detail::lockpool	access:private	signature:(const volatile void * addr)
+guard_type	atomic/detail/base.hpp	/^    typedef lockpool::scoped_lock guard_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+hardware_full_fence	atomic/detail/windows.hpp	/^BOOST_FORCEINLINE void hardware_full_fence(void)$/;"	f	namespace:boost::atomics::detail	signature:(void)
+i	atomic/detail/gcc-alpha.hpp	/^    BOOST_CONSTEXPR atomic_alpha_32(T v) BOOST_NOEXCEPT: i(v) {}$/;"	f	class:boost::atomics::detail::atomic_alpha_32	access:public	signature:(v)
+i	atomic/detail/gcc-alpha.hpp	/^    BOOST_CONSTEXPR atomic_alpha_64(T v) BOOST_NOEXCEPT: i(v) {}$/;"	f	class:boost::atomics::detail::atomic_alpha_64	access:public	signature:(v)
+i	atomic/detail/gcc-alpha.hpp	/^    T i;$/;"	m	class:boost::atomics::detail::atomic_alpha_32	access:private
+i	atomic/detail/gcc-alpha.hpp	/^    T i;$/;"	m	class:boost::atomics::detail::atomic_alpha_64	access:private
+i	atomic/detail/generic-cas.hpp	/^    mutable int32_t i;$/;"	m	class:boost::atomics::detail::atomic_generic_cas32	access:private
+integral_type	atomic/detail/gcc-alpha.hpp	/^    typedef T integral_type;$/;"	t	class:boost::atomics::detail::atomic_alpha_32	access:public
+integral_type	atomic/detail/gcc-alpha.hpp	/^    typedef T integral_type;$/;"	t	class:boost::atomics::detail::atomic_alpha_64	access:public
+integral_type	atomic/detail/generic-cas.hpp	/^    typedef T integral_type;$/;"	t	class:boost::atomics::detail::atomic_generic_cas32	access:public
+is_lock_free	atomic/detail/cas32strong.hpp	/^    is_lock_free(void) const volatile$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(void) const volatile
+is_lock_free	atomic/detail/generic-cas.hpp	/^    bool is_lock_free(void) const volatile {return true;}$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(void) const volatile
+load	atomic/detail/cas32strong.hpp	/^    load(memory_order order = memory_order_seq_cst) const volatile$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(memory_order order = memory_order_seq_cst) const volatile
+load	atomic/detail/gcc-alpha.hpp	/^    T load(memory_order order=memory_order_seq_cst) const volatile$/;"	f	class:boost::atomics::detail::atomic_alpha_64	access:public	signature:(memory_order order=memory_order_seq_cst) const volatile
+load	atomic/detail/generic-cas.hpp	/^    T load(memory_order order=memory_order_seq_cst) const volatile$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(memory_order order=memory_order_seq_cst) const volatile
+lock_type	atomic/detail/lockpool.hpp	/^    typedef boost::detail::lightweight_mutex lock_type;$/;"	t	class:boost::atomics::detail::lockpool	access:public
+lockpool	atomic/detail/lockpool.hpp	/^class lockpool$/;"	c	namespace:boost::atomics::detail
+msvc_sizeof_pointer_workaround	atomic/detail/windows.hpp	/^enum msvc_sizeof_pointer_workaround { sizeof_pointer = sizeof(void*) };$/;"	g	namespace:boost::atomics::detail
+operator !=	atomic/detail/cas128strong.hpp	/^inline bool operator!= (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+operator !=	atomic/detail/gcc-atomic.hpp	/^inline bool operator!= (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+operator =	atomic/detail/gcc-atomic.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+operator =	atomic/detail/gcc-cas.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomics::detail::atomic_flag	access:private	signature:(const atomic_flag &)
+operator =	atomic/detail/gcc-ppc.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+operator =	atomic/detail/gcc-sparcv9.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+operator =	atomic/detail/gcc-x86.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+operator =	atomic/detail/linux-arm.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+operator =	atomic/detail/windows.hpp	/^    atomic_flag & operator=(const atomic_flag &) \/* = delete *\/ ;$/;"	p	class:boost::atomic_flag	access:private	signature:(const atomic_flag &)
+operator ==	atomic/detail/cas128strong.hpp	/^inline bool operator== (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+operator ==	atomic/detail/gcc-atomic.hpp	/^inline bool operator== (storage128_type const& left, storage128_type const& right)$/;"	f	namespace:boost::atomics::detail	signature:(storage128_type const& left, storage128_type const& right)
+platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^    platform_atomic_integral(void) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(void)
+platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 1> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 2> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 4> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_typical
+platform_atomic_integral	atomic/detail/gcc-alpha.hpp	/^class platform_atomic_integral<T, 8> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_typical
+platform_atomic_integral	atomic/detail/generic-cas.hpp	/^    explicit platform_atomic_integral(T v) : super(v) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(T v)
+platform_atomic_integral	atomic/detail/generic-cas.hpp	/^    platform_atomic_integral(void) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(void)
+platform_atomic_integral	atomic/detail/generic-cas.hpp	/^class platform_atomic_integral<T, 1> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+platform_atomic_integral	atomic/detail/generic-cas.hpp	/^class platform_atomic_integral<T, 2> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_larger_type
+platform_atomic_integral	atomic/detail/generic-cas.hpp	/^class platform_atomic_integral<T, 4> :$/;"	c	namespace:boost::atomics::detail	inherits:build_atomic_from_exchange
+platform_atomic_thread_fence	atomic/detail/gcc-alpha.hpp	/^inline void platform_atomic_thread_fence(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_cmpxchg32	atomic/detail/linux-arm.hpp	/^platform_cmpxchg32(T & expected, T desired, volatile T * ptr)$/;"	f	namespace:boost::atomics::detail	signature:(T & expected, T desired, volatile T * ptr)
+platform_cmpxchg32_strong	atomic/detail/gcc-cas.hpp	/^platform_cmpxchg32_strong(T & expected, T desired, volatile T * ptr)$/;"	f	namespace:boost::atomics::detail	signature:(T & expected, T desired, volatile T * ptr)
+platform_fence_after	atomic/detail/gcc-cas.hpp	/^platform_fence_after(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+platform_fence_after	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after	atomic/detail/gcc-x86.hpp	/^platform_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after	atomic/detail/linux-arm.hpp	/^platform_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after	atomic/detail/windows.hpp	/^platform_fence_after(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+platform_fence_after_load	atomic/detail/gcc-cas.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_load	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_load	atomic/detail/gcc-x86.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_load	atomic/detail/linux-arm.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_load	atomic/detail/windows.hpp	/^platform_fence_after_load(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_store	atomic/detail/gcc-cas.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_store	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_store	atomic/detail/gcc-x86.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_store	atomic/detail/linux-arm.hpp	/^platform_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_after_store	atomic/detail/windows.hpp	/^platform_fence_after_store(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+platform_fence_before	atomic/detail/gcc-cas.hpp	/^platform_fence_before(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+platform_fence_before	atomic/detail/gcc-sparcv9.hpp	/^platform_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_before	atomic/detail/gcc-x86.hpp	/^platform_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_before	atomic/detail/linux-arm.hpp	/^platform_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_before	atomic/detail/windows.hpp	/^platform_fence_before(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+platform_fence_before_store	atomic/detail/gcc-cas.hpp	/^platform_fence_before_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_before_store	atomic/detail/gcc-x86.hpp	/^platform_fence_before_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_before_store	atomic/detail/linux-arm.hpp	/^platform_fence_before_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+platform_fence_before_store	atomic/detail/windows.hpp	/^platform_fence_before_store(memory_order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order)
+ppc_fence_after	atomic/detail/gcc-ppc.hpp	/^ppc_fence_after(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+ppc_fence_after_store	atomic/detail/gcc-ppc.hpp	/^ppc_fence_after_store(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+ppc_fence_before	atomic/detail/gcc-ppc.hpp	/^ppc_fence_before(memory_order order)$/;"	f	namespace:boost::atomics::detail	signature:(memory_order order)
+reinterpret_cast	atomic/detail/gcc-atomic.hpp	/^        v_(reinterpret_cast<storage_type const&>(v))$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+reinterpret_cast	atomic/detail/gcc-x86.hpp	/^        v_(reinterpret_cast<storage_type const&>(v))$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+reinterpret_cast	atomic/detail/windows.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type const& v) BOOST_NOEXCEPT : v_(reinterpret_cast< storage_type const& >(v))$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+scoped_lock	atomic/detail/lockpool.hpp	/^        explicit scoped_lock(const volatile void * addr) : base_type(get_lock_for(addr))$/;"	f	class:boost::atomics::detail::lockpool::scoped_lock	access:public	signature:(const volatile void * addr)
+scoped_lock	atomic/detail/lockpool.hpp	/^    class scoped_lock :$/;"	c	class:boost::atomics::detail::lockpool	inherits:lock_type::scoped_lock	access:public
+size	atomic/detail/type-classification.hpp	/^        size = sizeof(T),$/;"	e	enum:boost::atomics::detail::storage_size_of::_
+sizeof_pointer	atomic/detail/windows.hpp	/^enum msvc_sizeof_pointer_workaround { sizeof_pointer = sizeof(void*) };$/;"	e	enum:boost::atomics::detail::msvc_sizeof_pointer_workaround
+storage128_type	atomic/detail/cas128strong.hpp	/^typedef boost::uint128_type storage128_type;$/;"	t	namespace:boost::atomics::detail
+storage128_type	atomic/detail/gcc-atomic.hpp	/^typedef boost::uint128_type storage128_type;$/;"	t	namespace:boost::atomics::detail
+storage_size_of	atomic/detail/type-classification.hpp	/^struct storage_size_of$/;"	s	namespace:boost::atomics::detail
+storage_type	atomic/detail/cas128strong.hpp	/^    typedef storage128_type storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/cas32strong.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/cas32weak.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/cas64strong.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef storage128_type storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint16_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-atomic.hpp	/^    typedef uint8_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-ppc.hpp	/^    typedef int32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-ppc.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-ppc.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef int32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint16_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/gcc-x86.hpp	/^    typedef uint8_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/windows.hpp	/^    typedef uint16_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/windows.hpp	/^    typedef uint32_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/windows.hpp	/^    typedef uint64_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/windows.hpp	/^    typedef uint8_t storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+storage_type	atomic/detail/windows.hpp	/^    typedef value_type storage_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+store	atomic/detail/generic-cas.hpp	/^    void store(T v, memory_order order=memory_order_seq_cst) volatile$/;"	f	class:boost::atomics::detail::atomic_generic_cas32	access:public	signature:(T v, memory_order order=memory_order_seq_cst) volatile
+super	atomic/atomic.hpp	/^    > super;$/;"	t	class:boost::atomic	access:private
+super	atomic/atomic.hpp	/^    explicit BOOST_CONSTEXPR atomic(value_arg_type v) BOOST_NOEXCEPT : super(v) {}$/;"	f	class:boost::atomic	access:public	signature:(v)
+super	atomic/detail/gcc-alpha.hpp	/^    BOOST_CONSTEXPR platform_atomic_integral(T v) BOOST_NOEXCEPT: super(v) {}$/;"	f	class:boost::atomics::detail::platform_atomic_integral	access:public	signature:(v)
+super	atomic/detail/gcc-alpha.hpp	/^    typedef build_atomic_from_larger_type<atomic_alpha_32<uint32_t>, T> super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+super	atomic/detail/gcc-alpha.hpp	/^    typedef build_atomic_from_typical<build_exchange<atomic_alpha_32<T> > > super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+super	atomic/detail/gcc-alpha.hpp	/^    typedef build_atomic_from_typical<build_exchange<atomic_alpha_64<T> > > super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+super	atomic/detail/generic-cas.hpp	/^    typedef build_atomic_from_exchange<atomic_generic_cas32<T> > super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+super	atomic/detail/generic-cas.hpp	/^    typedef build_atomic_from_larger_type<atomic_generic_cas32<int32_t>, T> super;$/;"	t	class:boost::atomics::detail::platform_atomic_integral	access:public
+this_type	atomic/detail/base.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/cas128strong.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/cas32strong.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/cas32weak.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/cas64strong.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/gcc-atomic.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/gcc-ppc.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/gcc-x86.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+this_type	atomic/detail/generic-cas.hpp	/^    typedef atomic_generic_cas32 this_type;$/;"	t	class:boost::atomics::detail::atomic_generic_cas32	access:private
+this_type	atomic/detail/windows.hpp	/^    typedef base_atomic this_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+type	atomic/detail/type-classification.hpp	/^    typedef void type;$/;"	t	struct:boost::atomics::detail::classify	access:public
+type	atomic/detail/type-classification.hpp	/^struct classify<T*, false> {typedef void* type;};$/;"	t	struct:boost::atomics::detail::classify	access:public
+type	atomic/detail/type-classification.hpp	/^struct classify<T, true> {typedef int type;};$/;"	t	struct:boost::atomics::detail::classify	access:public
+v_	atomic/atomic.hpp	/^    BOOST_CONSTEXPR atomic_flag(void) BOOST_NOEXCEPT : v_(false) {}$/;"	f	class:boost::atomic_flag	access:public	signature:(false)
+v_	atomic/atomic.hpp	/^    atomic<bool> v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/base.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type const& v) BOOST_NOEXCEPT : v_(v)$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/base.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/base.hpp	/^    T v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/base.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas128strong.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/cas128strong.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas128strong.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas32strong.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/cas32strong.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas32strong.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas32weak.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/cas32weak.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas32weak.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas64strong-ptr.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/cas64strong-ptr.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas64strong.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/cas64strong.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/cas64strong.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-armv6plus.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/gcc-atomic.hpp	/^    BOOST_CONSTEXPR atomic_flag(void) BOOST_NOEXCEPT : v_(false) {}$/;"	f	class:boost::atomic_flag	access:public	signature:(false)
+v_	atomic/detail/gcc-atomic.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/gcc-atomic.hpp	/^    bool v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/gcc-atomic.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-atomic.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-cas.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomics::detail::atomic_flag	access:private
+v_	atomic/detail/gcc-ppc.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/gcc-ppc.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-ppc.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/gcc-ppc.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-sparcv9.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/gcc-sparcv9.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-sparcv9.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/gcc-sparcv9.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-x86.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT : v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/gcc-x86.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/gcc-x86.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/gcc-x86.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/linux-arm.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/windows.hpp	/^    BOOST_CONSTEXPR explicit base_atomic(value_type v) BOOST_NOEXCEPT: v_(v) {}$/;"	f	class:boost::atomics::detail::base_atomic	access:public	signature:(v)
+v_	atomic/detail/windows.hpp	/^    storage_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+v_	atomic/detail/windows.hpp	/^    uint32_t v_;$/;"	m	class:boost::atomic_flag	access:private
+v_	atomic/detail/windows.hpp	/^    value_type v_;$/;"	m	class:boost::atomics::detail::base_atomic	access:private
+value	atomic/detail/type-classification.hpp	/^        value = (size == 3 ? 4 : (size >= 5 && size <= 7 ? 8 : (size >= 9 && size <= 15 ? 16 : size)))$/;"	e	enum:boost::atomics::detail::storage_size_of::_
+value_arg_type	atomic/atomic.hpp	/^    typedef typename super::value_arg_type value_arg_type;$/;"	t	class:boost::atomic	access:private
+value_arg_type	atomic/detail/base.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/base.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas128strong.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas128strong.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas32strong.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas32strong.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas32weak.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas32weak.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas64strong.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/cas64strong.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-atomic.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-atomic.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-ppc.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-ppc.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-x86.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/gcc-x86.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/windows.hpp	/^    typedef value_type const& value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_arg_type	atomic/detail/windows.hpp	/^    typedef value_type value_arg_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:protected
+value_type	atomic/atomic.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomic	access:private
+value_type	atomic/detail/base.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/base.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/base.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas128strong.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas32strong.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas32strong.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas32strong.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas32weak.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas32weak.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas32weak.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas64strong-ptr.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/cas64strong.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-atomic.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-atomic.hpp	/^    typedef T* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-atomic.hpp	/^    typedef void* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-ppc.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-ppc.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-ppc.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-sparcv9.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-x86.hpp	/^    typedef T * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-x86.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/gcc-x86.hpp	/^    typedef void * value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/windows.hpp	/^    typedef T value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/windows.hpp	/^    typedef T* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private
+value_type	atomic/detail/windows.hpp	/^    typedef void* value_type;$/;"	t	class:boost::atomics::detail::base_atomic	access:private

@@ -1,0 +1,832 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_ATOMIC_GNUC_VERSION	lockfree/detail/atomic.hpp	23;"	d
+BOOST_LOCKFREE_BRANCH_HINTS_HPP_INCLUDED	lockfree/detail/branch_hints.hpp	9;"	d
+BOOST_LOCKFREE_CACHELINE_ALIGNMENT	lockfree/detail/prefix.hpp	22;"	d
+BOOST_LOCKFREE_CACHELINE_ALIGNMENT	lockfree/detail/prefix.hpp	35;"	d
+BOOST_LOCKFREE_CACHELINE_ALIGNMENT	lockfree/detail/prefix.hpp	53;"	d
+BOOST_LOCKFREE_CACHELINE_BYTES	lockfree/detail/prefix.hpp	18;"	d
+BOOST_LOCKFREE_DCAS_ALIGNMENT	lockfree/detail/prefix.hpp	25;"	d
+BOOST_LOCKFREE_DCAS_ALIGNMENT	lockfree/detail/prefix.hpp	28;"	d
+BOOST_LOCKFREE_DCAS_ALIGNMENT	lockfree/detail/prefix.hpp	38;"	d
+BOOST_LOCKFREE_DCAS_ALIGNMENT	lockfree/detail/prefix.hpp	41;"	d
+BOOST_LOCKFREE_DCAS_ALIGNMENT	lockfree/detail/prefix.hpp	44;"	d
+BOOST_LOCKFREE_DCAS_ALIGNMENT	lockfree/detail/prefix.hpp	49;"	d
+BOOST_LOCKFREE_DETAIL_ATOMIC_HPP	lockfree/detail/atomic.hpp	8;"	d
+BOOST_LOCKFREE_DETAIL_COPY_PAYLOAD_HPP_INCLUDED	lockfree/detail/copy_payload.hpp	10;"	d
+BOOST_LOCKFREE_DETAIL_PARAMETER_HPP	lockfree/detail/parameter.hpp	10;"	d
+BOOST_LOCKFREE_FIFO_HPP_INCLUDED	lockfree/queue.hpp	12;"	d
+BOOST_LOCKFREE_FREELIST_HPP_INCLUDED	lockfree/detail/freelist.hpp	10;"	d
+BOOST_LOCKFREE_GNUC_VERSION	lockfree/detail/atomic.hpp	27;"	d
+BOOST_LOCKFREE_GNUC_VERSION	lockfree/detail/atomic.hpp	36;"	d
+BOOST_LOCKFREE_NO_HDR_ATOMIC	lockfree/detail/atomic.hpp	13;"	d
+BOOST_LOCKFREE_NO_HDR_ATOMIC	lockfree/detail/atomic.hpp	17;"	d
+BOOST_LOCKFREE_NO_HDR_ATOMIC	lockfree/detail/atomic.hpp	33;"	d
+BOOST_LOCKFREE_POLICIES_HPP_INCLUDED	lockfree/policies.hpp	10;"	d
+BOOST_LOCKFREE_PREFIX_HPP_INCLUDED	lockfree/detail/prefix.hpp	8;"	d
+BOOST_LOCKFREE_PTR_COMPRESSION	lockfree/detail/prefix.hpp	27;"	d
+BOOST_LOCKFREE_PTR_COMPRESSION	lockfree/detail/prefix.hpp	40;"	d
+BOOST_LOCKFREE_SPSC_QUEUE_HPP_INCLUDED	lockfree/spsc_queue.hpp	11;"	d
+BOOST_LOCKFREE_STACK_HPP_INCLUDED	lockfree/stack.hpp	8;"	d
+BOOST_LOCKFREE_TAGGED_PTR_DCAS_HPP_INCLUDED	lockfree/detail/tagged_ptr_dcas.hpp	10;"	d
+BOOST_LOCKFREE_TAGGED_PTR_HPP_INCLUDED	lockfree/detail/tagged_ptr.hpp	10;"	d
+BOOST_LOCKFREE_TAGGED_PTR_PTRCOMPRESSION_HPP_INCLUDED	lockfree/detail/tagged_ptr_ptrcompression.hpp	10;"	d
+BOOST_STATIC_ASSERT	lockfree/queue.hpp	/^    BOOST_STATIC_ASSERT((boost::has_trivial_assign<T>::value));$/;"	p	class:boost::lockfree::queue	access:private	signature:(boost::has_trivial_assign<T>::value)
+BOOST_STATIC_ASSERT	lockfree/queue.hpp	/^    BOOST_STATIC_ASSERT((boost::has_trivial_destructor<T>::value));$/;"	p	class:boost::lockfree::queue	access:private	signature:(boost::has_trivial_destructor<T>::value)
+BOOST_STATIC_ASSERT	lockfree/spsc_queue.hpp	/^    BOOST_STATIC_ASSERT((mpl::if_<mpl::bool_<!runtime_sized>,$/;"	p	struct:boost::lockfree::detail::make_ringbuffer	access:public	signature:(mpl::if_<mpl::bool_<!runtime_sized>, mpl::bool_<!extract_allocator_t::has_allocator>, mpl::true_ >::type::value)
+BOOST_STATIC_ASSERT	lockfree/stack.hpp	/^    BOOST_STATIC_ASSERT((mpl::if_c<has_capacity,$/;"	p	class:boost::lockfree::stack	access:private	signature:(mpl::if_c<has_capacity, mpl::bool_<capacity - 1 < boost::integer_traits<boost::uint16_t>::const_max>, mpl::true_ >::type::value)
+BOOST_STATIC_ASSERT	lockfree/stack.hpp	/^    BOOST_STATIC_ASSERT(boost::has_trivial_assign<T>::value);$/;"	p	class:boost::lockfree::stack	access:private	signature:(boost::has_trivial_assign<T>::value)
+BOOST_STATIC_ASSERT	lockfree/stack.hpp	/^    BOOST_STATIC_ASSERT(boost::has_trivial_destructor<T>::value);$/;"	p	class:boost::lockfree::stack	access:private	signature:(boost::has_trivial_destructor<T>::value)
+allocate	lockfree/detail/freelist.hpp	/^    T * allocate (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:protected	signature:(void)
+allocate	lockfree/detail/freelist.hpp	/^    index_t allocate (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:protected	signature:(void)
+allocate_impl	lockfree/detail/freelist.hpp	/^    T * allocate_impl (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(void)
+allocate_impl	lockfree/detail/freelist.hpp	/^    index_t allocate_impl (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(void)
+allocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    T * allocate_impl_unsafe (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(void)
+allocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    index_t allocate_impl_unsafe (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(void)
+allocator	lockfree/policies.hpp	/^struct allocator:$/;"	s	namespace:boost::lockfree	inherits:boost::parameter::template_keyword
+allocator	lockfree/queue.hpp	/^        typedef node_allocator allocator;$/;"	t	struct:boost::lockfree::queue::implementation_defined	access:public
+allocator	lockfree/queue.hpp	/^    typedef typename implementation_defined::allocator allocator;$/;"	t	class:boost::lockfree::queue	access:public
+allocator	lockfree/spsc_queue.hpp	/^        typedef allocator_arg allocator;$/;"	t	struct:boost::lockfree::spsc_queue::implementation_defined	access:public
+allocator	lockfree/spsc_queue.hpp	/^    typedef typename extract_allocator_t::type allocator;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+allocator	lockfree/spsc_queue.hpp	/^    typedef typename implementation_defined::allocator allocator;$/;"	t	class:boost::lockfree::spsc_queue	access:public
+allocator	lockfree/stack.hpp	/^        typedef node_allocator allocator;$/;"	t	struct:boost::lockfree::stack::implementation_defined	access:public
+allocator	lockfree/stack.hpp	/^    typedef typename implementation_defined::allocator allocator;$/;"	t	class:boost::lockfree::stack	access:public
+allocator_arg	lockfree/detail/parameter.hpp	/^                              >::type allocator_arg;$/;"	t	struct:boost::lockfree::detail::extract_allocator	access:public
+allocator_arg	lockfree/spsc_queue.hpp	/^    typedef typename detail::make_ringbuffer<T, A0, A1>::allocator allocator_arg;$/;"	t	class:boost::lockfree::spsc_queue	access:private
+array_	lockfree/spsc_queue.hpp	/^    pointer array_;$/;"	m	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+base_type	lockfree/spsc_queue.hpp	/^    typedef typename detail::make_ringbuffer<T, A0, A1>::ringbuffer_type base_type;$/;"	t	class:boost::lockfree::spsc_queue	access:private
+boost	lockfree/detail/atomic.hpp	/^namespace boost {$/;"	n
+boost	lockfree/detail/branch_hints.hpp	/^namespace boost    {$/;"	n
+boost	lockfree/detail/copy_payload.hpp	/^namespace boost    {$/;"	n
+boost	lockfree/detail/freelist.hpp	/^namespace boost    {$/;"	n
+boost	lockfree/detail/parameter.hpp	/^namespace boost {$/;"	n
+boost	lockfree/detail/tagged_ptr_dcas.hpp	/^namespace boost {$/;"	n
+boost	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^namespace boost {$/;"	n
+boost	lockfree/policies.hpp	/^namespace boost {$/;"	n
+boost	lockfree/queue.hpp	/^namespace boost    {$/;"	n
+boost	lockfree/spsc_queue.hpp	/^namespace boost    {$/;"	n
+boost	lockfree/stack.hpp	/^namespace boost    {$/;"	n
+boost::lockfree	lockfree/detail/atomic.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/detail/branch_hints.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/detail/copy_payload.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/detail/freelist.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/detail/parameter.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/detail/tagged_ptr_dcas.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/policies.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/queue.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/spsc_queue.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree	lockfree/stack.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+boost::lockfree::allocator	lockfree/policies.hpp	/^struct allocator:$/;"	s	namespace:boost::lockfree	inherits:boost::parameter::template_keyword
+boost::lockfree::capacity	lockfree/policies.hpp	/^struct capacity:$/;"	s	namespace:boost::lockfree	inherits:boost::parameter::template_keyword
+boost::lockfree::detail	lockfree/detail/atomic.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/detail/branch_hints.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/detail/copy_payload.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/detail/freelist.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/detail/parameter.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/detail/tagged_ptr_dcas.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/queue.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/spsc_queue.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail	lockfree/stack.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+boost::lockfree::detail::compile_time_sized_ringbuffer	lockfree/spsc_queue.hpp	/^class compile_time_sized_ringbuffer:$/;"	c	namespace:boost::lockfree::detail	inherits:ringbuffer_base
+boost::lockfree::detail::compile_time_sized_ringbuffer::data	lockfree/spsc_queue.hpp	/^    T * data()$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private	signature:()
+boost::lockfree::detail::compile_time_sized_ringbuffer::max_size	lockfree/spsc_queue.hpp	/^    static const std::size_t max_size = MaxSize + 1;$/;"	m	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+boost::lockfree::detail::compile_time_sized_ringbuffer::pop	lockfree/spsc_queue.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T & ret)
+boost::lockfree::detail::compile_time_sized_ringbuffer::pop	lockfree/spsc_queue.hpp	/^    size_type pop(OutputIterator it)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(OutputIterator it)
+boost::lockfree::detail::compile_time_sized_ringbuffer::pop	lockfree/spsc_queue.hpp	/^    size_type pop(T * ret, size_type size)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T * ret, size_type size)
+boost::lockfree::detail::compile_time_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::detail::compile_time_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T const & t)
+boost::lockfree::detail::compile_time_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    size_type push(T const (&t)[size])$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T const (&t)[size])
+boost::lockfree::detail::compile_time_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    size_type push(T const * t, size_type size)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T const * t, size_type size)
+boost::lockfree::detail::compile_time_sized_ringbuffer::size_type	lockfree/spsc_queue.hpp	/^    typedef std::size_t size_type;$/;"	t	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+boost::lockfree::detail::compile_time_sized_ringbuffer::storage_	lockfree/spsc_queue.hpp	/^    storage_type storage_;$/;"	m	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+boost::lockfree::detail::compile_time_sized_ringbuffer::storage_type	lockfree/spsc_queue.hpp	/^                                           >::type storage_type;$/;"	t	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+boost::lockfree::detail::compiletime_sized_freelist_storage	lockfree/detail/freelist.hpp	/^struct compiletime_sized_freelist_storage$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::compiletime_sized_freelist_storage::nodes_	lockfree/detail/freelist.hpp	/^        nodes_ = Alloc::allocate(count);$/;"	m	struct:boost::lockfree::detail::compiletime_sized_freelist_storage	access:public
+boost::lockfree::detail::consume_via_copy	lockfree/detail/copy_payload.hpp	/^struct consume_via_copy$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::consume_via_copy::consume_via_copy	lockfree/detail/copy_payload.hpp	/^    consume_via_copy(T & out):$/;"	f	struct:boost::lockfree::detail::consume_via_copy	access:public	signature:(T & out)
+boost::lockfree::detail::consume_via_copy::operator ()	lockfree/detail/copy_payload.hpp	/^    void operator()(U & element)$/;"	f	struct:boost::lockfree::detail::consume_via_copy	access:public	signature:(U & element)
+boost::lockfree::detail::consume_via_copy::out	lockfree/detail/copy_payload.hpp	/^    T &  out;$/;"	m	struct:boost::lockfree::detail::consume_via_copy	access:public
+boost::lockfree::detail::copy_constructible_and_copyable	lockfree/detail/copy_payload.hpp	/^struct copy_constructible_and_copyable$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::copy_constructible_and_copyable::copy	lockfree/detail/copy_payload.hpp	/^    static void copy(T & t, U & u)$/;"	f	struct:boost::lockfree::detail::copy_constructible_and_copyable	access:public	signature:(T & t, U & u)
+boost::lockfree::detail::copy_convertible	lockfree/detail/copy_payload.hpp	/^struct copy_convertible$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::copy_convertible::copy	lockfree/detail/copy_payload.hpp	/^    static void copy(T & t, U & u)$/;"	f	struct:boost::lockfree::detail::copy_convertible	access:public	signature:(T & t, U & u)
+boost::lockfree::detail::copy_payload	lockfree/detail/copy_payload.hpp	/^void copy_payload(T & t, U & u)$/;"	f	namespace:boost::lockfree::detail	signature:(T & t, U & u)
+boost::lockfree::detail::extract_allocator	lockfree/detail/parameter.hpp	/^struct extract_allocator$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::extract_allocator::allocator_arg	lockfree/detail/parameter.hpp	/^                              >::type allocator_arg;$/;"	t	struct:boost::lockfree::detail::extract_allocator	access:public
+boost::lockfree::detail::extract_allocator::has_allocator	lockfree/detail/parameter.hpp	/^    static const bool has_allocator = has_arg<bound_args, tag::allocator>::value;$/;"	m	struct:boost::lockfree::detail::extract_allocator	access:public
+boost::lockfree::detail::extract_allocator::type	lockfree/detail/parameter.hpp	/^    typedef typename allocator_arg::template rebind<T>::other type;$/;"	t	struct:boost::lockfree::detail::extract_allocator	access:public
+boost::lockfree::detail::extract_capacity	lockfree/detail/parameter.hpp	/^struct extract_capacity$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::extract_capacity::capacity	lockfree/detail/parameter.hpp	/^    static const std::size_t capacity = capacity_t::value;$/;"	m	struct:boost::lockfree::detail::extract_capacity	access:public
+boost::lockfree::detail::extract_capacity::capacity_t	lockfree/detail/parameter.hpp	/^                              >::type capacity_t;$/;"	t	struct:boost::lockfree::detail::extract_capacity	access:public
+boost::lockfree::detail::extract_capacity::has_capacity	lockfree/detail/parameter.hpp	/^    static const bool has_capacity = has_arg<bound_args, tag::capacity>::value;$/;"	m	struct:boost::lockfree::detail::extract_capacity	access:public
+boost::lockfree::detail::extract_fixed_sized	lockfree/detail/parameter.hpp	/^struct extract_fixed_sized$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::extract_fixed_sized::has_fixed_sized	lockfree/detail/parameter.hpp	/^    static const bool has_fixed_sized = has_arg<bound_args, tag::fixed_sized>::value;$/;"	m	struct:boost::lockfree::detail::extract_fixed_sized	access:public
+boost::lockfree::detail::extract_fixed_sized::type	lockfree/detail/parameter.hpp	/^                              >::type type;$/;"	t	struct:boost::lockfree::detail::extract_fixed_sized	access:public
+boost::lockfree::detail::extract_fixed_sized::value	lockfree/detail/parameter.hpp	/^    static const bool value = type::value;$/;"	m	struct:boost::lockfree::detail::extract_fixed_sized	access:public
+boost::lockfree::detail::freelist_stack	lockfree/detail/freelist.hpp	/^class freelist_stack:$/;"	c	namespace:boost::lockfree::detail	inherits:Alloc
+boost::lockfree::detail::freelist_stack::allocate	lockfree/detail/freelist.hpp	/^    T * allocate (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:protected	signature:(void)
+boost::lockfree::detail::freelist_stack::allocate_impl	lockfree/detail/freelist.hpp	/^    T * allocate_impl (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(void)
+boost::lockfree::detail::freelist_stack::allocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    T * allocate_impl_unsafe (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(void)
+boost::lockfree::detail::freelist_stack::construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType const & arg)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(ArgumentType const & arg)
+boost::lockfree::detail::freelist_stack::construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType1 const & arg1, ArgumentType2 const & arg2)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(ArgumentType1 const & arg1, ArgumentType2 const & arg2)
+boost::lockfree::detail::freelist_stack::construct	lockfree/detail/freelist.hpp	/^    T * construct (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void)
+boost::lockfree::detail::freelist_stack::deallocate	lockfree/detail/freelist.hpp	/^    void deallocate (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:protected	signature:(T * n)
+boost::lockfree::detail::freelist_stack::deallocate_impl	lockfree/detail/freelist.hpp	/^    void deallocate_impl (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(T * n)
+boost::lockfree::detail::freelist_stack::deallocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    void deallocate_impl_unsafe (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(T * n)
+boost::lockfree::detail::freelist_stack::destruct	lockfree/detail/freelist.hpp	/^    void destruct (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(T * n)
+boost::lockfree::detail::freelist_stack::destruct	lockfree/detail/freelist.hpp	/^    void destruct (tagged_node_handle tagged_ptr)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(tagged_node_handle tagged_ptr)
+boost::lockfree::detail::freelist_stack::freelist_node	lockfree/detail/freelist.hpp	/^    struct freelist_node$/;"	s	class:boost::lockfree::detail::freelist_stack	access:private
+boost::lockfree::detail::freelist_stack::freelist_node::next	lockfree/detail/freelist.hpp	/^        tagged_ptr<freelist_node> next;$/;"	m	struct:boost::lockfree::detail::freelist_stack::freelist_node	access:public
+boost::lockfree::detail::freelist_stack::freelist_stack	lockfree/detail/freelist.hpp	/^    freelist_stack (Allocator const & alloc, std::size_t n = 0):$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(Allocator const & alloc, std::size_t n = 0)
+boost::lockfree::detail::freelist_stack::get_handle	lockfree/detail/freelist.hpp	/^    T * get_handle(T * pointer) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(T * pointer) const
+boost::lockfree::detail::freelist_stack::get_handle	lockfree/detail/freelist.hpp	/^    T * get_handle(tagged_node_handle const & handle) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(tagged_node_handle const & handle) const
+boost::lockfree::detail::freelist_stack::get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(T * pointer) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(T * pointer) const
+boost::lockfree::detail::freelist_stack::get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(tagged_node_handle const & tptr) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(tagged_node_handle const & tptr) const
+boost::lockfree::detail::freelist_stack::is_lock_free	lockfree/detail/freelist.hpp	/^    bool is_lock_free(void) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void) const
+boost::lockfree::detail::freelist_stack::null_handle	lockfree/detail/freelist.hpp	/^    T * null_handle(void) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void) const
+boost::lockfree::detail::freelist_stack::pool_	lockfree/detail/freelist.hpp	/^    atomic<tagged_node_ptr> pool_;$/;"	m	class:boost::lockfree::detail::freelist_stack	access:private
+boost::lockfree::detail::freelist_stack::reserve	lockfree/detail/freelist.hpp	/^    void reserve (std::size_t count)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(std::size_t count)
+boost::lockfree::detail::freelist_stack::tagged_node_handle	lockfree/detail/freelist.hpp	/^    typedef tagged_ptr<T> tagged_node_handle;$/;"	t	class:boost::lockfree::detail::freelist_stack	access:public
+boost::lockfree::detail::freelist_stack::tagged_node_ptr	lockfree/detail/freelist.hpp	/^    typedef tagged_ptr<freelist_node> tagged_node_ptr;$/;"	t	class:boost::lockfree::detail::freelist_stack	access:private
+boost::lockfree::detail::freelist_stack::~freelist_stack	lockfree/detail/freelist.hpp	/^    ~freelist_stack(void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void)
+boost::lockfree::detail::has_arg	lockfree/detail/parameter.hpp	/^struct has_arg$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::has_arg::type	lockfree/detail/parameter.hpp	/^    typedef typename parameter::binding<bound_args, tag_type, mpl::void_>::type type;$/;"	t	struct:boost::lockfree::detail::has_arg	access:public
+boost::lockfree::detail::has_arg::value	lockfree/detail/parameter.hpp	/^    static const bool value = mpl::is_not_void_<type>::type::value;$/;"	m	struct:boost::lockfree::detail::has_arg	access:public
+boost::lockfree::detail::likely	lockfree/detail/branch_hints.hpp	/^inline bool likely(bool expr)$/;"	f	namespace:boost::lockfree::detail	signature:(bool expr)
+boost::lockfree::detail::make_ringbuffer	lockfree/spsc_queue.hpp	/^struct make_ringbuffer$/;"	s	namespace:boost::lockfree::detail
+boost::lockfree::detail::make_ringbuffer::BOOST_STATIC_ASSERT	lockfree/spsc_queue.hpp	/^    BOOST_STATIC_ASSERT((mpl::if_<mpl::bool_<!runtime_sized>,$/;"	p	struct:boost::lockfree::detail::make_ringbuffer	access:public	signature:(mpl::if_<mpl::bool_<!runtime_sized>, mpl::bool_<!extract_allocator_t::has_allocator>, mpl::true_ >::type::value)
+boost::lockfree::detail::make_ringbuffer::allocator	lockfree/spsc_queue.hpp	/^    typedef typename extract_allocator_t::type allocator;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::make_ringbuffer::bound_args	lockfree/spsc_queue.hpp	/^    typedef typename ringbuffer_signature::bind<A0, A1>::type bound_args;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::make_ringbuffer::capacity	lockfree/spsc_queue.hpp	/^    static const size_t capacity    =  extract_capacity_t::capacity;$/;"	m	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::make_ringbuffer::extract_allocator_t	lockfree/spsc_queue.hpp	/^    typedef extract_allocator<bound_args, T> extract_allocator_t;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::make_ringbuffer::extract_capacity_t	lockfree/spsc_queue.hpp	/^    typedef extract_capacity<bound_args> extract_capacity_t;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::make_ringbuffer::ringbuffer_type	lockfree/spsc_queue.hpp	/^                              >::type ringbuffer_type;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::make_ringbuffer::runtime_sized	lockfree/spsc_queue.hpp	/^    static const bool runtime_sized = !extract_capacity_t::has_capacity;$/;"	m	struct:boost::lockfree::detail::make_ringbuffer	access:public
+boost::lockfree::detail::node_count	lockfree/detail/freelist.hpp	/^    std::size_t node_count(void) const$/;"	f	namespace:boost::lockfree::detail	signature:(void) const
+boost::lockfree::detail::nodes	lockfree/detail/freelist.hpp	/^    T * nodes(void) const$/;"	f	namespace:boost::lockfree::detail	signature:(void) const
+boost::lockfree::detail::queue_signature	lockfree/queue.hpp	/^                             > queue_signature;$/;"	t	namespace:boost::lockfree::detail
+boost::lockfree::detail::ringbuffer_base	lockfree/spsc_queue.hpp	/^class ringbuffer_base$/;"	c	namespace:boost::lockfree::detail	inherits:boost::noncopyable
+boost::lockfree::detail::ringbuffer_base::copy_and_delete	lockfree/spsc_queue.hpp	/^    OutputIterator copy_and_delete( T * first, T * last, OutputIterator out )$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:( T * first, T * last, OutputIterator out )
+boost::lockfree::detail::ringbuffer_base::empty	lockfree/spsc_queue.hpp	/^    bool empty(size_t write_index, size_t read_index)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:(size_t write_index, size_t read_index)
+boost::lockfree::detail::ringbuffer_base::empty	lockfree/spsc_queue.hpp	/^    bool empty(void)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:public	signature:(void)
+boost::lockfree::detail::ringbuffer_base::is_lock_free	lockfree/spsc_queue.hpp	/^    bool is_lock_free(void) const$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:public	signature:(void) const
+boost::lockfree::detail::ringbuffer_base::next_index	lockfree/spsc_queue.hpp	/^    static size_t next_index(size_t arg, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(size_t arg, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::operator =	lockfree/spsc_queue.hpp	/^    const ringbuffer_base& operator=( const ringbuffer_base& ) = delete;$/;"	p	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:( const ringbuffer_base& )
+boost::lockfree::detail::ringbuffer_base::padding1	lockfree/spsc_queue.hpp	/^    char padding1[padding_size]; \/* force read_index and write_index to different cache lines *\/$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+boost::lockfree::detail::ringbuffer_base::padding_size	lockfree/spsc_queue.hpp	/^    static const int padding_size = BOOST_LOCKFREE_CACHELINE_BYTES - sizeof(size_t);$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+boost::lockfree::detail::ringbuffer_base::pop	lockfree/spsc_queue.hpp	/^    bool pop (T & ret, T * buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(T & ret, T * buffer, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::pop	lockfree/spsc_queue.hpp	/^    size_t pop (OutputIterator it, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(OutputIterator it, T * internal_buffer, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::pop	lockfree/spsc_queue.hpp	/^    size_t pop (T * output_buffer, size_t output_count, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(T * output_buffer, size_t output_count, T * internal_buffer, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(ConstIterator begin, ConstIterator end, T * internal_buffer, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::push	lockfree/spsc_queue.hpp	/^    bool push(T const & t, T * buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(T const & t, T * buffer, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::push	lockfree/spsc_queue.hpp	/^    size_t push(const T * input_buffer, size_t input_count, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(const T * input_buffer, size_t input_count, T * internal_buffer, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::read_available	lockfree/spsc_queue.hpp	/^    static size_t read_available(size_t write_index, size_t read_index, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(size_t write_index, size_t read_index, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::read_index_	lockfree/spsc_queue.hpp	/^    atomic<size_t> read_index_;$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+boost::lockfree::detail::ringbuffer_base::reset	lockfree/spsc_queue.hpp	/^    void reset(void)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:public	signature:(void)
+boost::lockfree::detail::ringbuffer_base::ringbuffer_base	lockfree/spsc_queue.hpp	/^    ringbuffer_base(ringbuffer_base &&)      = delete;$/;"	p	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:(ringbuffer_base &&)
+boost::lockfree::detail::ringbuffer_base::ringbuffer_base	lockfree/spsc_queue.hpp	/^    ringbuffer_base(ringbuffer_base const &) = delete;$/;"	p	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:(ringbuffer_base const &)
+boost::lockfree::detail::ringbuffer_base::ringbuffer_base	lockfree/spsc_queue.hpp	/^    ringbuffer_base(void):$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(void)
+boost::lockfree::detail::ringbuffer_base::size_t	lockfree/spsc_queue.hpp	/^    typedef std::size_t size_t;$/;"	t	class:boost::lockfree::detail::ringbuffer_base	access:private
+boost::lockfree::detail::ringbuffer_base::write_available	lockfree/spsc_queue.hpp	/^    static size_t write_available(size_t write_index, size_t read_index, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(size_t write_index, size_t read_index, size_t max_size)
+boost::lockfree::detail::ringbuffer_base::write_index_	lockfree/spsc_queue.hpp	/^    atomic<size_t> write_index_;$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+boost::lockfree::detail::ringbuffer_signature	lockfree/spsc_queue.hpp	/^                             > ringbuffer_signature;$/;"	t	namespace:boost::lockfree::detail
+boost::lockfree::detail::runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^class runtime_sized_ringbuffer:$/;"	c	namespace:boost::lockfree::detail	inherits:ringbuffer_base,Alloc
+boost::lockfree::detail::runtime_sized_ringbuffer::array_	lockfree/spsc_queue.hpp	/^    pointer array_;$/;"	m	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+boost::lockfree::detail::runtime_sized_ringbuffer::max_elements_	lockfree/spsc_queue.hpp	/^    size_type max_elements_;$/;"	m	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+boost::lockfree::detail::runtime_sized_ringbuffer::pointer	lockfree/spsc_queue.hpp	/^    typedef typename Alloc::pointer pointer;$/;"	t	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+boost::lockfree::detail::runtime_sized_ringbuffer::pop	lockfree/spsc_queue.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T & ret)
+boost::lockfree::detail::runtime_sized_ringbuffer::pop	lockfree/spsc_queue.hpp	/^    size_type pop(OutputIterator it)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(OutputIterator it)
+boost::lockfree::detail::runtime_sized_ringbuffer::pop	lockfree/spsc_queue.hpp	/^    size_type pop(T * ret, size_type size)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T * ret, size_type size)
+boost::lockfree::detail::runtime_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::detail::runtime_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T const & t)
+boost::lockfree::detail::runtime_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    size_type push(T const (&t)[size])$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T const (&t)[size])
+boost::lockfree::detail::runtime_sized_ringbuffer::push	lockfree/spsc_queue.hpp	/^    size_type push(T const * t, size_type size)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T const * t, size_type size)
+boost::lockfree::detail::runtime_sized_ringbuffer::runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    explicit runtime_sized_ringbuffer(size_type max_elements):$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(size_type max_elements)
+boost::lockfree::detail::runtime_sized_ringbuffer::runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    runtime_sized_ringbuffer(Alloc const & alloc, size_type max_elements):$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(Alloc const & alloc, size_type max_elements)
+boost::lockfree::detail::runtime_sized_ringbuffer::runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    runtime_sized_ringbuffer(typename Alloc::template rebind<U>::other const & alloc, size_type max_elements):$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(typename Alloc::template rebind<U>::other const & alloc, size_type max_elements)
+boost::lockfree::detail::runtime_sized_ringbuffer::size_type	lockfree/spsc_queue.hpp	/^    typedef std::size_t size_type;$/;"	t	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+boost::lockfree::detail::runtime_sized_ringbuffer::~runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    ~runtime_sized_ringbuffer(void)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(void)
+boost::lockfree::detail::stack_signature	lockfree/stack.hpp	/^                             > stack_signature;$/;"	t	namespace:boost::lockfree::detail
+boost::lockfree::detail::tagged_index	lockfree/detail/freelist.hpp	/^class tagged_index$/;"	c	namespace:boost::lockfree::detail
+boost::lockfree::detail::tagged_index::get_index	lockfree/detail/freelist.hpp	/^    index_t get_index() const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:() const
+boost::lockfree::detail::tagged_index::get_next_tag	lockfree/detail/freelist.hpp	/^    tag_t get_next_tag() const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:() const
+boost::lockfree::detail::tagged_index::get_tag	lockfree/detail/freelist.hpp	/^    tag_t get_tag() const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:() const
+boost::lockfree::detail::tagged_index::index	lockfree/detail/freelist.hpp	/^    index_t index;$/;"	m	class:boost::lockfree::detail::tagged_index	access:protected
+boost::lockfree::detail::tagged_index::index_t	lockfree/detail/freelist.hpp	/^    typedef boost::uint16_t index_t;$/;"	t	class:boost::lockfree::detail::tagged_index	access:public
+boost::lockfree::detail::tagged_index::operator !=	lockfree/detail/freelist.hpp	/^    bool operator!=(tagged_index const & rhs) const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tagged_index const & rhs) const
+boost::lockfree::detail::tagged_index::operator ==	lockfree/detail/freelist.hpp	/^    bool operator==(tagged_index const & rhs) const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tagged_index const & rhs) const
+boost::lockfree::detail::tagged_index::rhs	lockfree/detail/freelist.hpp	/^    tagged_index(tagged_index const & rhs) = default;$/;"	m	class:boost::lockfree::detail::tagged_index	access:public
+boost::lockfree::detail::tagged_index::set_index	lockfree/detail/freelist.hpp	/^    void set_index(index_t i)$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(index_t i)
+boost::lockfree::detail::tagged_index::set_tag	lockfree/detail/freelist.hpp	/^    void set_tag(tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tag_t t)
+boost::lockfree::detail::tagged_index::tag	lockfree/detail/freelist.hpp	/^    tag_t tag;$/;"	m	class:boost::lockfree::detail::tagged_index	access:protected
+boost::lockfree::detail::tagged_index::tag_t	lockfree/detail/freelist.hpp	/^    typedef boost::uint16_t tag_t;$/;"	t	class:boost::lockfree::detail::tagged_index	access:public
+boost::lockfree::detail::tagged_index::tagged_index	lockfree/detail/freelist.hpp	/^    explicit tagged_index(index_t i, tag_t t = 0):$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(index_t i, tag_t t = 0)
+boost::lockfree::detail::tagged_index::tagged_index	lockfree/detail/freelist.hpp	/^    tagged_index(tagged_index const & rhs):$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tagged_index const & rhs)
+boost::lockfree::detail::tagged_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^class BOOST_LOCKFREE_DCAS_ALIGNMENT tagged_ptr$/;"	c	namespace:boost::lockfree::detail
+boost::lockfree::detail::tagged_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^class tagged_ptr$/;"	c	namespace:boost::lockfree::detail
+boost::lockfree::detail::tagged_ptr::cast_unit	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    union cast_unit$/;"	u	class:boost::lockfree::detail::tagged_ptr	access:private
+boost::lockfree::detail::tagged_ptr::cast_unit::tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^        tag_t tag[4];$/;"	m	union:boost::lockfree::detail::tagged_ptr::cast_unit	access:public
+boost::lockfree::detail::tagged_ptr::cast_unit::value	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^        compressed_ptr_t value;$/;"	m	union:boost::lockfree::detail::tagged_ptr::cast_unit	access:public
+boost::lockfree::detail::tagged_ptr::compressed_ptr_t	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    typedef boost::uint64_t compressed_ptr_t;$/;"	t	class:boost::lockfree::detail::tagged_ptr	access:private
+boost::lockfree::detail::tagged_ptr::extract_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static T* extract_ptr(volatile compressed_ptr_t const & i)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:private	signature:(volatile compressed_ptr_t const & i)
+boost::lockfree::detail::tagged_ptr::extract_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static tag_t extract_tag(volatile compressed_ptr_t const & i)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:private	signature:(volatile compressed_ptr_t const & i)
+boost::lockfree::detail::tagged_ptr::get_next_tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    tag_t get_next_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::get_next_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tag_t get_next_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::get_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    T * get_ptr(void) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(void) const
+boost::lockfree::detail::tagged_ptr::get_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    T * get_ptr() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::get_tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    tag_t get_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::get_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tag_t get_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::operator !=	lockfree/detail/tagged_ptr_dcas.hpp	/^    bool operator!= (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+boost::lockfree::detail::tagged_ptr::operator !=	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    bool operator!= (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+boost::lockfree::detail::tagged_ptr::operator *	lockfree/detail/tagged_ptr_dcas.hpp	/^    T & operator*() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::operator *	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    T & operator*() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::operator ->	lockfree/detail/tagged_ptr_dcas.hpp	/^    T * operator->() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::operator ->	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    T * operator->() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+boost::lockfree::detail::tagged_ptr::operator =	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+boost::lockfree::detail::tagged_ptr::operator =	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+boost::lockfree::detail::tagged_ptr::operator ==	lockfree/detail/tagged_ptr_dcas.hpp	/^    bool operator== (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+boost::lockfree::detail::tagged_ptr::operator ==	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    bool operator== (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+boost::lockfree::detail::tagged_ptr::operator bool	lockfree/detail/tagged_ptr_dcas.hpp	/^    operator bool(void) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(void) const
+boost::lockfree::detail::tagged_ptr::operator bool	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    operator bool(void) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(void) const
+boost::lockfree::detail::tagged_ptr::p	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+boost::lockfree::detail::tagged_ptr::p	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr(tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+boost::lockfree::detail::tagged_ptr::p	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+boost::lockfree::detail::tagged_ptr::p	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr(tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+boost::lockfree::detail::tagged_ptr::pack_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static compressed_ptr_t pack_ptr(T * ptr, int tag)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:private	signature:(T * ptr, int tag)
+boost::lockfree::detail::tagged_ptr::ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    T * ptr;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:protected
+boost::lockfree::detail::tagged_ptr::ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    compressed_ptr_t ptr;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:protected
+boost::lockfree::detail::tagged_ptr::ptr_mask	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static const compressed_ptr_t ptr_mask = 0xffffffffffffUL; \/\/(1L<<48L)-1;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:private
+boost::lockfree::detail::tagged_ptr::set	lockfree/detail/tagged_ptr_dcas.hpp	/^    void set(T * p, tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t)
+boost::lockfree::detail::tagged_ptr::set	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    void set(T * p, tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t)
+boost::lockfree::detail::tagged_ptr::set_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    void set_ptr(T * p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p)
+boost::lockfree::detail::tagged_ptr::set_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    void set_ptr(T * p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p)
+boost::lockfree::detail::tagged_ptr::set_tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    void set_tag(tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tag_t t)
+boost::lockfree::detail::tagged_ptr::set_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    void set_tag(tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tag_t t)
+boost::lockfree::detail::tagged_ptr::tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    tag_t tag;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:protected
+boost::lockfree::detail::tagged_ptr::tag_index	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static const int tag_index = 3;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:private
+boost::lockfree::detail::tagged_ptr::tag_t	lockfree/detail/tagged_ptr_dcas.hpp	/^    typedef std::size_t tag_t;$/;"	t	class:boost::lockfree::detail::tagged_ptr	access:public
+boost::lockfree::detail::tagged_ptr::tag_t	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    typedef boost::uint16_t tag_t;$/;"	t	class:boost::lockfree::detail::tagged_ptr	access:public
+boost::lockfree::detail::tagged_ptr::tagged_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    explicit tagged_ptr(T * p, tag_t t = 0):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t = 0)
+boost::lockfree::detail::tagged_ptr::tagged_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr(tagged_ptr const & p):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+boost::lockfree::detail::tagged_ptr::tagged_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    explicit tagged_ptr(T * p, tag_t t = 0):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t = 0)
+boost::lockfree::detail::tagged_ptr::tagged_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr(tagged_ptr const & p):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+boost::lockfree::detail::unlikely	lockfree/detail/branch_hints.hpp	/^inline bool unlikely(bool expr)$/;"	f	namespace:boost::lockfree::detail	signature:(bool expr)
+boost::lockfree::detail::~runtime_sized_freelist_storage	lockfree/detail/freelist.hpp	/^    ~runtime_sized_freelist_storage(void)$/;"	f	namespace:boost::lockfree::detail	signature:(void)
+boost::lockfree::fixed_size_freelist	lockfree/detail/freelist.hpp	/^class fixed_size_freelist:$/;"	c	namespace:boost::lockfree	inherits:NodeStorage
+boost::lockfree::fixed_size_freelist::allocate	lockfree/detail/freelist.hpp	/^    index_t allocate (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:protected	signature:(void)
+boost::lockfree::fixed_size_freelist::allocate_impl	lockfree/detail/freelist.hpp	/^    index_t allocate_impl (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(void)
+boost::lockfree::fixed_size_freelist::allocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    index_t allocate_impl_unsafe (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(void)
+boost::lockfree::fixed_size_freelist::construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType const & arg)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(ArgumentType const & arg)
+boost::lockfree::fixed_size_freelist::construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType1 const & arg1, ArgumentType2 const & arg2)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(ArgumentType1 const & arg1, ArgumentType2 const & arg2)
+boost::lockfree::fixed_size_freelist::construct	lockfree/detail/freelist.hpp	/^    T * construct (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void)
+boost::lockfree::fixed_size_freelist::deallocate	lockfree/detail/freelist.hpp	/^    void deallocate (index_t index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(index_t index)
+boost::lockfree::fixed_size_freelist::deallocate_impl	lockfree/detail/freelist.hpp	/^    void deallocate_impl (index_t index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(index_t index)
+boost::lockfree::fixed_size_freelist::deallocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    void deallocate_impl_unsafe (index_t index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(index_t index)
+boost::lockfree::fixed_size_freelist::destruct	lockfree/detail/freelist.hpp	/^    void destruct (T * n)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(T * n)
+boost::lockfree::fixed_size_freelist::destruct	lockfree/detail/freelist.hpp	/^    void destruct (tagged_node_handle tagged_index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(tagged_node_handle tagged_index)
+boost::lockfree::fixed_size_freelist::fixed_size_freelist	lockfree/detail/freelist.hpp	/^    fixed_size_freelist (Allocator const & alloc, std::size_t count):$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(Allocator const & alloc, std::size_t count)
+boost::lockfree::fixed_size_freelist::fixed_size_freelist	lockfree/detail/freelist.hpp	/^    fixed_size_freelist (void):$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void)
+boost::lockfree::fixed_size_freelist::freelist_node	lockfree/detail/freelist.hpp	/^    struct freelist_node$/;"	s	class:boost::lockfree::fixed_size_freelist	access:private
+boost::lockfree::fixed_size_freelist::freelist_node::next	lockfree/detail/freelist.hpp	/^        tagged_index next;$/;"	m	struct:boost::lockfree::fixed_size_freelist::freelist_node	access:public
+boost::lockfree::fixed_size_freelist::get_handle	lockfree/detail/freelist.hpp	/^    index_t get_handle(T * pointer) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(T * pointer) const
+boost::lockfree::fixed_size_freelist::get_handle	lockfree/detail/freelist.hpp	/^    index_t get_handle(tagged_node_handle const & handle) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(tagged_node_handle const & handle) const
+boost::lockfree::fixed_size_freelist::get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(T * ptr) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(T * ptr) const
+boost::lockfree::fixed_size_freelist::get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(index_t index) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(index_t index) const
+boost::lockfree::fixed_size_freelist::get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(tagged_node_handle const & tptr) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(tagged_node_handle const & tptr) const
+boost::lockfree::fixed_size_freelist::index_t	lockfree/detail/freelist.hpp	/^    typedef tagged_index::index_t index_t;$/;"	t	class:boost::lockfree::fixed_size_freelist	access:private
+boost::lockfree::fixed_size_freelist::initialize	lockfree/detail/freelist.hpp	/^    void initialize(void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(void)
+boost::lockfree::fixed_size_freelist::is_lock_free	lockfree/detail/freelist.hpp	/^    bool is_lock_free(void) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void) const
+boost::lockfree::fixed_size_freelist::null_handle	lockfree/detail/freelist.hpp	/^    index_t null_handle(void) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void) const
+boost::lockfree::fixed_size_freelist::pool_	lockfree/detail/freelist.hpp	/^    atomic<tagged_index> pool_;$/;"	m	class:boost::lockfree::fixed_size_freelist	access:private
+boost::lockfree::fixed_size_freelist::tagged_node_handle	lockfree/detail/freelist.hpp	/^    typedef tagged_index tagged_node_handle;$/;"	t	class:boost::lockfree::fixed_size_freelist	access:public
+boost::lockfree::fixed_sized	lockfree/policies.hpp	/^struct fixed_sized:$/;"	s	namespace:boost::lockfree	inherits:boost::parameter::template_keyword
+boost::lockfree::queue	lockfree/queue.hpp	/^class queue$/;"	c	namespace:boost::lockfree	inherits:boost::noncopyable
+boost::lockfree::queue::BOOST_STATIC_ASSERT	lockfree/queue.hpp	/^    BOOST_STATIC_ASSERT((boost::has_trivial_assign<T>::value));$/;"	p	class:boost::lockfree::queue	access:private	signature:(boost::has_trivial_assign<T>::value)
+boost::lockfree::queue::BOOST_STATIC_ASSERT	lockfree/queue.hpp	/^    BOOST_STATIC_ASSERT((boost::has_trivial_destructor<T>::value));$/;"	p	class:boost::lockfree::queue	access:private	signature:(boost::has_trivial_destructor<T>::value)
+boost::lockfree::queue::allocator	lockfree/queue.hpp	/^    typedef typename implementation_defined::allocator allocator;$/;"	t	class:boost::lockfree::queue	access:public
+boost::lockfree::queue::bound_args	lockfree/queue.hpp	/^    typedef typename detail::queue_signature::bind<A0, A1, A2>::type bound_args;$/;"	t	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::bounded_push	lockfree/queue.hpp	/^    bool bounded_push(T const & t)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T const & t)
+boost::lockfree::queue::capacity	lockfree/queue.hpp	/^    static const size_t capacity = detail::extract_capacity<bound_args>::capacity + 1; \/\/ the queue uses one dummy node$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::compile_time_sized	lockfree/queue.hpp	/^    static const bool compile_time_sized = has_capacity;$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::consume_all	lockfree/queue.hpp	/^    size_t consume_all(Functor & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor & f)
+boost::lockfree::queue::consume_all	lockfree/queue.hpp	/^    size_t consume_all(Functor const & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor const & f)
+boost::lockfree::queue::consume_one	lockfree/queue.hpp	/^    bool consume_one(Functor & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor & f)
+boost::lockfree::queue::consume_one	lockfree/queue.hpp	/^    bool consume_one(Functor const & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor const & f)
+boost::lockfree::queue::do_push	lockfree/queue.hpp	/^    bool do_push(T const & t)$/;"	f	class:boost::lockfree::queue	access:private	signature:(T const & t)
+boost::lockfree::queue::empty	lockfree/queue.hpp	/^    bool empty(void)$/;"	f	class:boost::lockfree::queue	access:public	signature:(void)
+boost::lockfree::queue::fixed_sized	lockfree/queue.hpp	/^    static const bool fixed_sized = detail::extract_fixed_sized<bound_args>::value;$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::handle_type	lockfree/queue.hpp	/^    typedef typename detail::select_tagged_handle<node, node_based>::handle_type handle_type;$/;"	t	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::has_capacity	lockfree/queue.hpp	/^    static const bool has_capacity = detail::extract_capacity<bound_args>::has_capacity;$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::head_	lockfree/queue.hpp	/^    atomic<tagged_node_handle> head_;$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::implementation_defined	lockfree/queue.hpp	/^    struct implementation_defined$/;"	s	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::implementation_defined::allocator	lockfree/queue.hpp	/^        typedef node_allocator allocator;$/;"	t	struct:boost::lockfree::queue::implementation_defined	access:public
+boost::lockfree::queue::implementation_defined::size_type	lockfree/queue.hpp	/^        typedef std::size_t size_type;$/;"	t	struct:boost::lockfree::queue::implementation_defined	access:public
+boost::lockfree::queue::initialize	lockfree/queue.hpp	/^    void initialize(void)$/;"	f	class:boost::lockfree::queue	access:private	signature:(void)
+boost::lockfree::queue::is_lock_free	lockfree/queue.hpp	/^    bool is_lock_free (void) const$/;"	f	class:boost::lockfree::queue	access:public	signature:(void) const
+boost::lockfree::queue::node	lockfree/queue.hpp	/^    struct BOOST_LOCKFREE_CACHELINE_ALIGNMENT node$/;"	s	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::node::data	lockfree/queue.hpp	/^        T data;$/;"	m	struct:boost::lockfree::queue::node	access:public
+boost::lockfree::queue::node::handle_type	lockfree/queue.hpp	/^        typedef typename detail::select_tagged_handle<node, node_based>::handle_type handle_type;$/;"	t	struct:boost::lockfree::queue::node	access:public
+boost::lockfree::queue::node::next	lockfree/queue.hpp	/^        atomic<tagged_node_handle> next;$/;"	m	struct:boost::lockfree::queue::node	access:public
+boost::lockfree::queue::node::node	lockfree/queue.hpp	/^        node (handle_type null_handle):$/;"	f	struct:boost::lockfree::queue::node	access:public	signature:(handle_type null_handle)
+boost::lockfree::queue::node::node	lockfree/queue.hpp	/^        node(T const & v, handle_type null_handle):$/;"	f	struct:boost::lockfree::queue::node	access:public	signature:(T const & v, handle_type null_handle)
+boost::lockfree::queue::node::node	lockfree/queue.hpp	/^        node(void)$/;"	f	struct:boost::lockfree::queue::node	access:public	signature:(void)
+boost::lockfree::queue::node::tagged_node_handle	lockfree/queue.hpp	/^        typedef typename detail::select_tagged_handle<node, node_based>::tagged_handle_type tagged_node_handle;$/;"	t	struct:boost::lockfree::queue::node	access:public
+boost::lockfree::queue::node_allocator	lockfree/queue.hpp	/^    typedef typename detail::extract_allocator<bound_args, node>::type node_allocator;$/;"	t	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::node_based	lockfree/queue.hpp	/^    static const bool node_based = !(has_capacity || fixed_sized);$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::operator =	lockfree/queue.hpp	/^    const queue& operator=( const queue& ) = delete;$/;"	p	class:boost::lockfree::queue	access:private	signature:( const queue& )
+boost::lockfree::queue::padding1	lockfree/queue.hpp	/^    char padding1[padding_size];$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::padding2	lockfree/queue.hpp	/^    char padding2[padding_size];$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::padding_size	lockfree/queue.hpp	/^    static const int padding_size = BOOST_LOCKFREE_CACHELINE_BYTES - sizeof(tagged_node_handle);$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::pool	lockfree/queue.hpp	/^    pool_t pool;$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::pool_t	lockfree/queue.hpp	/^    typedef typename detail::select_freelist<node, node_allocator, compile_time_sized, fixed_sized, capacity>::type pool_t;$/;"	t	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::pop	lockfree/queue.hpp	/^    bool pop (T & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T & ret)
+boost::lockfree::queue::pop	lockfree/queue.hpp	/^    bool pop (U & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(U & ret)
+boost::lockfree::queue::push	lockfree/queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T const & t)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    explicit queue(allocator const & alloc):$/;"	f	class:boost::lockfree::queue	access:public	signature:(allocator const & alloc)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    explicit queue(size_type n):$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    explicit queue(typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::queue	access:public	signature:(typename node_allocator::template rebind<U>::other const & alloc)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    queue(queue &&)      = delete;$/;"	p	class:boost::lockfree::queue	access:private	signature:(queue &&)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    queue(queue const &) = delete;$/;"	p	class:boost::lockfree::queue	access:private	signature:(queue const &)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    queue(size_type n, typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n, typename node_allocator::template rebind<U>::other const & alloc)
+boost::lockfree::queue::queue	lockfree/queue.hpp	/^    queue(void):$/;"	f	class:boost::lockfree::queue	access:public	signature:(void)
+boost::lockfree::queue::reserve	lockfree/queue.hpp	/^    void reserve(size_type n)$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n)
+boost::lockfree::queue::reserve_unsafe	lockfree/queue.hpp	/^    void reserve_unsafe(size_type n)$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n)
+boost::lockfree::queue::size_type	lockfree/queue.hpp	/^    typedef typename implementation_defined::size_type size_type;$/;"	t	class:boost::lockfree::queue	access:public
+boost::lockfree::queue::tagged_node_handle	lockfree/queue.hpp	/^    typedef typename pool_t::tagged_node_handle tagged_node_handle;$/;"	t	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::tail_	lockfree/queue.hpp	/^    atomic<tagged_node_handle> tail_;$/;"	m	class:boost::lockfree::queue	access:private
+boost::lockfree::queue::unsynchronized_pop	lockfree/queue.hpp	/^    bool unsynchronized_pop (T & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T & ret)
+boost::lockfree::queue::unsynchronized_pop	lockfree/queue.hpp	/^    bool unsynchronized_pop (U & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(U & ret)
+boost::lockfree::queue::unsynchronized_push	lockfree/queue.hpp	/^    bool unsynchronized_push(T const & t)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T const & t)
+boost::lockfree::queue::value_type	lockfree/queue.hpp	/^    typedef T value_type;$/;"	t	class:boost::lockfree::queue	access:public
+boost::lockfree::queue::~queue	lockfree/queue.hpp	/^    ~queue(void)$/;"	f	class:boost::lockfree::queue	access:public	signature:(void)
+boost::lockfree::select_freelist	lockfree/detail/freelist.hpp	/^struct select_freelist$/;"	s	namespace:boost::lockfree
+boost::lockfree::select_freelist::fixed_sized_storage_type	lockfree/detail/freelist.hpp	/^                              >::type fixed_sized_storage_type;$/;"	t	struct:boost::lockfree::select_freelist	access:public
+boost::lockfree::select_freelist::type	lockfree/detail/freelist.hpp	/^                              >::type type;$/;"	t	struct:boost::lockfree::select_freelist	access:public
+boost::lockfree::select_tagged_handle	lockfree/detail/freelist.hpp	/^struct select_tagged_handle$/;"	s	namespace:boost::lockfree
+boost::lockfree::select_tagged_handle::handle_type	lockfree/detail/freelist.hpp	/^                              >::type handle_type;$/;"	t	struct:boost::lockfree::select_tagged_handle	access:public
+boost::lockfree::select_tagged_handle::tagged_handle_type	lockfree/detail/freelist.hpp	/^                              >::type tagged_handle_type;$/;"	t	struct:boost::lockfree::select_tagged_handle	access:public
+boost::lockfree::spsc_queue	lockfree/spsc_queue.hpp	/^class spsc_queue:$/;"	c	namespace:boost::lockfree	inherits:detail::make_ringbuffer::ringbuffer_type
+boost::lockfree::spsc_queue::allocator	lockfree/spsc_queue.hpp	/^    typedef typename implementation_defined::allocator allocator;$/;"	t	class:boost::lockfree::spsc_queue	access:public
+boost::lockfree::spsc_queue::allocator_arg	lockfree/spsc_queue.hpp	/^    typedef typename detail::make_ringbuffer<T, A0, A1>::allocator allocator_arg;$/;"	t	class:boost::lockfree::spsc_queue	access:private
+boost::lockfree::spsc_queue::base_type	lockfree/spsc_queue.hpp	/^    typedef typename detail::make_ringbuffer<T, A0, A1>::ringbuffer_type base_type;$/;"	t	class:boost::lockfree::spsc_queue	access:private
+boost::lockfree::spsc_queue::consume_all	lockfree/spsc_queue.hpp	/^    size_type consume_all(Functor & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor & f)
+boost::lockfree::spsc_queue::consume_all	lockfree/spsc_queue.hpp	/^    size_type consume_all(Functor const & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor const & f)
+boost::lockfree::spsc_queue::consume_one	lockfree/spsc_queue.hpp	/^    bool consume_one(Functor & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor & f)
+boost::lockfree::spsc_queue::consume_one	lockfree/spsc_queue.hpp	/^    bool consume_one(Functor const & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor const & f)
+boost::lockfree::spsc_queue::implementation_defined	lockfree/spsc_queue.hpp	/^    struct implementation_defined$/;"	s	class:boost::lockfree::spsc_queue	access:private
+boost::lockfree::spsc_queue::implementation_defined::allocator	lockfree/spsc_queue.hpp	/^        typedef allocator_arg allocator;$/;"	t	struct:boost::lockfree::spsc_queue::implementation_defined	access:public
+boost::lockfree::spsc_queue::implementation_defined::size_type	lockfree/spsc_queue.hpp	/^        typedef std::size_t size_type;$/;"	t	struct:boost::lockfree::spsc_queue::implementation_defined	access:public
+boost::lockfree::spsc_queue::pop	lockfree/spsc_queue.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T & ret)
+boost::lockfree::spsc_queue::pop	lockfree/spsc_queue.hpp	/^    size_type pop(OutputIterator it)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(OutputIterator it)
+boost::lockfree::spsc_queue::pop	lockfree/spsc_queue.hpp	/^    size_type pop(T * ret, size_type size)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T * ret, size_type size)
+boost::lockfree::spsc_queue::push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::spsc_queue::push	lockfree/spsc_queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T const & t)
+boost::lockfree::spsc_queue::push	lockfree/spsc_queue.hpp	/^    size_type push(T const (&t)[size])$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T const (&t)[size])
+boost::lockfree::spsc_queue::push	lockfree/spsc_queue.hpp	/^    size_type push(T const * t, size_type size)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T const * t, size_type size)
+boost::lockfree::spsc_queue::runtime_sized	lockfree/spsc_queue.hpp	/^    static const bool runtime_sized = detail::make_ringbuffer<T, A0, A1>::runtime_sized;$/;"	m	class:boost::lockfree::spsc_queue	access:private
+boost::lockfree::spsc_queue::size_type	lockfree/spsc_queue.hpp	/^    typedef typename implementation_defined::size_type size_type;$/;"	t	class:boost::lockfree::spsc_queue	access:public
+boost::lockfree::spsc_queue::spsc_queue	lockfree/spsc_queue.hpp	/^    explicit spsc_queue(allocator const & alloc)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(allocator const & alloc)
+boost::lockfree::spsc_queue::spsc_queue	lockfree/spsc_queue.hpp	/^    explicit spsc_queue(size_type element_count):$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(size_type element_count)
+boost::lockfree::spsc_queue::spsc_queue	lockfree/spsc_queue.hpp	/^    explicit spsc_queue(typename allocator::template rebind<U>::other const & alloc)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(typename allocator::template rebind<U>::other const & alloc)
+boost::lockfree::spsc_queue::spsc_queue	lockfree/spsc_queue.hpp	/^    spsc_queue(size_type element_count, allocator_arg const & alloc):$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(size_type element_count, allocator_arg const & alloc)
+boost::lockfree::spsc_queue::spsc_queue	lockfree/spsc_queue.hpp	/^    spsc_queue(size_type element_count, typename allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(size_type element_count, typename allocator::template rebind<U>::other const & alloc)
+boost::lockfree::spsc_queue::spsc_queue	lockfree/spsc_queue.hpp	/^    spsc_queue(void)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(void)
+boost::lockfree::spsc_queue::value_type	lockfree/spsc_queue.hpp	/^    typedef T value_type;$/;"	t	class:boost::lockfree::spsc_queue	access:public
+boost::lockfree::stack	lockfree/stack.hpp	/^class stack$/;"	c	namespace:boost::lockfree	inherits:boost::noncopyable
+boost::lockfree::stack::BOOST_STATIC_ASSERT	lockfree/stack.hpp	/^    BOOST_STATIC_ASSERT((mpl::if_c<has_capacity,$/;"	p	class:boost::lockfree::stack	access:private	signature:(mpl::if_c<has_capacity, mpl::bool_<capacity - 1 < boost::integer_traits<boost::uint16_t>::const_max>, mpl::true_ >::type::value)
+boost::lockfree::stack::BOOST_STATIC_ASSERT	lockfree/stack.hpp	/^    BOOST_STATIC_ASSERT(boost::has_trivial_assign<T>::value);$/;"	p	class:boost::lockfree::stack	access:private	signature:(boost::has_trivial_assign<T>::value)
+boost::lockfree::stack::BOOST_STATIC_ASSERT	lockfree/stack.hpp	/^    BOOST_STATIC_ASSERT(boost::has_trivial_destructor<T>::value);$/;"	p	class:boost::lockfree::stack	access:private	signature:(boost::has_trivial_destructor<T>::value)
+boost::lockfree::stack::allocator	lockfree/stack.hpp	/^    typedef typename implementation_defined::allocator allocator;$/;"	t	class:boost::lockfree::stack	access:public
+boost::lockfree::stack::bound_args	lockfree/stack.hpp	/^    typedef typename detail::stack_signature::bind<A0, A1, A2>::type bound_args;$/;"	t	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::bounded_push	lockfree/stack.hpp	/^    ConstIterator bounded_push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:public	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::stack::bounded_push	lockfree/stack.hpp	/^    bool bounded_push(T const & v)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T const & v)
+boost::lockfree::stack::capacity	lockfree/stack.hpp	/^    static const size_t capacity = detail::extract_capacity<bound_args>::capacity;$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::compile_time_sized	lockfree/stack.hpp	/^    static const bool compile_time_sized = has_capacity;$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::consume_all	lockfree/stack.hpp	/^    size_t consume_all(Functor & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor & f)
+boost::lockfree::stack::consume_all	lockfree/stack.hpp	/^    size_t consume_all(Functor const & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor const & f)
+boost::lockfree::stack::consume_one	lockfree/stack.hpp	/^    bool consume_one(Functor & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor & f)
+boost::lockfree::stack::consume_one	lockfree/stack.hpp	/^    bool consume_one(Functor const & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor const & f)
+boost::lockfree::stack::do_push	lockfree/stack.hpp	/^    ConstIterator do_push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:private	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::stack::do_push	lockfree/stack.hpp	/^    bool do_push(T const & v)$/;"	f	class:boost::lockfree::stack	access:private	signature:(T const & v)
+boost::lockfree::stack::empty	lockfree/stack.hpp	/^    bool empty(void) const$/;"	f	class:boost::lockfree::stack	access:public	signature:(void) const
+boost::lockfree::stack::fixed_sized	lockfree/stack.hpp	/^    static const bool fixed_sized = detail::extract_fixed_sized<bound_args>::value;$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::has_capacity	lockfree/stack.hpp	/^    static const bool has_capacity = detail::extract_capacity<bound_args>::has_capacity;$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::implementation_defined	lockfree/stack.hpp	/^    struct implementation_defined$/;"	s	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::implementation_defined::allocator	lockfree/stack.hpp	/^        typedef node_allocator allocator;$/;"	t	struct:boost::lockfree::stack::implementation_defined	access:public
+boost::lockfree::stack::implementation_defined::size_type	lockfree/stack.hpp	/^        typedef std::size_t size_type;$/;"	t	struct:boost::lockfree::stack::implementation_defined	access:public
+boost::lockfree::stack::initialize	lockfree/stack.hpp	/^    void initialize(void)$/;"	f	class:boost::lockfree::stack	access:private	signature:(void)
+boost::lockfree::stack::is_lock_free	lockfree/stack.hpp	/^    bool is_lock_free (void) const$/;"	f	class:boost::lockfree::stack	access:public	signature:(void) const
+boost::lockfree::stack::link_nodes_atomic	lockfree/stack.hpp	/^    void link_nodes_atomic(node * new_top_node, node * end_node)$/;"	f	class:boost::lockfree::stack	access:private	signature:(node * new_top_node, node * end_node)
+boost::lockfree::stack::link_nodes_unsafe	lockfree/stack.hpp	/^    void link_nodes_unsafe(node * new_top_node, node * end_node)$/;"	f	class:boost::lockfree::stack	access:private	signature:(node * new_top_node, node * end_node)
+boost::lockfree::stack::node	lockfree/stack.hpp	/^    struct node$/;"	s	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::node::handle_t	lockfree/stack.hpp	/^        typedef typename detail::select_tagged_handle<node, node_based>::handle_type handle_t;$/;"	t	struct:boost::lockfree::stack::node	access:public
+boost::lockfree::stack::node::next	lockfree/stack.hpp	/^        handle_t next;$/;"	m	struct:boost::lockfree::stack::node	access:public
+boost::lockfree::stack::node::node	lockfree/stack.hpp	/^        node(T const & val):$/;"	f	struct:boost::lockfree::stack::node	access:public	signature:(T const & val)
+boost::lockfree::stack::node::v	lockfree/stack.hpp	/^        const T v;$/;"	m	struct:boost::lockfree::stack::node	access:public
+boost::lockfree::stack::node_allocator	lockfree/stack.hpp	/^    typedef typename detail::extract_allocator<bound_args, node>::type node_allocator;$/;"	t	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::node_based	lockfree/stack.hpp	/^    static const bool node_based = !(has_capacity || fixed_sized);$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::operator =	lockfree/stack.hpp	/^    const stack& operator=( const stack& ) = delete;$/;"	p	class:boost::lockfree::stack	access:private	signature:( const stack& )
+boost::lockfree::stack::padding	lockfree/stack.hpp	/^    char padding[padding_size];$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::padding_size	lockfree/stack.hpp	/^    static const int padding_size = BOOST_LOCKFREE_CACHELINE_BYTES - sizeof(tagged_node_handle);$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::pool	lockfree/stack.hpp	/^    pool_t pool;$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::pool_t	lockfree/stack.hpp	/^    typedef typename detail::select_freelist<node, node_allocator, compile_time_sized, fixed_sized, capacity>::type pool_t;$/;"	t	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::pop	lockfree/stack.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T & ret)
+boost::lockfree::stack::pop	lockfree/stack.hpp	/^    bool pop(U & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(U & ret)
+boost::lockfree::stack::prepare_node_list	lockfree/stack.hpp	/^    tuple<node*, node*> prepare_node_list(ConstIterator begin, ConstIterator end, ConstIterator & ret)$/;"	f	class:boost::lockfree::stack	access:private	signature:(ConstIterator begin, ConstIterator end, ConstIterator & ret)
+boost::lockfree::stack::push	lockfree/stack.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:public	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::stack::push	lockfree/stack.hpp	/^    bool push(T const & v)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T const & v)
+boost::lockfree::stack::reserve	lockfree/stack.hpp	/^    void reserve(size_type n)$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n)
+boost::lockfree::stack::reserve_unsafe	lockfree/stack.hpp	/^    void reserve_unsafe(size_type n)$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n)
+boost::lockfree::stack::size_type	lockfree/stack.hpp	/^    typedef typename implementation_defined::size_type size_type;$/;"	t	class:boost::lockfree::stack	access:public
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    explicit stack(allocator const & alloc):$/;"	f	class:boost::lockfree::stack	access:public	signature:(allocator const & alloc)
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    explicit stack(size_type n):$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n)
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    explicit stack(typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::stack	access:public	signature:(typename node_allocator::template rebind<U>::other const & alloc)
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    stack(size_type n, typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n, typename node_allocator::template rebind<U>::other const & alloc)
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    stack(stack &&)      = delete;$/;"	p	class:boost::lockfree::stack	access:private	signature:(stack &&)
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    stack(stack const &) = delete;$/;"	p	class:boost::lockfree::stack	access:private	signature:(stack const &)
+boost::lockfree::stack::stack	lockfree/stack.hpp	/^    stack(void):$/;"	f	class:boost::lockfree::stack	access:public	signature:(void)
+boost::lockfree::stack::tagged_node_handle	lockfree/stack.hpp	/^    typedef typename pool_t::tagged_node_handle tagged_node_handle;$/;"	t	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::tos	lockfree/stack.hpp	/^    detail::atomic<tagged_node_handle> tos;$/;"	m	class:boost::lockfree::stack	access:private
+boost::lockfree::stack::unsynchronized_pop	lockfree/stack.hpp	/^    bool unsynchronized_pop(T & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T & ret)
+boost::lockfree::stack::unsynchronized_pop	lockfree/stack.hpp	/^    bool unsynchronized_pop(U & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(U & ret)
+boost::lockfree::stack::unsynchronized_push	lockfree/stack.hpp	/^    ConstIterator unsynchronized_push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:public	signature:(ConstIterator begin, ConstIterator end)
+boost::lockfree::stack::unsynchronized_push	lockfree/stack.hpp	/^    bool unsynchronized_push(T const & v)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T const & v)
+boost::lockfree::stack::value_type	lockfree/stack.hpp	/^    typedef T value_type;$/;"	t	class:boost::lockfree::stack	access:public
+boost::lockfree::stack::~stack	lockfree/stack.hpp	/^    ~stack(void)$/;"	f	class:boost::lockfree::stack	access:public	signature:(void)
+boost::lockfree::tag	lockfree/policies.hpp	/^namespace tag { struct allocator ; }$/;"	n	namespace:boost::lockfree
+boost::lockfree::tag	lockfree/policies.hpp	/^namespace tag { struct capacity; }$/;"	n	namespace:boost::lockfree
+boost::lockfree::tag	lockfree/policies.hpp	/^namespace tag { struct fixed_sized; }$/;"	n	namespace:boost::lockfree
+bound_args	lockfree/queue.hpp	/^    typedef typename detail::queue_signature::bind<A0, A1, A2>::type bound_args;$/;"	t	class:boost::lockfree::queue	access:private
+bound_args	lockfree/spsc_queue.hpp	/^    typedef typename ringbuffer_signature::bind<A0, A1>::type bound_args;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+bound_args	lockfree/stack.hpp	/^    typedef typename detail::stack_signature::bind<A0, A1, A2>::type bound_args;$/;"	t	class:boost::lockfree::stack	access:private
+bounded_push	lockfree/queue.hpp	/^    bool bounded_push(T const & t)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T const & t)
+bounded_push	lockfree/stack.hpp	/^    ConstIterator bounded_push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:public	signature:(ConstIterator begin, ConstIterator end)
+bounded_push	lockfree/stack.hpp	/^    bool bounded_push(T const & v)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T const & v)
+capacity	lockfree/detail/parameter.hpp	/^    static const std::size_t capacity = capacity_t::value;$/;"	m	struct:boost::lockfree::detail::extract_capacity	access:public
+capacity	lockfree/policies.hpp	/^struct capacity:$/;"	s	namespace:boost::lockfree	inherits:boost::parameter::template_keyword
+capacity	lockfree/queue.hpp	/^    static const size_t capacity = detail::extract_capacity<bound_args>::capacity + 1; \/\/ the queue uses one dummy node$/;"	m	class:boost::lockfree::queue	access:private
+capacity	lockfree/spsc_queue.hpp	/^    static const size_t capacity    =  extract_capacity_t::capacity;$/;"	m	struct:boost::lockfree::detail::make_ringbuffer	access:public
+capacity	lockfree/stack.hpp	/^    static const size_t capacity = detail::extract_capacity<bound_args>::capacity;$/;"	m	class:boost::lockfree::stack	access:private
+capacity_t	lockfree/detail/parameter.hpp	/^                              >::type capacity_t;$/;"	t	struct:boost::lockfree::detail::extract_capacity	access:public
+cast_unit	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    union cast_unit$/;"	u	class:boost::lockfree::detail::tagged_ptr	access:private
+compile_time_sized	lockfree/queue.hpp	/^    static const bool compile_time_sized = has_capacity;$/;"	m	class:boost::lockfree::queue	access:private
+compile_time_sized	lockfree/stack.hpp	/^    static const bool compile_time_sized = has_capacity;$/;"	m	class:boost::lockfree::stack	access:private
+compile_time_sized_ringbuffer	lockfree/spsc_queue.hpp	/^class compile_time_sized_ringbuffer:$/;"	c	namespace:boost::lockfree::detail	inherits:ringbuffer_base
+compiletime_sized_freelist_storage	lockfree/detail/freelist.hpp	/^struct compiletime_sized_freelist_storage$/;"	s	namespace:boost::lockfree::detail
+compressed_ptr_t	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    typedef boost::uint64_t compressed_ptr_t;$/;"	t	class:boost::lockfree::detail::tagged_ptr	access:private
+construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType const & arg)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(ArgumentType const & arg)
+construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType const & arg)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(ArgumentType const & arg)
+construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType1 const & arg1, ArgumentType2 const & arg2)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(ArgumentType1 const & arg1, ArgumentType2 const & arg2)
+construct	lockfree/detail/freelist.hpp	/^    T * construct (ArgumentType1 const & arg1, ArgumentType2 const & arg2)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(ArgumentType1 const & arg1, ArgumentType2 const & arg2)
+construct	lockfree/detail/freelist.hpp	/^    T * construct (void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void)
+construct	lockfree/detail/freelist.hpp	/^    T * construct (void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void)
+consume_all	lockfree/queue.hpp	/^    size_t consume_all(Functor & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor & f)
+consume_all	lockfree/queue.hpp	/^    size_t consume_all(Functor const & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor const & f)
+consume_all	lockfree/spsc_queue.hpp	/^    size_type consume_all(Functor & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor & f)
+consume_all	lockfree/spsc_queue.hpp	/^    size_type consume_all(Functor const & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor const & f)
+consume_all	lockfree/stack.hpp	/^    size_t consume_all(Functor & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor & f)
+consume_all	lockfree/stack.hpp	/^    size_t consume_all(Functor const & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor const & f)
+consume_one	lockfree/queue.hpp	/^    bool consume_one(Functor & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor & f)
+consume_one	lockfree/queue.hpp	/^    bool consume_one(Functor const & f)$/;"	f	class:boost::lockfree::queue	access:public	signature:(Functor const & f)
+consume_one	lockfree/spsc_queue.hpp	/^    bool consume_one(Functor & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor & f)
+consume_one	lockfree/spsc_queue.hpp	/^    bool consume_one(Functor const & f)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(Functor const & f)
+consume_one	lockfree/stack.hpp	/^    bool consume_one(Functor & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor & f)
+consume_one	lockfree/stack.hpp	/^    bool consume_one(Functor const & f)$/;"	f	class:boost::lockfree::stack	access:public	signature:(Functor const & f)
+consume_via_copy	lockfree/detail/copy_payload.hpp	/^    consume_via_copy(T & out):$/;"	f	struct:boost::lockfree::detail::consume_via_copy	access:public	signature:(T & out)
+consume_via_copy	lockfree/detail/copy_payload.hpp	/^struct consume_via_copy$/;"	s	namespace:boost::lockfree::detail
+copy	lockfree/detail/copy_payload.hpp	/^    static void copy(T & t, U & u)$/;"	f	struct:boost::lockfree::detail::copy_constructible_and_copyable	access:public	signature:(T & t, U & u)
+copy	lockfree/detail/copy_payload.hpp	/^    static void copy(T & t, U & u)$/;"	f	struct:boost::lockfree::detail::copy_convertible	access:public	signature:(T & t, U & u)
+copy_and_delete	lockfree/spsc_queue.hpp	/^    OutputIterator copy_and_delete( T * first, T * last, OutputIterator out )$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:( T * first, T * last, OutputIterator out )
+copy_constructible_and_copyable	lockfree/detail/copy_payload.hpp	/^struct copy_constructible_and_copyable$/;"	s	namespace:boost::lockfree::detail
+copy_convertible	lockfree/detail/copy_payload.hpp	/^struct copy_convertible$/;"	s	namespace:boost::lockfree::detail
+copy_payload	lockfree/detail/copy_payload.hpp	/^void copy_payload(T & t, U & u)$/;"	f	namespace:boost::lockfree::detail	signature:(T & t, U & u)
+data	lockfree/queue.hpp	/^        T data;$/;"	m	struct:boost::lockfree::queue::node	access:public
+data	lockfree/spsc_queue.hpp	/^    T * data()$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private	signature:()
+deallocate	lockfree/detail/freelist.hpp	/^    void deallocate (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:protected	signature:(T * n)
+deallocate	lockfree/detail/freelist.hpp	/^    void deallocate (index_t index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(index_t index)
+deallocate_impl	lockfree/detail/freelist.hpp	/^    void deallocate_impl (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(T * n)
+deallocate_impl	lockfree/detail/freelist.hpp	/^    void deallocate_impl (index_t index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(index_t index)
+deallocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    void deallocate_impl_unsafe (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:private	signature:(T * n)
+deallocate_impl_unsafe	lockfree/detail/freelist.hpp	/^    void deallocate_impl_unsafe (index_t index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(index_t index)
+destruct	lockfree/detail/freelist.hpp	/^    void destruct (T * n)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(T * n)
+destruct	lockfree/detail/freelist.hpp	/^    void destruct (T * n)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(T * n)
+destruct	lockfree/detail/freelist.hpp	/^    void destruct (tagged_node_handle tagged_index)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(tagged_node_handle tagged_index)
+destruct	lockfree/detail/freelist.hpp	/^    void destruct (tagged_node_handle tagged_ptr)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(tagged_node_handle tagged_ptr)
+detail	lockfree/detail/atomic.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+detail	lockfree/detail/branch_hints.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+detail	lockfree/detail/copy_payload.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+detail	lockfree/detail/freelist.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+detail	lockfree/detail/parameter.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+detail	lockfree/detail/tagged_ptr_dcas.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+detail	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^namespace detail {$/;"	n	namespace:boost::lockfree
+detail	lockfree/queue.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+detail	lockfree/spsc_queue.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+detail	lockfree/stack.hpp	/^namespace detail   {$/;"	n	namespace:boost::lockfree
+do_push	lockfree/queue.hpp	/^    bool do_push(T const & t)$/;"	f	class:boost::lockfree::queue	access:private	signature:(T const & t)
+do_push	lockfree/stack.hpp	/^    ConstIterator do_push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:private	signature:(ConstIterator begin, ConstIterator end)
+do_push	lockfree/stack.hpp	/^    bool do_push(T const & v)$/;"	f	class:boost::lockfree::stack	access:private	signature:(T const & v)
+empty	lockfree/queue.hpp	/^    bool empty(void)$/;"	f	class:boost::lockfree::queue	access:public	signature:(void)
+empty	lockfree/spsc_queue.hpp	/^    bool empty(size_t write_index, size_t read_index)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:(size_t write_index, size_t read_index)
+empty	lockfree/spsc_queue.hpp	/^    bool empty(void)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:public	signature:(void)
+empty	lockfree/stack.hpp	/^    bool empty(void) const$/;"	f	class:boost::lockfree::stack	access:public	signature:(void) const
+extract_allocator	lockfree/detail/parameter.hpp	/^struct extract_allocator$/;"	s	namespace:boost::lockfree::detail
+extract_allocator_t	lockfree/spsc_queue.hpp	/^    typedef extract_allocator<bound_args, T> extract_allocator_t;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+extract_capacity	lockfree/detail/parameter.hpp	/^struct extract_capacity$/;"	s	namespace:boost::lockfree::detail
+extract_capacity_t	lockfree/spsc_queue.hpp	/^    typedef extract_capacity<bound_args> extract_capacity_t;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+extract_fixed_sized	lockfree/detail/parameter.hpp	/^struct extract_fixed_sized$/;"	s	namespace:boost::lockfree::detail
+extract_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static T* extract_ptr(volatile compressed_ptr_t const & i)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:private	signature:(volatile compressed_ptr_t const & i)
+extract_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static tag_t extract_tag(volatile compressed_ptr_t const & i)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:private	signature:(volatile compressed_ptr_t const & i)
+fixed_size_freelist	lockfree/detail/freelist.hpp	/^    fixed_size_freelist (Allocator const & alloc, std::size_t count):$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(Allocator const & alloc, std::size_t count)
+fixed_size_freelist	lockfree/detail/freelist.hpp	/^    fixed_size_freelist (void):$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void)
+fixed_size_freelist	lockfree/detail/freelist.hpp	/^class fixed_size_freelist:$/;"	c	namespace:boost::lockfree	inherits:NodeStorage
+fixed_sized	lockfree/policies.hpp	/^struct fixed_sized:$/;"	s	namespace:boost::lockfree	inherits:boost::parameter::template_keyword
+fixed_sized	lockfree/queue.hpp	/^    static const bool fixed_sized = detail::extract_fixed_sized<bound_args>::value;$/;"	m	class:boost::lockfree::queue	access:private
+fixed_sized	lockfree/stack.hpp	/^    static const bool fixed_sized = detail::extract_fixed_sized<bound_args>::value;$/;"	m	class:boost::lockfree::stack	access:private
+fixed_sized_storage_type	lockfree/detail/freelist.hpp	/^                              >::type fixed_sized_storage_type;$/;"	t	struct:boost::lockfree::select_freelist	access:public
+freelist_node	lockfree/detail/freelist.hpp	/^    struct freelist_node$/;"	s	class:boost::lockfree::detail::freelist_stack	access:private
+freelist_node	lockfree/detail/freelist.hpp	/^    struct freelist_node$/;"	s	class:boost::lockfree::fixed_size_freelist	access:private
+freelist_stack	lockfree/detail/freelist.hpp	/^    freelist_stack (Allocator const & alloc, std::size_t n = 0):$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(Allocator const & alloc, std::size_t n = 0)
+freelist_stack	lockfree/detail/freelist.hpp	/^class freelist_stack:$/;"	c	namespace:boost::lockfree::detail	inherits:Alloc
+get_handle	lockfree/detail/freelist.hpp	/^    T * get_handle(T * pointer) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(T * pointer) const
+get_handle	lockfree/detail/freelist.hpp	/^    T * get_handle(tagged_node_handle const & handle) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(tagged_node_handle const & handle) const
+get_handle	lockfree/detail/freelist.hpp	/^    index_t get_handle(T * pointer) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(T * pointer) const
+get_handle	lockfree/detail/freelist.hpp	/^    index_t get_handle(tagged_node_handle const & handle) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(tagged_node_handle const & handle) const
+get_index	lockfree/detail/freelist.hpp	/^    index_t get_index() const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:() const
+get_next_tag	lockfree/detail/freelist.hpp	/^    tag_t get_next_tag() const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:() const
+get_next_tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    tag_t get_next_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+get_next_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tag_t get_next_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(T * pointer) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(T * pointer) const
+get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(T * ptr) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(T * ptr) const
+get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(index_t index) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(index_t index) const
+get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(tagged_node_handle const & tptr) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(tagged_node_handle const & tptr) const
+get_pointer	lockfree/detail/freelist.hpp	/^    T * get_pointer(tagged_node_handle const & tptr) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(tagged_node_handle const & tptr) const
+get_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    T * get_ptr(void) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(void) const
+get_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    T * get_ptr() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+get_tag	lockfree/detail/freelist.hpp	/^    tag_t get_tag() const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:() const
+get_tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    tag_t get_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+get_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tag_t get_tag() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+handle_t	lockfree/stack.hpp	/^        typedef typename detail::select_tagged_handle<node, node_based>::handle_type handle_t;$/;"	t	struct:boost::lockfree::stack::node	access:public
+handle_type	lockfree/detail/freelist.hpp	/^                              >::type handle_type;$/;"	t	struct:boost::lockfree::select_tagged_handle	access:public
+handle_type	lockfree/queue.hpp	/^        typedef typename detail::select_tagged_handle<node, node_based>::handle_type handle_type;$/;"	t	struct:boost::lockfree::queue::node	access:public
+handle_type	lockfree/queue.hpp	/^    typedef typename detail::select_tagged_handle<node, node_based>::handle_type handle_type;$/;"	t	class:boost::lockfree::queue	access:private
+has_allocator	lockfree/detail/parameter.hpp	/^    static const bool has_allocator = has_arg<bound_args, tag::allocator>::value;$/;"	m	struct:boost::lockfree::detail::extract_allocator	access:public
+has_arg	lockfree/detail/parameter.hpp	/^struct has_arg$/;"	s	namespace:boost::lockfree::detail
+has_capacity	lockfree/detail/parameter.hpp	/^    static const bool has_capacity = has_arg<bound_args, tag::capacity>::value;$/;"	m	struct:boost::lockfree::detail::extract_capacity	access:public
+has_capacity	lockfree/queue.hpp	/^    static const bool has_capacity = detail::extract_capacity<bound_args>::has_capacity;$/;"	m	class:boost::lockfree::queue	access:private
+has_capacity	lockfree/stack.hpp	/^    static const bool has_capacity = detail::extract_capacity<bound_args>::has_capacity;$/;"	m	class:boost::lockfree::stack	access:private
+has_fixed_sized	lockfree/detail/parameter.hpp	/^    static const bool has_fixed_sized = has_arg<bound_args, tag::fixed_sized>::value;$/;"	m	struct:boost::lockfree::detail::extract_fixed_sized	access:public
+head_	lockfree/queue.hpp	/^    atomic<tagged_node_handle> head_;$/;"	m	class:boost::lockfree::queue	access:private
+implementation_defined	lockfree/queue.hpp	/^    struct implementation_defined$/;"	s	class:boost::lockfree::queue	access:private
+implementation_defined	lockfree/spsc_queue.hpp	/^    struct implementation_defined$/;"	s	class:boost::lockfree::spsc_queue	access:private
+implementation_defined	lockfree/stack.hpp	/^    struct implementation_defined$/;"	s	class:boost::lockfree::stack	access:private
+index	lockfree/detail/freelist.hpp	/^    index_t index;$/;"	m	class:boost::lockfree::detail::tagged_index	access:protected
+index_t	lockfree/detail/freelist.hpp	/^    typedef boost::uint16_t index_t;$/;"	t	class:boost::lockfree::detail::tagged_index	access:public
+index_t	lockfree/detail/freelist.hpp	/^    typedef tagged_index::index_t index_t;$/;"	t	class:boost::lockfree::fixed_size_freelist	access:private
+initialize	lockfree/detail/freelist.hpp	/^    void initialize(void)$/;"	f	class:boost::lockfree::fixed_size_freelist	access:private	signature:(void)
+initialize	lockfree/queue.hpp	/^    void initialize(void)$/;"	f	class:boost::lockfree::queue	access:private	signature:(void)
+initialize	lockfree/stack.hpp	/^    void initialize(void)$/;"	f	class:boost::lockfree::stack	access:private	signature:(void)
+is_lock_free	lockfree/detail/freelist.hpp	/^    bool is_lock_free(void) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void) const
+is_lock_free	lockfree/detail/freelist.hpp	/^    bool is_lock_free(void) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void) const
+is_lock_free	lockfree/queue.hpp	/^    bool is_lock_free (void) const$/;"	f	class:boost::lockfree::queue	access:public	signature:(void) const
+is_lock_free	lockfree/spsc_queue.hpp	/^    bool is_lock_free(void) const$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:public	signature:(void) const
+is_lock_free	lockfree/stack.hpp	/^    bool is_lock_free (void) const$/;"	f	class:boost::lockfree::stack	access:public	signature:(void) const
+likely	lockfree/detail/branch_hints.hpp	/^inline bool likely(bool expr)$/;"	f	namespace:boost::lockfree::detail	signature:(bool expr)
+link_nodes_atomic	lockfree/stack.hpp	/^    void link_nodes_atomic(node * new_top_node, node * end_node)$/;"	f	class:boost::lockfree::stack	access:private	signature:(node * new_top_node, node * end_node)
+link_nodes_unsafe	lockfree/stack.hpp	/^    void link_nodes_unsafe(node * new_top_node, node * end_node)$/;"	f	class:boost::lockfree::stack	access:private	signature:(node * new_top_node, node * end_node)
+lockfree	lockfree/detail/atomic.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/detail/branch_hints.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/detail/copy_payload.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/detail/freelist.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/detail/parameter.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/detail/tagged_ptr_dcas.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/policies.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/queue.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/spsc_queue.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+lockfree	lockfree/stack.hpp	/^namespace lockfree {$/;"	n	namespace:boost
+make_ringbuffer	lockfree/spsc_queue.hpp	/^struct make_ringbuffer$/;"	s	namespace:boost::lockfree::detail
+max_elements_	lockfree/spsc_queue.hpp	/^    size_type max_elements_;$/;"	m	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+max_size	lockfree/spsc_queue.hpp	/^    static const std::size_t max_size = MaxSize + 1;$/;"	m	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+next	lockfree/detail/freelist.hpp	/^        tagged_index next;$/;"	m	struct:boost::lockfree::fixed_size_freelist::freelist_node	access:public
+next	lockfree/detail/freelist.hpp	/^        tagged_ptr<freelist_node> next;$/;"	m	struct:boost::lockfree::detail::freelist_stack::freelist_node	access:public
+next	lockfree/queue.hpp	/^        atomic<tagged_node_handle> next;$/;"	m	struct:boost::lockfree::queue::node	access:public
+next	lockfree/stack.hpp	/^        handle_t next;$/;"	m	struct:boost::lockfree::stack::node	access:public
+next_index	lockfree/spsc_queue.hpp	/^    static size_t next_index(size_t arg, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(size_t arg, size_t max_size)
+node	lockfree/queue.hpp	/^        node (handle_type null_handle):$/;"	f	struct:boost::lockfree::queue::node	access:public	signature:(handle_type null_handle)
+node	lockfree/queue.hpp	/^        node(T const & v, handle_type null_handle):$/;"	f	struct:boost::lockfree::queue::node	access:public	signature:(T const & v, handle_type null_handle)
+node	lockfree/queue.hpp	/^        node(void)$/;"	f	struct:boost::lockfree::queue::node	access:public	signature:(void)
+node	lockfree/queue.hpp	/^    struct BOOST_LOCKFREE_CACHELINE_ALIGNMENT node$/;"	s	class:boost::lockfree::queue	access:private
+node	lockfree/stack.hpp	/^        node(T const & val):$/;"	f	struct:boost::lockfree::stack::node	access:public	signature:(T const & val)
+node	lockfree/stack.hpp	/^    struct node$/;"	s	class:boost::lockfree::stack	access:private
+node_allocator	lockfree/queue.hpp	/^    typedef typename detail::extract_allocator<bound_args, node>::type node_allocator;$/;"	t	class:boost::lockfree::queue	access:private
+node_allocator	lockfree/stack.hpp	/^    typedef typename detail::extract_allocator<bound_args, node>::type node_allocator;$/;"	t	class:boost::lockfree::stack	access:private
+node_based	lockfree/queue.hpp	/^    static const bool node_based = !(has_capacity || fixed_sized);$/;"	m	class:boost::lockfree::queue	access:private
+node_based	lockfree/stack.hpp	/^    static const bool node_based = !(has_capacity || fixed_sized);$/;"	m	class:boost::lockfree::stack	access:private
+node_count	lockfree/detail/freelist.hpp	/^    std::size_t node_count(void) const$/;"	f	namespace:boost::lockfree::detail	signature:(void) const
+nodes	lockfree/detail/freelist.hpp	/^    T * nodes(void) const$/;"	f	namespace:boost::lockfree::detail	signature:(void) const
+nodes_	lockfree/detail/freelist.hpp	/^        nodes_ = Alloc::allocate(count);$/;"	m	struct:boost::lockfree::detail::compiletime_sized_freelist_storage	access:public
+null_handle	lockfree/detail/freelist.hpp	/^    T * null_handle(void) const$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void) const
+null_handle	lockfree/detail/freelist.hpp	/^    index_t null_handle(void) const$/;"	f	class:boost::lockfree::fixed_size_freelist	access:public	signature:(void) const
+operator !=	lockfree/detail/freelist.hpp	/^    bool operator!=(tagged_index const & rhs) const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tagged_index const & rhs) const
+operator !=	lockfree/detail/tagged_ptr_dcas.hpp	/^    bool operator!= (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+operator !=	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    bool operator!= (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+operator ()	lockfree/detail/copy_payload.hpp	/^    void operator()(U & element)$/;"	f	struct:boost::lockfree::detail::consume_via_copy	access:public	signature:(U & element)
+operator *	lockfree/detail/tagged_ptr_dcas.hpp	/^    T & operator*() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+operator *	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    T & operator*() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+operator ->	lockfree/detail/tagged_ptr_dcas.hpp	/^    T * operator->() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+operator ->	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    T * operator->() const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:() const
+operator =	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+operator =	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+operator =	lockfree/queue.hpp	/^    const queue& operator=( const queue& ) = delete;$/;"	p	class:boost::lockfree::queue	access:private	signature:( const queue& )
+operator =	lockfree/spsc_queue.hpp	/^    const ringbuffer_base& operator=( const ringbuffer_base& ) = delete;$/;"	p	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:( const ringbuffer_base& )
+operator =	lockfree/stack.hpp	/^    const stack& operator=( const stack& ) = delete;$/;"	p	class:boost::lockfree::stack	access:private	signature:( const stack& )
+operator ==	lockfree/detail/freelist.hpp	/^    bool operator==(tagged_index const & rhs) const$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tagged_index const & rhs) const
+operator ==	lockfree/detail/tagged_ptr_dcas.hpp	/^    bool operator== (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+operator ==	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    bool operator== (volatile tagged_ptr const & p) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(volatile tagged_ptr const & p) const
+operator bool	lockfree/detail/tagged_ptr_dcas.hpp	/^    operator bool(void) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(void) const
+operator bool	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    operator bool(void) const$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(void) const
+out	lockfree/detail/copy_payload.hpp	/^    T &  out;$/;"	m	struct:boost::lockfree::detail::consume_via_copy	access:public
+p	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+p	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr(tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+p	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr & operator= (tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+p	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr(tagged_ptr const & p) = default;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:public
+pack_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static compressed_ptr_t pack_ptr(T * ptr, int tag)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:private	signature:(T * ptr, int tag)
+padding	lockfree/stack.hpp	/^    char padding[padding_size];$/;"	m	class:boost::lockfree::stack	access:private
+padding1	lockfree/queue.hpp	/^    char padding1[padding_size];$/;"	m	class:boost::lockfree::queue	access:private
+padding1	lockfree/spsc_queue.hpp	/^    char padding1[padding_size]; \/* force read_index and write_index to different cache lines *\/$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+padding2	lockfree/queue.hpp	/^    char padding2[padding_size];$/;"	m	class:boost::lockfree::queue	access:private
+padding_size	lockfree/queue.hpp	/^    static const int padding_size = BOOST_LOCKFREE_CACHELINE_BYTES - sizeof(tagged_node_handle);$/;"	m	class:boost::lockfree::queue	access:private
+padding_size	lockfree/spsc_queue.hpp	/^    static const int padding_size = BOOST_LOCKFREE_CACHELINE_BYTES - sizeof(size_t);$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+padding_size	lockfree/stack.hpp	/^    static const int padding_size = BOOST_LOCKFREE_CACHELINE_BYTES - sizeof(tagged_node_handle);$/;"	m	class:boost::lockfree::stack	access:private
+pointer	lockfree/spsc_queue.hpp	/^    typedef typename Alloc::pointer pointer;$/;"	t	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+pool	lockfree/queue.hpp	/^    pool_t pool;$/;"	m	class:boost::lockfree::queue	access:private
+pool	lockfree/stack.hpp	/^    pool_t pool;$/;"	m	class:boost::lockfree::stack	access:private
+pool_	lockfree/detail/freelist.hpp	/^    atomic<tagged_index> pool_;$/;"	m	class:boost::lockfree::fixed_size_freelist	access:private
+pool_	lockfree/detail/freelist.hpp	/^    atomic<tagged_node_ptr> pool_;$/;"	m	class:boost::lockfree::detail::freelist_stack	access:private
+pool_t	lockfree/queue.hpp	/^    typedef typename detail::select_freelist<node, node_allocator, compile_time_sized, fixed_sized, capacity>::type pool_t;$/;"	t	class:boost::lockfree::queue	access:private
+pool_t	lockfree/stack.hpp	/^    typedef typename detail::select_freelist<node, node_allocator, compile_time_sized, fixed_sized, capacity>::type pool_t;$/;"	t	class:boost::lockfree::stack	access:private
+pop	lockfree/queue.hpp	/^    bool pop (T & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T & ret)
+pop	lockfree/queue.hpp	/^    bool pop (U & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(U & ret)
+pop	lockfree/spsc_queue.hpp	/^    bool pop (T & ret, T * buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(T & ret, T * buffer, size_t max_size)
+pop	lockfree/spsc_queue.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T & ret)
+pop	lockfree/spsc_queue.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T & ret)
+pop	lockfree/spsc_queue.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T & ret)
+pop	lockfree/spsc_queue.hpp	/^    size_t pop (OutputIterator it, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(OutputIterator it, T * internal_buffer, size_t max_size)
+pop	lockfree/spsc_queue.hpp	/^    size_t pop (T * output_buffer, size_t output_count, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(T * output_buffer, size_t output_count, T * internal_buffer, size_t max_size)
+pop	lockfree/spsc_queue.hpp	/^    size_type pop(OutputIterator it)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(OutputIterator it)
+pop	lockfree/spsc_queue.hpp	/^    size_type pop(OutputIterator it)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(OutputIterator it)
+pop	lockfree/spsc_queue.hpp	/^    size_type pop(OutputIterator it)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(OutputIterator it)
+pop	lockfree/spsc_queue.hpp	/^    size_type pop(T * ret, size_type size)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T * ret, size_type size)
+pop	lockfree/spsc_queue.hpp	/^    size_type pop(T * ret, size_type size)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T * ret, size_type size)
+pop	lockfree/spsc_queue.hpp	/^    size_type pop(T * ret, size_type size)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T * ret, size_type size)
+pop	lockfree/stack.hpp	/^    bool pop(T & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T & ret)
+pop	lockfree/stack.hpp	/^    bool pop(U & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(U & ret)
+prepare_node_list	lockfree/stack.hpp	/^    tuple<node*, node*> prepare_node_list(ConstIterator begin, ConstIterator end, ConstIterator & ret)$/;"	f	class:boost::lockfree::stack	access:private	signature:(ConstIterator begin, ConstIterator end, ConstIterator & ret)
+ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    T * ptr;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:protected
+ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    compressed_ptr_t ptr;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:protected
+ptr_mask	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static const compressed_ptr_t ptr_mask = 0xffffffffffffUL; \/\/(1L<<48L)-1;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:private
+push	lockfree/queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T const & t)
+push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(ConstIterator begin, ConstIterator end)
+push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(ConstIterator begin, ConstIterator end)
+push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(ConstIterator begin, ConstIterator end)
+push	lockfree/spsc_queue.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(ConstIterator begin, ConstIterator end, T * internal_buffer, size_t max_size)
+push	lockfree/spsc_queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T const & t)
+push	lockfree/spsc_queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T const & t)
+push	lockfree/spsc_queue.hpp	/^    bool push(T const & t)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T const & t)
+push	lockfree/spsc_queue.hpp	/^    bool push(T const & t, T * buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(T const & t, T * buffer, size_t max_size)
+push	lockfree/spsc_queue.hpp	/^    size_t push(const T * input_buffer, size_t input_count, T * internal_buffer, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(const T * input_buffer, size_t input_count, T * internal_buffer, size_t max_size)
+push	lockfree/spsc_queue.hpp	/^    size_type push(T const (&t)[size])$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T const (&t)[size])
+push	lockfree/spsc_queue.hpp	/^    size_type push(T const (&t)[size])$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T const (&t)[size])
+push	lockfree/spsc_queue.hpp	/^    size_type push(T const (&t)[size])$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T const (&t)[size])
+push	lockfree/spsc_queue.hpp	/^    size_type push(T const * t, size_type size)$/;"	f	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:public	signature:(T const * t, size_type size)
+push	lockfree/spsc_queue.hpp	/^    size_type push(T const * t, size_type size)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(T const * t, size_type size)
+push	lockfree/spsc_queue.hpp	/^    size_type push(T const * t, size_type size)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(T const * t, size_type size)
+push	lockfree/stack.hpp	/^    ConstIterator push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:public	signature:(ConstIterator begin, ConstIterator end)
+push	lockfree/stack.hpp	/^    bool push(T const & v)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T const & v)
+queue	lockfree/queue.hpp	/^    explicit queue(allocator const & alloc):$/;"	f	class:boost::lockfree::queue	access:public	signature:(allocator const & alloc)
+queue	lockfree/queue.hpp	/^    explicit queue(size_type n):$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n)
+queue	lockfree/queue.hpp	/^    explicit queue(typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::queue	access:public	signature:(typename node_allocator::template rebind<U>::other const & alloc)
+queue	lockfree/queue.hpp	/^    queue(queue &&)      = delete;$/;"	p	class:boost::lockfree::queue	access:private	signature:(queue &&)
+queue	lockfree/queue.hpp	/^    queue(queue const &) = delete;$/;"	p	class:boost::lockfree::queue	access:private	signature:(queue const &)
+queue	lockfree/queue.hpp	/^    queue(size_type n, typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n, typename node_allocator::template rebind<U>::other const & alloc)
+queue	lockfree/queue.hpp	/^    queue(void):$/;"	f	class:boost::lockfree::queue	access:public	signature:(void)
+queue	lockfree/queue.hpp	/^class queue$/;"	c	namespace:boost::lockfree	inherits:boost::noncopyable
+queue_signature	lockfree/queue.hpp	/^                             > queue_signature;$/;"	t	namespace:boost::lockfree::detail
+read_available	lockfree/spsc_queue.hpp	/^    static size_t read_available(size_t write_index, size_t read_index, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(size_t write_index, size_t read_index, size_t max_size)
+read_index_	lockfree/spsc_queue.hpp	/^    atomic<size_t> read_index_;$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+reserve	lockfree/detail/freelist.hpp	/^    void reserve (std::size_t count)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(std::size_t count)
+reserve	lockfree/queue.hpp	/^    void reserve(size_type n)$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n)
+reserve	lockfree/stack.hpp	/^    void reserve(size_type n)$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n)
+reserve_unsafe	lockfree/queue.hpp	/^    void reserve_unsafe(size_type n)$/;"	f	class:boost::lockfree::queue	access:public	signature:(size_type n)
+reserve_unsafe	lockfree/stack.hpp	/^    void reserve_unsafe(size_type n)$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n)
+reset	lockfree/spsc_queue.hpp	/^    void reset(void)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:public	signature:(void)
+rhs	lockfree/detail/freelist.hpp	/^    tagged_index(tagged_index const & rhs) = default;$/;"	m	class:boost::lockfree::detail::tagged_index	access:public
+ringbuffer_base	lockfree/spsc_queue.hpp	/^    ringbuffer_base(ringbuffer_base &&)      = delete;$/;"	p	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:(ringbuffer_base &&)
+ringbuffer_base	lockfree/spsc_queue.hpp	/^    ringbuffer_base(ringbuffer_base const &) = delete;$/;"	p	class:boost::lockfree::detail::ringbuffer_base	access:private	signature:(ringbuffer_base const &)
+ringbuffer_base	lockfree/spsc_queue.hpp	/^    ringbuffer_base(void):$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(void)
+ringbuffer_base	lockfree/spsc_queue.hpp	/^class ringbuffer_base$/;"	c	namespace:boost::lockfree::detail	inherits:boost::noncopyable
+ringbuffer_signature	lockfree/spsc_queue.hpp	/^                             > ringbuffer_signature;$/;"	t	namespace:boost::lockfree::detail
+ringbuffer_type	lockfree/spsc_queue.hpp	/^                              >::type ringbuffer_type;$/;"	t	struct:boost::lockfree::detail::make_ringbuffer	access:public
+runtime_sized	lockfree/spsc_queue.hpp	/^    static const bool runtime_sized = !extract_capacity_t::has_capacity;$/;"	m	struct:boost::lockfree::detail::make_ringbuffer	access:public
+runtime_sized	lockfree/spsc_queue.hpp	/^    static const bool runtime_sized = detail::make_ringbuffer<T, A0, A1>::runtime_sized;$/;"	m	class:boost::lockfree::spsc_queue	access:private
+runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    explicit runtime_sized_ringbuffer(size_type max_elements):$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(size_type max_elements)
+runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    runtime_sized_ringbuffer(Alloc const & alloc, size_type max_elements):$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(Alloc const & alloc, size_type max_elements)
+runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    runtime_sized_ringbuffer(typename Alloc::template rebind<U>::other const & alloc, size_type max_elements):$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(typename Alloc::template rebind<U>::other const & alloc, size_type max_elements)
+runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^class runtime_sized_ringbuffer:$/;"	c	namespace:boost::lockfree::detail	inherits:ringbuffer_base,Alloc
+select_freelist	lockfree/detail/freelist.hpp	/^struct select_freelist$/;"	s	namespace:boost::lockfree
+select_tagged_handle	lockfree/detail/freelist.hpp	/^struct select_tagged_handle$/;"	s	namespace:boost::lockfree
+set	lockfree/detail/tagged_ptr_dcas.hpp	/^    void set(T * p, tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t)
+set	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    void set(T * p, tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t)
+set_index	lockfree/detail/freelist.hpp	/^    void set_index(index_t i)$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(index_t i)
+set_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    void set_ptr(T * p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p)
+set_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    void set_ptr(T * p)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p)
+set_tag	lockfree/detail/freelist.hpp	/^    void set_tag(tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tag_t t)
+set_tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    void set_tag(tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tag_t t)
+set_tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    void set_tag(tag_t t)$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tag_t t)
+size_t	lockfree/spsc_queue.hpp	/^    typedef std::size_t size_t;$/;"	t	class:boost::lockfree::detail::ringbuffer_base	access:private
+size_type	lockfree/queue.hpp	/^        typedef std::size_t size_type;$/;"	t	struct:boost::lockfree::queue::implementation_defined	access:public
+size_type	lockfree/queue.hpp	/^    typedef typename implementation_defined::size_type size_type;$/;"	t	class:boost::lockfree::queue	access:public
+size_type	lockfree/spsc_queue.hpp	/^        typedef std::size_t size_type;$/;"	t	struct:boost::lockfree::spsc_queue::implementation_defined	access:public
+size_type	lockfree/spsc_queue.hpp	/^    typedef std::size_t size_type;$/;"	t	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+size_type	lockfree/spsc_queue.hpp	/^    typedef std::size_t size_type;$/;"	t	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:private
+size_type	lockfree/spsc_queue.hpp	/^    typedef typename implementation_defined::size_type size_type;$/;"	t	class:boost::lockfree::spsc_queue	access:public
+size_type	lockfree/stack.hpp	/^        typedef std::size_t size_type;$/;"	t	struct:boost::lockfree::stack::implementation_defined	access:public
+size_type	lockfree/stack.hpp	/^    typedef typename implementation_defined::size_type size_type;$/;"	t	class:boost::lockfree::stack	access:public
+spsc_queue	lockfree/spsc_queue.hpp	/^    explicit spsc_queue(allocator const & alloc)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(allocator const & alloc)
+spsc_queue	lockfree/spsc_queue.hpp	/^    explicit spsc_queue(size_type element_count):$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(size_type element_count)
+spsc_queue	lockfree/spsc_queue.hpp	/^    explicit spsc_queue(typename allocator::template rebind<U>::other const & alloc)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(typename allocator::template rebind<U>::other const & alloc)
+spsc_queue	lockfree/spsc_queue.hpp	/^    spsc_queue(size_type element_count, allocator_arg const & alloc):$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(size_type element_count, allocator_arg const & alloc)
+spsc_queue	lockfree/spsc_queue.hpp	/^    spsc_queue(size_type element_count, typename allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(size_type element_count, typename allocator::template rebind<U>::other const & alloc)
+spsc_queue	lockfree/spsc_queue.hpp	/^    spsc_queue(void)$/;"	f	class:boost::lockfree::spsc_queue	access:public	signature:(void)
+spsc_queue	lockfree/spsc_queue.hpp	/^class spsc_queue:$/;"	c	namespace:boost::lockfree	inherits:detail::make_ringbuffer::ringbuffer_type
+stack	lockfree/stack.hpp	/^    explicit stack(allocator const & alloc):$/;"	f	class:boost::lockfree::stack	access:public	signature:(allocator const & alloc)
+stack	lockfree/stack.hpp	/^    explicit stack(size_type n):$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n)
+stack	lockfree/stack.hpp	/^    explicit stack(typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::stack	access:public	signature:(typename node_allocator::template rebind<U>::other const & alloc)
+stack	lockfree/stack.hpp	/^    stack(size_type n, typename node_allocator::template rebind<U>::other const & alloc):$/;"	f	class:boost::lockfree::stack	access:public	signature:(size_type n, typename node_allocator::template rebind<U>::other const & alloc)
+stack	lockfree/stack.hpp	/^    stack(stack &&)      = delete;$/;"	p	class:boost::lockfree::stack	access:private	signature:(stack &&)
+stack	lockfree/stack.hpp	/^    stack(stack const &) = delete;$/;"	p	class:boost::lockfree::stack	access:private	signature:(stack const &)
+stack	lockfree/stack.hpp	/^    stack(void):$/;"	f	class:boost::lockfree::stack	access:public	signature:(void)
+stack	lockfree/stack.hpp	/^class stack$/;"	c	namespace:boost::lockfree	inherits:boost::noncopyable
+stack_signature	lockfree/stack.hpp	/^                             > stack_signature;$/;"	t	namespace:boost::lockfree::detail
+storage_	lockfree/spsc_queue.hpp	/^    storage_type storage_;$/;"	m	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+storage_type	lockfree/spsc_queue.hpp	/^                                           >::type storage_type;$/;"	t	class:boost::lockfree::detail::compile_time_sized_ringbuffer	access:private
+tag	lockfree/detail/freelist.hpp	/^    tag_t tag;$/;"	m	class:boost::lockfree::detail::tagged_index	access:protected
+tag	lockfree/detail/tagged_ptr_dcas.hpp	/^    tag_t tag;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:protected
+tag	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^        tag_t tag[4];$/;"	m	union:boost::lockfree::detail::tagged_ptr::cast_unit	access:public
+tag	lockfree/policies.hpp	/^namespace tag { struct allocator ; }$/;"	n	namespace:boost::lockfree
+tag	lockfree/policies.hpp	/^namespace tag { struct capacity; }$/;"	n	namespace:boost::lockfree
+tag	lockfree/policies.hpp	/^namespace tag { struct fixed_sized; }$/;"	n	namespace:boost::lockfree
+tag_index	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    static const int tag_index = 3;$/;"	m	class:boost::lockfree::detail::tagged_ptr	access:private
+tag_t	lockfree/detail/freelist.hpp	/^    typedef boost::uint16_t tag_t;$/;"	t	class:boost::lockfree::detail::tagged_index	access:public
+tag_t	lockfree/detail/tagged_ptr_dcas.hpp	/^    typedef std::size_t tag_t;$/;"	t	class:boost::lockfree::detail::tagged_ptr	access:public
+tag_t	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    typedef boost::uint16_t tag_t;$/;"	t	class:boost::lockfree::detail::tagged_ptr	access:public
+tagged_handle_type	lockfree/detail/freelist.hpp	/^                              >::type tagged_handle_type;$/;"	t	struct:boost::lockfree::select_tagged_handle	access:public
+tagged_index	lockfree/detail/freelist.hpp	/^    explicit tagged_index(index_t i, tag_t t = 0):$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(index_t i, tag_t t = 0)
+tagged_index	lockfree/detail/freelist.hpp	/^    tagged_index(tagged_index const & rhs):$/;"	f	class:boost::lockfree::detail::tagged_index	access:public	signature:(tagged_index const & rhs)
+tagged_index	lockfree/detail/freelist.hpp	/^class tagged_index$/;"	c	namespace:boost::lockfree::detail
+tagged_node_handle	lockfree/detail/freelist.hpp	/^    typedef tagged_index tagged_node_handle;$/;"	t	class:boost::lockfree::fixed_size_freelist	access:public
+tagged_node_handle	lockfree/detail/freelist.hpp	/^    typedef tagged_ptr<T> tagged_node_handle;$/;"	t	class:boost::lockfree::detail::freelist_stack	access:public
+tagged_node_handle	lockfree/queue.hpp	/^        typedef typename detail::select_tagged_handle<node, node_based>::tagged_handle_type tagged_node_handle;$/;"	t	struct:boost::lockfree::queue::node	access:public
+tagged_node_handle	lockfree/queue.hpp	/^    typedef typename pool_t::tagged_node_handle tagged_node_handle;$/;"	t	class:boost::lockfree::queue	access:private
+tagged_node_handle	lockfree/stack.hpp	/^    typedef typename pool_t::tagged_node_handle tagged_node_handle;$/;"	t	class:boost::lockfree::stack	access:private
+tagged_node_ptr	lockfree/detail/freelist.hpp	/^    typedef tagged_ptr<freelist_node> tagged_node_ptr;$/;"	t	class:boost::lockfree::detail::freelist_stack	access:private
+tagged_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    explicit tagged_ptr(T * p, tag_t t = 0):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t = 0)
+tagged_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^    tagged_ptr(tagged_ptr const & p):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+tagged_ptr	lockfree/detail/tagged_ptr_dcas.hpp	/^class BOOST_LOCKFREE_DCAS_ALIGNMENT tagged_ptr$/;"	c	namespace:boost::lockfree::detail
+tagged_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    explicit tagged_ptr(T * p, tag_t t = 0):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(T * p, tag_t t = 0)
+tagged_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^    tagged_ptr(tagged_ptr const & p):$/;"	f	class:boost::lockfree::detail::tagged_ptr	access:public	signature:(tagged_ptr const & p)
+tagged_ptr	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^class tagged_ptr$/;"	c	namespace:boost::lockfree::detail
+tail_	lockfree/queue.hpp	/^    atomic<tagged_node_handle> tail_;$/;"	m	class:boost::lockfree::queue	access:private
+tos	lockfree/stack.hpp	/^    detail::atomic<tagged_node_handle> tos;$/;"	m	class:boost::lockfree::stack	access:private
+type	lockfree/detail/freelist.hpp	/^                              >::type type;$/;"	t	struct:boost::lockfree::select_freelist	access:public
+type	lockfree/detail/parameter.hpp	/^                              >::type type;$/;"	t	struct:boost::lockfree::detail::extract_fixed_sized	access:public
+type	lockfree/detail/parameter.hpp	/^    typedef typename allocator_arg::template rebind<T>::other type;$/;"	t	struct:boost::lockfree::detail::extract_allocator	access:public
+type	lockfree/detail/parameter.hpp	/^    typedef typename parameter::binding<bound_args, tag_type, mpl::void_>::type type;$/;"	t	struct:boost::lockfree::detail::has_arg	access:public
+unlikely	lockfree/detail/branch_hints.hpp	/^inline bool unlikely(bool expr)$/;"	f	namespace:boost::lockfree::detail	signature:(bool expr)
+unsynchronized_pop	lockfree/queue.hpp	/^    bool unsynchronized_pop (T & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T & ret)
+unsynchronized_pop	lockfree/queue.hpp	/^    bool unsynchronized_pop (U & ret)$/;"	f	class:boost::lockfree::queue	access:public	signature:(U & ret)
+unsynchronized_pop	lockfree/stack.hpp	/^    bool unsynchronized_pop(T & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T & ret)
+unsynchronized_pop	lockfree/stack.hpp	/^    bool unsynchronized_pop(U & ret)$/;"	f	class:boost::lockfree::stack	access:public	signature:(U & ret)
+unsynchronized_push	lockfree/queue.hpp	/^    bool unsynchronized_push(T const & t)$/;"	f	class:boost::lockfree::queue	access:public	signature:(T const & t)
+unsynchronized_push	lockfree/stack.hpp	/^    ConstIterator unsynchronized_push(ConstIterator begin, ConstIterator end)$/;"	f	class:boost::lockfree::stack	access:public	signature:(ConstIterator begin, ConstIterator end)
+unsynchronized_push	lockfree/stack.hpp	/^    bool unsynchronized_push(T const & v)$/;"	f	class:boost::lockfree::stack	access:public	signature:(T const & v)
+v	lockfree/stack.hpp	/^        const T v;$/;"	m	struct:boost::lockfree::stack::node	access:public
+value	lockfree/detail/parameter.hpp	/^    static const bool value = mpl::is_not_void_<type>::type::value;$/;"	m	struct:boost::lockfree::detail::has_arg	access:public
+value	lockfree/detail/parameter.hpp	/^    static const bool value = type::value;$/;"	m	struct:boost::lockfree::detail::extract_fixed_sized	access:public
+value	lockfree/detail/tagged_ptr_ptrcompression.hpp	/^        compressed_ptr_t value;$/;"	m	union:boost::lockfree::detail::tagged_ptr::cast_unit	access:public
+value_type	lockfree/queue.hpp	/^    typedef T value_type;$/;"	t	class:boost::lockfree::queue	access:public
+value_type	lockfree/spsc_queue.hpp	/^    typedef T value_type;$/;"	t	class:boost::lockfree::spsc_queue	access:public
+value_type	lockfree/stack.hpp	/^    typedef T value_type;$/;"	t	class:boost::lockfree::stack	access:public
+write_available	lockfree/spsc_queue.hpp	/^    static size_t write_available(size_t write_index, size_t read_index, size_t max_size)$/;"	f	class:boost::lockfree::detail::ringbuffer_base	access:protected	signature:(size_t write_index, size_t read_index, size_t max_size)
+write_index_	lockfree/spsc_queue.hpp	/^    atomic<size_t> write_index_;$/;"	m	class:boost::lockfree::detail::ringbuffer_base	access:private
+~freelist_stack	lockfree/detail/freelist.hpp	/^    ~freelist_stack(void)$/;"	f	class:boost::lockfree::detail::freelist_stack	access:public	signature:(void)
+~queue	lockfree/queue.hpp	/^    ~queue(void)$/;"	f	class:boost::lockfree::queue	access:public	signature:(void)
+~runtime_sized_freelist_storage	lockfree/detail/freelist.hpp	/^    ~runtime_sized_freelist_storage(void)$/;"	f	namespace:boost::lockfree::detail	signature:(void)
+~runtime_sized_ringbuffer	lockfree/spsc_queue.hpp	/^    ~runtime_sized_ringbuffer(void)$/;"	f	class:boost::lockfree::detail::runtime_sized_ringbuffer	access:public	signature:(void)
+~stack	lockfree/stack.hpp	/^    ~stack(void)$/;"	f	class:boost::lockfree::stack	access:public	signature:(void)

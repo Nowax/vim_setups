@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_CONCEPT_ASSERT	concept/assert.hpp	43;"	d
+BOOST_CONCEPT_ASSERT	concept/requires.hpp	/^    BOOST_CONCEPT_ASSERT((Model));$/;"	p	struct:boost::requires_	access:public	signature:(Model)
+BOOST_CONCEPT_ASSERT_DWA2006430_HPP	concept/assert.hpp	5;"	d
+BOOST_CONCEPT_ASSERT_FN	concept/detail/borland.hpp	21;"	d
+BOOST_CONCEPT_ASSERT_FN	concept/detail/general.hpp	68;"	d
+BOOST_CONCEPT_ASSERT_FN	concept/detail/msvc.hpp	104;"	d
+BOOST_CONCEPT_ASSERT_FN	concept/detail/msvc.hpp	91;"	d
+BOOST_CONCEPT_ASSERT_FN	concept/requires.hpp	/^    BOOST_CONCEPT_ASSERT_FN(ModelFn);$/;"	p	struct:boost::_requires_	access:public	signature:(ModelFn)
+BOOST_CONCEPT_BACKWARD_COMPATIBILITY_DWA200968_HPP	concept/detail/backward_compatibility.hpp	5;"	d
+BOOST_CONCEPT_CHECK_MSVC_DWA2006429_HPP	concept/detail/msvc.hpp	5;"	d
+BOOST_CONCEPT_DETAIL_BORLAND_DWA2006429_HPP	concept/detail/borland.hpp	5;"	d
+BOOST_CONCEPT_DETAIL_CONCEPT_DEF_DWA200651_HPP	concept/detail/concept_def.hpp	5;"	d
+BOOST_CONCEPT_DETAIL_GENERAL_DWA2006429_HPP	concept/detail/general.hpp	5;"	d
+BOOST_CONCEPT_DETAIL_HAS_CONSTRAINTS_DWA2006429_HPP	concept/detail/has_constraints.hpp	5;"	d
+BOOST_CONCEPT_REQUIRES	concept/requires.hpp	50;"	d
+BOOST_CONCEPT_REQUIRES	concept/requires.hpp	56;"	d
+BOOST_CONCEPT_REQUIRES	concept/requires.hpp	65;"	d
+BOOST_CONCEPT_REQUIRES_	concept/requires.hpp	43;"	d
+BOOST_CONCEPT_REQUIRES_	concept/requires.hpp	45;"	d
+BOOST_CONCEPT_REQUIRES_DWA2006430_HPP	concept/requires.hpp	5;"	d
+BOOST_CONCEPT_USAGE	concept/usage.hpp	15;"	d
+BOOST_CONCEPT_USAGE_DWA2006919_HPP	concept/usage.hpp	5;"	d
+BOOST_CONCEPT_WHERE	concept/requires.hpp	74;"	d
+BOOST_CONCEPT_typename	concept/detail/concept_def.hpp	49;"	d
+BOOST_OLD_CONCEPT_SUPPORT	concept/assert.hpp	27;"	d
+BOOST_STATIC_CONSTANT	concept/detail/has_constraints.hpp	/^    BOOST_STATIC_CONSTANT($/;"	p	struct:boost::concepts::not_satisfied	access:public	signature:( bool , value = sizeof( detail::has_constraints_((Model*)0) ) == sizeof(detail::yes) )
+BOOST_concept	concept/detail/concept_def.hpp	19;"	d
+BOOST_concept	concept/detail/concept_def.hpp	34;"	d
+BOOST_concept	concept/detail/concept_undef.hpp	5;"	d
+BOOST_concept_typename	concept/detail/concept_undef.hpp	4;"	d
+Requires_	concept/requires.hpp	/^struct Requires_ : ::boost::parameter::aux::unaryfunptr_arg_type<Result>$/;"	s	namespace:boost	inherits:::boost::parameter::aux::unaryfunptr_arg_type
+_requires_	concept/requires.hpp	/^struct _requires_$/;"	s	namespace:boost
+boost	concept/detail/backward_compatibility.hpp	/^namespace boost$/;"	n
+boost	concept/detail/borland.hpp	/^namespace boost { namespace concepts {$/;"	n
+boost	concept/detail/general.hpp	/^namespace boost { namespace concepts {$/;"	n
+boost	concept/detail/has_constraints.hpp	/^namespace boost { namespace concepts {$/;"	n
+boost	concept/detail/msvc.hpp	/^namespace boost { namespace concepts {$/;"	n
+boost	concept/requires.hpp	/^namespace boost { $/;"	n
+boost	concept/usage.hpp	/^namespace boost { namespace concepts { $/;"	n
+boost::Requires_	concept/requires.hpp	/^struct Requires_ : ::boost::parameter::aux::unaryfunptr_arg_type<Result>$/;"	s	namespace:boost	inherits:::boost::parameter::aux::unaryfunptr_arg_type
+boost::Requires_::type	concept/requires.hpp	/^    typedef typename ::boost::parameter::aux::unaryfunptr_arg_type<Result>::type type;$/;"	t	struct:boost::Requires_	access:public
+boost::_requires_	concept/requires.hpp	/^struct _requires_$/;"	s	namespace:boost
+boost::_requires_::BOOST_CONCEPT_ASSERT_FN	concept/requires.hpp	/^    BOOST_CONCEPT_ASSERT_FN(ModelFn);$/;"	p	struct:boost::_requires_	access:public	signature:(ModelFn)
+boost::_requires_::value	concept/requires.hpp	/^    enum { value = 0 };$/;"	e	enum:boost::_requires_::__anon2
+boost::concepts	concept/detail/backward_compatibility.hpp	/^  namespace concepts {}$/;"	n	namespace:boost
+boost::concepts	concept/detail/borland.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+boost::concepts	concept/detail/general.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+boost::concepts	concept/detail/has_constraints.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+boost::concepts	concept/detail/msvc.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+boost::concepts	concept/usage.hpp	/^namespace boost { namespace concepts { $/;"	n	namespace:boost
+boost::concepts::check	concept/detail/msvc.hpp	/^struct check$/;"	s	namespace:boost::concepts
+boost::concepts::check	concept/detail/msvc.hpp	/^struct check<failed ************ Model::************>$/;"	s	namespace:boost::concepts
+boost::concepts::check::failed	concept/detail/msvc.hpp	/^    virtual void failed(Model* x)$/;"	f	struct:boost::concepts::check	access:public	signature:(Model* x)
+boost::concepts::constraint	concept/detail/general.hpp	/^struct constraint$/;"	s	namespace:boost::concepts
+boost::concepts::constraint::failed	concept/detail/general.hpp	/^    static void failed() { ((Model*)0)->constraints(); }$/;"	f	struct:boost::concepts::constraint	access:public	signature:()
+boost::concepts::detail	concept/detail/general.hpp	/^namespace detail$/;"	n	namespace:boost::concepts
+boost::concepts::detail	concept/detail/has_constraints.hpp	/^namespace detail$/;"	n	namespace:boost::concepts
+boost::concepts::detail	concept/detail/msvc.hpp	/^namespace detail$/;"	n	namespace:boost::concepts
+boost::concepts::detail::constraint	concept/detail/msvc.hpp	/^  struct constraint {};$/;"	s	namespace:boost::concepts::detail
+boost::concepts::detail::has_constraints_	concept/detail/has_constraints.hpp	/^  inline no has_constraints_(...);$/;"	p	namespace:boost::concepts::detail	signature:(....)
+boost::concepts::detail::has_constraints_	concept/detail/has_constraints.hpp	/^  inline yes has_constraints_(Model*, wrap_constraints<Model,&Model::constraints>* = 0);$/;"	p	namespace:boost::concepts::detail	signature:(Model*, wrap_constraints<Model,&Model::constraints>* = 0)
+boost::concepts::detail::instantiate	concept/detail/general.hpp	/^  template <void(*)()> struct instantiate {};$/;"	s	namespace:boost::concepts::detail
+boost::concepts::detail::no	concept/detail/has_constraints.hpp	/^  typedef char (&no)[2];$/;"	t	namespace:boost::concepts::detail
+boost::concepts::detail::wrap_constraints	concept/detail/has_constraints.hpp	/^  struct wrap_constraints {};$/;"	s	namespace:boost::concepts::detail
+boost::concepts::detail::yes	concept/detail/has_constraints.hpp	/^  typedef char yes;$/;"	t	namespace:boost::concepts::detail
+boost::concepts::failed	concept/detail/general.hpp	/^struct failed {};$/;"	s	namespace:boost::concepts
+boost::concepts::failed	concept/detail/msvc.hpp	/^struct failed {};$/;"	s	namespace:boost::concepts
+boost::concepts::not_satisfied	concept/detail/has_constraints.hpp	/^struct not_satisfied$/;"	s	namespace:boost::concepts
+boost::concepts::not_satisfied::BOOST_STATIC_CONSTANT	concept/detail/has_constraints.hpp	/^    BOOST_STATIC_CONSTANT($/;"	p	struct:boost::concepts::not_satisfied	access:public	signature:( bool , value = sizeof( detail::has_constraints_((Model*)0) ) == sizeof(detail::yes) )
+boost::concepts::not_satisfied::type	concept/detail/has_constraints.hpp	/^    typedef mpl::bool_<value> type;$/;"	t	struct:boost::concepts::not_satisfied	access:public
+boost::concepts::require	concept/detail/borland.hpp	/^struct require<void(*)(Model)>$/;"	s	namespace:boost::concepts
+boost::concepts::require	concept/detail/msvc.hpp	/^struct require$/;"	s	namespace:boost::concepts	inherits:check
+boost::concepts::require	concept/detail/msvc.hpp	/^struct require$/;"	s	namespace:boost::concepts	inherits:mpl::if_c::type
+boost::concepts::require	concept/detail/msvc.hpp	/^struct require<void(*)(Model)>$/;"	s	namespace:boost::concepts
+boost::concepts::require::failed	concept/detail/msvc.hpp	/^    virtual void failed(Model*)$/;"	f	struct:boost::concepts::require	access:public	signature:(Model*)
+boost::concepts::require::instantiate	concept/detail/borland.hpp	/^    enum { instantiate = sizeof((((Model*)0)->~Model()), 3) };$/;"	e	enum:boost::concepts::require::__anon1
+boost::concepts::require_	concept/detail/msvc.hpp	/^require_(void(*)(Model));$/;"	p	namespace:boost::concepts	signature:(void(*)(Model))
+boost::concepts::requirement	concept/detail/general.hpp	/^struct requirement$/;"	s	namespace:boost::concepts
+boost::concepts::requirement	concept/detail/general.hpp	/^struct requirement<failed ************ Model::************>$/;"	s	namespace:boost::concepts
+boost::concepts::requirement::failed	concept/detail/general.hpp	/^    static void failed() { ((Model*)0)->~Model(); }$/;"	f	struct:boost::concepts::requirement	access:public	signature:()
+boost::concepts::requirement_	concept/detail/general.hpp	/^struct requirement_<void(*)(Model)>$/;"	s	namespace:boost::concepts	inherits:mpl::if_::type
+boost::concepts::requirement_	concept/detail/general.hpp	/^struct requirement_<void(*)(Model)>$/;"	s	namespace:boost::concepts	inherits:requirement
+boost::requires_	concept/requires.hpp	/^struct requires_ : More$/;"	s	namespace:boost	inherits:More
+boost::requires_::BOOST_CONCEPT_ASSERT	concept/requires.hpp	/^    BOOST_CONCEPT_ASSERT((Model));$/;"	p	struct:boost::requires_	access:public	signature:(Model)
+boost::requires_::type	concept/requires.hpp	/^    typedef typename More::type type;$/;"	t	struct:boost::requires_	access:public
+check	concept/detail/msvc.hpp	/^struct check$/;"	s	namespace:boost::concepts
+check	concept/detail/msvc.hpp	/^struct check<failed ************ Model::************>$/;"	s	namespace:boost::concepts
+concepts	concept/detail/backward_compatibility.hpp	/^  namespace concepts {}$/;"	n	namespace:boost
+concepts	concept/detail/borland.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+concepts	concept/detail/general.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+concepts	concept/detail/has_constraints.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+concepts	concept/detail/msvc.hpp	/^namespace boost { namespace concepts {$/;"	n	namespace:boost
+concepts	concept/usage.hpp	/^namespace boost { namespace concepts { $/;"	n	namespace:boost
+constraint	concept/detail/general.hpp	/^struct constraint$/;"	s	namespace:boost::concepts
+constraint	concept/detail/msvc.hpp	/^  struct constraint {};$/;"	s	namespace:boost::concepts::detail
+detail	concept/detail/general.hpp	/^namespace detail$/;"	n	namespace:boost::concepts
+detail	concept/detail/has_constraints.hpp	/^namespace detail$/;"	n	namespace:boost::concepts
+detail	concept/detail/msvc.hpp	/^namespace detail$/;"	n	namespace:boost::concepts
+failed	concept/detail/general.hpp	/^    static void failed() { ((Model*)0)->constraints(); }$/;"	f	struct:boost::concepts::constraint	access:public	signature:()
+failed	concept/detail/general.hpp	/^    static void failed() { ((Model*)0)->~Model(); }$/;"	f	struct:boost::concepts::requirement	access:public	signature:()
+failed	concept/detail/general.hpp	/^struct failed {};$/;"	s	namespace:boost::concepts
+failed	concept/detail/msvc.hpp	/^    virtual void failed(Model* x)$/;"	f	struct:boost::concepts::check	access:public	signature:(Model* x)
+failed	concept/detail/msvc.hpp	/^    virtual void failed(Model*)$/;"	f	struct:boost::concepts::require	access:public	signature:(Model*)
+failed	concept/detail/msvc.hpp	/^struct failed {};$/;"	s	namespace:boost::concepts
+has_constraints_	concept/detail/has_constraints.hpp	/^  inline no has_constraints_(...);$/;"	p	namespace:boost::concepts::detail	signature:(....)
+has_constraints_	concept/detail/has_constraints.hpp	/^  inline yes has_constraints_(Model*, wrap_constraints<Model,&Model::constraints>* = 0);$/;"	p	namespace:boost::concepts::detail	signature:(Model*, wrap_constraints<Model,&Model::constraints>* = 0)
+instantiate	concept/detail/borland.hpp	/^    enum { instantiate = sizeof((((Model*)0)->~Model()), 3) };$/;"	e	enum:boost::concepts::require::__anon1
+instantiate	concept/detail/general.hpp	/^  template <void(*)()> struct instantiate {};$/;"	s	namespace:boost::concepts::detail
+no	concept/detail/has_constraints.hpp	/^  typedef char (&no)[2];$/;"	t	namespace:boost::concepts::detail
+not_satisfied	concept/detail/has_constraints.hpp	/^struct not_satisfied$/;"	s	namespace:boost::concepts
+require	concept/detail/borland.hpp	/^struct require<void(*)(Model)>$/;"	s	namespace:boost::concepts
+require	concept/detail/msvc.hpp	/^struct require$/;"	s	namespace:boost::concepts	inherits:check
+require	concept/detail/msvc.hpp	/^struct require$/;"	s	namespace:boost::concepts	inherits:mpl::if_c::type
+require	concept/detail/msvc.hpp	/^struct require<void(*)(Model)>$/;"	s	namespace:boost::concepts
+require_	concept/detail/msvc.hpp	/^require_(void(*)(Model));$/;"	p	namespace:boost::concepts	signature:(void(*)(Model))
+requirement	concept/detail/general.hpp	/^struct requirement$/;"	s	namespace:boost::concepts
+requirement	concept/detail/general.hpp	/^struct requirement<failed ************ Model::************>$/;"	s	namespace:boost::concepts
+requirement_	concept/detail/general.hpp	/^struct requirement_<void(*)(Model)>$/;"	s	namespace:boost::concepts	inherits:mpl::if_::type
+requirement_	concept/detail/general.hpp	/^struct requirement_<void(*)(Model)>$/;"	s	namespace:boost::concepts	inherits:requirement
+requires_	concept/requires.hpp	/^struct requires_ : More$/;"	s	namespace:boost	inherits:More
+type	concept/detail/has_constraints.hpp	/^    typedef mpl::bool_<value> type;$/;"	t	struct:boost::concepts::not_satisfied	access:public
+type	concept/requires.hpp	/^    typedef typename ::boost::parameter::aux::unaryfunptr_arg_type<Result>::type type;$/;"	t	struct:boost::Requires_	access:public
+type	concept/requires.hpp	/^    typedef typename More::type type;$/;"	t	struct:boost::requires_	access:public
+value	concept/requires.hpp	/^    enum { value = 0 };$/;"	e	enum:boost::_requires_::__anon2
+wrap_constraints	concept/detail/has_constraints.hpp	/^  struct wrap_constraints {};$/;"	s	namespace:boost::concepts::detail
+yes	concept/detail/has_constraints.hpp	/^  typedef char yes;$/;"	t	namespace:boost::concepts::detail

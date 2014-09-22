@@ -1,0 +1,227 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_MPL_ASSERT	tti/detail/dmem_data.hpp	/^        BOOST_MPL_ASSERT((boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>));$/;"	p	struct:boost::tti::detail::dmem_check_ptec	access:public	signature:(boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>)
+BOOST_MPL_ASSERT	tti/detail/dmem_data.hpp	/^        BOOST_MPL_ASSERT((boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>));$/;"	p	struct:boost::tti::detail::dmem_check_ptmd	access:public	signature:(boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>)
+BOOST_TTI_DATA_GEN_HPP	tti/gen/has_data_gen.hpp	8;"	d
+BOOST_TTI_DETAIL_COMP_MEM_FUN_HPP	tti/detail/dcomp_mem_fun.hpp	8;"	d
+BOOST_TTI_DETAIL_COMP_STATIC_MEM_FUN_HPP	tti/detail/dcomp_static_mem_fun.hpp	8;"	d
+BOOST_TTI_DETAIL_DATA_HPP	tti/detail/ddata.hpp	8;"	d
+BOOST_TTI_DETAIL_DEFTYPE_HPP	tti/detail/ddeftype.hpp	8;"	d
+BOOST_TTI_DETAIL_FTCLASS_HPP	tti/detail/dftclass.hpp	8;"	d
+BOOST_TTI_DETAIL_FUNCTION_HPP	tti/detail/dfunction.hpp	8;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_IMPLEMENTATION	tti/detail/dtemplate_params.hpp	29;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_INTROSPECT	tti/detail/dtemplate_params.hpp	83;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_INTROSPECT_WITH_TEMPLATE_SFINAE	tti/detail/dtemplate_params.hpp	149;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_MULTI_SUBSTITUTE	tti/detail/dtemplate_params.hpp	51;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_MULTI_SUBSTITUTE_WITH_TEMPLATE_SFINAE	tti/detail/dtemplate_params.hpp	108;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_SUBSTITUTE	tti/detail/dtemplate_params.hpp	74;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_SUBSTITUTE_WITH_TEMPLATE_SFINAE	tti/detail/dtemplate_params.hpp	138;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_WITH_FUNCTION_SFINAE	tti/detail/dtemplate_params.hpp	98;"	d
+BOOST_TTI_DETAIL_HAS_MEMBER_WITH_TEMPLATE_SFINAE	tti/detail/dtemplate_params.hpp	158;"	d
+BOOST_TTI_DETAIL_IS_HELPER_BOOST_PP_NIL	tti/detail/dtemplate.hpp	16;"	d
+BOOST_TTI_DETAIL_IS_NIL	tti/detail/dtemplate.hpp	18;"	d
+BOOST_TTI_DETAIL_LAMBDA_HPP	tti/detail/dlambda.hpp	8;"	d
+BOOST_TTI_DETAIL_MEM_DATA_HPP	tti/detail/dmem_data.hpp	8;"	d
+BOOST_TTI_DETAIL_MEM_FUN_HPP	tti/detail/dmem_fun.hpp	8;"	d
+BOOST_TTI_DETAIL_MEM_TYPE_HPP	tti/detail/dmem_type.hpp	8;"	d
+BOOST_TTI_DETAIL_METAFUNC_HPP	tti/detail/dmetafunc.hpp	8;"	d
+BOOST_TTI_DETAIL_NOTYPE_HPP	tti/detail/dnotype.hpp	8;"	d
+BOOST_TTI_DETAIL_NULLPTR	tti/detail/dnullptr.hpp	14;"	d
+BOOST_TTI_DETAIL_NULLPTR	tti/detail/dnullptr.hpp	18;"	d
+BOOST_TTI_DETAIL_NULLPTR_HPP	tti/detail/dnullptr.hpp	8;"	d
+BOOST_TTI_DETAIL_PLACEHOLDER_HPP	tti/detail/dplaceholder.hpp	8;"	d
+BOOST_TTI_DETAIL_PTMF_HPP	tti/detail/dptmf.hpp	8;"	d
+BOOST_TTI_DETAIL_SAME	tti/detail/dtemplate_params.hpp	174;"	d
+BOOST_TTI_DETAIL_STATIC_MEM_DATA_HPP	tti/detail/dstatic_mem_data.hpp	8;"	d
+BOOST_TTI_DETAIL_STATIC_MEM_FUN_HPP	tti/detail/dstatic_mem_fun.hpp	8;"	d
+BOOST_TTI_DETAIL_TCLASS_HPP	tti/detail/dtclass.hpp	8;"	d
+BOOST_TTI_DETAIL_TEMPLATE_HPP	tti/detail/dtemplate.hpp	8;"	d
+BOOST_TTI_DETAIL_TEMPLATE_PARAMETERS	tti/detail/dtemplate_params.hpp	25;"	d
+BOOST_TTI_DETAIL_TEMPLATE_PARAMS_HPP	tti/detail/dtemplate_params.hpp	8;"	d
+BOOST_TTI_DETAIL_TFUNCTION_HPP	tti/detail/dtfunction.hpp	8;"	d
+BOOST_TTI_DETAIL_TRAIT_ASSERT_NOT_NIL	tti/detail/dtemplate.hpp	25;"	d
+BOOST_TTI_DETAIL_TRAIT_CALL_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dtemplate_params.hpp	183;"	d
+BOOST_TTI_DETAIL_TRAIT_CALL_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dtemplate_params.hpp	201;"	d
+BOOST_TTI_DETAIL_TRAIT_CALL_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dtemplate_params.hpp	210;"	d
+BOOST_TTI_DETAIL_TRAIT_CHECK_HAS_COMP_MEMBER_FUNCTION	tti/detail/dmem_fun.hpp	61;"	d
+BOOST_TTI_DETAIL_TRAIT_CHECK_IS_NIL	tti/detail/dtemplate.hpp	29;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_CALL_TYPES_MEMBER_FUNCTION	tti/detail/dmem_fun.hpp	48;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_COMP_MEMBER_FUNCTION	tti/detail/dcomp_mem_fun.hpp	19;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_COMP_STATIC_MEMBER_FUNCTION	tti/detail/dcomp_static_mem_fun.hpp	17;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_DATA	tti/detail/ddata.hpp	17;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_FUNCTION	tti/detail/dfunction.hpp	16;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_MEMBER_DATA	tti/detail/dmem_data.hpp	27;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_MEMBER_DATA	tti/detail/dmem_data.hpp	85;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_MEMBER_FUNCTION	tti/detail/dmem_fun.hpp	71;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_STATIC_MEMBER_DATA	tti/detail/dstatic_mem_data.hpp	19;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_STATIC_MEMBER_DATA	tti/detail/dstatic_mem_data.hpp	65;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_STATIC_MEMBER_FUNCTION	tti/detail/dstatic_mem_fun.hpp	44;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_TEMPLATE	tti/detail/dtemplate.hpp	39;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dtemplate_params.hpp	189;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_TYPE	tti/detail/dtype.hpp	27;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_TYPES_MEMBER_FUNCTION	tti/detail/dmem_fun.hpp	29;"	d
+BOOST_TTI_DETAIL_TRAIT_HAS_TYPE_MEMBER_TYPE	tti/detail/dmem_type.hpp	14;"	d
+BOOST_TTI_DETAIL_TRAIT_IMPL_HAS_STATIC_MEMBER_FUNCTION	tti/detail/dstatic_mem_fun.hpp	25;"	d
+BOOST_TTI_DETAIL_TRAIT_INVOKE_HAS_TYPE	tti/detail/dtype.hpp	19;"	d
+BOOST_TTI_DETAIL_TRAIT_MEMBER_TYPE	tti/detail/dmem_type.hpp	25;"	d
+BOOST_TTI_DETAIL_TYPE_HPP	tti/detail/dtype.hpp	8;"	d
+BOOST_TTI_DETAIL_VM_CALL_TRAIT_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dvm_template_params.hpp	135;"	d
+BOOST_TTI_DETAIL_VM_CHECK_MORE_THAN_TWO	tti/detail/dvm_template_params.hpp	59;"	d
+BOOST_TTI_DETAIL_VM_IS_NIL	tti/detail/dvm_template_params.hpp	90;"	d
+BOOST_TTI_DETAIL_VM_TEMPLATE_PARAMS_HPP	tti/detail/dvm_template_params.hpp	8;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_CHOOSE_FROM_TWO	tti/detail/dvm_template_params.hpp	73;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_CHOOSE_IF_NIL	tti/detail/dvm_template_params.hpp	97;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_EXPAND_ARGUMENTS	tti/detail/dvm_template_params.hpp	117;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_HAS_TEMPLATE	tti/detail/dvm_template_params.hpp	126;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dvm_template_params.hpp	34;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dvm_template_params.hpp	43;"	d
+BOOST_TTI_DETAIL_VM_TRAIT_HAS_TEMPLATE_CHECK_PARAMS	tti/detail/dvm_template_params.hpp	53;"	d
+BOOST_TTI_DETAIL_VM_VARIADIC_TAIL	tti/detail/dvm_template_params.hpp	107;"	d
+BOOST_TTI_FUNCTION_GEN_HPP	tti/gen/has_function_gen.hpp	8;"	d
+BOOST_TTI_HAS_DATA	tti/has_data.hpp	87;"	d
+BOOST_TTI_HAS_DATA_GEN	tti/gen/has_data_gen.hpp	27;"	d
+BOOST_TTI_HAS_DATA_HPP	tti/has_data.hpp	8;"	d
+BOOST_TTI_HAS_FUNCTION	tti/has_function.hpp	98;"	d
+BOOST_TTI_HAS_FUNCTION_GEN	tti/gen/has_function_gen.hpp	27;"	d
+BOOST_TTI_HAS_FUNCTION_HPP	tti/has_function.hpp	8;"	d
+BOOST_TTI_HAS_MEMBER_DATA	tti/has_member_data.hpp	100;"	d
+BOOST_TTI_HAS_MEMBER_DATA_GEN	tti/gen/has_member_data_gen.hpp	27;"	d
+BOOST_TTI_HAS_MEMBER_DATA_HPP	tti/has_member_data.hpp	8;"	d
+BOOST_TTI_HAS_MEMBER_FUNCTION	tti/has_member_function.hpp	108;"	d
+BOOST_TTI_HAS_MEMBER_FUNCTION_GEN	tti/gen/has_member_function_gen.hpp	27;"	d
+BOOST_TTI_HAS_MEMBER_FUNCTION_HPP	tti/has_member_function.hpp	8;"	d
+BOOST_TTI_HAS_STATIC_MEMBER_DATA	tti/has_static_member_data.hpp	77;"	d
+BOOST_TTI_HAS_STATIC_MEMBER_DATA_GEN	tti/gen/has_static_member_data_gen.hpp	27;"	d
+BOOST_TTI_HAS_STATIC_MEMBER_DATA_HPP	tti/has_static_member_data.hpp	8;"	d
+BOOST_TTI_HAS_STATIC_MEMBER_FUNCTION	tti/has_static_member_function.hpp	102;"	d
+BOOST_TTI_HAS_STATIC_MEMBER_FUNCTION_GEN	tti/gen/has_static_member_function_gen.hpp	27;"	d
+BOOST_TTI_HAS_STATIC_MEMBER_FUNCTION_HPP	tti/has_static_member_function.hpp	8;"	d
+BOOST_TTI_HAS_TEMPLATE	tti/has_template.hpp	201;"	d
+BOOST_TTI_HAS_TEMPLATE	tti/has_template.hpp	338;"	d
+BOOST_TTI_HAS_TEMPLATE_GEN	tti/gen/has_template_gen.hpp	27;"	d
+BOOST_TTI_HAS_TEMPLATE_HPP	tti/has_template.hpp	17;"	d
+BOOST_TTI_HAS_TYPE	tti/has_type.hpp	160;"	d
+BOOST_TTI_HAS_TYPE_GEN	tti/gen/has_type_gen.hpp	27;"	d
+BOOST_TTI_HAS_TYPE_HPP	tti/has_type.hpp	8;"	d
+BOOST_TTI_INTROSPECTION_HPP	tti/tti.hpp	8;"	d
+BOOST_TTI_MEMBER_DATA_GEN_HPP	tti/gen/has_member_data_gen.hpp	8;"	d
+BOOST_TTI_MEMBER_FUNCTION_GEN_HPP	tti/gen/has_member_function_gen.hpp	8;"	d
+BOOST_TTI_MEMBER_TYPE	tti/member_type.hpp	118;"	d
+BOOST_TTI_MEMBER_TYPE_GEN	tti/gen/member_type_gen.hpp	27;"	d
+BOOST_TTI_MEMBER_TYPE_GEN_HPP	tti/gen/member_type_gen.hpp	8;"	d
+BOOST_TTI_MEMBER_TYPE_HPP	tti/member_type.hpp	8;"	d
+BOOST_TTI_NAMESPACE	tti/gen/namespace_gen.hpp	23;"	d
+BOOST_TTI_NAMESPACE_GEN_HPP	tti/gen/namespace_gen.hpp	8;"	d
+BOOST_TTI_STATIC_MEMBER_DATA_GEN_HPP	tti/gen/has_static_member_data_gen.hpp	8;"	d
+BOOST_TTI_STATIC_MEMBER_FUNCTION_GEN_HPP	tti/gen/has_static_member_function_gen.hpp	8;"	d
+BOOST_TTI_TEMPLATE_GEN_HPP	tti/gen/has_template_gen.hpp	8;"	d
+BOOST_TTI_TRAIT_HAS_DATA	tti/has_data.hpp	50;"	d
+BOOST_TTI_TRAIT_HAS_FUNCTION	tti/has_function.hpp	58;"	d
+BOOST_TTI_TRAIT_HAS_MEMBER_DATA	tti/has_member_data.hpp	56;"	d
+BOOST_TTI_TRAIT_HAS_MEMBER_FUNCTION	tti/has_member_function.hpp	64;"	d
+BOOST_TTI_TRAIT_HAS_STATIC_MEMBER_DATA	tti/has_static_member_data.hpp	47;"	d
+BOOST_TTI_TRAIT_HAS_STATIC_MEMBER_FUNCTION	tti/has_static_member_function.hpp	60;"	d
+BOOST_TTI_TRAIT_HAS_TEMPLATE	tti/has_template.hpp	110;"	d
+BOOST_TTI_TRAIT_HAS_TEMPLATE	tti/has_template.hpp	274;"	d
+BOOST_TTI_TRAIT_HAS_TYPE	tti/has_type.hpp	85;"	d
+BOOST_TTI_TRAIT_MEMBER_TYPE	tti/member_type.hpp	67;"	d
+BOOST_TTI_TYPE_GEN_HPP	tti/gen/has_type_gen.hpp	8;"	d
+boost	tti/detail/ddeftype.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dftclass.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dlambda.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dmem_data.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dmetafunc.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dnotype.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dplaceholder.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dptmf.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dtclass.hpp	/^namespace boost$/;"	n
+boost	tti/detail/dtfunction.hpp	/^namespace boost$/;"	n
+boost	tti/member_type.hpp	/^namespace boost$/;"	n
+boost::tti	tti/detail/ddeftype.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dftclass.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dlambda.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dmem_data.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dmetafunc.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dnotype.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dplaceholder.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dptmf.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dtclass.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/detail/dtfunction.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti	tti/member_type.hpp	/^  namespace tti$/;"	n	namespace:boost
+boost::tti::detail	tti/detail/ddeftype.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dftclass.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dlambda.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dmem_data.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dmetafunc.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dnotype.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dplaceholder.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dptmf.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dtclass.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail	tti/detail/dtfunction.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+boost::tti::detail::class_type	tti/detail/dftclass.hpp	/^      struct class_type :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::at
+boost::tti::detail::deftype	tti/detail/ddeftype.hpp	/^      struct deftype$/;"	s	namespace:boost::tti::detail
+boost::tti::detail::dmem_check_ptec	tti/detail/dmem_data.hpp	/^      struct dmem_check_ptec :$/;"	s	namespace:boost::tti::detail	inherits:BOOST_TTI_NAMESPACE::detail::class_type
+boost::tti::detail::dmem_check_ptec::BOOST_MPL_ASSERT	tti/detail/dmem_data.hpp	/^        BOOST_MPL_ASSERT((boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>));$/;"	p	struct:boost::tti::detail::dmem_check_ptec	access:public	signature:(boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>)
+boost::tti::detail::dmem_check_ptmd	tti/detail/dmem_data.hpp	/^      struct dmem_check_ptmd :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::identity
+boost::tti::detail::dmem_check_ptmd::BOOST_MPL_ASSERT	tti/detail/dmem_data.hpp	/^        BOOST_MPL_ASSERT((boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>));$/;"	p	struct:boost::tti::detail::dmem_check_ptmd	access:public	signature:(boost::function_types::is_member_object_pointer<BOOST_TTI_DETAIL_TP_T>)
+boost::tti::detail::dmem_get_enclosing	tti/detail/dmem_data.hpp	/^      struct dmem_get_enclosing :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::eval_if
+boost::tti::detail::dmem_get_type	tti/detail/dmem_data.hpp	/^      struct dmem_get_type :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::eval_if
+boost::tti::detail::is_lambda_expression	tti/detail/dlambda.hpp	/^      struct is_lambda_expression :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::or_
+boost::tti::detail::is_metafunction_class	tti/detail/dmetafunc.hpp	/^      struct is_metafunction_class :$/;"	s	namespace:boost::tti::detail	inherits:BOOST_TTI_NAMESPACE::detail::is_metafunction_class_apply
+boost::tti::detail::is_placeholder_expression	tti/detail/dplaceholder.hpp	/^      struct is_placeholder_expression :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::not_
+boost::tti::detail::notype	tti/detail/dnotype.hpp	/^      struct notype$/;"	s	namespace:boost::tti::detail
+boost::tti::detail::ptmd	tti/detail/dmem_data.hpp	/^      struct ptmd$/;"	s	namespace:boost::tti::detail
+boost::tti::detail::ptmd::BOOST_TTI_DETAIL_TP_T::type	tti/detail/dmem_data.hpp	/^        typedef BOOST_TTI_DETAIL_TP_R BOOST_TTI_DETAIL_TP_T::* type;$/;"	t	class:boost::tti::detail::ptmd::BOOST_TTI_DETAIL_TP_T	access:public
+boost::tti::detail::ptmf_seq	tti/detail/dptmf.hpp	/^      struct ptmf_seq$/;"	s	namespace:boost::tti::detail
+boost::tti::detail::ptmf_seq::type	tti/detail/dptmf.hpp	/^          >::type type;$/;"	t	struct:boost::tti::detail::ptmf_seq	access:public
+boost::tti::detail::tclass	tti/detail/dtclass.hpp	/^      struct tclass :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::eval_if
+boost::tti::detail::tfunction_seq	tti/detail/dtfunction.hpp	/^      struct tfunction_seq$/;"	s	namespace:boost::tti::detail
+boost::tti::detail::tfunction_seq::ftseq	tti/detail/dtfunction.hpp	/^        typedef typename boost::mpl::push_front<BOOST_TTI_DETAIL_TP_FS,BOOST_TTI_DETAIL_TP_R>::type ftseq;$/;"	t	struct:boost::tti::detail::tfunction_seq	access:public
+boost::tti::detail::tfunction_seq::type	tti/detail/dtfunction.hpp	/^        typedef typename boost::function_types::function_type<ftseq,BOOST_TTI_DETAIL_TP_TAG>::type type;$/;"	t	struct:boost::tti::detail::tfunction_seq	access:public
+boost::tti::valid_member_metafunction	tti/member_type.hpp	/^    struct valid_member_metafunction :$/;"	s	namespace:boost::tti	inherits:boost::mpl::not_
+boost::tti::valid_member_type	tti/member_type.hpp	/^    struct valid_member_type :$/;"	s	namespace:boost::tti	inherits:boost::mpl::not_
+class_type	tti/detail/dftclass.hpp	/^      struct class_type :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::at
+deftype	tti/detail/ddeftype.hpp	/^      struct deftype$/;"	s	namespace:boost::tti::detail
+detail	tti/detail/ddeftype.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dftclass.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dlambda.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dmem_data.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dmetafunc.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dnotype.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dplaceholder.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dptmf.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dtclass.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+detail	tti/detail/dtfunction.hpp	/^    namespace detail$/;"	n	namespace:boost::tti
+dmem_check_ptec	tti/detail/dmem_data.hpp	/^      struct dmem_check_ptec :$/;"	s	namespace:boost::tti::detail	inherits:BOOST_TTI_NAMESPACE::detail::class_type
+dmem_check_ptmd	tti/detail/dmem_data.hpp	/^      struct dmem_check_ptmd :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::identity
+dmem_get_enclosing	tti/detail/dmem_data.hpp	/^      struct dmem_get_enclosing :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::eval_if
+dmem_get_type	tti/detail/dmem_data.hpp	/^      struct dmem_get_type :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::eval_if
+ftseq	tti/detail/dtfunction.hpp	/^        typedef typename boost::mpl::push_front<BOOST_TTI_DETAIL_TP_FS,BOOST_TTI_DETAIL_TP_R>::type ftseq;$/;"	t	struct:boost::tti::detail::tfunction_seq	access:public
+is_lambda_expression	tti/detail/dlambda.hpp	/^      struct is_lambda_expression :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::or_
+is_metafunction_class	tti/detail/dmetafunc.hpp	/^      struct is_metafunction_class :$/;"	s	namespace:boost::tti::detail	inherits:BOOST_TTI_NAMESPACE::detail::is_metafunction_class_apply
+is_placeholder_expression	tti/detail/dplaceholder.hpp	/^      struct is_placeholder_expression :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::not_
+notype	tti/detail/dnotype.hpp	/^      struct notype$/;"	s	namespace:boost::tti::detail
+ptmd	tti/detail/dmem_data.hpp	/^      struct ptmd$/;"	s	namespace:boost::tti::detail
+ptmf_seq	tti/detail/dptmf.hpp	/^      struct ptmf_seq$/;"	s	namespace:boost::tti::detail
+tclass	tti/detail/dtclass.hpp	/^      struct tclass :$/;"	s	namespace:boost::tti::detail	inherits:boost::mpl::eval_if
+tfunction_seq	tti/detail/dtfunction.hpp	/^      struct tfunction_seq$/;"	s	namespace:boost::tti::detail
+tti	tti/detail/ddeftype.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dftclass.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dlambda.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dmem_data.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dmetafunc.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dnotype.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dplaceholder.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dptmf.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dtclass.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/detail/dtfunction.hpp	/^  namespace tti$/;"	n	namespace:boost
+tti	tti/member_type.hpp	/^  namespace tti$/;"	n	namespace:boost
+type	tti/detail/dmem_data.hpp	/^        typedef BOOST_TTI_DETAIL_TP_R BOOST_TTI_DETAIL_TP_T::* type;$/;"	t	class:boost::tti::detail::ptmd::BOOST_TTI_DETAIL_TP_T	access:public
+type	tti/detail/dptmf.hpp	/^          >::type type;$/;"	t	struct:boost::tti::detail::ptmf_seq	access:public
+type	tti/detail/dtfunction.hpp	/^        typedef typename boost::function_types::function_type<ftseq,BOOST_TTI_DETAIL_TP_TAG>::type type;$/;"	t	struct:boost::tti::detail::tfunction_seq	access:public
+valid_member_metafunction	tti/member_type.hpp	/^    struct valid_member_metafunction :$/;"	s	namespace:boost::tti	inherits:boost::mpl::not_
+valid_member_type	tti/member_type.hpp	/^    struct valid_member_type :$/;"	s	namespace:boost::tti	inherits:boost::mpl::not_

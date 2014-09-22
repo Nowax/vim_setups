@@ -1,0 +1,1096 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_EXPLICIT_TEMPLATE_TYPE	variant/detail/forced_return.hpp	/^inline T forced_return( BOOST_EXPLICIT_TEMPLATE_TYPE(T) )$/;"	f	namespace:boost::detail::variant	signature:(T)
+BOOST_EXPLICIT_TEMPLATE_TYPE_SPEC	variant/detail/forced_return.hpp	/^inline void forced_return<void>( BOOST_EXPLICIT_TEMPLATE_TYPE_SPEC(void) )$/;"	f	namespace:boost::detail::variant	signature:(void)
+BOOST_HASH_VARIANT_FUNCTION_HPP	variant/detail/hash_variant.hpp	15;"	d
+BOOST_MPL_ASSERT_NOT	variant/variant.hpp	/^    BOOST_MPL_ASSERT_NOT(( is_sequence_based_ ));$/;"	p	class:boost::variant	access:private	signature:( is_sequence_based_ )
+BOOST_NOEXCEPT	variant/multivisitors.hpp	/^        explicit two_variables_holder(VisitorT& visitor, Visitable1T& visitable1, Visitable2T& visitable2) BOOST_NOEXCEPT $/;"	m	struct:boost::detail::variant::two_variables_holder	access:public
+BOOST_NOEXCEPT	variant/variant.hpp	/^    explicit assign_storage(const void* rhs_storage) BOOST_NOEXCEPT$/;"	m	struct:boost::detail::variant::assign_storage	access:public
+BOOST_NOEXCEPT	variant/variant.hpp	/^    explicit move_storage(void* rhs_storage) BOOST_NOEXCEPT$/;"	m	struct:boost::detail::variant::move_storage	access:public
+BOOST_NOEXCEPT_EXPR	variant/variant.hpp	/^    internal_visit(T& operand, int) const BOOST_NOEXCEPT_IF(BOOST_NOEXCEPT_EXPR(T(boost::declval<T>())))$/;"	f	class:boost::detail::variant::move_into	access:public	signature:(T(
+BOOST_NOEXCEPT_IF	variant/variant.hpp	/^    variant(variant&& operand) BOOST_NOEXCEPT_IF(variant_move_noexcept::type::value)$/;"	f	class:boost::variant	access:public	signature:(variant_move_noexcept::type::value)
+BOOST_NO_MOVE_SWAP_BY_OVERLOAD	variant/detail/move.hpp	45;"	d
+BOOST_PP_FILENAME_1	variant/detail/substitute.hpp	139;"	d
+BOOST_PP_ITERATION_LIMITS	variant/detail/substitute.hpp	138;"	d
+BOOST_PP_SUB	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, Visitor& visitor)$/;"	p	namespace:boost	signature:(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2)
+BOOST_PP_SUB	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, ~)$/;"	p	struct:boost::detail::variant::two_variables_holder	access:public	signature:(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2)
+BOOST_STATIC_ASSERT	variant/recursive_variant.hpp	/^    BOOST_STATIC_ASSERT(( ::boost::mpl::is_sequence<Types>::value ));$/;"	p	struct:boost::make_recursive_variant_over	access:private	signature:( ::boost::mpl::is_sequence<Types>::value )
+BOOST_STATIC_ASSERT	variant/variant.hpp	/^    BOOST_STATIC_ASSERT(( ::boost::mpl::is_sequence<Types>::value ));$/;"	p	struct:boost::make_variant_over	access:private	signature:( ::boost::mpl::is_sequence<Types>::value )
+BOOST_STATIC_ASSERT	variant/variant.hpp	/^    BOOST_STATIC_ASSERT(($/;"	p	class:boost::variant	access:private	signature:( ::boost::mpl::not_< mpl::empty<specified_types> >::value )
+BOOST_STATIC_CONSTANT	variant/detail/over_sequence.hpp	/^    BOOST_STATIC_CONSTANT(bool, value = ($/;"	p	struct:boost::detail::variant::is_over_sequence_impl	access:public	signature:(bool, value = ( sizeof(is_over_sequence_test(type<T>())) == sizeof(yes_over_sequence_t) ))
+BOOST_STATIC_CONSTANT	variant/static_visitor.hpp	/^    BOOST_STATIC_CONSTANT(bool, value = $/;"	p	struct:boost::detail::is_static_visitor_impl	access:public	signature:(bool, value = (::boost::is_base_and_derived< detail::is_static_visitor_tag, T >::value))
+BOOST_STATIC_CONSTANT	variant/variant.hpp	/^    BOOST_STATIC_CONSTANT(std::size_t, msvc_max_alignment_c = max_alignment::value);$/;"	p	struct:boost::detail::variant::make_storage	access:public	signature:(std::size_t, msvc_max_alignment_c = max_alignment::value)
+BOOST_STATIC_CONSTANT	variant/variant.hpp	/^    BOOST_STATIC_CONSTANT(std::size_t, msvc_max_size_c = max_size::value);$/;"	p	struct:boost::detail::variant::make_storage	access:public	signature:(std::size_t, msvc_max_size_c = max_size::value)
+BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS	variant/multivisitors.hpp	28;"	d
+BOOST_VARANT_VISITORS_VARIABLES_PRINTER	variant/multivisitors.hpp	116;"	d
+BOOST_VARANT_VISITORS_VARIABLES_PRINTER	variant/multivisitors.hpp	137;"	d
+BOOST_VARANT_VISITORS_VARIABLES_PRINTER	variant/multivisitors.hpp	64;"	d
+BOOST_VARANT_VISITORS_VARIABLES_PRINTER	variant/multivisitors.hpp	83;"	d
+BOOST_VARIANT_APPLY_VISITOR_BEG	variant/multivisitors.hpp	106;"	d
+BOOST_VARIANT_APPLY_VISITOR_BEG	variant/multivisitors.hpp	135;"	d
+BOOST_VARIANT_APPLY_VISITOR_END	variant/multivisitors.hpp	112;"	d
+BOOST_VARIANT_APPLY_VISITOR_END	variant/multivisitors.hpp	136;"	d
+BOOST_VARIANT_APPLY_VISITOR_HPP	variant/apply_visitor.hpp	14;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_NON_CONST_RESULT_TYPE	variant/detail/apply_visitor_binary.hpp	123;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_NON_CONST_RESULT_TYPE	variant/detail/apply_visitor_binary.hpp	153;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_NON_CONST_RESULT_TYPE	variant/detail/apply_visitor_unary.hpp	40;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_NON_CONST_RESULT_TYPE	variant/detail/apply_visitor_unary.hpp	63;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_STEP_CASE	variant/detail/visitation_impl.hpp	247;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_STEP_CASE	variant/detail/visitation_impl.hpp	262;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_STEP_TYPEDEF	variant/detail/visitation_impl.hpp	228;"	d
+BOOST_VARIANT_AUX_APPLY_VISITOR_STEP_TYPEDEF	variant/detail/visitation_impl.hpp	240;"	d
+BOOST_VARIANT_AUX_BROKEN_CONSTRUCTOR_TEMPLATE_ORDERING	variant/detail/config.hpp	26;"	d
+BOOST_VARIANT_AUX_CONVERT_VOID	variant/detail/make_variant_list.hpp	40;"	d
+BOOST_VARIANT_AUX_CONVERT_VOID	variant/detail/make_variant_list.hpp	53;"	d
+BOOST_VARIANT_AUX_DECLARE_PARAMS	variant/variant_fwd.hpp	191;"	d
+BOOST_VARIANT_AUX_DECLARE_PARAMS	variant/variant_fwd.hpp	224;"	d
+BOOST_VARIANT_AUX_DECLARE_PARAMS_IMPL	variant/variant_fwd.hpp	179;"	d
+BOOST_VARIANT_AUX_DECLARE_PARAMS_IMPL	variant/variant_fwd.hpp	223;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL	variant/detail/enable_recursive.hpp	41;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL_HANDLE_POINTER	variant/detail/substitute.hpp	106;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL_HANDLE_POINTER	variant/detail/substitute.hpp	86;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL_SUBSTITUTE_TAG	variant/detail/substitute.hpp	63;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL_SUBSTITUTE_TAG	variant/detail/substitute.hpp	81;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_TYPEDEFS	variant/recursive_variant.hpp	121;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_TYPEDEFS	variant/recursive_variant.hpp	135;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_TYPEDEFS	variant/variant.hpp	1228;"	d
+BOOST_VARIANT_AUX_ENABLE_RECURSIVE_TYPEDEFS	variant/variant.hpp	1245;"	d
+BOOST_VARIANT_AUX_FAIL_COMPARISON_RETURN_TYPE	variant/variant.hpp	2269;"	d
+BOOST_VARIANT_AUX_FAIL_COMPARISON_RETURN_TYPE	variant/variant.hpp	2279;"	d
+BOOST_VARIANT_AUX_GENERIC_RESULT_TYPE	variant/detail/generic_result_type.hpp	31;"	d
+BOOST_VARIANT_AUX_GENERIC_RESULT_TYPE	variant/detail/generic_result_type.hpp	74;"	d
+BOOST_VARIANT_AUX_GET_EXPLICIT_TEMPLATE_TYPE	variant/get.hpp	/^      BOOST_VARIANT_AUX_GET_EXPLICIT_TEMPLATE_TYPE(U)$/;"	f	namespace:boost	signature:(U)
+BOOST_VARIANT_AUX_GET_EXPLICIT_TEMPLATE_TYPE	variant/get.hpp	132;"	d
+BOOST_VARIANT_AUX_HAS_CONSTRUCTOR_TEMPLATE_ORDERING_SFINAE_WKND	variant/detail/config.hpp	35;"	d
+BOOST_VARIANT_AUX_INITIALIZER_T	variant/detail/initializer.hpp	244;"	d
+BOOST_VARIANT_AUX_MAKE_REFERENCE_CONTENT_TYPEDEFS	variant/variant.hpp	1269;"	d
+BOOST_VARIANT_AUX_MAKE_REFERENCE_CONTENT_TYPEDEFS	variant/variant.hpp	1281;"	d
+BOOST_VARIANT_AUX_RETURN_VOID	variant/detail/generic_result_type.hpp	35;"	d
+BOOST_VARIANT_AUX_RETURN_VOID	variant/detail/generic_result_type.hpp	79;"	d
+BOOST_VARIANT_AUX_RETURN_VOID_TYPE	variant/detail/generic_result_type.hpp	38;"	d
+BOOST_VARIANT_AUX_RETURN_VOID_TYPE	variant/detail/generic_result_type.hpp	83;"	d
+BOOST_VARIANT_AUX_SUBSTITUTE_TYPEDEF	variant/detail/substitute.hpp	134;"	d
+BOOST_VARIANT_AUX_SUBSTITUTE_TYPEDEF	variant/detail/substitute.hpp	143;"	d
+BOOST_VARIANT_AUX_SUBSTITUTE_TYPEDEF_IMPL	variant/detail/substitute.hpp	128;"	d
+BOOST_VARIANT_AUX_SUBSTITUTE_TYPEDEF_IMPL	variant/detail/substitute.hpp	142;"	d
+BOOST_VARIANT_AUX_UNWRAP_RECURSIVE_TYPEDEFS	variant/variant.hpp	1247;"	d
+BOOST_VARIANT_AUX_UNWRAP_RECURSIVE_TYPEDEFS	variant/variant.hpp	1259;"	d
+BOOST_VARIANT_BAD_VISIT_HPP	variant/bad_visit.hpp	14;"	d
+BOOST_VARIANT_DETAIL_APPLY_VISITOR_BINARY_HPP	variant/detail/apply_visitor_binary.hpp	14;"	d
+BOOST_VARIANT_DETAIL_APPLY_VISITOR_DELAYED_HPP	variant/detail/apply_visitor_delayed.hpp	14;"	d
+BOOST_VARIANT_DETAIL_APPLY_VISITOR_UNARY_HPP	variant/detail/apply_visitor_unary.hpp	14;"	d
+BOOST_VARIANT_DETAIL_BACKUP_HOLDER_HPP	variant/detail/backup_holder.hpp	14;"	d
+BOOST_VARIANT_DETAIL_CAST_STORAGE_HPP	variant/detail/cast_storage.hpp	14;"	d
+BOOST_VARIANT_DETAIL_CONFIG_HPP	variant/detail/config.hpp	14;"	d
+BOOST_VARIANT_DETAIL_DEFINE_VOID_N	variant/variant_fwd.hpp	149;"	d
+BOOST_VARIANT_DETAIL_DEFINE_VOID_N	variant/variant_fwd.hpp	165;"	d
+BOOST_VARIANT_DETAIL_ENABLE_RECURSIVE_FWD_HPP	variant/detail/enable_recursive_fwd.hpp	14;"	d
+BOOST_VARIANT_DETAIL_ENABLE_RECURSIVE_HPP	variant/detail/enable_recursive.hpp	14;"	d
+BOOST_VARIANT_DETAIL_FORCED_RETURN_HPP	variant/detail/forced_return.hpp	14;"	d
+BOOST_VARIANT_DETAIL_GENERIC_RESULT_TYPE_HPP	variant/detail/generic_result_type.hpp	14;"	d
+BOOST_VARIANT_DETAIL_INITIALIZER_HPP	variant/detail/initializer.hpp	14;"	d
+BOOST_VARIANT_DETAIL_MAKE_VARIANT_LIST_HPP	variant/detail/make_variant_list.hpp	14;"	d
+BOOST_VARIANT_DETAIL_MOVE_HPP	variant/detail/move.hpp	20;"	d
+BOOST_VARIANT_DETAIL_NO_SUBSTITUTE	variant/detail/substitute_fwd.hpp	33;"	d
+BOOST_VARIANT_DETAIL_OVER_SEQUENCE_HPP	variant/detail/over_sequence.hpp	16;"	d
+BOOST_VARIANT_DETAIL_SUBSTITUTE_FWD_HPP	variant/detail/substitute_fwd.hpp	14;"	d
+BOOST_VARIANT_DETAIL_SUBSTITUTE_HPP	variant/detail/substitute.hpp	19;"	d
+BOOST_VARIANT_DETAIL_VARIANT_IO_HPP	variant/detail/variant_io.hpp	14;"	d
+BOOST_VARIANT_DETAIL_VISITATION_IMPL_HPP	variant/detail/visitation_impl.hpp	14;"	d
+BOOST_VARIANT_ENUM_PARAMS	variant/variant_fwd.hpp	92;"	d
+BOOST_VARIANT_ENUM_SHIFTED_PARAMS	variant/variant_fwd.hpp	100;"	d
+BOOST_VARIANT_GET_HPP	variant/get.hpp	14;"	d
+BOOST_VARIANT_LIMIT_TYPES	variant/variant_fwd.hpp	35;"	d
+BOOST_VARIANT_MULTIVISITORS_HPP	variant/multivisitors.hpp	13;"	d
+BOOST_VARIANT_NO_FULL_RECURSIVE_VARIANT_SUPPORT	variant/variant_fwd.hpp	71;"	d
+BOOST_VARIANT_NO_REFERENCE_SUPPORT	variant/variant_fwd.hpp	46;"	d
+BOOST_VARIANT_NO_TYPE_SEQUENCE_SUPPORT	variant/variant_fwd.hpp	55;"	d
+BOOST_VARIANT_OPERATOR_BEG	variant/multivisitors.hpp	55;"	d
+BOOST_VARIANT_OPERATOR_BEG	variant/multivisitors.hpp	81;"	d
+BOOST_VARIANT_OPERATOR_END	variant/multivisitors.hpp	60;"	d
+BOOST_VARIANT_OPERATOR_END	variant/multivisitors.hpp	82;"	d
+BOOST_VARIANT_RECURSIVE_VARIANT_HPP	variant/recursive_variant.hpp	14;"	d
+BOOST_VARIANT_RECURSIVE_VARIANT_MAX_ARITY	variant/variant_fwd.hpp	82;"	d
+BOOST_VARIANT_RECURSIVE_WRAPPER_FWD_HPP	variant/recursive_wrapper_fwd.hpp	16;"	d
+BOOST_VARIANT_RECURSIVE_WRAPPER_HPP	variant/recursive_wrapper.hpp	14;"	d
+BOOST_VARIANT_STATIC_VISITOR_HPP	variant/static_visitor.hpp	14;"	d
+BOOST_VARIANT_TT_AUX_BOOL_TRAIT_DEF1	variant/detail/bool_trait_def.hpp	19;"	d
+BOOST_VARIANT_TT_AUX_BOOL_TRAIT_DEF1	variant/detail/bool_trait_undef.hpp	20;"	d
+BOOST_VARIANT_TT_AUX_TRAIT_SUFFIX	variant/detail/bool_trait_def.hpp	28;"	d
+BOOST_VARIANT_TT_AUX_TRAIT_SUFFIX	variant/detail/bool_trait_undef.hpp	21;"	d
+BOOST_VARIANT_VARIANT_FWD_HPP	variant/variant_fwd.hpp	14;"	d
+BOOST_VARIANT_VARIANT_HPP	variant/variant.hpp	16;"	d
+BOOST_VARIANT_VISIT	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, Visitor& visitor)$/;"	m	namespace:boost
+BOOST_VARIANT_VISIT	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, ~)$/;"	m	struct:boost::detail::variant::two_variables_holder	access:public
+BOOST_VARIANT_VISIT	variant/multivisitors.hpp	120;"	d
+BOOST_VARIANT_VISIT	variant/multivisitors.hpp	138;"	d
+BOOST_VARIANT_VISIT	variant/multivisitors.hpp	68;"	d
+BOOST_VARIANT_VISIT	variant/multivisitors.hpp	84;"	d
+BOOST_VARIANT_VISITATION_UNROLLING_LIMIT	variant/detail/visitation_impl.hpp	50;"	d
+BOOST_VARIANT_VISITOR_PTR_HPP	variant/visitor_ptr.hpp	14;"	d
+T0	variant/variant.hpp	/^    typedef unwrapped_T0_ T0;$/;"	t	class:boost::variant	access:private
+add_alignment	variant/variant.hpp	/^struct add_alignment$/;"	s	namespace:boost::detail::variant
+apply	variant/detail/enable_recursive.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::quoted_enable_recursive	inherits:enable_recursive	access:public
+apply	variant/detail/initializer.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::make_initializer_node	access:public
+apply	variant/variant.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::add_alignment	inherits:mpl::size_t	access:public
+apply	variant/variant.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::find_fallback_type_pred	access:public
+apply_visitor	variant/detail/apply_visitor_binary.hpp	/^apply_visitor($/;"	f	namespace:boost	signature:( Visitor& visitor , Visitable1& visitable1, Visitable2& visitable2 )
+apply_visitor	variant/detail/apply_visitor_binary.hpp	/^apply_visitor($/;"	f	namespace:boost	signature:( const Visitor& visitor , Visitable1& visitable1, Visitable2& visitable2 )
+apply_visitor	variant/detail/apply_visitor_delayed.hpp	/^inline apply_visitor_delayed_t<Visitor> apply_visitor(Visitor& visitor)$/;"	f	namespace:boost	signature:(Visitor& visitor)
+apply_visitor	variant/detail/apply_visitor_unary.hpp	/^apply_visitor(Visitor& visitor, Visitable& visitable)$/;"	f	namespace:boost	signature:(Visitor& visitor, Visitable& visitable)
+apply_visitor	variant/detail/apply_visitor_unary.hpp	/^apply_visitor(const Visitor& visitor, Visitable& visitable)$/;"	f	namespace:boost	signature:(const Visitor& visitor, Visitable& visitable)
+apply_visitor	variant/variant.hpp	/^    apply_visitor(Visitor& visitor) const$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor) const
+apply_visitor	variant/variant.hpp	/^    apply_visitor(Visitor& visitor)$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor)
+apply_visitor_binary_invoke	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_invoke(Visitor& visitor, Value1& value1)$/;"	f	class:boost::detail::variant::apply_visitor_binary_invoke	access:public	signature:(Visitor& visitor, Value1& value1)
+apply_visitor_binary_invoke	variant/detail/apply_visitor_binary.hpp	/^class apply_visitor_binary_invoke$/;"	c	namespace:boost::detail::variant
+apply_visitor_binary_unwrap	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_unwrap(Visitor& visitor, Visitable2& visitable2)$/;"	f	class:boost::detail::variant::apply_visitor_binary_unwrap	access:public	signature:(Visitor& visitor, Visitable2& visitable2)
+apply_visitor_binary_unwrap	variant/detail/apply_visitor_binary.hpp	/^class apply_visitor_binary_unwrap$/;"	c	namespace:boost::detail::variant
+apply_visitor_delayed_t	variant/detail/apply_visitor_delayed.hpp	/^    explicit apply_visitor_delayed_t(Visitor& visitor)$/;"	f	class:boost::apply_visitor_delayed_t	access:public	signature:(Visitor& visitor)
+apply_visitor_delayed_t	variant/detail/apply_visitor_delayed.hpp	/^class apply_visitor_delayed_t$/;"	c	namespace:boost
+apply_visitor_unrolled	variant/detail/visitation_impl.hpp	/^struct apply_visitor_unrolled {};$/;"	s	namespace:boost::detail::variant
+argument_fwd_type	variant/visitor_ptr.hpp	/^        >::type argument_fwd_type;$/;"	t	class:boost::visitor_ptr_t	access:private
+assign	variant/recursive_wrapper.hpp	/^    void assign(const T& rhs);$/;"	p	class:boost::recursive_wrapper	access:private	signature:(const T& rhs)
+assign	variant/recursive_wrapper.hpp	/^void recursive_wrapper<T>::assign(const T& rhs)$/;"	f	class:boost::recursive_wrapper	signature:(const T& rhs)
+assign	variant/variant.hpp	/^    void assign(const T& rhs)$/;"	f	class:boost::variant	access:private	signature:(const T& rhs)
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::false_ )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::true_ )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::true_ , B )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::true_ , B1 , B2 )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::true_ )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( RhsT& rhs_content , mpl::true_ , mpl::false_ , B2 )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( RhsT& rhs_content , mpl::true_ , mpl::true_ , B )
+assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::false_ )
+assign_storage	variant/variant.hpp	/^struct assign_storage$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+assigner	variant/variant.hpp	/^    class assigner$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+backup_	variant/detail/backup_holder.hpp	/^        : backup_(backup)$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:(backup)
+backup_	variant/detail/backup_holder.hpp	/^    T* backup_;$/;"	m	class:boost::detail::variant::backup_holder	access:private
+backup_assign_impl	variant/variant.hpp	/^    void backup_assign_impl($/;"	f	class:boost::detail::variant::backup_assigner	access:private	signature:( LhsT& lhs_content , mpl::false_ )
+backup_assign_impl	variant/variant.hpp	/^    void backup_assign_impl($/;"	f	class:boost::detail::variant::backup_assigner	access:private	signature:( LhsT& lhs_content , mpl::true_ )
+backup_assigner	variant/variant.hpp	/^    backup_assigner(Variant& lhs, int rhs_which, const RhsT& rhs_content)$/;"	f	class:boost::detail::variant::backup_assigner	access:public	signature:(Variant& lhs, int rhs_which, const RhsT& rhs_content)
+backup_assigner	variant/variant.hpp	/^class backup_assigner$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+backup_holder	variant/detail/backup_holder.hpp	/^    backup_holder(const backup_holder&);$/;"	p	class:boost::detail::variant::backup_holder	access:public	signature:(const backup_holder&)
+backup_holder	variant/detail/backup_holder.hpp	/^backup_holder<T>::backup_holder(const backup_holder&)$/;"	f	class:boost::detail::variant::backup_holder	signature:(const backup_holder&)
+backup_holder	variant/detail/backup_holder.hpp	/^class backup_holder$/;"	c	namespace:boost::detail::variant
+bad_get	variant/get.hpp	/^class bad_get$/;"	c	namespace:boost	inherits:std::exception
+bad_visit	variant/bad_visit.hpp	/^struct bad_visit$/;"	s	namespace:boost	inherits:std::exception
+base	variant/detail/initializer.hpp	/^            base;$/;"	t	struct:boost::detail::variant::make_initializer_node::apply	access:private
+boost	variant/bad_visit.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/apply_visitor_binary.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/apply_visitor_delayed.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/apply_visitor_unary.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/backup_holder.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/cast_storage.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/enable_recursive.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/enable_recursive_fwd.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/forced_return.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/generic_result_type.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/hash_variant.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/initializer.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/make_variant_list.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/move.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/over_sequence.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/substitute.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/substitute_fwd.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/variant_io.hpp	/^namespace boost {$/;"	n
+boost	variant/detail/visitation_impl.hpp	/^namespace boost {$/;"	n
+boost	variant/get.hpp	/^namespace boost {$/;"	n
+boost	variant/multivisitors.hpp	/^namespace boost { $/;"	n
+boost	variant/recursive_variant.hpp	/^namespace boost {$/;"	n
+boost	variant/recursive_wrapper.hpp	/^namespace boost {$/;"	n
+boost	variant/recursive_wrapper_fwd.hpp	/^namespace boost {$/;"	n
+boost	variant/static_visitor.hpp	/^namespace boost {$/;"	n
+boost	variant/variant.hpp	/^namespace boost {$/;"	n
+boost	variant/variant_fwd.hpp	/^namespace boost {$/;"	n
+boost	variant/visitor_ptr.hpp	/^namespace boost {$/;"	n
+boost::BOOST_PP_SUB	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, Visitor& visitor)$/;"	p	namespace:boost	signature:(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2)
+boost::BOOST_VARIANT_AUX_GET_EXPLICIT_TEMPLATE_TYPE	variant/get.hpp	/^      BOOST_VARIANT_AUX_GET_EXPLICIT_TEMPLATE_TYPE(U)$/;"	f	namespace:boost	signature:(U)
+boost::BOOST_VARIANT_VISIT	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, Visitor& visitor)$/;"	m	namespace:boost
+boost::apply_visitor	variant/detail/apply_visitor_binary.hpp	/^apply_visitor($/;"	f	namespace:boost	signature:( Visitor& visitor , Visitable1& visitable1, Visitable2& visitable2 )
+boost::apply_visitor	variant/detail/apply_visitor_binary.hpp	/^apply_visitor($/;"	f	namespace:boost	signature:( const Visitor& visitor , Visitable1& visitable1, Visitable2& visitable2 )
+boost::apply_visitor	variant/detail/apply_visitor_delayed.hpp	/^inline apply_visitor_delayed_t<Visitor> apply_visitor(Visitor& visitor)$/;"	f	namespace:boost	signature:(Visitor& visitor)
+boost::apply_visitor	variant/detail/apply_visitor_unary.hpp	/^apply_visitor(Visitor& visitor, Visitable& visitable)$/;"	f	namespace:boost	signature:(Visitor& visitor, Visitable& visitable)
+boost::apply_visitor	variant/detail/apply_visitor_unary.hpp	/^apply_visitor(const Visitor& visitor, Visitable& visitable)$/;"	f	namespace:boost	signature:(const Visitor& visitor, Visitable& visitable)
+boost::apply_visitor_delayed_t	variant/detail/apply_visitor_delayed.hpp	/^class apply_visitor_delayed_t$/;"	c	namespace:boost
+boost::apply_visitor_delayed_t::apply_visitor_delayed_t	variant/detail/apply_visitor_delayed.hpp	/^    explicit apply_visitor_delayed_t(Visitor& visitor)$/;"	f	class:boost::apply_visitor_delayed_t	access:public	signature:(Visitor& visitor)
+boost::apply_visitor_delayed_t::operator ()	variant/detail/apply_visitor_delayed.hpp	/^    operator()(Visitable& visitable) const$/;"	f	class:boost::apply_visitor_delayed_t	access:public	signature:(Visitable& visitable) const
+boost::apply_visitor_delayed_t::operator ()	variant/detail/apply_visitor_delayed.hpp	/^    operator()(Visitable1& visitable1, Visitable2& visitable2) const$/;"	f	class:boost::apply_visitor_delayed_t	access:public	signature:(Visitable1& visitable1, Visitable2& visitable2) const
+boost::apply_visitor_delayed_t::operator =	variant/detail/apply_visitor_delayed.hpp	/^    apply_visitor_delayed_t& operator=(const apply_visitor_delayed_t&);$/;"	p	class:boost::apply_visitor_delayed_t	access:private	signature:(const apply_visitor_delayed_t&)
+boost::apply_visitor_delayed_t::result_type	variant/detail/apply_visitor_delayed.hpp	/^        result_type;$/;"	t	class:boost::apply_visitor_delayed_t	access:public
+boost::apply_visitor_delayed_t::visitor_	variant/detail/apply_visitor_delayed.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::apply_visitor_delayed_t	access:private
+boost::bad_get	variant/get.hpp	/^class bad_get$/;"	c	namespace:boost	inherits:std::exception
+boost::bad_visit	variant/bad_visit.hpp	/^struct bad_visit$/;"	s	namespace:boost	inherits:std::exception
+boost::bad_visit::what	variant/bad_visit.hpp	/^    virtual const char * what() const throw()$/;"	f	struct:boost::bad_visit	access:public	signature:() const
+boost::detail	variant/detail/apply_visitor_binary.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/backup_holder.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/cast_storage.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/enable_recursive.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/enable_recursive_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/forced_return.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/generic_result_type.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/hash_variant.hpp	/^    namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/initializer.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/make_variant_list.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/move.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/over_sequence.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/substitute.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/substitute_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/variant_io.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/detail/visitation_impl.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/get.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/multivisitors.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/recursive_variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/recursive_wrapper_fwd.hpp	/^namespace detail {$/;"	n	namespace:boost
+boost::detail	variant/static_visitor.hpp	/^namespace detail {$/;"	n	namespace:boost
+boost::detail	variant/variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail	variant/variant_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+boost::detail::is_recursive_wrapper_impl	variant/recursive_wrapper_fwd.hpp	/^struct is_recursive_wrapper_impl$/;"	s	namespace:boost::detail	inherits:mpl::false_
+boost::detail::is_recursive_wrapper_impl	variant/recursive_wrapper_fwd.hpp	/^struct is_recursive_wrapper_impl< recursive_wrapper<T> >$/;"	s	namespace:boost::detail	inherits:mpl::true_
+boost::detail::is_static_visitor_impl	variant/static_visitor.hpp	/^struct is_static_visitor_impl$/;"	s	namespace:boost::detail
+boost::detail::is_static_visitor_impl::BOOST_STATIC_CONSTANT	variant/static_visitor.hpp	/^    BOOST_STATIC_CONSTANT(bool, value = $/;"	p	struct:boost::detail::is_static_visitor_impl	access:public	signature:(bool, value = (::boost::is_base_and_derived< detail::is_static_visitor_tag, T >::value))
+boost::detail::is_static_visitor_tag	variant/static_visitor.hpp	/^    struct is_static_visitor_tag { };$/;"	s	namespace:boost::detail
+boost::detail::static_visitor_default_return	variant/static_visitor.hpp	/^    typedef void static_visitor_default_return;$/;"	t	namespace:boost::detail
+boost::detail::variant	variant/detail/apply_visitor_binary.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/backup_holder.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/cast_storage.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/enable_recursive.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/enable_recursive_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/forced_return.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/generic_result_type.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/hash_variant.hpp	/^    namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/initializer.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/make_variant_list.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/move.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/over_sequence.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/substitute.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/substitute_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/variant_io.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/detail/visitation_impl.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/get.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/multivisitors.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/recursive_variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant	variant/variant_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+boost::detail::variant::BOOST_EXPLICIT_TEMPLATE_TYPE	variant/detail/forced_return.hpp	/^inline T forced_return( BOOST_EXPLICIT_TEMPLATE_TYPE(T) )$/;"	f	namespace:boost::detail::variant	signature:(T)
+boost::detail::variant::BOOST_EXPLICIT_TEMPLATE_TYPE_SPEC	variant/detail/forced_return.hpp	/^inline void forced_return<void>( BOOST_EXPLICIT_TEMPLATE_TYPE_SPEC(void) )$/;"	f	namespace:boost::detail::variant	signature:(void)
+boost::detail::variant::add_alignment	variant/variant.hpp	/^struct add_alignment$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::add_alignment::apply	variant/variant.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::add_alignment	inherits:mpl::size_t	access:public
+boost::detail::variant::apply_visitor_binary_invoke	variant/detail/apply_visitor_binary.hpp	/^class apply_visitor_binary_invoke$/;"	c	namespace:boost::detail::variant
+boost::detail::variant::apply_visitor_binary_invoke::apply_visitor_binary_invoke	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_invoke(Visitor& visitor, Value1& value1)$/;"	f	class:boost::detail::variant::apply_visitor_binary_invoke	access:public	signature:(Visitor& visitor, Value1& value1)
+boost::detail::variant::apply_visitor_binary_invoke::operator ()	variant/detail/apply_visitor_binary.hpp	/^    operator()(Value2& value2)$/;"	f	class:boost::detail::variant::apply_visitor_binary_invoke	access:public	signature:(Value2& value2)
+boost::detail::variant::apply_visitor_binary_invoke::operator =	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_invoke& operator=(const apply_visitor_binary_invoke&);$/;"	p	class:boost::detail::variant::apply_visitor_binary_invoke	access:private	signature:(const apply_visitor_binary_invoke&)
+boost::detail::variant::apply_visitor_binary_invoke::result_type	variant/detail/apply_visitor_binary.hpp	/^        result_type;$/;"	t	class:boost::detail::variant::apply_visitor_binary_invoke	access:public
+boost::detail::variant::apply_visitor_binary_invoke::value1_	variant/detail/apply_visitor_binary.hpp	/^    Value1& value1_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_invoke	access:private
+boost::detail::variant::apply_visitor_binary_invoke::visitor_	variant/detail/apply_visitor_binary.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_invoke	access:private
+boost::detail::variant::apply_visitor_binary_unwrap	variant/detail/apply_visitor_binary.hpp	/^class apply_visitor_binary_unwrap$/;"	c	namespace:boost::detail::variant
+boost::detail::variant::apply_visitor_binary_unwrap::apply_visitor_binary_unwrap	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_unwrap(Visitor& visitor, Visitable2& visitable2)$/;"	f	class:boost::detail::variant::apply_visitor_binary_unwrap	access:public	signature:(Visitor& visitor, Visitable2& visitable2)
+boost::detail::variant::apply_visitor_binary_unwrap::operator ()	variant/detail/apply_visitor_binary.hpp	/^    operator()(Value1& value1)$/;"	f	class:boost::detail::variant::apply_visitor_binary_unwrap	access:public	signature:(Value1& value1)
+boost::detail::variant::apply_visitor_binary_unwrap::operator =	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_unwrap& operator=(const apply_visitor_binary_unwrap&);$/;"	p	class:boost::detail::variant::apply_visitor_binary_unwrap	access:private	signature:(const apply_visitor_binary_unwrap&)
+boost::detail::variant::apply_visitor_binary_unwrap::result_type	variant/detail/apply_visitor_binary.hpp	/^        result_type;$/;"	t	class:boost::detail::variant::apply_visitor_binary_unwrap	access:public
+boost::detail::variant::apply_visitor_binary_unwrap::visitable2_	variant/detail/apply_visitor_binary.hpp	/^    Visitable2& visitable2_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_unwrap	access:private
+boost::detail::variant::apply_visitor_binary_unwrap::visitor_	variant/detail/apply_visitor_binary.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_unwrap	access:private
+boost::detail::variant::apply_visitor_unrolled	variant/detail/visitation_impl.hpp	/^struct apply_visitor_unrolled {};$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::assign_storage	variant/variant.hpp	/^struct assign_storage$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::assign_storage::BOOST_NOEXCEPT	variant/variant.hpp	/^    explicit assign_storage(const void* rhs_storage) BOOST_NOEXCEPT$/;"	m	struct:boost::detail::variant::assign_storage	access:public
+boost::detail::variant::assign_storage::internal_visit	variant/variant.hpp	/^    internal_visit(T& lhs_content, int) const$/;"	f	struct:boost::detail::variant::assign_storage	access:public	signature:(T& lhs_content, int) const
+boost::detail::variant::assign_storage::internal_visit	variant/variant.hpp	/^    internal_visit(const backup_holder<T>& lhs_content, long) const$/;"	f	struct:boost::detail::variant::assign_storage	access:public	signature:(const backup_holder<T>& lhs_content, long) const
+boost::detail::variant::assign_storage::rhs_storage_	variant/variant.hpp	/^    const void* rhs_storage_;$/;"	m	struct:boost::detail::variant::assign_storage	access:private
+boost::detail::variant::backup_assigner	variant/variant.hpp	/^class backup_assigner$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::backup_assigner::backup_assign_impl	variant/variant.hpp	/^    void backup_assign_impl($/;"	f	class:boost::detail::variant::backup_assigner	access:private	signature:( LhsT& lhs_content , mpl::false_ )
+boost::detail::variant::backup_assigner::backup_assign_impl	variant/variant.hpp	/^    void backup_assign_impl($/;"	f	class:boost::detail::variant::backup_assigner	access:private	signature:( LhsT& lhs_content , mpl::true_ )
+boost::detail::variant::backup_assigner::backup_assigner	variant/variant.hpp	/^    backup_assigner(Variant& lhs, int rhs_which, const RhsT& rhs_content)$/;"	f	class:boost::detail::variant::backup_assigner	access:public	signature:(Variant& lhs, int rhs_which, const RhsT& rhs_content)
+boost::detail::variant::backup_assigner::construct_impl	variant/variant.hpp	/^    static void construct_impl(void* addr, const void* obj)$/;"	f	class:boost::detail::variant::backup_assigner	access:private	signature:(void* addr, const void* obj)
+boost::detail::variant::backup_assigner::copy_rhs_content_	variant/variant.hpp	/^    void (*copy_rhs_content_)(void*, const void*);$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+boost::detail::variant::backup_assigner::internal_visit	variant/variant.hpp	/^    internal_visit(LhsT& lhs_content, int)$/;"	f	class:boost::detail::variant::backup_assigner	access:public	signature:(LhsT& lhs_content, int)
+boost::detail::variant::backup_assigner::lhs_	variant/variant.hpp	/^    Variant& lhs_;$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+boost::detail::variant::backup_assigner::operator =	variant/variant.hpp	/^    backup_assigner& operator= (backup_assigner const&);$/;"	p	class:boost::detail::variant::backup_assigner	access:private	signature:(backup_assigner const&)
+boost::detail::variant::backup_assigner::rhs_content_	variant/variant.hpp	/^    const void* rhs_content_;$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+boost::detail::variant::backup_assigner::rhs_which_	variant/variant.hpp	/^    int rhs_which_;$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+boost::detail::variant::backup_holder	variant/detail/backup_holder.hpp	/^class backup_holder$/;"	c	namespace:boost::detail::variant
+boost::detail::variant::backup_holder::backup_	variant/detail/backup_holder.hpp	/^        : backup_(backup)$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:(backup)
+boost::detail::variant::backup_holder::backup_	variant/detail/backup_holder.hpp	/^    T* backup_;$/;"	m	class:boost::detail::variant::backup_holder	access:private
+boost::detail::variant::backup_holder::backup_holder	variant/detail/backup_holder.hpp	/^    backup_holder(const backup_holder&);$/;"	p	class:boost::detail::variant::backup_holder	access:public	signature:(const backup_holder&)
+boost::detail::variant::backup_holder::backup_holder	variant/detail/backup_holder.hpp	/^backup_holder<T>::backup_holder(const backup_holder&)$/;"	f	class:boost::detail::variant::backup_holder	signature:(const backup_holder&)
+boost::detail::variant::backup_holder::get	variant/detail/backup_holder.hpp	/^    T& get()$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:()
+boost::detail::variant::backup_holder::get	variant/detail/backup_holder.hpp	/^    const T& get() const$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:() const
+boost::detail::variant::backup_holder::operator =	variant/detail/backup_holder.hpp	/^    backup_holder& operator=(const T& rhs)$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:(const T& rhs)
+boost::detail::variant::backup_holder::operator =	variant/detail/backup_holder.hpp	/^    backup_holder& operator=(const backup_holder& rhs)$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:(const backup_holder& rhs)
+boost::detail::variant::backup_holder::~backup_holder	variant/detail/backup_holder.hpp	/^    ~backup_holder()$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:()
+boost::detail::variant::cast_storage	variant/detail/cast_storage.hpp	/^inline T& cast_storage($/;"	f	namespace:boost::detail::variant	signature:( void* storage BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE(T) )
+boost::detail::variant::cast_storage	variant/detail/cast_storage.hpp	/^inline const T& cast_storage($/;"	f	namespace:boost::detail::variant	signature:( const void* storage BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE(T) )
+boost::detail::variant::comparer	variant/variant.hpp	/^class comparer$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::comparer::lhs_	variant/variant.hpp	/^        : lhs_(lhs)$/;"	f	class:boost::detail::variant::comparer	access:public	signature:(lhs)
+boost::detail::variant::comparer::lhs_	variant/variant.hpp	/^    const Variant& lhs_;$/;"	m	class:boost::detail::variant::comparer	access:private
+boost::detail::variant::comparer::operator ()	variant/variant.hpp	/^    bool operator()(const T& rhs_content) const$/;"	f	class:boost::detail::variant::comparer	access:public	signature:(const T& rhs_content) const
+boost::detail::variant::comparer::operator =	variant/variant.hpp	/^    comparer& operator=(const comparer&);$/;"	p	class:boost::detail::variant::comparer	access:private	signature:(const comparer&)
+boost::detail::variant::convert_void	variant/variant_fwd.hpp	/^struct convert_void$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::convert_void	variant/variant_fwd.hpp	/^struct convert_void< void_ >$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::convert_void::type	variant/variant_fwd.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::convert_void	access:public
+boost::detail::variant::convert_void::type	variant/variant_fwd.hpp	/^    typedef mpl::na type;$/;"	t	struct:boost::detail::variant::convert_void	access:public
+boost::detail::variant::copy_into	variant/variant.hpp	/^class copy_into$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::copy_into::internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+boost::detail::variant::copy_into::internal_visit	variant/variant.hpp	/^    internal_visit(const T& operand, int) const$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(const T& operand, int) const
+boost::detail::variant::copy_into::internal_visit	variant/variant.hpp	/^    internal_visit(const boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long) const
+boost::detail::variant::copy_into::storage_	variant/variant.hpp	/^        : storage_(storage)$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(storage)
+boost::detail::variant::copy_into::storage_	variant/variant.hpp	/^    void* storage_;$/;"	m	class:boost::detail::variant::copy_into	access:private
+boost::detail::variant::destroyer	variant/variant.hpp	/^struct destroyer$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::destroyer::internal_visit	variant/variant.hpp	/^    internal_visit(T& operand, int) const$/;"	f	struct:boost::detail::variant::destroyer	access:public	signature:(T& operand, int) const
+boost::detail::variant::direct_assigner	variant/variant.hpp	/^class direct_assigner$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::direct_assigner::execute	variant/variant.hpp	/^    bool execute(T& lhs, mpl::true_)$/;"	f	class:boost::detail::variant::direct_assigner	access:private	signature:(T& lhs, mpl::true_)
+boost::detail::variant::direct_assigner::execute	variant/variant.hpp	/^    bool execute(U&, mpl::false_)$/;"	f	class:boost::detail::variant::direct_assigner	access:private	signature:(U&, mpl::false_)
+boost::detail::variant::direct_assigner::operator ()	variant/variant.hpp	/^    bool operator()(T& lhs)$/;"	f	class:boost::detail::variant::direct_assigner	access:public	signature:(T& lhs)
+boost::detail::variant::direct_assigner::operator ()	variant/variant.hpp	/^    bool operator()(U& lhs)$/;"	f	class:boost::detail::variant::direct_assigner	access:public	signature:(U& lhs)
+boost::detail::variant::direct_assigner::operator =	variant/variant.hpp	/^    direct_assigner& operator= (direct_assigner const&);$/;"	p	class:boost::detail::variant::direct_assigner	access:private	signature:(direct_assigner const&)
+boost::detail::variant::direct_assigner::rhs_	variant/variant.hpp	/^        : rhs_(rhs)$/;"	f	class:boost::detail::variant::direct_assigner	access:public	signature:(rhs)
+boost::detail::variant::direct_assigner::rhs_	variant/variant.hpp	/^    const T& rhs_;$/;"	m	class:boost::detail::variant::direct_assigner	access:private
+boost::detail::variant::direct_mover	variant/variant.hpp	/^class direct_mover$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::direct_mover::operator ()	variant/variant.hpp	/^    bool operator()(T& lhs)$/;"	f	class:boost::detail::variant::direct_mover	access:public	signature:(T& lhs)
+boost::detail::variant::direct_mover::operator ()	variant/variant.hpp	/^    bool operator()(U& lhs)$/;"	f	class:boost::detail::variant::direct_mover	access:public	signature:(U& lhs)
+boost::detail::variant::direct_mover::operator =	variant/variant.hpp	/^    direct_mover& operator= (direct_mover const&);$/;"	p	class:boost::detail::variant::direct_mover	access:private	signature:(direct_mover const&)
+boost::detail::variant::direct_mover::rhs_	variant/variant.hpp	/^        : rhs_(rhs)$/;"	f	class:boost::detail::variant::direct_mover	access:public	signature:(rhs)
+boost::detail::variant::direct_mover::rhs_	variant/variant.hpp	/^    T& rhs_;$/;"	m	class:boost::detail::variant::direct_mover	access:private
+boost::detail::variant::enable_recursive	variant/detail/enable_recursive.hpp	/^struct enable_recursive$/;"	s	namespace:boost::detail::variant	inherits:BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL,T,RecursiveVariant,::boost::recursive_variant_
+boost::detail::variant::enable_recursive	variant/detail/enable_recursive.hpp	/^struct enable_recursive< T,RecursiveVariant,mpl::false_ >$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::enable_recursive::t_	variant/detail/enable_recursive.hpp	/^        )::type t_;$/;"	t	struct:boost::detail::variant::enable_recursive	access:private
+boost::detail::variant::enable_recursive::type	variant/detail/enable_recursive.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::enable_recursive	access:public
+boost::detail::variant::equal_comp	variant/variant.hpp	/^struct equal_comp$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::equal_comp::operator ()	variant/variant.hpp	/^    bool operator()(const T& lhs, const T& rhs) const$/;"	f	struct:boost::detail::variant::equal_comp	access:public	signature:(const T& lhs, const T& rhs) const
+boost::detail::variant::fake_return_void	variant/detail/generic_result_type.hpp	/^struct fake_return_void$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::fake_return_void::fake_return_void	variant/detail/generic_result_type.hpp	/^    fake_return_void()$/;"	f	struct:boost::detail::variant::fake_return_void	access:public	signature:()
+boost::detail::variant::fake_return_void::fake_return_void	variant/detail/generic_result_type.hpp	/^    fake_return_void(const T&)$/;"	f	struct:boost::detail::variant::fake_return_void	access:public	signature:(const T&)
+boost::detail::variant::find_fallback_type	variant/variant.hpp	/^struct find_fallback_type$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::find_fallback_type	variant/variant.hpp	/^struct find_fallback_type<int>$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::find_fallback_type::end_it	variant/variant.hpp	/^    typedef typename mpl::end<Types>::type end_it;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+boost::detail::variant::find_fallback_type::first_result_	variant/variant.hpp	/^        >::type first_result_;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+boost::detail::variant::find_fallback_type::first_result_index	variant/variant.hpp	/^    typedef typename first_result_::first first_result_index;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+boost::detail::variant::find_fallback_type::first_result_it	variant/variant.hpp	/^    typedef typename first_result_::second first_result_it;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+boost::detail::variant::find_fallback_type::second_result_	variant/variant.hpp	/^        >::type second_result_;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+boost::detail::variant::find_fallback_type::second_result_it	variant/variant.hpp	/^    typedef typename second_result_::second second_result_it;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+boost::detail::variant::find_fallback_type::type	variant/variant.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:public
+boost::detail::variant::find_fallback_type::type	variant/variant.hpp	/^    typedef mpl::pair< no_fallback_type,no_fallback_type > type;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:public
+boost::detail::variant::find_fallback_type_pred	variant/variant.hpp	/^struct find_fallback_type_pred$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::find_fallback_type_pred::apply	variant/variant.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::find_fallback_type_pred	access:public
+boost::detail::variant::find_fallback_type_pred::apply::t_	variant/variant.hpp	/^        typedef typename mpl::deref<Iterator>::type t_;$/;"	t	struct:boost::detail::variant::find_fallback_type_pred::apply	access:private
+boost::detail::variant::find_fallback_type_pred::apply::type	variant/variant.hpp	/^        typedef mpl::not_< has_nothrow_constructor<t_> > type;$/;"	t	struct:boost::detail::variant::find_fallback_type_pred::apply	access:public
+boost::detail::variant::get_visitor	variant/get.hpp	/^struct get_visitor$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::get_visitor::execute_impl	variant/get.hpp	/^    pointer execute_impl(const U& operand, mpl::false_) const$/;"	f	struct:boost::detail::variant::get_visitor	access:private	signature:(const U& operand, mpl::false_) const
+boost::detail::variant::get_visitor::execute_impl	variant/get.hpp	/^    pointer execute_impl(reference operand, mpl::true_) const$/;"	f	struct:boost::detail::variant::get_visitor	access:private	signature:(reference operand, mpl::true_) const
+boost::detail::variant::get_visitor::operator ()	variant/get.hpp	/^    pointer operator()(U& operand) const$/;"	f	struct:boost::detail::variant::get_visitor	access:public	signature:(U& operand) const
+boost::detail::variant::get_visitor::operator ()	variant/get.hpp	/^    pointer operator()(const U&) const$/;"	f	struct:boost::detail::variant::get_visitor	access:public	signature:(const U&) const
+boost::detail::variant::get_visitor::operator ()	variant/get.hpp	/^    pointer operator()(reference operand) const$/;"	f	struct:boost::detail::variant::get_visitor	access:public	signature:(reference operand) const
+boost::detail::variant::get_visitor::pointer	variant/get.hpp	/^    typedef typename add_pointer<T>::type pointer;$/;"	t	struct:boost::detail::variant::get_visitor	access:private
+boost::detail::variant::get_visitor::reference	variant/get.hpp	/^    typedef typename add_reference<T>::type reference;$/;"	t	struct:boost::detail::variant::get_visitor	access:private
+boost::detail::variant::get_visitor::result_type	variant/get.hpp	/^    typedef pointer result_type;$/;"	t	struct:boost::detail::variant::get_visitor	access:public
+boost::detail::variant::initializer_root	variant/detail/initializer.hpp	/^class initializer_root$/;"	c	namespace:boost::detail::variant
+boost::detail::variant::initializer_root::initialize	variant/detail/initializer.hpp	/^    static void initialize();$/;"	p	class:boost::detail::variant::initializer_root	access:public	signature:()
+boost::detail::variant::invoke_visitor	variant/variant.hpp	/^class invoke_visitor$/;"	c	namespace:boost::detail::variant
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(T& operand, int)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(T& operand, int)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::reference_content<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(boost::detail::reference_content<T>& operand, long)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::variant::backup_holder<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(boost::recursive_wrapper<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(boost::recursive_wrapper<T>& operand, long)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(const boost::detail::reference_content<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const boost::detail::reference_content<T>& operand, long)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(const boost::detail::variant::backup_holder<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    internal_visit(const boost::recursive_wrapper<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const boost::recursive_wrapper<T>& operand, long)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    result_type internal_visit(T& operand, int)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(T& operand, int)
+boost::detail::variant::invoke_visitor::internal_visit	variant/variant.hpp	/^    result_type internal_visit(const T& operand, int)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const T& operand, int)
+boost::detail::variant::invoke_visitor::operator =	variant/variant.hpp	/^    invoke_visitor& operator= (invoke_visitor const&);$/;"	p	class:boost::detail::variant::invoke_visitor	access:private	signature:(invoke_visitor const&)
+boost::detail::variant::invoke_visitor::result_type	variant/variant.hpp	/^        result_type;$/;"	t	class:boost::detail::variant::invoke_visitor	access:public
+boost::detail::variant::invoke_visitor::visit_impl	variant/variant.hpp	/^    visit_impl(T& operand, mpl::false_)$/;"	f	class:boost::detail::variant::invoke_visitor	access:private	signature:(T& operand, mpl::false_)
+boost::detail::variant::invoke_visitor::visit_impl	variant/variant.hpp	/^    visit_impl(T& operand, mpl::true_)$/;"	f	class:boost::detail::variant::invoke_visitor	access:private	signature:(T& operand, mpl::true_)
+boost::detail::variant::invoke_visitor::visitor_	variant/variant.hpp	/^        : visitor_(visitor)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(visitor)
+boost::detail::variant::invoke_visitor::visitor_	variant/variant.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::detail::variant::invoke_visitor	access:private
+boost::detail::variant::is_over_sequence	variant/detail/over_sequence.hpp	/^struct is_over_sequence$/;"	s	namespace:boost::detail::variant	inherits:mpl::bool_
+boost::detail::variant::is_over_sequence	variant/detail/over_sequence.hpp	/^struct is_over_sequence$/;"	s	namespace:boost::detail::variant	inherits:mpl::false_
+boost::detail::variant::is_over_sequence	variant/detail/over_sequence.hpp	/^struct is_over_sequence< over_sequence<Types> >$/;"	s	namespace:boost::detail::variant	inherits:mpl::true_
+boost::detail::variant::is_over_sequence_impl	variant/detail/over_sequence.hpp	/^struct is_over_sequence_impl$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::is_over_sequence_impl::BOOST_STATIC_CONSTANT	variant/detail/over_sequence.hpp	/^    BOOST_STATIC_CONSTANT(bool, value = ($/;"	p	struct:boost::detail::variant::is_over_sequence_impl	access:public	signature:(bool, value = ( sizeof(is_over_sequence_test(type<T>())) == sizeof(yes_over_sequence_t) ))
+boost::detail::variant::is_over_sequence_test	variant/detail/over_sequence.hpp	/^no_over_sequence_t is_over_sequence_test(...);$/;"	p	namespace:boost::detail::variant	signature:(....)
+boost::detail::variant::is_over_sequence_test	variant/detail/over_sequence.hpp	/^yes_over_sequence_t is_over_sequence_test($/;"	p	namespace:boost::detail::variant	signature:( type< ::boost::detail::variant::over_sequence<T> > )
+boost::detail::variant::is_recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct is_recursive_flag$/;"	s	namespace:boost::detail::variant	inherits:is_base_and_derived
+boost::detail::variant::is_recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct is_recursive_flag$/;"	s	namespace:boost::detail::variant	inherits:mpl::false_
+boost::detail::variant::is_recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct is_recursive_flag< recursive_flag<T> >$/;"	s	namespace:boost::detail::variant	inherits:mpl::true_
+boost::detail::variant::is_variant_move_noexcept	variant/variant.hpp	/^struct is_variant_move_noexcept {$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::is_variant_move_noexcept::end_t	variant/variant.hpp	/^    typedef typename boost::mpl::end<Types>::type end_t;$/;"	t	struct:boost::detail::variant::is_variant_move_noexcept	access:public
+boost::detail::variant::is_variant_move_noexcept::iterator_t	variant/variant.hpp	/^    >::type iterator_t;$/;"	t	struct:boost::detail::variant::is_variant_move_noexcept	access:public
+boost::detail::variant::is_variant_move_noexcept::type	variant/variant.hpp	/^    >::type type;$/;"	t	struct:boost::detail::variant::is_variant_move_noexcept	access:public
+boost::detail::variant::known_get	variant/variant.hpp	/^class known_get$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::known_get::operator ()	variant/variant.hpp	/^    T& operator()(U&) const$/;"	f	class:boost::detail::variant::known_get	access:public	signature:(U&) const
+boost::detail::variant::less_comp	variant/variant.hpp	/^struct less_comp$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::less_comp::operator ()	variant/variant.hpp	/^    bool operator()(const T& lhs, const T& rhs) const$/;"	f	struct:boost::detail::variant::less_comp	access:public	signature:(const T& lhs, const T& rhs) const
+boost::detail::variant::make_initializer_node	variant/detail/initializer.hpp	/^struct make_initializer_node$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::make_initializer_node::apply	variant/detail/initializer.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::make_initializer_node	access:public
+boost::detail::variant::make_initializer_node::apply::base	variant/detail/initializer.hpp	/^            base;$/;"	t	struct:boost::detail::variant::make_initializer_node::apply	access:private
+boost::detail::variant::make_initializer_node::apply::index	variant/detail/initializer.hpp	/^            index;$/;"	t	struct:boost::detail::variant::make_initializer_node::apply	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node	variant/detail/initializer.hpp	/^        class initializer_node$/;"	c	struct:boost::detail::variant::make_initializer_node::apply	inherits:base	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node::disable_overload	variant/detail/initializer.hpp	/^            template <class T> struct disable_overload{};$/;"	s	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node::initialize	variant/detail/initializer.hpp	/^            static int initialize(void* dest, param2_T operand)$/;"	f	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:public	signature:(void* dest, param2_T operand)
+boost::detail::variant::make_initializer_node::apply::initializer_node::initialize	variant/detail/initializer.hpp	/^            static int initialize(void* dest, param_T operand)$/;"	f	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:public	signature:(void* dest, param_T operand)
+boost::detail::variant::make_initializer_node::apply::initializer_node::is_reference_content_t	variant/detail/initializer.hpp	/^                is_reference_content_t;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node::param2_T	variant/detail/initializer.hpp	/^                param2_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node::param_T	variant/detail/initializer.hpp	/^                param_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node::public_T	variant/detail/initializer.hpp	/^                public_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+boost::detail::variant::make_initializer_node::apply::initializer_node::recursive_enabled_T	variant/detail/initializer.hpp	/^                recursive_enabled_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+boost::detail::variant::make_initializer_node::apply::type	variant/detail/initializer.hpp	/^            > type;$/;"	t	struct:boost::detail::variant::make_initializer_node::apply	access:public
+boost::detail::variant::make_storage	variant/variant.hpp	/^struct make_storage$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::make_storage	variant/variant.hpp	/^struct make_storage<int,int>$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::make_storage::BOOST_STATIC_CONSTANT	variant/variant.hpp	/^    BOOST_STATIC_CONSTANT(std::size_t, msvc_max_alignment_c = max_alignment::value);$/;"	p	struct:boost::detail::variant::make_storage	access:public	signature:(std::size_t, msvc_max_alignment_c = max_alignment::value)
+boost::detail::variant::make_storage::BOOST_STATIC_CONSTANT	variant/variant.hpp	/^    BOOST_STATIC_CONSTANT(std::size_t, msvc_max_size_c = max_size::value);$/;"	p	struct:boost::detail::variant::make_storage	access:public	signature:(std::size_t, msvc_max_size_c = max_size::value)
+boost::detail::variant::make_storage::max_alignment	variant/variant.hpp	/^        >::type max_alignment;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+boost::detail::variant::make_storage::max_alignment	variant/variant.hpp	/^    typedef mpl::size_t< -1 > max_alignment;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+boost::detail::variant::make_storage::max_size	variant/variant.hpp	/^        >::type max_size;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+boost::detail::variant::make_storage::type	variant/variant.hpp	/^        > type;$/;"	t	struct:boost::detail::variant::make_storage	access:public
+boost::detail::variant::make_storage::type	variant/variant.hpp	/^    typedef int type;$/;"	t	struct:boost::detail::variant::make_storage	access:public
+boost::detail::variant::make_storage::types	variant/variant.hpp	/^        >::type types;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+boost::detail::variant::make_variant_list	variant/detail/make_variant_list.hpp	/^struct make_variant_list$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::make_variant_list::type	variant/detail/make_variant_list.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::make_variant_list	access:public
+boost::detail::variant::max_value	variant/variant.hpp	/^struct max_value$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::max_value::max_it	variant/variant.hpp	/^        >::type max_it;$/;"	t	struct:boost::detail::variant::max_value	access:private
+boost::detail::variant::max_value::transformed_	variant/variant.hpp	/^    typedef typename mpl::transform1<Sequence, F>::type transformed_;$/;"	t	struct:boost::detail::variant::max_value	access:private
+boost::detail::variant::max_value::type	variant/variant.hpp	/^        type;$/;"	t	struct:boost::detail::variant::max_value	access:public
+boost::detail::variant::move_into	variant/variant.hpp	/^class move_into$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::move_into::BOOST_NOEXCEPT_EXPR	variant/variant.hpp	/^    internal_visit(T& operand, int) const BOOST_NOEXCEPT_IF(BOOST_NOEXCEPT_EXPR(T(boost::declval<T>())))$/;"	f	class:boost::detail::variant::move_into	access:public	signature:(T(
+boost::detail::variant::move_into::internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::detail::variant::move_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+boost::detail::variant::move_into::storage_	variant/variant.hpp	/^        : storage_(storage)$/;"	f	class:boost::detail::variant::move_into	access:public	signature:(storage)
+boost::detail::variant::move_into::storage_	variant/variant.hpp	/^    void* storage_;$/;"	m	class:boost::detail::variant::move_into	access:private
+boost::detail::variant::move_storage	variant/variant.hpp	/^struct move_storage$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::move_storage::BOOST_NOEXCEPT	variant/variant.hpp	/^    explicit move_storage(void* rhs_storage) BOOST_NOEXCEPT$/;"	m	struct:boost::detail::variant::move_storage	access:public
+boost::detail::variant::move_storage::internal_visit	variant/variant.hpp	/^    internal_visit(T& lhs_content, int) const$/;"	f	struct:boost::detail::variant::move_storage	access:public	signature:(T& lhs_content, int) const
+boost::detail::variant::move_storage::internal_visit	variant/variant.hpp	/^    internal_visit(const backup_holder<T>& lhs_content, long) const$/;"	f	struct:boost::detail::variant::move_storage	access:public	signature:(const backup_holder<T>& lhs_content, long) const
+boost::detail::variant::move_storage::rhs_storage_	variant/variant.hpp	/^    void* rhs_storage_;$/;"	m	struct:boost::detail::variant::move_storage	access:private
+boost::detail::variant::move_swap	variant/detail/move.hpp	/^inline void move_swap(T& lhs, T& rhs)$/;"	f	namespace:boost::detail::variant	signature:(T& lhs, T& rhs)
+boost::detail::variant::no_over_sequence_t	variant/detail/over_sequence.hpp	/^typedef char (&no_over_sequence_t)[2];$/;"	t	namespace:boost::detail::variant
+boost::detail::variant::no_void_returns_helper	variant/detail/generic_result_type.hpp	/^struct no_void_returns_helper$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::no_void_returns_helper	variant/detail/generic_result_type.hpp	/^struct no_void_returns_helper<void>$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::no_void_returns_helper::type	variant/detail/generic_result_type.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::no_void_returns_helper	access:public
+boost::detail::variant::no_void_returns_helper::type	variant/detail/generic_result_type.hpp	/^    typedef fake_return_void type;$/;"	t	struct:boost::detail::variant::no_void_returns_helper	access:public
+boost::detail::variant::over_sequence	variant/detail/over_sequence.hpp	/^struct over_sequence$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::over_sequence::type	variant/detail/over_sequence.hpp	/^    typedef Types type;$/;"	t	struct:boost::detail::variant::over_sequence	access:public
+boost::detail::variant::printer	variant/detail/variant_io.hpp	/^class printer$/;"	c	namespace:boost::detail::variant	inherits:boost::static_visitor
+boost::detail::variant::printer::operator ()	variant/detail/variant_io.hpp	/^    void operator()(const T& operand) const$/;"	f	class:boost::detail::variant::printer	access:public	signature:(const T& operand) const
+boost::detail::variant::printer::operator =	variant/detail/variant_io.hpp	/^    printer& operator=(const printer&);$/;"	p	class:boost::detail::variant::printer	access:private	signature:(const printer&)
+boost::detail::variant::printer::out_	variant/detail/variant_io.hpp	/^    OStream& out_;$/;"	m	class:boost::detail::variant::printer	access:private
+boost::detail::variant::printer::printer	variant/detail/variant_io.hpp	/^    explicit printer(OStream& out)$/;"	f	class:boost::detail::variant::printer	access:public	signature:(OStream& out)
+boost::detail::variant::quoted_enable_recursive	variant/detail/enable_recursive.hpp	/^struct quoted_enable_recursive$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::quoted_enable_recursive::apply	variant/detail/enable_recursive.hpp	/^    struct apply$/;"	s	struct:boost::detail::variant::quoted_enable_recursive	inherits:enable_recursive	access:public
+boost::detail::variant::recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct recursive_flag$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::recursive_flag::type	variant/detail/enable_recursive_fwd.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::recursive_flag	access:public
+boost::detail::variant::reflect	variant/variant.hpp	/^class reflect$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::substitute	variant/detail/substitute.hpp	/^struct substitute$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::substitute	variant/detail/substitute.hpp	/^struct substitute<$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::substitute	variant/recursive_variant.hpp	/^struct substitute<$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::substitute::initial_types	variant/recursive_variant.hpp	/^    typedef T0 initial_types;$/;"	t	struct:boost::detail::variant::substitute	access:private
+boost::detail::variant::substitute::type	variant/detail/substitute.hpp	/^        >::type & type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+boost::detail::variant::substitute::type	variant/detail/substitute.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+boost::detail::variant::substitute::type	variant/recursive_variant.hpp	/^        > type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+boost::detail::variant::substitute::type	variant/recursive_variant.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+boost::detail::variant::substitute::type	variant/recursive_variant.hpp	/^    typedef ::boost::variant< BOOST_VARIANT_ENUM_PARAMS(wknd_T) > type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+boost::detail::variant::substitute::types	variant/recursive_variant.hpp	/^        >::type types;$/;"	t	struct:boost::detail::variant::substitute	access:private
+boost::detail::variant::swap_with	variant/variant.hpp	/^struct swap_with$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+boost::detail::variant::swap_with::operator ()	variant/variant.hpp	/^    void operator()(T& operand) const$/;"	f	struct:boost::detail::variant::swap_with	access:public	signature:(T& operand) const
+boost::detail::variant::swap_with::operator =	variant/variant.hpp	/^    swap_with& operator=(const swap_with&);$/;"	p	struct:boost::detail::variant::swap_with	access:private	signature:(const swap_with&)
+boost::detail::variant::swap_with::swap_with	variant/variant.hpp	/^    explicit swap_with(Variant& toswap)$/;"	f	struct:boost::detail::variant::swap_with	access:public	signature:(Variant& toswap)
+boost::detail::variant::swap_with::toswap_	variant/variant.hpp	/^    Variant& toswap_;$/;"	m	struct:boost::detail::variant::swap_with	access:private
+boost::detail::variant::two_variables_holder	variant/multivisitors.hpp	/^    struct two_variables_holder {$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::two_variables_holder::BOOST_NOEXCEPT	variant/multivisitors.hpp	/^        explicit two_variables_holder(VisitorT& visitor, Visitable1T& visitable1, Visitable2T& visitable2) BOOST_NOEXCEPT $/;"	m	struct:boost::detail::variant::two_variables_holder	access:public
+boost::detail::variant::two_variables_holder::BOOST_PP_SUB	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, ~)$/;"	p	struct:boost::detail::variant::two_variables_holder	access:public	signature:(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2)
+boost::detail::variant::two_variables_holder::BOOST_VARIANT_VISIT	variant/multivisitors.hpp	/^BOOST_PP_REPEAT( BOOST_PP_SUB(BOOST_VARAINT_MAX_MULTIVIZITOR_PARAMS, 2), BOOST_VARIANT_VISIT, ~)$/;"	m	struct:boost::detail::variant::two_variables_holder	access:public
+boost::detail::variant::two_variables_holder::operator =	variant/multivisitors.hpp	/^        two_variables_holder& operator=(const two_variables_holder&);$/;"	p	struct:boost::detail::variant::two_variables_holder	access:private	signature:(const two_variables_holder&)
+boost::detail::variant::two_variables_holder::result_type	variant/multivisitors.hpp	/^        typedef BOOST_DEDUCED_TYPENAME VisitorT::result_type result_type;$/;"	t	struct:boost::detail::variant::two_variables_holder	access:public
+boost::detail::variant::two_variables_holder::visitable1_	variant/multivisitors.hpp	/^            , visitable1_(visitable1)$/;"	p	struct:boost::detail::variant::two_variables_holder	access:public	signature:(visitable1)
+boost::detail::variant::two_variables_holder::visitable1_	variant/multivisitors.hpp	/^        Visitable1T&    visitable1_;$/;"	m	struct:boost::detail::variant::two_variables_holder	access:private
+boost::detail::variant::two_variables_holder::visitable2_	variant/multivisitors.hpp	/^            , visitable2_(visitable2)$/;"	f	struct:boost::detail::variant::two_variables_holder	access:public	signature:(visitable2)
+boost::detail::variant::two_variables_holder::visitable2_	variant/multivisitors.hpp	/^        Visitable2T&    visitable2_;$/;"	m	struct:boost::detail::variant::two_variables_holder	access:private
+boost::detail::variant::two_variables_holder::visitor_	variant/multivisitors.hpp	/^        VisitorT&       visitor_;$/;"	m	struct:boost::detail::variant::two_variables_holder	access:private
+boost::detail::variant::variant_hasher	variant/detail/hash_variant.hpp	/^        struct variant_hasher: public boost::static_visitor<std::size_t> {$/;"	s	namespace:boost::detail::variant	inherits:boost::static_visitor
+boost::detail::variant::variant_hasher::operator ()	variant/detail/hash_variant.hpp	/^            std::size_t operator()(T const& val) const {$/;"	f	struct:boost::detail::variant::variant_hasher	access:public	signature:(T const& val) const
+boost::detail::variant::visitation_impl	variant/detail/visitation_impl.hpp	/^visitation_impl($/;"	f	namespace:boost::detail::variant	signature:( const int internal_which, const int logical_which , Visitor& visitor, VoidPtrCV storage , mpl::false_ , NoBackupFlag no_backup_flag , Which* = 0, step0* = 0 )
+boost::detail::variant::visitation_impl	variant/detail/visitation_impl.hpp	/^visitation_impl($/;"	f	namespace:boost::detail::variant	signature:( int, int, Visitor&, VPCV , mpl::true_ , NBF, W* = 0, S* = 0 )
+boost::detail::variant::visitation_impl_invoke	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke($/;"	f	namespace:boost::detail::variant	signature:( int internal_which, Visitor& visitor, VoidPtrCV storage, T* t , NoBackupFlag , int )
+boost::detail::variant::visitation_impl_invoke	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke(int, Visitor&, VoidPtrCV, apply_visitor_unrolled*, NBF, long)$/;"	f	namespace:boost::detail::variant	signature:(int, Visitor&, VoidPtrCV, apply_visitor_unrolled*, NBF, long)
+boost::detail::variant::visitation_impl_invoke_impl	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke_impl($/;"	f	namespace:boost::detail::variant	signature:( int internal_which, Visitor& visitor, VoidPtrCV storage, T* , mpl::false_ )
+boost::detail::variant::visitation_impl_invoke_impl	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke_impl($/;"	f	namespace:boost::detail::variant	signature:( int, Visitor& visitor, VoidPtrCV storage, T* , mpl::true_ )
+boost::detail::variant::visitation_impl_step	variant/detail/visitation_impl.hpp	/^struct visitation_impl_step$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::visitation_impl_step	variant/detail/visitation_impl.hpp	/^struct visitation_impl_step< LastIter,LastIter >$/;"	s	namespace:boost::detail::variant
+boost::detail::variant::visitation_impl_step::next	variant/detail/visitation_impl.hpp	/^        > next;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::visitation_impl_step::next	variant/detail/visitation_impl.hpp	/^    typedef visitation_impl_step next;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::visitation_impl_step::next_iter	variant/detail/visitation_impl.hpp	/^        >::type next_iter;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::visitation_impl_step::next_iter	variant/detail/visitation_impl.hpp	/^    typedef typename mpl::next<Iter>::type next_iter;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::visitation_impl_step::type	variant/detail/visitation_impl.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::visitation_impl_step::type	variant/detail/visitation_impl.hpp	/^    typedef apply_visitor_unrolled type;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::visitation_impl_step::type	variant/detail/visitation_impl.hpp	/^    typedef typename mpl::deref<Iter>::type type;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+boost::detail::variant::yes_over_sequence_t	variant/detail/over_sequence.hpp	/^typedef char (&yes_over_sequence_t)[1];$/;"	t	namespace:boost::detail::variant
+boost::hash_value	variant/detail/hash_variant.hpp	/^    std::size_t hash_value(variant< BOOST_VARIANT_ENUM_PARAMS(T) > const& val) {$/;"	f	namespace:boost	signature:(variant< BOOST_VARIANT_ENUM_PARAMS(T) > const& val)
+boost::make_recursive_variant	variant/recursive_variant.hpp	/^struct make_recursive_variant$/;"	s	namespace:boost
+boost::make_recursive_variant::type	variant/recursive_variant.hpp	/^        > type;$/;"	t	struct:boost::make_recursive_variant	access:public
+boost::make_recursive_variant_over	variant/recursive_variant.hpp	/^struct make_recursive_variant_over$/;"	s	namespace:boost
+boost::make_recursive_variant_over::BOOST_STATIC_ASSERT	variant/recursive_variant.hpp	/^    BOOST_STATIC_ASSERT(( ::boost::mpl::is_sequence<Types>::value ));$/;"	p	struct:boost::make_recursive_variant_over	access:private	signature:( ::boost::mpl::is_sequence<Types>::value )
+boost::make_recursive_variant_over::type	variant/recursive_variant.hpp	/^        >::type type;$/;"	t	struct:boost::make_recursive_variant_over	access:public
+boost::make_variant_over	variant/variant.hpp	/^struct make_variant_over$/;"	s	namespace:boost
+boost::make_variant_over::BOOST_STATIC_ASSERT	variant/variant.hpp	/^    BOOST_STATIC_ASSERT(( ::boost::mpl::is_sequence<Types>::value ));$/;"	p	struct:boost::make_variant_over	access:private	signature:( ::boost::mpl::is_sequence<Types>::value )
+boost::make_variant_over::type	variant/variant.hpp	/^        > type;$/;"	t	struct:boost::make_variant_over	access:public
+boost::out	variant/detail/variant_io.hpp	/^      BOOST_TEMPLATED_STREAM(ostream, E,T)& out$/;"	m	namespace:boost
+boost::recursive_variant_	variant/variant_fwd.hpp	/^    struct recursive_variant_ {};$/;"	s	namespace:boost
+boost::recursive_variant_	variant/variant_fwd.hpp	/^    typedef mpl::arg<1> recursive_variant_;$/;"	t	namespace:boost
+boost::recursive_wrapper	variant/recursive_wrapper.hpp	/^class recursive_wrapper$/;"	c	namespace:boost
+boost::recursive_wrapper::assign	variant/recursive_wrapper.hpp	/^    void assign(const T& rhs);$/;"	p	class:boost::recursive_wrapper	access:private	signature:(const T& rhs)
+boost::recursive_wrapper::assign	variant/recursive_wrapper.hpp	/^void recursive_wrapper<T>::assign(const T& rhs)$/;"	f	class:boost::recursive_wrapper	signature:(const T& rhs)
+boost::recursive_wrapper::get	variant/recursive_wrapper.hpp	/^    T& get() { return *get_pointer(); }$/;"	f	class:boost::recursive_wrapper	access:public	signature:()
+boost::recursive_wrapper::get	variant/recursive_wrapper.hpp	/^    const T& get() const { return *get_pointer(); }$/;"	f	class:boost::recursive_wrapper	access:public	signature:() const
+boost::recursive_wrapper::get_pointer	variant/recursive_wrapper.hpp	/^    T* get_pointer() { return p_; }$/;"	f	class:boost::recursive_wrapper	access:public	signature:()
+boost::recursive_wrapper::get_pointer	variant/recursive_wrapper.hpp	/^    const T* get_pointer() const { return p_; }$/;"	f	class:boost::recursive_wrapper	access:public	signature:() const
+boost::recursive_wrapper::operator =	variant/recursive_wrapper.hpp	/^    recursive_wrapper& operator=(T&& rhs)$/;"	f	class:boost::recursive_wrapper	access:public	signature:(T&& rhs)
+boost::recursive_wrapper::operator =	variant/recursive_wrapper.hpp	/^    recursive_wrapper& operator=(const T& rhs)$/;"	f	class:boost::recursive_wrapper	access:public	signature:(const T& rhs)
+boost::recursive_wrapper::operator =	variant/recursive_wrapper.hpp	/^    recursive_wrapper& operator=(const recursive_wrapper& rhs)$/;"	f	class:boost::recursive_wrapper	access:public	signature:(const recursive_wrapper& rhs)
+boost::recursive_wrapper::p_	variant/recursive_wrapper.hpp	/^    T* p_;$/;"	m	class:boost::recursive_wrapper	access:private
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper();$/;"	p	class:boost::recursive_wrapper	access:public	signature:()
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(T&& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(T&& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(const T& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(const T& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(const recursive_wrapper& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(const recursive_wrapper& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(recursive_wrapper&& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(recursive_wrapper&& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper()$/;"	f	class:boost::recursive_wrapper	signature:()
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(T&& operand)$/;"	f	class:boost::recursive_wrapper	signature:(T&& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(const T& operand)$/;"	f	class:boost::recursive_wrapper	signature:(const T& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(const recursive_wrapper& operand)$/;"	f	class:boost::recursive_wrapper	signature:(const recursive_wrapper& operand)
+boost::recursive_wrapper::recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(recursive_wrapper&& operand)$/;"	f	class:boost::recursive_wrapper	signature:(recursive_wrapper&& operand)
+boost::recursive_wrapper::type	variant/recursive_wrapper.hpp	/^    typedef T type;$/;"	t	class:boost::recursive_wrapper	access:public
+boost::recursive_wrapper::~recursive_wrapper	variant/recursive_wrapper.hpp	/^    ~recursive_wrapper();$/;"	p	class:boost::recursive_wrapper	access:public	signature:()
+boost::recursive_wrapper::~recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::~recursive_wrapper()$/;"	f	class:boost::recursive_wrapper	signature:()
+boost::rhs	variant/detail/variant_io.hpp	/^    , const variant< BOOST_VARIANT_ENUM_PARAMS(U) >& rhs$/;"	m	namespace:boost
+boost::static_visitor	variant/static_visitor.hpp	/^class static_visitor$/;"	c	namespace:boost	inherits:detail::is_static_visitor_tag
+boost::static_visitor::result_type	variant/static_visitor.hpp	/^    typedef R result_type;$/;"	t	class:boost::static_visitor	access:public
+boost::static_visitor::static_visitor	variant/static_visitor.hpp	/^    static_visitor() { }$/;"	f	class:boost::static_visitor	access:protected	signature:()
+boost::static_visitor::~static_visitor	variant/static_visitor.hpp	/^    ~static_visitor() { }$/;"	f	class:boost::static_visitor	access:protected	signature:()
+boost::swap	variant/variant.hpp	/^inline void swap($/;"	f	namespace:boost	signature:( variant< BOOST_VARIANT_ENUM_PARAMS(T) >& lhs , variant< BOOST_VARIANT_ENUM_PARAMS(T) >& rhs )
+boost::unwrap_recursive	variant/recursive_wrapper_fwd.hpp	/^struct unwrap_recursive$/;"	s	namespace:boost
+boost::unwrap_recursive	variant/recursive_wrapper_fwd.hpp	/^struct unwrap_recursive< recursive_wrapper<T> >$/;"	s	namespace:boost
+boost::unwrap_recursive::type	variant/recursive_wrapper_fwd.hpp	/^    typedef T type;$/;"	t	struct:boost::unwrap_recursive	access:public
+boost::variant	variant/variant.hpp	/^class variant$/;"	c	namespace:boost
+boost::variant::BOOST_MPL_ASSERT_NOT	variant/variant.hpp	/^    BOOST_MPL_ASSERT_NOT(( is_sequence_based_ ));$/;"	p	class:boost::variant	access:private	signature:( is_sequence_based_ )
+boost::variant::BOOST_NOEXCEPT_IF	variant/variant.hpp	/^    variant(variant&& operand) BOOST_NOEXCEPT_IF(variant_move_noexcept::type::value)$/;"	f	class:boost::variant	access:public	signature:(variant_move_noexcept::type::value)
+boost::variant::BOOST_STATIC_ASSERT	variant/variant.hpp	/^    BOOST_STATIC_ASSERT(($/;"	p	class:boost::variant	access:private	signature:( ::boost::mpl::not_< mpl::empty<specified_types> >::value )
+boost::variant::T0	variant/variant.hpp	/^    typedef unwrapped_T0_ T0;$/;"	t	class:boost::variant	access:private
+boost::variant::apply_visitor	variant/variant.hpp	/^    apply_visitor(Visitor& visitor) const$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor) const
+boost::variant::apply_visitor	variant/variant.hpp	/^    apply_visitor(Visitor& visitor)$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor)
+boost::variant::assign	variant/variant.hpp	/^    void assign(const T& rhs)$/;"	f	class:boost::variant	access:private	signature:(const T& rhs)
+boost::variant::assigner	variant/variant.hpp	/^    class assigner$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+boost::variant::assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::false_ )
+boost::variant::assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::true_ )
+boost::variant::assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::true_ , B )
+boost::variant::assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::assigner	access:private	signature:( const RhsT& rhs_content , mpl::true_ , B1 , B2 )
+boost::variant::assigner::internal_visit	variant/variant.hpp	/^        internal_visit(const RhsT& rhs_content, int)$/;"	f	class:boost::variant::assigner	access:public	signature:(const RhsT& rhs_content, int)
+boost::variant::assigner::lhs_	variant/variant.hpp	/^            : lhs_(lhs)$/;"	p	class:boost::variant::assigner	access:public	signature:(lhs)
+boost::variant::assigner::lhs_	variant/variant.hpp	/^        variant& lhs_;$/;"	m	class:boost::variant::assigner	access:private
+boost::variant::assigner::operator =	variant/variant.hpp	/^        assigner& operator= (assigner const&);$/;"	p	class:boost::variant::assigner	access:private	signature:(assigner const&)
+boost::variant::assigner::rhs_which_	variant/variant.hpp	/^            , rhs_which_(rhs_which)$/;"	f	class:boost::variant::assigner	access:public	signature:(rhs_which)
+boost::variant::assigner::rhs_which_	variant/variant.hpp	/^        int rhs_which_;$/;"	m	class:boost::variant::assigner	access:private
+boost::variant::convert_construct	variant/variant.hpp	/^    typename boost::enable_if<boost::is_rvalue_reference<T&&> >::type convert_construct($/;"	f	class:boost::variant	access:private	signature:( T&& operand , int , mpl::false_ = mpl::false_() )
+boost::variant::convert_construct	variant/variant.hpp	/^    typename boost::enable_if<boost::is_rvalue_reference<Variant&&> >::type convert_construct($/;"	f	class:boost::variant	access:private	signature:( Variant&& operand , long , mpl::true_ )
+boost::variant::convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( T& operand , int , mpl::false_ = mpl::false_() )
+boost::variant::convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( Variant& operand , long , mpl::true_ )
+boost::variant::convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( boost::variant<BOOST_VARIANT_ENUM_PARAMS(U)>& operand , long )
+boost::variant::convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( boost::variant<BOOST_VARIANT_ENUM_PARAMS(U)>&& operand , long )
+boost::variant::convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( const boost::variant<BOOST_VARIANT_ENUM_PARAMS(U)>& operand , long )
+boost::variant::convert_construct_variant	variant/variant.hpp	/^    typename boost::enable_if<boost::is_rvalue_reference<Variant&&> >::type convert_construct_variant(Variant&& operand)$/;"	f	class:boost::variant	access:private	signature:(Variant&& operand)
+boost::variant::convert_construct_variant	variant/variant.hpp	/^    void convert_construct_variant(Variant& operand)$/;"	f	class:boost::variant	access:private	signature:(Variant& operand)
+boost::variant::convert_copy_into	variant/variant.hpp	/^    class convert_copy_into$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(T& operand, int) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(T& operand, int) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(boost::detail::reference_content<T>& operand, long) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(boost::recursive_wrapper<T>& operand, long) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const boost::detail::reference_content<T>& operand, long) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const boost::recursive_wrapper<T>& operand, long) const
+boost::variant::convert_copy_into::internal_visit	variant/variant.hpp	/^        result_type internal_visit(const T& operand, int) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const T& operand, int) const
+boost::variant::convert_copy_into::storage_	variant/variant.hpp	/^            : storage_(storage)$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(storage)
+boost::variant::convert_copy_into::storage_	variant/variant.hpp	/^        void* storage_;$/;"	m	class:boost::variant::convert_copy_into	access:private
+boost::variant::convert_move_into	variant/variant.hpp	/^    class convert_move_into$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(T& operand, int) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(T& operand, int) const
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(boost::detail::reference_content<T>& operand, long) const
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(boost::recursive_wrapper<T>& operand, long) const
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(const boost::detail::reference_content<T>& operand, long) const
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long) const
+boost::variant::convert_move_into::internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(const boost::recursive_wrapper<T>& operand, long) const
+boost::variant::convert_move_into::storage_	variant/variant.hpp	/^            : storage_(storage)$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(storage)
+boost::variant::convert_move_into::storage_	variant/variant.hpp	/^        void* storage_;$/;"	m	class:boost::variant::convert_move_into	access:private
+boost::variant::destroy_content	variant/variant.hpp	/^    void destroy_content()$/;"	f	class:boost::variant	access:private	signature:()
+boost::variant::fallback_type_	variant/variant.hpp	/^        fallback_type_;$/;"	t	class:boost::variant	access:private
+boost::variant::fallback_type_index_	variant/variant.hpp	/^        fallback_type_index_;$/;"	t	class:boost::variant	access:private
+boost::variant::fallback_type_result_	variant/variant.hpp	/^        >::type fallback_type_result_;$/;"	t	class:boost::variant	access:private
+boost::variant::has_fallback_type_	variant/variant.hpp	/^    struct has_fallback_type_$/;"	s	class:boost::variant	inherits:mpl::not_	access:private
+boost::variant::initializer	variant/variant.hpp	/^    struct initializer$/;"	s	class:boost::variant	inherits:BOOST_VARIANT_AUX_INITIALIZER_T,recursive_enabled_types,recursive_enabled_T	access:private
+boost::variant::internal_T0	variant/variant.hpp	/^        >::type internal_T0;$/;"	t	class:boost::variant	access:private
+boost::variant::internal_apply_visitor	variant/variant.hpp	/^    internal_apply_visitor(Visitor& visitor) const$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor) const
+boost::variant::internal_apply_visitor	variant/variant.hpp	/^    internal_apply_visitor(Visitor& visitor)$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor)
+boost::variant::internal_apply_visitor_impl	variant/variant.hpp	/^    internal_apply_visitor_impl($/;"	f	class:boost::variant	access:public	signature:( int internal_which , int logical_which , Visitor& visitor , VoidPtrCV storage )
+boost::variant::internal_types	variant/variant.hpp	/^        >::type internal_types;$/;"	t	class:boost::variant	access:private
+boost::variant::is_recursive_	variant/variant.hpp	/^    struct is_recursive_$/;"	s	class:boost::variant	inherits:detail::variant::is_recursive_flag	access:private
+boost::variant::is_sequence_based_	variant/variant.hpp	/^    struct is_sequence_based_$/;"	s	class:boost::variant	inherits:detail::variant::is_over_sequence	access:private
+boost::variant::move_assign	variant/variant.hpp	/^    void move_assign(T&& rhs)$/;"	f	class:boost::variant	access:private	signature:(T&& rhs)
+boost::variant::move_assigner	variant/variant.hpp	/^    class move_assigner$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+boost::variant::move_assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::true_ )
+boost::variant::move_assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( RhsT& rhs_content , mpl::true_ , mpl::false_ , B2 )
+boost::variant::move_assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( RhsT& rhs_content , mpl::true_ , mpl::true_ , B )
+boost::variant::move_assigner::assign_impl	variant/variant.hpp	/^        void assign_impl($/;"	f	class:boost::variant::move_assigner	access:private	signature:( const RhsT& rhs_content , mpl::false_ , mpl::false_ , mpl::false_ )
+boost::variant::move_assigner::internal_visit	variant/variant.hpp	/^        internal_visit(RhsT& rhs_content, int)$/;"	f	class:boost::variant::move_assigner	access:public	signature:(RhsT& rhs_content, int)
+boost::variant::move_assigner::lhs_	variant/variant.hpp	/^            : lhs_(lhs)$/;"	p	class:boost::variant::move_assigner	access:public	signature:(lhs)
+boost::variant::move_assigner::lhs_	variant/variant.hpp	/^        variant& lhs_;$/;"	m	class:boost::variant::move_assigner	access:private
+boost::variant::move_assigner::operator =	variant/variant.hpp	/^        move_assigner& operator= (move_assigner const&);$/;"	p	class:boost::variant::move_assigner	access:private	signature:(move_assigner const&)
+boost::variant::move_assigner::rhs_which_	variant/variant.hpp	/^            , rhs_which_(rhs_which)$/;"	f	class:boost::variant::move_assigner	access:public	signature:(rhs_which)
+boost::variant::move_assigner::rhs_which_	variant/variant.hpp	/^        int rhs_which_;$/;"	m	class:boost::variant::move_assigner	access:private
+boost::variant::never_uses_backup_flag	variant/variant.hpp	/^        never_uses_backup_flag;$/;"	t	class:boost::variant	access:private
+boost::variant::operator <	variant/variant.hpp	/^    bool operator<(const variant& rhs) const$/;"	f	class:boost::variant	access:public	signature:(const variant& rhs) const
+boost::variant::operator <	variant/variant.hpp	/^    operator<(const U&) const$/;"	f	class:boost::variant	access:public	signature:(const U&) const
+boost::variant::operator =	variant/variant.hpp	/^        operator=(T&& rhs)$/;"	f	class:boost::variant	access:public	signature:(T&& rhs)
+boost::variant::operator =	variant/variant.hpp	/^    variant& operator=(const T& rhs)$/;"	f	class:boost::variant	access:public	signature:(const T& rhs)
+boost::variant::operator =	variant/variant.hpp	/^    variant& operator=(const variant& rhs)$/;"	f	class:boost::variant	access:public	signature:(const variant& rhs)
+boost::variant::operator =	variant/variant.hpp	/^    variant& operator=(variant&& rhs) \/\/ BOOST_NOEXCEPT_IF(variant_move_noexcept::type::value && all move assign operators are noexcept)$/;"	f	class:boost::variant	access:public	signature:(variant&& rhs)
+boost::variant::operator ==	variant/variant.hpp	/^    bool operator==(const variant& rhs) const$/;"	f	class:boost::variant	access:public	signature:(const variant& rhs) const
+boost::variant::operator ==	variant/variant.hpp	/^    operator==(const U&) const$/;"	f	class:boost::variant	access:public	signature:(const U&) const
+boost::variant::recursive_enabled_types	variant/variant.hpp	/^        >::type recursive_enabled_types;$/;"	t	class:boost::variant	access:private
+boost::variant::specified_types	variant/variant.hpp	/^        >::type specified_types;$/;"	t	class:boost::variant	access:private
+boost::variant::storage_	variant/variant.hpp	/^    storage_t storage_;$/;"	m	class:boost::variant	access:public
+boost::variant::storage_t	variant/variant.hpp	/^        >::type storage_t;$/;"	t	class:boost::variant	access:private
+boost::variant::swap	variant/variant.hpp	/^    void swap(variant& rhs)$/;"	f	class:boost::variant	access:public	signature:(variant& rhs)
+boost::variant::type	variant/variant.hpp	/^    const std::type_info& type() const$/;"	f	class:boost::variant	access:public	signature:() const
+boost::variant::types	variant/variant.hpp	/^        >::type types;$/;"	t	class:boost::variant	access:public
+boost::variant::unwrapped_T0_	variant/variant.hpp	/^        >::type unwrapped_T0_;$/;"	t	class:boost::variant	access:private
+boost::variant::variant	variant/variant.hpp	/^    variant($/;"	f	class:boost::variant	access:public	signature:( T& operand , typename enable_if< mpl::not_< is_const<T> > , void >::type* = 0 )
+boost::variant::variant	variant/variant.hpp	/^    variant()$/;"	f	class:boost::variant	access:public	signature:()
+boost::variant::variant	variant/variant.hpp	/^    variant(T& operand)$/;"	f	class:boost::variant	access:public	signature:(T& operand)
+boost::variant::variant	variant/variant.hpp	/^    variant(T&& operand, typename boost::enable_if<boost::is_rvalue_reference<T&&> >::type* = 0, $/;"	f	class:boost::variant	access:public	signature:(T&& operand, typename boost::enable_if<boost::is_rvalue_reference<T&&> >::type* = 0, typename boost::disable_if<boost::is_const<T> >::type* = 0)
+boost::variant::variant	variant/variant.hpp	/^    variant(const T& operand)$/;"	f	class:boost::variant	access:public	signature:(const T& operand)
+boost::variant::variant	variant/variant.hpp	/^    variant(const variant& operand)$/;"	f	class:boost::variant	access:public	signature:(const variant& operand)
+boost::variant::variant_assign	variant/variant.hpp	/^    void variant_assign(const variant& rhs)$/;"	f	class:boost::variant	access:private	signature:(const variant& rhs)
+boost::variant::variant_assign	variant/variant.hpp	/^    void variant_assign(variant&& rhs)$/;"	f	class:boost::variant	access:private	signature:(variant&& rhs)
+boost::variant::variant_move_noexcept	variant/variant.hpp	/^    > variant_move_noexcept;$/;"	t	class:boost::variant	access:private
+boost::variant::which_	variant/variant.hpp	/^    which_t which_;$/;"	m	class:boost::variant	access:public
+boost::variant::which_t	variant/variant.hpp	/^        >::type which_t;$/;"	t	class:boost::variant	access:private
+boost::variant::which_t	variant/variant.hpp	/^    typedef int which_t;$/;"	t	class:boost::variant	access:private
+boost::variant::wknd_self_t	variant/variant.hpp	/^    typedef variant wknd_self_t;$/;"	t	class:boost::variant	access:private
+boost::visitor_ptr	variant/visitor_ptr.hpp	/^inline visitor_ptr_t<T,R> visitor_ptr(R (*visitor)(T))$/;"	f	namespace:boost	signature:(R (visitor)T))
+boost::visitor_ptr_t	variant/visitor_ptr.hpp	/^class visitor_ptr_t$/;"	c	namespace:boost	inherits:static_visitor
+boost::visitor_ptr_t::argument_fwd_type	variant/visitor_ptr.hpp	/^        >::type argument_fwd_type;$/;"	t	class:boost::visitor_ptr_t	access:private
+boost::visitor_ptr_t::execute_impl	variant/visitor_ptr.hpp	/^    execute_impl(argument_fwd_type operand, mpl::true_) const$/;"	f	class:boost::visitor_ptr_t	access:private	signature:(argument_fwd_type operand, mpl::true_) const
+boost::visitor_ptr_t::execute_impl	variant/visitor_ptr.hpp	/^    result_type execute_impl(argument_fwd_type operand, mpl::false_) const$/;"	f	class:boost::visitor_ptr_t	access:private	signature:(argument_fwd_type operand, mpl::false_) const
+boost::visitor_ptr_t::operator ()	variant/visitor_ptr.hpp	/^    operator()(argument_fwd_type operand) const$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(argument_fwd_type operand) const
+boost::visitor_ptr_t::operator ()	variant/visitor_ptr.hpp	/^    result_type operator()(argument_fwd_type operand) const$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(argument_fwd_type operand) const
+boost::visitor_ptr_t::operator ()	variant/visitor_ptr.hpp	/^    result_type operator()(const U&) const$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(const U&) const
+boost::visitor_ptr_t::result_type	variant/visitor_ptr.hpp	/^    typedef R result_type;$/;"	t	class:boost::visitor_ptr_t	access:public
+boost::visitor_ptr_t::visitor_	variant/visitor_ptr.hpp	/^    visitor_t visitor_;$/;"	m	class:boost::visitor_ptr_t	access:private
+boost::visitor_ptr_t::visitor_ptr_t	variant/visitor_ptr.hpp	/^    explicit visitor_ptr_t(visitor_t visitor)$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(visitor_t visitor)
+boost::visitor_ptr_t::visitor_t	variant/visitor_ptr.hpp	/^    typedef R (*visitor_t)(T);$/;"	t	class:boost::visitor_ptr_t	access:private
+cast_storage	variant/detail/cast_storage.hpp	/^inline T& cast_storage($/;"	f	namespace:boost::detail::variant	signature:( void* storage BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE(T) )
+cast_storage	variant/detail/cast_storage.hpp	/^inline const T& cast_storage($/;"	f	namespace:boost::detail::variant	signature:( const void* storage BOOST_APPEND_EXPLICIT_TEMPLATE_TYPE(T) )
+comparer	variant/variant.hpp	/^class comparer$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+construct_impl	variant/variant.hpp	/^    static void construct_impl(void* addr, const void* obj)$/;"	f	class:boost::detail::variant::backup_assigner	access:private	signature:(void* addr, const void* obj)
+convert_construct	variant/variant.hpp	/^    typename boost::enable_if<boost::is_rvalue_reference<T&&> >::type convert_construct($/;"	f	class:boost::variant	access:private	signature:( T&& operand , int , mpl::false_ = mpl::false_() )
+convert_construct	variant/variant.hpp	/^    typename boost::enable_if<boost::is_rvalue_reference<Variant&&> >::type convert_construct($/;"	f	class:boost::variant	access:private	signature:( Variant&& operand , long , mpl::true_ )
+convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( T& operand , int , mpl::false_ = mpl::false_() )
+convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( Variant& operand , long , mpl::true_ )
+convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( boost::variant<BOOST_VARIANT_ENUM_PARAMS(U)>& operand , long )
+convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( boost::variant<BOOST_VARIANT_ENUM_PARAMS(U)>&& operand , long )
+convert_construct	variant/variant.hpp	/^    void convert_construct($/;"	f	class:boost::variant	access:private	signature:( const boost::variant<BOOST_VARIANT_ENUM_PARAMS(U)>& operand , long )
+convert_construct_variant	variant/variant.hpp	/^    typename boost::enable_if<boost::is_rvalue_reference<Variant&&> >::type convert_construct_variant(Variant&& operand)$/;"	f	class:boost::variant	access:private	signature:(Variant&& operand)
+convert_construct_variant	variant/variant.hpp	/^    void convert_construct_variant(Variant& operand)$/;"	f	class:boost::variant	access:private	signature:(Variant& operand)
+convert_copy_into	variant/variant.hpp	/^    class convert_copy_into$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+convert_move_into	variant/variant.hpp	/^    class convert_move_into$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+convert_void	variant/variant_fwd.hpp	/^struct convert_void$/;"	s	namespace:boost::detail::variant
+convert_void	variant/variant_fwd.hpp	/^struct convert_void< void_ >$/;"	s	namespace:boost::detail::variant
+copy_into	variant/variant.hpp	/^class copy_into$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+copy_rhs_content_	variant/variant.hpp	/^    void (*copy_rhs_content_)(void*, const void*);$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+destroy_content	variant/variant.hpp	/^    void destroy_content()$/;"	f	class:boost::variant	access:private	signature:()
+destroyer	variant/variant.hpp	/^struct destroyer$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+detail	variant/detail/apply_visitor_binary.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/backup_holder.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/cast_storage.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/enable_recursive.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/enable_recursive_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/forced_return.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/generic_result_type.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/hash_variant.hpp	/^    namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/initializer.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/make_variant_list.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/move.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/over_sequence.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/substitute.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/substitute_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/variant_io.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/detail/visitation_impl.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/get.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/multivisitors.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/recursive_variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/recursive_wrapper_fwd.hpp	/^namespace detail {$/;"	n	namespace:boost
+detail	variant/static_visitor.hpp	/^namespace detail {$/;"	n	namespace:boost
+detail	variant/variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+detail	variant/variant_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost
+direct_assigner	variant/variant.hpp	/^class direct_assigner$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+direct_mover	variant/variant.hpp	/^class direct_mover$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+disable_overload	variant/detail/initializer.hpp	/^            template <class T> struct disable_overload{};$/;"	s	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+enable_recursive	variant/detail/enable_recursive.hpp	/^struct enable_recursive$/;"	s	namespace:boost::detail::variant	inherits:BOOST_VARIANT_AUX_ENABLE_RECURSIVE_IMPL,T,RecursiveVariant,::boost::recursive_variant_
+enable_recursive	variant/detail/enable_recursive.hpp	/^struct enable_recursive< T,RecursiveVariant,mpl::false_ >$/;"	s	namespace:boost::detail::variant
+end_it	variant/variant.hpp	/^    typedef typename mpl::end<Types>::type end_it;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+end_t	variant/variant.hpp	/^    typedef typename boost::mpl::end<Types>::type end_t;$/;"	t	struct:boost::detail::variant::is_variant_move_noexcept	access:public
+equal_comp	variant/variant.hpp	/^struct equal_comp$/;"	s	namespace:boost::detail::variant
+execute	variant/variant.hpp	/^    bool execute(T& lhs, mpl::true_)$/;"	f	class:boost::detail::variant::direct_assigner	access:private	signature:(T& lhs, mpl::true_)
+execute	variant/variant.hpp	/^    bool execute(U&, mpl::false_)$/;"	f	class:boost::detail::variant::direct_assigner	access:private	signature:(U&, mpl::false_)
+execute_impl	variant/get.hpp	/^    pointer execute_impl(const U& operand, mpl::false_) const$/;"	f	struct:boost::detail::variant::get_visitor	access:private	signature:(const U& operand, mpl::false_) const
+execute_impl	variant/get.hpp	/^    pointer execute_impl(reference operand, mpl::true_) const$/;"	f	struct:boost::detail::variant::get_visitor	access:private	signature:(reference operand, mpl::true_) const
+execute_impl	variant/visitor_ptr.hpp	/^    execute_impl(argument_fwd_type operand, mpl::true_) const$/;"	f	class:boost::visitor_ptr_t	access:private	signature:(argument_fwd_type operand, mpl::true_) const
+execute_impl	variant/visitor_ptr.hpp	/^    result_type execute_impl(argument_fwd_type operand, mpl::false_) const$/;"	f	class:boost::visitor_ptr_t	access:private	signature:(argument_fwd_type operand, mpl::false_) const
+fake_return_void	variant/detail/generic_result_type.hpp	/^    fake_return_void()$/;"	f	struct:boost::detail::variant::fake_return_void	access:public	signature:()
+fake_return_void	variant/detail/generic_result_type.hpp	/^    fake_return_void(const T&)$/;"	f	struct:boost::detail::variant::fake_return_void	access:public	signature:(const T&)
+fake_return_void	variant/detail/generic_result_type.hpp	/^struct fake_return_void$/;"	s	namespace:boost::detail::variant
+fallback_type_	variant/variant.hpp	/^        fallback_type_;$/;"	t	class:boost::variant	access:private
+fallback_type_index_	variant/variant.hpp	/^        fallback_type_index_;$/;"	t	class:boost::variant	access:private
+fallback_type_result_	variant/variant.hpp	/^        >::type fallback_type_result_;$/;"	t	class:boost::variant	access:private
+find_fallback_type	variant/variant.hpp	/^struct find_fallback_type$/;"	s	namespace:boost::detail::variant
+find_fallback_type	variant/variant.hpp	/^struct find_fallback_type<int>$/;"	s	namespace:boost::detail::variant
+find_fallback_type_pred	variant/variant.hpp	/^struct find_fallback_type_pred$/;"	s	namespace:boost::detail::variant
+first_result_	variant/variant.hpp	/^        >::type first_result_;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+first_result_index	variant/variant.hpp	/^    typedef typename first_result_::first first_result_index;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+first_result_it	variant/variant.hpp	/^    typedef typename first_result_::second first_result_it;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+get	variant/detail/backup_holder.hpp	/^    T& get()$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:()
+get	variant/detail/backup_holder.hpp	/^    const T& get() const$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:() const
+get	variant/recursive_wrapper.hpp	/^    T& get() { return *get_pointer(); }$/;"	f	class:boost::recursive_wrapper	access:public	signature:()
+get	variant/recursive_wrapper.hpp	/^    const T& get() const { return *get_pointer(); }$/;"	f	class:boost::recursive_wrapper	access:public	signature:() const
+get_pointer	variant/recursive_wrapper.hpp	/^    T* get_pointer() { return p_; }$/;"	f	class:boost::recursive_wrapper	access:public	signature:()
+get_pointer	variant/recursive_wrapper.hpp	/^    const T* get_pointer() const { return p_; }$/;"	f	class:boost::recursive_wrapper	access:public	signature:() const
+get_visitor	variant/get.hpp	/^struct get_visitor$/;"	s	namespace:boost::detail::variant
+has_fallback_type_	variant/variant.hpp	/^    struct has_fallback_type_$/;"	s	class:boost::variant	inherits:mpl::not_	access:private
+hash_value	variant/detail/hash_variant.hpp	/^    std::size_t hash_value(variant< BOOST_VARIANT_ENUM_PARAMS(T) > const& val) {$/;"	f	namespace:boost	signature:(variant< BOOST_VARIANT_ENUM_PARAMS(T) > const& val)
+index	variant/detail/initializer.hpp	/^            index;$/;"	t	struct:boost::detail::variant::make_initializer_node::apply	access:private
+initial_types	variant/recursive_variant.hpp	/^    typedef T0 initial_types;$/;"	t	struct:boost::detail::variant::substitute	access:private
+initialize	variant/detail/initializer.hpp	/^            static int initialize(void* dest, param2_T operand)$/;"	f	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:public	signature:(void* dest, param2_T operand)
+initialize	variant/detail/initializer.hpp	/^            static int initialize(void* dest, param_T operand)$/;"	f	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:public	signature:(void* dest, param_T operand)
+initialize	variant/detail/initializer.hpp	/^    static void initialize();$/;"	p	class:boost::detail::variant::initializer_root	access:public	signature:()
+initializer	variant/variant.hpp	/^    struct initializer$/;"	s	class:boost::variant	inherits:BOOST_VARIANT_AUX_INITIALIZER_T,recursive_enabled_types,recursive_enabled_T	access:private
+initializer_node	variant/detail/initializer.hpp	/^        class initializer_node$/;"	c	struct:boost::detail::variant::make_initializer_node::apply	inherits:base	access:private
+initializer_root	variant/detail/initializer.hpp	/^class initializer_root$/;"	c	namespace:boost::detail::variant
+internal_T0	variant/variant.hpp	/^        >::type internal_T0;$/;"	t	class:boost::variant	access:private
+internal_apply_visitor	variant/variant.hpp	/^    internal_apply_visitor(Visitor& visitor) const$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor) const
+internal_apply_visitor	variant/variant.hpp	/^    internal_apply_visitor(Visitor& visitor)$/;"	f	class:boost::variant	access:public	signature:(Visitor& visitor)
+internal_apply_visitor_impl	variant/variant.hpp	/^    internal_apply_visitor_impl($/;"	f	class:boost::variant	access:public	signature:( int internal_which , int logical_which , Visitor& visitor , VoidPtrCV storage )
+internal_types	variant/variant.hpp	/^        >::type internal_types;$/;"	t	class:boost::variant	access:private
+internal_visit	variant/variant.hpp	/^        int internal_visit(T& operand, int) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(T& operand, int) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(T& operand, int) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(T& operand, int) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(boost::detail::reference_content<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(boost::detail::reference_content<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(boost::recursive_wrapper<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(boost::recursive_wrapper<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const boost::detail::reference_content<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::reference_content<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(const boost::detail::reference_content<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const boost::recursive_wrapper<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        int internal_visit(const boost::recursive_wrapper<T>& operand, long) const$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(const boost::recursive_wrapper<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^        internal_visit(RhsT& rhs_content, int)$/;"	f	class:boost::variant::move_assigner	access:public	signature:(RhsT& rhs_content, int)
+internal_visit	variant/variant.hpp	/^        internal_visit(const RhsT& rhs_content, int)$/;"	f	class:boost::variant::assigner	access:public	signature:(const RhsT& rhs_content, int)
+internal_visit	variant/variant.hpp	/^        result_type internal_visit(const T& operand, int) const$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(const T& operand, int) const
+internal_visit	variant/variant.hpp	/^    internal_visit(LhsT& lhs_content, int)$/;"	f	class:boost::detail::variant::backup_assigner	access:public	signature:(LhsT& lhs_content, int)
+internal_visit	variant/variant.hpp	/^    internal_visit(T& lhs_content, int) const$/;"	f	struct:boost::detail::variant::assign_storage	access:public	signature:(T& lhs_content, int) const
+internal_visit	variant/variant.hpp	/^    internal_visit(T& lhs_content, int) const$/;"	f	struct:boost::detail::variant::move_storage	access:public	signature:(T& lhs_content, int) const
+internal_visit	variant/variant.hpp	/^    internal_visit(T& operand, int) const$/;"	f	struct:boost::detail::variant::destroyer	access:public	signature:(T& operand, int) const
+internal_visit	variant/variant.hpp	/^    internal_visit(T& operand, int)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(T& operand, int)
+internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::reference_content<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(boost::detail::reference_content<T>& operand, long)
+internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::detail::variant::move_into	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^    internal_visit(boost::detail::variant::backup_holder<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(boost::detail::variant::backup_holder<T>& operand, long)
+internal_visit	variant/variant.hpp	/^    internal_visit(boost::recursive_wrapper<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(boost::recursive_wrapper<T>& operand, long)
+internal_visit	variant/variant.hpp	/^    internal_visit(const T& operand, int) const$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(const T& operand, int) const
+internal_visit	variant/variant.hpp	/^    internal_visit(const backup_holder<T>& lhs_content, long) const$/;"	f	struct:boost::detail::variant::assign_storage	access:public	signature:(const backup_holder<T>& lhs_content, long) const
+internal_visit	variant/variant.hpp	/^    internal_visit(const backup_holder<T>& lhs_content, long) const$/;"	f	struct:boost::detail::variant::move_storage	access:public	signature:(const backup_holder<T>& lhs_content, long) const
+internal_visit	variant/variant.hpp	/^    internal_visit(const boost::detail::reference_content<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const boost::detail::reference_content<T>& operand, long)
+internal_visit	variant/variant.hpp	/^    internal_visit(const boost::detail::variant::backup_holder<T>& operand, long) const$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long) const
+internal_visit	variant/variant.hpp	/^    internal_visit(const boost::detail::variant::backup_holder<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const boost::detail::variant::backup_holder<T>& operand, long)
+internal_visit	variant/variant.hpp	/^    internal_visit(const boost::recursive_wrapper<T>& operand, long)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const boost::recursive_wrapper<T>& operand, long)
+internal_visit	variant/variant.hpp	/^    result_type internal_visit(T& operand, int)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(T& operand, int)
+internal_visit	variant/variant.hpp	/^    result_type internal_visit(const T& operand, int)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(const T& operand, int)
+invoke_visitor	variant/variant.hpp	/^class invoke_visitor$/;"	c	namespace:boost::detail::variant
+is_over_sequence	variant/detail/over_sequence.hpp	/^struct is_over_sequence$/;"	s	namespace:boost::detail::variant	inherits:mpl::bool_
+is_over_sequence	variant/detail/over_sequence.hpp	/^struct is_over_sequence$/;"	s	namespace:boost::detail::variant	inherits:mpl::false_
+is_over_sequence	variant/detail/over_sequence.hpp	/^struct is_over_sequence< over_sequence<Types> >$/;"	s	namespace:boost::detail::variant	inherits:mpl::true_
+is_over_sequence_impl	variant/detail/over_sequence.hpp	/^struct is_over_sequence_impl$/;"	s	namespace:boost::detail::variant
+is_over_sequence_test	variant/detail/over_sequence.hpp	/^no_over_sequence_t is_over_sequence_test(...);$/;"	p	namespace:boost::detail::variant	signature:(....)
+is_over_sequence_test	variant/detail/over_sequence.hpp	/^yes_over_sequence_t is_over_sequence_test($/;"	p	namespace:boost::detail::variant	signature:( type< ::boost::detail::variant::over_sequence<T> > )
+is_recursive_	variant/variant.hpp	/^    struct is_recursive_$/;"	s	class:boost::variant	inherits:detail::variant::is_recursive_flag	access:private
+is_recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct is_recursive_flag$/;"	s	namespace:boost::detail::variant	inherits:is_base_and_derived
+is_recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct is_recursive_flag$/;"	s	namespace:boost::detail::variant	inherits:mpl::false_
+is_recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct is_recursive_flag< recursive_flag<T> >$/;"	s	namespace:boost::detail::variant	inherits:mpl::true_
+is_recursive_wrapper_impl	variant/recursive_wrapper_fwd.hpp	/^struct is_recursive_wrapper_impl$/;"	s	namespace:boost::detail	inherits:mpl::false_
+is_recursive_wrapper_impl	variant/recursive_wrapper_fwd.hpp	/^struct is_recursive_wrapper_impl< recursive_wrapper<T> >$/;"	s	namespace:boost::detail	inherits:mpl::true_
+is_reference_content_t	variant/detail/initializer.hpp	/^                is_reference_content_t;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+is_sequence_based_	variant/variant.hpp	/^    struct is_sequence_based_$/;"	s	class:boost::variant	inherits:detail::variant::is_over_sequence	access:private
+is_static_visitor_impl	variant/static_visitor.hpp	/^struct is_static_visitor_impl$/;"	s	namespace:boost::detail
+is_static_visitor_tag	variant/static_visitor.hpp	/^    struct is_static_visitor_tag { };$/;"	s	namespace:boost::detail
+is_variant_move_noexcept	variant/variant.hpp	/^struct is_variant_move_noexcept {$/;"	s	namespace:boost::detail::variant
+iterator_t	variant/variant.hpp	/^    >::type iterator_t;$/;"	t	struct:boost::detail::variant::is_variant_move_noexcept	access:public
+known_get	variant/variant.hpp	/^class known_get$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+less_comp	variant/variant.hpp	/^struct less_comp$/;"	s	namespace:boost::detail::variant
+lhs_	variant/variant.hpp	/^            : lhs_(lhs)$/;"	p	class:boost::variant::assigner	access:public	signature:(lhs)
+lhs_	variant/variant.hpp	/^            : lhs_(lhs)$/;"	p	class:boost::variant::move_assigner	access:public	signature:(lhs)
+lhs_	variant/variant.hpp	/^        : lhs_(lhs)$/;"	f	class:boost::detail::variant::comparer	access:public	signature:(lhs)
+lhs_	variant/variant.hpp	/^        variant& lhs_;$/;"	m	class:boost::variant::assigner	access:private
+lhs_	variant/variant.hpp	/^        variant& lhs_;$/;"	m	class:boost::variant::move_assigner	access:private
+lhs_	variant/variant.hpp	/^    Variant& lhs_;$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+lhs_	variant/variant.hpp	/^    const Variant& lhs_;$/;"	m	class:boost::detail::variant::comparer	access:private
+make_initializer_node	variant/detail/initializer.hpp	/^struct make_initializer_node$/;"	s	namespace:boost::detail::variant
+make_recursive_variant	variant/recursive_variant.hpp	/^struct make_recursive_variant$/;"	s	namespace:boost
+make_recursive_variant_over	variant/recursive_variant.hpp	/^struct make_recursive_variant_over$/;"	s	namespace:boost
+make_storage	variant/variant.hpp	/^struct make_storage$/;"	s	namespace:boost::detail::variant
+make_storage	variant/variant.hpp	/^struct make_storage<int,int>$/;"	s	namespace:boost::detail::variant
+make_variant_list	variant/detail/make_variant_list.hpp	/^struct make_variant_list$/;"	s	namespace:boost::detail::variant
+make_variant_over	variant/variant.hpp	/^struct make_variant_over$/;"	s	namespace:boost
+max_alignment	variant/variant.hpp	/^        >::type max_alignment;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+max_alignment	variant/variant.hpp	/^    typedef mpl::size_t< -1 > max_alignment;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+max_it	variant/variant.hpp	/^        >::type max_it;$/;"	t	struct:boost::detail::variant::max_value	access:private
+max_size	variant/variant.hpp	/^        >::type max_size;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+max_value	variant/variant.hpp	/^struct max_value$/;"	s	namespace:boost::detail::variant
+move_assign	variant/variant.hpp	/^    void move_assign(T&& rhs)$/;"	f	class:boost::variant	access:private	signature:(T&& rhs)
+move_assigner	variant/variant.hpp	/^    class move_assigner$/;"	c	class:boost::variant	inherits:static_visitor	access:private
+move_into	variant/variant.hpp	/^class move_into$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+move_storage	variant/variant.hpp	/^struct move_storage$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+move_swap	variant/detail/move.hpp	/^inline void move_swap(T& lhs, T& rhs)$/;"	f	namespace:boost::detail::variant	signature:(T& lhs, T& rhs)
+never_uses_backup_flag	variant/variant.hpp	/^        never_uses_backup_flag;$/;"	t	class:boost::variant	access:private
+next	variant/detail/visitation_impl.hpp	/^        > next;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+next	variant/detail/visitation_impl.hpp	/^    typedef visitation_impl_step next;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+next_iter	variant/detail/visitation_impl.hpp	/^        >::type next_iter;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+next_iter	variant/detail/visitation_impl.hpp	/^    typedef typename mpl::next<Iter>::type next_iter;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+no_over_sequence_t	variant/detail/over_sequence.hpp	/^typedef char (&no_over_sequence_t)[2];$/;"	t	namespace:boost::detail::variant
+no_void_returns_helper	variant/detail/generic_result_type.hpp	/^struct no_void_returns_helper$/;"	s	namespace:boost::detail::variant
+no_void_returns_helper	variant/detail/generic_result_type.hpp	/^struct no_void_returns_helper<void>$/;"	s	namespace:boost::detail::variant
+operator ()	variant/detail/apply_visitor_binary.hpp	/^    operator()(Value1& value1)$/;"	f	class:boost::detail::variant::apply_visitor_binary_unwrap	access:public	signature:(Value1& value1)
+operator ()	variant/detail/apply_visitor_binary.hpp	/^    operator()(Value2& value2)$/;"	f	class:boost::detail::variant::apply_visitor_binary_invoke	access:public	signature:(Value2& value2)
+operator ()	variant/detail/apply_visitor_delayed.hpp	/^    operator()(Visitable& visitable) const$/;"	f	class:boost::apply_visitor_delayed_t	access:public	signature:(Visitable& visitable) const
+operator ()	variant/detail/apply_visitor_delayed.hpp	/^    operator()(Visitable1& visitable1, Visitable2& visitable2) const$/;"	f	class:boost::apply_visitor_delayed_t	access:public	signature:(Visitable1& visitable1, Visitable2& visitable2) const
+operator ()	variant/detail/hash_variant.hpp	/^            std::size_t operator()(T const& val) const {$/;"	f	struct:boost::detail::variant::variant_hasher	access:public	signature:(T const& val) const
+operator ()	variant/detail/variant_io.hpp	/^    void operator()(const T& operand) const$/;"	f	class:boost::detail::variant::printer	access:public	signature:(const T& operand) const
+operator ()	variant/get.hpp	/^    pointer operator()(U& operand) const$/;"	f	struct:boost::detail::variant::get_visitor	access:public	signature:(U& operand) const
+operator ()	variant/get.hpp	/^    pointer operator()(const U&) const$/;"	f	struct:boost::detail::variant::get_visitor	access:public	signature:(const U&) const
+operator ()	variant/get.hpp	/^    pointer operator()(reference operand) const$/;"	f	struct:boost::detail::variant::get_visitor	access:public	signature:(reference operand) const
+operator ()	variant/variant.hpp	/^    T& operator()(U&) const$/;"	f	class:boost::detail::variant::known_get	access:public	signature:(U&) const
+operator ()	variant/variant.hpp	/^    bool operator()(T& lhs)$/;"	f	class:boost::detail::variant::direct_assigner	access:public	signature:(T& lhs)
+operator ()	variant/variant.hpp	/^    bool operator()(T& lhs)$/;"	f	class:boost::detail::variant::direct_mover	access:public	signature:(T& lhs)
+operator ()	variant/variant.hpp	/^    bool operator()(U& lhs)$/;"	f	class:boost::detail::variant::direct_assigner	access:public	signature:(U& lhs)
+operator ()	variant/variant.hpp	/^    bool operator()(U& lhs)$/;"	f	class:boost::detail::variant::direct_mover	access:public	signature:(U& lhs)
+operator ()	variant/variant.hpp	/^    bool operator()(const T& lhs, const T& rhs) const$/;"	f	struct:boost::detail::variant::equal_comp	access:public	signature:(const T& lhs, const T& rhs) const
+operator ()	variant/variant.hpp	/^    bool operator()(const T& lhs, const T& rhs) const$/;"	f	struct:boost::detail::variant::less_comp	access:public	signature:(const T& lhs, const T& rhs) const
+operator ()	variant/variant.hpp	/^    bool operator()(const T& rhs_content) const$/;"	f	class:boost::detail::variant::comparer	access:public	signature:(const T& rhs_content) const
+operator ()	variant/variant.hpp	/^    void operator()(T& operand) const$/;"	f	struct:boost::detail::variant::swap_with	access:public	signature:(T& operand) const
+operator ()	variant/visitor_ptr.hpp	/^    operator()(argument_fwd_type operand) const$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(argument_fwd_type operand) const
+operator ()	variant/visitor_ptr.hpp	/^    result_type operator()(argument_fwd_type operand) const$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(argument_fwd_type operand) const
+operator ()	variant/visitor_ptr.hpp	/^    result_type operator()(const U&) const$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(const U&) const
+operator <	variant/variant.hpp	/^    bool operator<(const variant& rhs) const$/;"	f	class:boost::variant	access:public	signature:(const variant& rhs) const
+operator <	variant/variant.hpp	/^    operator<(const U&) const$/;"	f	class:boost::variant	access:public	signature:(const U&) const
+operator =	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_invoke& operator=(const apply_visitor_binary_invoke&);$/;"	p	class:boost::detail::variant::apply_visitor_binary_invoke	access:private	signature:(const apply_visitor_binary_invoke&)
+operator =	variant/detail/apply_visitor_binary.hpp	/^    apply_visitor_binary_unwrap& operator=(const apply_visitor_binary_unwrap&);$/;"	p	class:boost::detail::variant::apply_visitor_binary_unwrap	access:private	signature:(const apply_visitor_binary_unwrap&)
+operator =	variant/detail/apply_visitor_delayed.hpp	/^    apply_visitor_delayed_t& operator=(const apply_visitor_delayed_t&);$/;"	p	class:boost::apply_visitor_delayed_t	access:private	signature:(const apply_visitor_delayed_t&)
+operator =	variant/detail/backup_holder.hpp	/^    backup_holder& operator=(const T& rhs)$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:(const T& rhs)
+operator =	variant/detail/backup_holder.hpp	/^    backup_holder& operator=(const backup_holder& rhs)$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:(const backup_holder& rhs)
+operator =	variant/detail/variant_io.hpp	/^    printer& operator=(const printer&);$/;"	p	class:boost::detail::variant::printer	access:private	signature:(const printer&)
+operator =	variant/multivisitors.hpp	/^        two_variables_holder& operator=(const two_variables_holder&);$/;"	p	struct:boost::detail::variant::two_variables_holder	access:private	signature:(const two_variables_holder&)
+operator =	variant/recursive_wrapper.hpp	/^    recursive_wrapper& operator=(T&& rhs)$/;"	f	class:boost::recursive_wrapper	access:public	signature:(T&& rhs)
+operator =	variant/recursive_wrapper.hpp	/^    recursive_wrapper& operator=(const T& rhs)$/;"	f	class:boost::recursive_wrapper	access:public	signature:(const T& rhs)
+operator =	variant/recursive_wrapper.hpp	/^    recursive_wrapper& operator=(const recursive_wrapper& rhs)$/;"	f	class:boost::recursive_wrapper	access:public	signature:(const recursive_wrapper& rhs)
+operator =	variant/variant.hpp	/^        assigner& operator= (assigner const&);$/;"	p	class:boost::variant::assigner	access:private	signature:(assigner const&)
+operator =	variant/variant.hpp	/^        move_assigner& operator= (move_assigner const&);$/;"	p	class:boost::variant::move_assigner	access:private	signature:(move_assigner const&)
+operator =	variant/variant.hpp	/^        operator=(T&& rhs)$/;"	f	class:boost::variant	access:public	signature:(T&& rhs)
+operator =	variant/variant.hpp	/^    backup_assigner& operator= (backup_assigner const&);$/;"	p	class:boost::detail::variant::backup_assigner	access:private	signature:(backup_assigner const&)
+operator =	variant/variant.hpp	/^    comparer& operator=(const comparer&);$/;"	p	class:boost::detail::variant::comparer	access:private	signature:(const comparer&)
+operator =	variant/variant.hpp	/^    direct_assigner& operator= (direct_assigner const&);$/;"	p	class:boost::detail::variant::direct_assigner	access:private	signature:(direct_assigner const&)
+operator =	variant/variant.hpp	/^    direct_mover& operator= (direct_mover const&);$/;"	p	class:boost::detail::variant::direct_mover	access:private	signature:(direct_mover const&)
+operator =	variant/variant.hpp	/^    invoke_visitor& operator= (invoke_visitor const&);$/;"	p	class:boost::detail::variant::invoke_visitor	access:private	signature:(invoke_visitor const&)
+operator =	variant/variant.hpp	/^    swap_with& operator=(const swap_with&);$/;"	p	struct:boost::detail::variant::swap_with	access:private	signature:(const swap_with&)
+operator =	variant/variant.hpp	/^    variant& operator=(const T& rhs)$/;"	f	class:boost::variant	access:public	signature:(const T& rhs)
+operator =	variant/variant.hpp	/^    variant& operator=(const variant& rhs)$/;"	f	class:boost::variant	access:public	signature:(const variant& rhs)
+operator =	variant/variant.hpp	/^    variant& operator=(variant&& rhs) \/\/ BOOST_NOEXCEPT_IF(variant_move_noexcept::type::value && all move assign operators are noexcept)$/;"	f	class:boost::variant	access:public	signature:(variant&& rhs)
+operator ==	variant/variant.hpp	/^    bool operator==(const variant& rhs) const$/;"	f	class:boost::variant	access:public	signature:(const variant& rhs) const
+operator ==	variant/variant.hpp	/^    operator==(const U&) const$/;"	f	class:boost::variant	access:public	signature:(const U&) const
+out	variant/detail/variant_io.hpp	/^      BOOST_TEMPLATED_STREAM(ostream, E,T)& out$/;"	m	namespace:boost
+out_	variant/detail/variant_io.hpp	/^    OStream& out_;$/;"	m	class:boost::detail::variant::printer	access:private
+over_sequence	variant/detail/over_sequence.hpp	/^struct over_sequence$/;"	s	namespace:boost::detail::variant
+p_	variant/recursive_wrapper.hpp	/^    T* p_;$/;"	m	class:boost::recursive_wrapper	access:private
+param2_T	variant/detail/initializer.hpp	/^                param2_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+param_T	variant/detail/initializer.hpp	/^                param_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+pointer	variant/get.hpp	/^    typedef typename add_pointer<T>::type pointer;$/;"	t	struct:boost::detail::variant::get_visitor	access:private
+printer	variant/detail/variant_io.hpp	/^    explicit printer(OStream& out)$/;"	f	class:boost::detail::variant::printer	access:public	signature:(OStream& out)
+printer	variant/detail/variant_io.hpp	/^class printer$/;"	c	namespace:boost::detail::variant	inherits:boost::static_visitor
+public_T	variant/detail/initializer.hpp	/^                public_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+quoted_enable_recursive	variant/detail/enable_recursive.hpp	/^struct quoted_enable_recursive$/;"	s	namespace:boost::detail::variant
+recursive_enabled_T	variant/detail/initializer.hpp	/^                recursive_enabled_T;$/;"	t	class:boost::detail::variant::make_initializer_node::apply::initializer_node	access:private
+recursive_enabled_types	variant/variant.hpp	/^        >::type recursive_enabled_types;$/;"	t	class:boost::variant	access:private
+recursive_flag	variant/detail/enable_recursive_fwd.hpp	/^struct recursive_flag$/;"	s	namespace:boost::detail::variant
+recursive_variant_	variant/variant_fwd.hpp	/^    struct recursive_variant_ {};$/;"	s	namespace:boost
+recursive_variant_	variant/variant_fwd.hpp	/^    typedef mpl::arg<1> recursive_variant_;$/;"	t	namespace:boost
+recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper();$/;"	p	class:boost::recursive_wrapper	access:public	signature:()
+recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(T&& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(T&& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(const T& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(const T& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(const recursive_wrapper& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(const recursive_wrapper& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^    recursive_wrapper(recursive_wrapper&& operand);$/;"	p	class:boost::recursive_wrapper	access:public	signature:(recursive_wrapper&& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^class recursive_wrapper$/;"	c	namespace:boost
+recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper()$/;"	f	class:boost::recursive_wrapper	signature:()
+recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(T&& operand)$/;"	f	class:boost::recursive_wrapper	signature:(T&& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(const T& operand)$/;"	f	class:boost::recursive_wrapper	signature:(const T& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(const recursive_wrapper& operand)$/;"	f	class:boost::recursive_wrapper	signature:(const recursive_wrapper& operand)
+recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::recursive_wrapper(recursive_wrapper&& operand)$/;"	f	class:boost::recursive_wrapper	signature:(recursive_wrapper&& operand)
+reference	variant/get.hpp	/^    typedef typename add_reference<T>::type reference;$/;"	t	struct:boost::detail::variant::get_visitor	access:private
+reflect	variant/variant.hpp	/^class reflect$/;"	c	namespace:boost::detail::variant	inherits:static_visitor
+result_type	variant/detail/apply_visitor_binary.hpp	/^        result_type;$/;"	t	class:boost::detail::variant::apply_visitor_binary_invoke	access:public
+result_type	variant/detail/apply_visitor_binary.hpp	/^        result_type;$/;"	t	class:boost::detail::variant::apply_visitor_binary_unwrap	access:public
+result_type	variant/detail/apply_visitor_delayed.hpp	/^        result_type;$/;"	t	class:boost::apply_visitor_delayed_t	access:public
+result_type	variant/get.hpp	/^    typedef pointer result_type;$/;"	t	struct:boost::detail::variant::get_visitor	access:public
+result_type	variant/multivisitors.hpp	/^        typedef BOOST_DEDUCED_TYPENAME VisitorT::result_type result_type;$/;"	t	struct:boost::detail::variant::two_variables_holder	access:public
+result_type	variant/static_visitor.hpp	/^    typedef R result_type;$/;"	t	class:boost::static_visitor	access:public
+result_type	variant/variant.hpp	/^        result_type;$/;"	t	class:boost::detail::variant::invoke_visitor	access:public
+result_type	variant/visitor_ptr.hpp	/^    typedef R result_type;$/;"	t	class:boost::visitor_ptr_t	access:public
+rhs	variant/detail/variant_io.hpp	/^    , const variant< BOOST_VARIANT_ENUM_PARAMS(U) >& rhs$/;"	m	namespace:boost
+rhs_	variant/variant.hpp	/^        : rhs_(rhs)$/;"	f	class:boost::detail::variant::direct_assigner	access:public	signature:(rhs)
+rhs_	variant/variant.hpp	/^        : rhs_(rhs)$/;"	f	class:boost::detail::variant::direct_mover	access:public	signature:(rhs)
+rhs_	variant/variant.hpp	/^    T& rhs_;$/;"	m	class:boost::detail::variant::direct_mover	access:private
+rhs_	variant/variant.hpp	/^    const T& rhs_;$/;"	m	class:boost::detail::variant::direct_assigner	access:private
+rhs_content_	variant/variant.hpp	/^    const void* rhs_content_;$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+rhs_storage_	variant/variant.hpp	/^    const void* rhs_storage_;$/;"	m	struct:boost::detail::variant::assign_storage	access:private
+rhs_storage_	variant/variant.hpp	/^    void* rhs_storage_;$/;"	m	struct:boost::detail::variant::move_storage	access:private
+rhs_which_	variant/variant.hpp	/^            , rhs_which_(rhs_which)$/;"	f	class:boost::variant::assigner	access:public	signature:(rhs_which)
+rhs_which_	variant/variant.hpp	/^            , rhs_which_(rhs_which)$/;"	f	class:boost::variant::move_assigner	access:public	signature:(rhs_which)
+rhs_which_	variant/variant.hpp	/^        int rhs_which_;$/;"	m	class:boost::variant::assigner	access:private
+rhs_which_	variant/variant.hpp	/^        int rhs_which_;$/;"	m	class:boost::variant::move_assigner	access:private
+rhs_which_	variant/variant.hpp	/^    int rhs_which_;$/;"	m	class:boost::detail::variant::backup_assigner	access:private
+second_result_	variant/variant.hpp	/^        >::type second_result_;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+second_result_it	variant/variant.hpp	/^    typedef typename second_result_::second second_result_it;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:private
+specified_types	variant/variant.hpp	/^        >::type specified_types;$/;"	t	class:boost::variant	access:private
+static_visitor	variant/static_visitor.hpp	/^    static_visitor() { }$/;"	f	class:boost::static_visitor	access:protected	signature:()
+static_visitor	variant/static_visitor.hpp	/^class static_visitor$/;"	c	namespace:boost	inherits:detail::is_static_visitor_tag
+static_visitor_default_return	variant/static_visitor.hpp	/^    typedef void static_visitor_default_return;$/;"	t	namespace:boost::detail
+storage_	variant/variant.hpp	/^            : storage_(storage)$/;"	f	class:boost::variant::convert_copy_into	access:public	signature:(storage)
+storage_	variant/variant.hpp	/^            : storage_(storage)$/;"	f	class:boost::variant::convert_move_into	access:public	signature:(storage)
+storage_	variant/variant.hpp	/^        : storage_(storage)$/;"	f	class:boost::detail::variant::copy_into	access:public	signature:(storage)
+storage_	variant/variant.hpp	/^        : storage_(storage)$/;"	f	class:boost::detail::variant::move_into	access:public	signature:(storage)
+storage_	variant/variant.hpp	/^        void* storage_;$/;"	m	class:boost::variant::convert_copy_into	access:private
+storage_	variant/variant.hpp	/^        void* storage_;$/;"	m	class:boost::variant::convert_move_into	access:private
+storage_	variant/variant.hpp	/^    storage_t storage_;$/;"	m	class:boost::variant	access:public
+storage_	variant/variant.hpp	/^    void* storage_;$/;"	m	class:boost::detail::variant::copy_into	access:private
+storage_	variant/variant.hpp	/^    void* storage_;$/;"	m	class:boost::detail::variant::move_into	access:private
+storage_t	variant/variant.hpp	/^        >::type storage_t;$/;"	t	class:boost::variant	access:private
+substitute	variant/detail/substitute.hpp	/^struct substitute$/;"	s	namespace:boost::detail::variant
+substitute	variant/detail/substitute.hpp	/^struct substitute<$/;"	s	namespace:boost::detail::variant
+substitute	variant/recursive_variant.hpp	/^struct substitute<$/;"	s	namespace:boost::detail::variant
+swap	variant/variant.hpp	/^    void swap(variant& rhs)$/;"	f	class:boost::variant	access:public	signature:(variant& rhs)
+swap	variant/variant.hpp	/^inline void swap($/;"	f	namespace:boost	signature:( variant< BOOST_VARIANT_ENUM_PARAMS(T) >& lhs , variant< BOOST_VARIANT_ENUM_PARAMS(T) >& rhs )
+swap_with	variant/variant.hpp	/^    explicit swap_with(Variant& toswap)$/;"	f	struct:boost::detail::variant::swap_with	access:public	signature:(Variant& toswap)
+swap_with	variant/variant.hpp	/^struct swap_with$/;"	s	namespace:boost::detail::variant	inherits:static_visitor
+t_	variant/detail/enable_recursive.hpp	/^        )::type t_;$/;"	t	struct:boost::detail::variant::enable_recursive	access:private
+t_	variant/variant.hpp	/^        typedef typename mpl::deref<Iterator>::type t_;$/;"	t	struct:boost::detail::variant::find_fallback_type_pred::apply	access:private
+toswap_	variant/variant.hpp	/^    Variant& toswap_;$/;"	m	struct:boost::detail::variant::swap_with	access:private
+transformed_	variant/variant.hpp	/^    typedef typename mpl::transform1<Sequence, F>::type transformed_;$/;"	t	struct:boost::detail::variant::max_value	access:private
+two_variables_holder	variant/multivisitors.hpp	/^    struct two_variables_holder {$/;"	s	namespace:boost::detail::variant
+type	variant/detail/enable_recursive.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::enable_recursive	access:public
+type	variant/detail/enable_recursive_fwd.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::recursive_flag	access:public
+type	variant/detail/generic_result_type.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::no_void_returns_helper	access:public
+type	variant/detail/generic_result_type.hpp	/^    typedef fake_return_void type;$/;"	t	struct:boost::detail::variant::no_void_returns_helper	access:public
+type	variant/detail/initializer.hpp	/^            > type;$/;"	t	struct:boost::detail::variant::make_initializer_node::apply	access:public
+type	variant/detail/make_variant_list.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::make_variant_list	access:public
+type	variant/detail/over_sequence.hpp	/^    typedef Types type;$/;"	t	struct:boost::detail::variant::over_sequence	access:public
+type	variant/detail/substitute.hpp	/^        >::type & type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+type	variant/detail/substitute.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+type	variant/detail/visitation_impl.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+type	variant/detail/visitation_impl.hpp	/^    typedef apply_visitor_unrolled type;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+type	variant/detail/visitation_impl.hpp	/^    typedef typename mpl::deref<Iter>::type type;$/;"	t	struct:boost::detail::variant::visitation_impl_step	access:public
+type	variant/recursive_variant.hpp	/^        > type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+type	variant/recursive_variant.hpp	/^        > type;$/;"	t	struct:boost::make_recursive_variant	access:public
+type	variant/recursive_variant.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+type	variant/recursive_variant.hpp	/^        >::type type;$/;"	t	struct:boost::make_recursive_variant_over	access:public
+type	variant/recursive_variant.hpp	/^    typedef ::boost::variant< BOOST_VARIANT_ENUM_PARAMS(wknd_T) > type;$/;"	t	struct:boost::detail::variant::substitute	access:public
+type	variant/recursive_wrapper.hpp	/^    typedef T type;$/;"	t	class:boost::recursive_wrapper	access:public
+type	variant/recursive_wrapper_fwd.hpp	/^    typedef T type;$/;"	t	struct:boost::unwrap_recursive	access:public
+type	variant/variant.hpp	/^        > type;$/;"	t	struct:boost::detail::variant::make_storage	access:public
+type	variant/variant.hpp	/^        > type;$/;"	t	struct:boost::make_variant_over	access:public
+type	variant/variant.hpp	/^        >::type type;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:public
+type	variant/variant.hpp	/^        type;$/;"	t	struct:boost::detail::variant::max_value	access:public
+type	variant/variant.hpp	/^        typedef mpl::not_< has_nothrow_constructor<t_> > type;$/;"	t	struct:boost::detail::variant::find_fallback_type_pred::apply	access:public
+type	variant/variant.hpp	/^    >::type type;$/;"	t	struct:boost::detail::variant::is_variant_move_noexcept	access:public
+type	variant/variant.hpp	/^    const std::type_info& type() const$/;"	f	class:boost::variant	access:public	signature:() const
+type	variant/variant.hpp	/^    typedef int type;$/;"	t	struct:boost::detail::variant::make_storage	access:public
+type	variant/variant.hpp	/^    typedef mpl::pair< no_fallback_type,no_fallback_type > type;$/;"	t	struct:boost::detail::variant::find_fallback_type	access:public
+type	variant/variant_fwd.hpp	/^    typedef T type;$/;"	t	struct:boost::detail::variant::convert_void	access:public
+type	variant/variant_fwd.hpp	/^    typedef mpl::na type;$/;"	t	struct:boost::detail::variant::convert_void	access:public
+types	variant/recursive_variant.hpp	/^        >::type types;$/;"	t	struct:boost::detail::variant::substitute	access:private
+types	variant/variant.hpp	/^        >::type types;$/;"	t	class:boost::variant	access:public
+types	variant/variant.hpp	/^        >::type types;$/;"	t	struct:boost::detail::variant::make_storage	access:private
+unwrap_recursive	variant/recursive_wrapper_fwd.hpp	/^struct unwrap_recursive$/;"	s	namespace:boost
+unwrap_recursive	variant/recursive_wrapper_fwd.hpp	/^struct unwrap_recursive< recursive_wrapper<T> >$/;"	s	namespace:boost
+unwrapped_T0_	variant/variant.hpp	/^        >::type unwrapped_T0_;$/;"	t	class:boost::variant	access:private
+value1_	variant/detail/apply_visitor_binary.hpp	/^    Value1& value1_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_invoke	access:private
+variant	variant/detail/apply_visitor_binary.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/backup_holder.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/cast_storage.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/enable_recursive.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/enable_recursive_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/forced_return.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/generic_result_type.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/hash_variant.hpp	/^    namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/initializer.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/make_variant_list.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/move.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/over_sequence.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/substitute.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/substitute_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/variant_io.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/detail/visitation_impl.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/get.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/multivisitors.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/recursive_variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/variant.hpp	/^    variant($/;"	f	class:boost::variant	access:public	signature:( T& operand , typename enable_if< mpl::not_< is_const<T> > , void >::type* = 0 )
+variant	variant/variant.hpp	/^    variant()$/;"	f	class:boost::variant	access:public	signature:()
+variant	variant/variant.hpp	/^    variant(T& operand)$/;"	f	class:boost::variant	access:public	signature:(T& operand)
+variant	variant/variant.hpp	/^    variant(T&& operand, typename boost::enable_if<boost::is_rvalue_reference<T&&> >::type* = 0, $/;"	f	class:boost::variant	access:public	signature:(T&& operand, typename boost::enable_if<boost::is_rvalue_reference<T&&> >::type* = 0, typename boost::disable_if<boost::is_const<T> >::type* = 0)
+variant	variant/variant.hpp	/^    variant(const T& operand)$/;"	f	class:boost::variant	access:public	signature:(const T& operand)
+variant	variant/variant.hpp	/^    variant(const variant& operand)$/;"	f	class:boost::variant	access:public	signature:(const variant& operand)
+variant	variant/variant.hpp	/^class variant$/;"	c	namespace:boost
+variant	variant/variant.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant	variant/variant_fwd.hpp	/^namespace detail { namespace variant {$/;"	n	namespace:boost::detail
+variant_assign	variant/variant.hpp	/^    void variant_assign(const variant& rhs)$/;"	f	class:boost::variant	access:private	signature:(const variant& rhs)
+variant_assign	variant/variant.hpp	/^    void variant_assign(variant&& rhs)$/;"	f	class:boost::variant	access:private	signature:(variant&& rhs)
+variant_hasher	variant/detail/hash_variant.hpp	/^        struct variant_hasher: public boost::static_visitor<std::size_t> {$/;"	s	namespace:boost::detail::variant	inherits:boost::static_visitor
+variant_move_noexcept	variant/variant.hpp	/^    > variant_move_noexcept;$/;"	t	class:boost::variant	access:private
+visit_impl	variant/variant.hpp	/^    visit_impl(T& operand, mpl::false_)$/;"	f	class:boost::detail::variant::invoke_visitor	access:private	signature:(T& operand, mpl::false_)
+visit_impl	variant/variant.hpp	/^    visit_impl(T& operand, mpl::true_)$/;"	f	class:boost::detail::variant::invoke_visitor	access:private	signature:(T& operand, mpl::true_)
+visitable1_	variant/multivisitors.hpp	/^            , visitable1_(visitable1)$/;"	p	struct:boost::detail::variant::two_variables_holder	access:public	signature:(visitable1)
+visitable1_	variant/multivisitors.hpp	/^        Visitable1T&    visitable1_;$/;"	m	struct:boost::detail::variant::two_variables_holder	access:private
+visitable2_	variant/detail/apply_visitor_binary.hpp	/^    Visitable2& visitable2_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_unwrap	access:private
+visitable2_	variant/multivisitors.hpp	/^            , visitable2_(visitable2)$/;"	f	struct:boost::detail::variant::two_variables_holder	access:public	signature:(visitable2)
+visitable2_	variant/multivisitors.hpp	/^        Visitable2T&    visitable2_;$/;"	m	struct:boost::detail::variant::two_variables_holder	access:private
+visitation_impl	variant/detail/visitation_impl.hpp	/^visitation_impl($/;"	f	namespace:boost::detail::variant	signature:( const int internal_which, const int logical_which , Visitor& visitor, VoidPtrCV storage , mpl::false_ , NoBackupFlag no_backup_flag , Which* = 0, step0* = 0 )
+visitation_impl	variant/detail/visitation_impl.hpp	/^visitation_impl($/;"	f	namespace:boost::detail::variant	signature:( int, int, Visitor&, VPCV , mpl::true_ , NBF, W* = 0, S* = 0 )
+visitation_impl_invoke	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke($/;"	f	namespace:boost::detail::variant	signature:( int internal_which, Visitor& visitor, VoidPtrCV storage, T* t , NoBackupFlag , int )
+visitation_impl_invoke	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke(int, Visitor&, VoidPtrCV, apply_visitor_unrolled*, NBF, long)$/;"	f	namespace:boost::detail::variant	signature:(int, Visitor&, VoidPtrCV, apply_visitor_unrolled*, NBF, long)
+visitation_impl_invoke_impl	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke_impl($/;"	f	namespace:boost::detail::variant	signature:( int internal_which, Visitor& visitor, VoidPtrCV storage, T* , mpl::false_ )
+visitation_impl_invoke_impl	variant/detail/visitation_impl.hpp	/^visitation_impl_invoke_impl($/;"	f	namespace:boost::detail::variant	signature:( int, Visitor& visitor, VoidPtrCV storage, T* , mpl::true_ )
+visitation_impl_step	variant/detail/visitation_impl.hpp	/^struct visitation_impl_step$/;"	s	namespace:boost::detail::variant
+visitation_impl_step	variant/detail/visitation_impl.hpp	/^struct visitation_impl_step< LastIter,LastIter >$/;"	s	namespace:boost::detail::variant
+visitor_	variant/detail/apply_visitor_binary.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_invoke	access:private
+visitor_	variant/detail/apply_visitor_binary.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::detail::variant::apply_visitor_binary_unwrap	access:private
+visitor_	variant/detail/apply_visitor_delayed.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::apply_visitor_delayed_t	access:private
+visitor_	variant/multivisitors.hpp	/^        VisitorT&       visitor_;$/;"	m	struct:boost::detail::variant::two_variables_holder	access:private
+visitor_	variant/variant.hpp	/^        : visitor_(visitor)$/;"	f	class:boost::detail::variant::invoke_visitor	access:public	signature:(visitor)
+visitor_	variant/variant.hpp	/^    Visitor& visitor_;$/;"	m	class:boost::detail::variant::invoke_visitor	access:private
+visitor_	variant/visitor_ptr.hpp	/^    visitor_t visitor_;$/;"	m	class:boost::visitor_ptr_t	access:private
+visitor_ptr	variant/visitor_ptr.hpp	/^inline visitor_ptr_t<T,R> visitor_ptr(R (*visitor)(T))$/;"	f	namespace:boost	signature:(R (visitor)T))
+visitor_ptr_t	variant/visitor_ptr.hpp	/^    explicit visitor_ptr_t(visitor_t visitor)$/;"	f	class:boost::visitor_ptr_t	access:public	signature:(visitor_t visitor)
+visitor_ptr_t	variant/visitor_ptr.hpp	/^class visitor_ptr_t$/;"	c	namespace:boost	inherits:static_visitor
+visitor_t	variant/visitor_ptr.hpp	/^    typedef R (*visitor_t)(T);$/;"	t	class:boost::visitor_ptr_t	access:private
+what	variant/bad_visit.hpp	/^    virtual const char * what() const throw()$/;"	f	struct:boost::bad_visit	access:public	signature:() const
+which_	variant/variant.hpp	/^    which_t which_;$/;"	m	class:boost::variant	access:public
+which_t	variant/variant.hpp	/^        >::type which_t;$/;"	t	class:boost::variant	access:private
+which_t	variant/variant.hpp	/^    typedef int which_t;$/;"	t	class:boost::variant	access:private
+wknd_self_t	variant/variant.hpp	/^    typedef variant wknd_self_t;$/;"	t	class:boost::variant	access:private
+yes_over_sequence_t	variant/detail/over_sequence.hpp	/^typedef char (&yes_over_sequence_t)[1];$/;"	t	namespace:boost::detail::variant
+~backup_holder	variant/detail/backup_holder.hpp	/^    ~backup_holder()$/;"	f	class:boost::detail::variant::backup_holder	access:public	signature:()
+~recursive_wrapper	variant/recursive_wrapper.hpp	/^    ~recursive_wrapper();$/;"	p	class:boost::recursive_wrapper	access:public	signature:()
+~recursive_wrapper	variant/recursive_wrapper.hpp	/^recursive_wrapper<T>::~recursive_wrapper()$/;"	f	class:boost::recursive_wrapper	signature:()
+~static_visitor	variant/static_visitor.hpp	/^    ~static_visitor() { }$/;"	f	class:boost::static_visitor	access:protected	signature:()

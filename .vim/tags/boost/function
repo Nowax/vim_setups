@@ -1,0 +1,589 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOST_FUNCTION_0	function/detail/maybe_include.hpp	12;"	d
+BOOST_FUNCTION_1	function/detail/maybe_include.hpp	17;"	d
+BOOST_FUNCTION_10	function/detail/maybe_include.hpp	62;"	d
+BOOST_FUNCTION_11	function/detail/maybe_include.hpp	67;"	d
+BOOST_FUNCTION_12	function/detail/maybe_include.hpp	72;"	d
+BOOST_FUNCTION_13	function/detail/maybe_include.hpp	77;"	d
+BOOST_FUNCTION_14	function/detail/maybe_include.hpp	82;"	d
+BOOST_FUNCTION_15	function/detail/maybe_include.hpp	87;"	d
+BOOST_FUNCTION_16	function/detail/maybe_include.hpp	92;"	d
+BOOST_FUNCTION_17	function/detail/maybe_include.hpp	97;"	d
+BOOST_FUNCTION_18	function/detail/maybe_include.hpp	102;"	d
+BOOST_FUNCTION_19	function/detail/maybe_include.hpp	107;"	d
+BOOST_FUNCTION_2	function/detail/maybe_include.hpp	22;"	d
+BOOST_FUNCTION_20	function/detail/maybe_include.hpp	112;"	d
+BOOST_FUNCTION_21	function/detail/maybe_include.hpp	117;"	d
+BOOST_FUNCTION_22	function/detail/maybe_include.hpp	122;"	d
+BOOST_FUNCTION_23	function/detail/maybe_include.hpp	127;"	d
+BOOST_FUNCTION_24	function/detail/maybe_include.hpp	132;"	d
+BOOST_FUNCTION_25	function/detail/maybe_include.hpp	137;"	d
+BOOST_FUNCTION_26	function/detail/maybe_include.hpp	142;"	d
+BOOST_FUNCTION_27	function/detail/maybe_include.hpp	147;"	d
+BOOST_FUNCTION_28	function/detail/maybe_include.hpp	152;"	d
+BOOST_FUNCTION_29	function/detail/maybe_include.hpp	157;"	d
+BOOST_FUNCTION_3	function/detail/maybe_include.hpp	27;"	d
+BOOST_FUNCTION_30	function/detail/maybe_include.hpp	162;"	d
+BOOST_FUNCTION_31	function/detail/maybe_include.hpp	167;"	d
+BOOST_FUNCTION_32	function/detail/maybe_include.hpp	172;"	d
+BOOST_FUNCTION_33	function/detail/maybe_include.hpp	177;"	d
+BOOST_FUNCTION_34	function/detail/maybe_include.hpp	182;"	d
+BOOST_FUNCTION_35	function/detail/maybe_include.hpp	187;"	d
+BOOST_FUNCTION_36	function/detail/maybe_include.hpp	192;"	d
+BOOST_FUNCTION_37	function/detail/maybe_include.hpp	197;"	d
+BOOST_FUNCTION_38	function/detail/maybe_include.hpp	202;"	d
+BOOST_FUNCTION_39	function/detail/maybe_include.hpp	207;"	d
+BOOST_FUNCTION_4	function/detail/maybe_include.hpp	32;"	d
+BOOST_FUNCTION_40	function/detail/maybe_include.hpp	212;"	d
+BOOST_FUNCTION_41	function/detail/maybe_include.hpp	217;"	d
+BOOST_FUNCTION_42	function/detail/maybe_include.hpp	222;"	d
+BOOST_FUNCTION_43	function/detail/maybe_include.hpp	227;"	d
+BOOST_FUNCTION_44	function/detail/maybe_include.hpp	232;"	d
+BOOST_FUNCTION_45	function/detail/maybe_include.hpp	237;"	d
+BOOST_FUNCTION_46	function/detail/maybe_include.hpp	242;"	d
+BOOST_FUNCTION_47	function/detail/maybe_include.hpp	247;"	d
+BOOST_FUNCTION_48	function/detail/maybe_include.hpp	252;"	d
+BOOST_FUNCTION_49	function/detail/maybe_include.hpp	257;"	d
+BOOST_FUNCTION_5	function/detail/maybe_include.hpp	37;"	d
+BOOST_FUNCTION_50	function/detail/maybe_include.hpp	262;"	d
+BOOST_FUNCTION_6	function/detail/maybe_include.hpp	42;"	d
+BOOST_FUNCTION_7	function/detail/maybe_include.hpp	47;"	d
+BOOST_FUNCTION_8	function/detail/maybe_include.hpp	52;"	d
+BOOST_FUNCTION_9	function/detail/maybe_include.hpp	57;"	d
+BOOST_FUNCTION_ARGS	function/function_template.hpp	1177;"	d
+BOOST_FUNCTION_ARGS	function/function_template.hpp	29;"	d
+BOOST_FUNCTION_ARG_TYPE	function/function_template.hpp	1178;"	d
+BOOST_FUNCTION_ARG_TYPE	function/function_template.hpp	31;"	d
+BOOST_FUNCTION_ARG_TYPES	function/function_template.hpp	1179;"	d
+BOOST_FUNCTION_ARG_TYPES	function/function_template.hpp	34;"	d
+BOOST_FUNCTION_BASE_HEADER	function/function_base.hpp	12;"	d
+BOOST_FUNCTION_COMMA	function/function_template.hpp	1158;"	d
+BOOST_FUNCTION_COMMA	function/function_template.hpp	38;"	d
+BOOST_FUNCTION_COMMA	function/function_template.hpp	40;"	d
+BOOST_FUNCTION_COMPARE_TYPE_ID	function/function_base.hpp	58;"	d
+BOOST_FUNCTION_COMPARE_TYPE_ID	function/function_base.hpp	63;"	d
+BOOST_FUNCTION_COMPARE_TYPE_ID	function/function_base.hpp	66;"	d
+BOOST_FUNCTION_COMPARE_TYPE_ID	function/function_base.hpp	904;"	d
+BOOST_FUNCTION_ENABLE_IF_NOT_INTEGRAL	function/function_base.hpp	76;"	d
+BOOST_FUNCTION_ENABLE_IF_NOT_INTEGRAL	function/function_base.hpp	83;"	d
+BOOST_FUNCTION_ENABLE_IF_NOT_INTEGRAL	function/function_base.hpp	903;"	d
+BOOST_FUNCTION_FUNCTION	function/function_template.hpp	/^    BOOST_FUNCTION_FUNCTION() : function_base() { }$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:()
+BOOST_FUNCTION_FUNCTION	function/function_template.hpp	/^  class BOOST_FUNCTION_FUNCTION : public function_base$/;"	c	namespace:boost	inherits:function_base,std::unary_function
+BOOST_FUNCTION_FUNCTION	function/function_template.hpp	1159;"	d
+BOOST_FUNCTION_FUNCTION	function/function_template.hpp	44;"	d
+BOOST_FUNCTION_FUNCTION_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_FUNCTION_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_FUNCTION_INVOKER	function/function_template.hpp	1160;"	d
+BOOST_FUNCTION_FUNCTION_INVOKER	function/function_template.hpp	45;"	d
+BOOST_FUNCTION_FUNCTION_OBJ_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_FUNCTION_OBJ_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_FUNCTION_OBJ_INVOKER	function/function_template.hpp	1162;"	d
+BOOST_FUNCTION_FUNCTION_OBJ_INVOKER	function/function_template.hpp	49;"	d
+BOOST_FUNCTION_FUNCTION_REF_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_FUNCTION_REF_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_FUNCTION_REF_INVOKER	function/function_template.hpp	1164;"	d
+BOOST_FUNCTION_FUNCTION_REF_INVOKER	function/function_template.hpp	53;"	d
+BOOST_FUNCTION_FWD_HPP	function/function_fwd.hpp	10;"	d
+BOOST_FUNCTION_GET_FUNCTION_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_FUNCTION_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_FUNCTION_INVOKER	function/function_template.hpp	1168;"	d
+BOOST_FUNCTION_GET_FUNCTION_INVOKER	function/function_template.hpp	61;"	d
+BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER	function/function_template.hpp	1169;"	d
+BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER	function/function_template.hpp	63;"	d
+BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER	function/function_template.hpp	1170;"	d
+BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER	function/function_template.hpp	65;"	d
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER { };$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<function_obj_ref_tag>$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<function_obj_tag>$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<function_ptr_tag>$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<member_ptr_tag>$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	1172;"	d
+BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	69;"	d
+BOOST_FUNCTION_GET_MEMBER_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_MEMBER_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_GET_MEMBER_INVOKER	function/function_template.hpp	67;"	d
+BOOST_FUNCTION_GET_MEM_FUNCTION_INVOKER	function/function_template.hpp	1171;"	d
+BOOST_FUNCTION_MEMBER_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_MEMBER_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_MEMBER_INVOKER	function/function_template.hpp	1166;"	d
+BOOST_FUNCTION_MEMBER_INVOKER	function/function_template.hpp	57;"	d
+BOOST_FUNCTION_NO_FUNCTION_TYPE_SYNTAX	function/function_fwd.hpp	25;"	d
+BOOST_FUNCTION_NUM_ARGS	function/detail/function_iterate.hpp	13;"	d
+BOOST_FUNCTION_NUM_ARGS	function/detail/function_iterate.hpp	15;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function0.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function0.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function1.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function1.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function10.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function10.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function2.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function2.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function3.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function3.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function4.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function4.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function5.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function5.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function6.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function6.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function7.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function7.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function8.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function8.hpp	12;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function9.hpp	10;"	d
+BOOST_FUNCTION_NUM_ARGS	function/function9.hpp	12;"	d
+BOOST_FUNCTION_PARM	function/function_template.hpp	1176;"	d
+BOOST_FUNCTION_PARM	function/function_template.hpp	25;"	d
+BOOST_FUNCTION_PARMS	function/function_template.hpp	1175;"	d
+BOOST_FUNCTION_PARMS	function/function_template.hpp	27;"	d
+BOOST_FUNCTION_PARTIAL_SPEC	function/function_template.hpp	1041;"	d
+BOOST_FUNCTION_PARTIAL_SPEC	function/function_template.hpp	1043;"	d
+BOOST_FUNCTION_PARTIAL_SPEC	function/function_template.hpp	1151;"	d
+BOOST_FUNCTION_PROLOGUE_HPP	function/detail/prologue.hpp	11;"	d
+BOOST_FUNCTION_RETURN	function/function_template.hpp	1181;"	d
+BOOST_FUNCTION_RETURN	function/function_template.hpp	75;"	d
+BOOST_FUNCTION_RETURN	function/function_template.hpp	78;"	d
+BOOST_FUNCTION_STD_NS	function/function_base.hpp	50;"	d
+BOOST_FUNCTION_STD_NS	function/function_base.hpp	52;"	d
+BOOST_FUNCTION_TARGET_FIX	function/function_base.hpp	70;"	d
+BOOST_FUNCTION_TARGET_FIX	function/function_base.hpp	72;"	d
+BOOST_FUNCTION_TEMPLATE_ARGS	function/function_template.hpp	1174;"	d
+BOOST_FUNCTION_TEMPLATE_ARGS	function/function_template.hpp	23;"	d
+BOOST_FUNCTION_TEMPLATE_PARMS	function/function_template.hpp	1173;"	d
+BOOST_FUNCTION_TEMPLATE_PARMS	function/function_template.hpp	21;"	d
+BOOST_FUNCTION_TYPEOF_HPP	function/function_typeof.hpp	10;"	d
+BOOST_FUNCTION_VOID_FUNCTION_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_FUNCTION_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_VOID_FUNCTION_INVOKER	function/function_template.hpp	1161;"	d
+BOOST_FUNCTION_VOID_FUNCTION_INVOKER	function/function_template.hpp	47;"	d
+BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER	function/function_template.hpp	1163;"	d
+BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER	function/function_template.hpp	51;"	d
+BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER	function/function_template.hpp	1165;"	d
+BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER	function/function_template.hpp	55;"	d
+BOOST_FUNCTION_VOID_MEMBER_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_MEMBER_INVOKER$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_VOID_MEMBER_INVOKER	function/function_template.hpp	1167;"	d
+BOOST_FUNCTION_VOID_MEMBER_INVOKER	function/function_template.hpp	59;"	d
+BOOST_FUNCTION_VOID_RETURN_TYPE	function/function_template.hpp	1180;"	d
+BOOST_FUNCTION_VOID_RETURN_TYPE	function/function_template.hpp	74;"	d
+BOOST_FUNCTION_VOID_RETURN_TYPE	function/function_template.hpp	77;"	d
+BOOST_FUNCTION_VTABLE	function/function_template.hpp	/^      struct BOOST_FUNCTION_VTABLE$/;"	s	namespace:boost::detail::function
+BOOST_FUNCTION_VTABLE	function/function_template.hpp	1157;"	d
+BOOST_FUNCTION_VTABLE	function/function_template.hpp	71;"	d
+BOOST_STATIC_CONSTANT	function/function_base.hpp	/^        BOOST_STATIC_CONSTANT$/;"	p	struct:boost::detail::function::function_allows_small_object_optimization	access:public	signature:(bool, value = ((sizeof(F) <= sizeof(function_buffer) && (alignment_of<function_buffer>::value % alignment_of<F>::value == 0))))
+BOOST_STATIC_CONSTANT	function/function_template.hpp	/^    BOOST_STATIC_CONSTANT(int, args = BOOST_FUNCTION_NUM_ARGS);$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(int, args = BOOST_FUNCTION_NUM_ARGS)
+BOOST_STATIC_CONSTANT	function/function_template.hpp	/^    BOOST_STATIC_CONSTANT(int, arity = BOOST_FUNCTION_NUM_ARGS);$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(int, arity = BOOST_FUNCTION_NUM_ARGS)
+apply	function/function_template.hpp	/^        struct apply$/;"	s	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER	access:public
+apply_a	function/function_template.hpp	/^        struct apply_a$/;"	s	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER	access:public
+argument_type	function/function_template.hpp	/^    typedef T0 argument_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+assign_functor	function/function_template.hpp	/^        assign_functor(FunctionObj f, function_buffer& functor, mpl::false_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, mpl::false_) const
+assign_functor	function/function_template.hpp	/^        assign_functor(FunctionObj f, function_buffer& functor, mpl::true_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, mpl::true_) const
+assign_functor_a	function/function_template.hpp	/^        assign_functor_a(FunctionObj f, function_buffer& functor, Allocator a, mpl::false_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, Allocator a, mpl::false_) const
+assign_functor_a	function/function_template.hpp	/^        assign_functor_a(FunctionObj f, function_buffer& functor, Allocator, mpl::true_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, Allocator, mpl::true_) const
+assign_to	function/function_template.hpp	/^        assign_to(FunctionObj f, function_buffer& functor, function_obj_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, function_obj_tag) const
+assign_to	function/function_template.hpp	/^        assign_to(FunctionPtr f, function_buffer& functor, function_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionPtr f, function_buffer& functor, function_ptr_tag) const
+assign_to	function/function_template.hpp	/^        assign_to(const reference_wrapper<FunctionObj>& f, $/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(const reference_wrapper<FunctionObj>& f, function_buffer& functor, function_obj_ref_tag) const
+assign_to	function/function_template.hpp	/^        bool assign_to(F f, function_buffer& functor) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public	signature:(F f, function_buffer& functor) const
+assign_to	function/function_template.hpp	/^        bool assign_to(MemberPtr f, function_buffer& functor, member_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(MemberPtr f, function_buffer& functor, member_ptr_tag) const
+assign_to_a	function/function_template.hpp	/^        assign_to_a(FunctionObj f, function_buffer& functor, Allocator a, function_obj_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, Allocator a, function_obj_tag) const
+assign_to_a	function/function_template.hpp	/^        assign_to_a(FunctionPtr f, function_buffer& functor, Allocator, function_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionPtr f, function_buffer& functor, Allocator, function_ptr_tag) const
+assign_to_a	function/function_template.hpp	/^        assign_to_a(const reference_wrapper<FunctionObj>& f, $/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(const reference_wrapper<FunctionObj>& f, function_buffer& functor, Allocator, function_obj_ref_tag) const
+assign_to_a	function/function_template.hpp	/^        bool assign_to_a(F f, function_buffer& functor, Allocator a) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public	signature:(F f, function_buffer& functor, Allocator a) const
+assign_to_a	function/function_template.hpp	/^        bool assign_to_a(MemberPtr f, function_buffer& functor, Allocator a, member_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(MemberPtr f, function_buffer& functor, Allocator a, member_ptr_tag) const
+bad_function_call	function/function_base.hpp	/^  bad_function_call() : std::runtime_error("call to empty boost::function") {}$/;"	f	class:boost::bad_function_call	access:public	signature:()
+bad_function_call	function/function_base.hpp	/^class bad_function_call : public std::runtime_error$/;"	c	namespace:boost	inherits:std::runtime_error
+base	function/function_template.hpp	/^        vtable_base base;$/;"	m	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+base_type	function/function_template.hpp	/^  typedef BOOST_FUNCTION_FUNCTION<R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS> base_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION::function	access:private
+boost	function/function_base.hpp	/^namespace boost {$/;"	n
+boost	function/function_fwd.hpp	/^namespace boost { namespace python { namespace objects {$/;"	n
+boost	function/function_fwd.hpp	/^namespace boost {$/;"	n
+boost	function/function_template.hpp	/^namespace boost {$/;"	n
+boost::BOOST_FUNCTION_FUNCTION	function/function_template.hpp	/^  class BOOST_FUNCTION_FUNCTION : public function_base$/;"	c	namespace:boost	inherits:function_base,std::unary_function
+boost::BOOST_FUNCTION_FUNCTION::BOOST_FUNCTION_FUNCTION	function/function_template.hpp	/^    BOOST_FUNCTION_FUNCTION() : function_base() { }$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:()
+boost::BOOST_FUNCTION_FUNCTION::BOOST_STATIC_CONSTANT	function/function_template.hpp	/^    BOOST_STATIC_CONSTANT(int, args = BOOST_FUNCTION_NUM_ARGS);$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(int, args = BOOST_FUNCTION_NUM_ARGS)
+boost::BOOST_FUNCTION_FUNCTION::BOOST_STATIC_CONSTANT	function/function_template.hpp	/^    BOOST_STATIC_CONSTANT(int, arity = BOOST_FUNCTION_NUM_ARGS);$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(int, arity = BOOST_FUNCTION_NUM_ARGS)
+boost::BOOST_FUNCTION_FUNCTION::argument_type	function/function_template.hpp	/^    typedef T0 argument_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::clear_type	function/function_template.hpp	/^    struct clear_type {};$/;"	s	class:boost::BOOST_FUNCTION_FUNCTION	access:private
+boost::BOOST_FUNCTION_FUNCTION::enable_if_c::type	function/function_template.hpp	/^                                        int>::type = 0$/;"	m	class:boost::BOOST_FUNCTION_FUNCTION::enable_if_c	access:public
+boost::BOOST_FUNCTION_FUNCTION::f	function/function_template.hpp	/^    BOOST_FUNCTION_FUNCTION(Functor BOOST_FUNCTION_TARGET_FIX(const &) f$/;"	m	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::first_argument_type	function/function_template.hpp	/^    typedef T0 first_argument_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::function	function/function_template.hpp	/^class function<BOOST_FUNCTION_PARTIAL_SPEC>$/;"	c	class:boost::BOOST_FUNCTION_FUNCTION	inherits:BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::function::base_type	function/function_template.hpp	/^  typedef BOOST_FUNCTION_FUNCTION<R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS> base_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION::function	access:private
+boost::BOOST_FUNCTION_FUNCTION::function::clear_type	function/function_template.hpp	/^  struct clear_type {};$/;"	s	class:boost::BOOST_FUNCTION_FUNCTION::function	access:private
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function() : base_type() {}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:()
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(Functor f$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(Functor f ,typename enable_if_c< (boost::type_traits::ice_not< (is_integral<Functor>::value)>::value), int>::type = 0 )
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(Functor f, Allocator a$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(Functor f, Allocator a ,typename enable_if_c< (boost::type_traits::ice_not< (is_integral<Functor>::value)>::value), int>::type = 0 )
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(base_type&& f): base_type(static_cast<base_type&&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(base_type&& f)
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(clear_type*) : base_type() {}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(clear_type*)
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(const base_type& f) : base_type(static_cast<const base_type&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const base_type& f)
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(const self_type& f) : base_type(static_cast<const base_type&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const self_type& f)
+boost::BOOST_FUNCTION_FUNCTION::function::function	function/function_template.hpp	/^  function(self_type&& f): base_type(static_cast<base_type&&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(self_type&& f)
+boost::BOOST_FUNCTION_FUNCTION::function::operator =	function/function_template.hpp	/^  operator=(Functor f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(Functor f)
+boost::BOOST_FUNCTION_FUNCTION::function::operator =	function/function_template.hpp	/^  self_type& operator=(base_type&& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(base_type&& f)
+boost::BOOST_FUNCTION_FUNCTION::function::operator =	function/function_template.hpp	/^  self_type& operator=(clear_type*)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(clear_type*)
+boost::BOOST_FUNCTION_FUNCTION::function::operator =	function/function_template.hpp	/^  self_type& operator=(const base_type& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const base_type& f)
+boost::BOOST_FUNCTION_FUNCTION::function::operator =	function/function_template.hpp	/^  self_type& operator=(const self_type& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const self_type& f)
+boost::BOOST_FUNCTION_FUNCTION::function::operator =	function/function_template.hpp	/^  self_type& operator=(self_type&& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(self_type&& f)
+boost::BOOST_FUNCTION_FUNCTION::function::self_type	function/function_template.hpp	/^  typedef function self_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION::function	access:private
+boost::BOOST_FUNCTION_FUNCTION::get_vtable	function/function_template.hpp	/^    vtable_type* get_vtable() const {$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION	access:private	signature:() const
+boost::BOOST_FUNCTION_FUNCTION::operator !=	function/function_template.hpp	/^  void operator!=(const BOOST_FUNCTION_FUNCTION<$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>&, const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>& )
+boost::BOOST_FUNCTION_FUNCTION::operator ==	function/function_template.hpp	/^  void operator==(const BOOST_FUNCTION_FUNCTION<$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>&, const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>&)
+boost::BOOST_FUNCTION_FUNCTION::result_type	function/function_template.hpp	/^    typedef R         result_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::second_argument_type	function/function_template.hpp	/^    typedef T1 second_argument_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::self_type	function/function_template.hpp	/^    typedef BOOST_FUNCTION_FUNCTION self_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::sig	function/function_template.hpp	/^    struct sig$/;"	s	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+boost::BOOST_FUNCTION_FUNCTION::sig::type	function/function_template.hpp	/^      typedef result_type type;$/;"	t	struct:boost::BOOST_FUNCTION_FUNCTION::sig	access:public
+boost::BOOST_FUNCTION_FUNCTION::swap	function/function_template.hpp	/^  inline void swap(BOOST_FUNCTION_FUNCTION<$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS >& f1, BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS >& f2)
+boost::BOOST_FUNCTION_FUNCTION::vtable_type	function/function_template.hpp	/^      vtable_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:private
+boost::bad_function_call	function/function_base.hpp	/^class bad_function_call : public std::runtime_error$/;"	c	namespace:boost	inherits:std::runtime_error
+boost::bad_function_call::bad_function_call	function/function_base.hpp	/^  bad_function_call() : std::runtime_error("call to empty boost::function") {}$/;"	f	class:boost::bad_function_call	access:public	signature:()
+boost::detail	function/function_base.hpp	/^  namespace detail {$/;"	n	namespace:boost
+boost::detail	function/function_base.hpp	/^namespace detail {$/;"	n	namespace:boost
+boost::detail	function/function_template.hpp	/^  namespace detail {$/;"	n	namespace:boost
+boost::detail::function	function/function_base.hpp	/^    namespace function {$/;"	n	namespace:boost::detail
+boost::detail::function	function/function_base.hpp	/^  namespace function {$/;"	n	namespace:boost::detail
+boost::detail::function	function/function_template.hpp	/^    namespace function {$/;"	n	namespace:boost::detail
+boost::detail::function::BOOST_FUNCTION_FUNCTION_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_FUNCTION_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_FUNCTION_INVOKER::invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_FUNCTION_INVOKER	access:public	signature:(function_buffer& function_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_FUNCTION_OBJ_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_FUNCTION_OBJ_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_FUNCTION_OBJ_INVOKER::invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_FUNCTION_OBJ_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_FUNCTION_REF_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_FUNCTION_REF_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_FUNCTION_REF_INVOKER::invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_FUNCTION_REF_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_FUNCTION_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_INVOKER::type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_INVOKER	access:public
+boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER::type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER	access:public
+boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER::type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER { };$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<function_obj_ref_tag>$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<function_obj_tag>$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<function_ptr_tag>$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_INVOKER<member_ptr_tag>$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	function/function_template.hpp	/^        struct apply$/;"	s	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply::invoker_type	function/function_template.hpp	/^            invoker_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply::manager_type	function/function_template.hpp	/^          typedef functor_manager<FunctionObj> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply::manager_type	function/function_template.hpp	/^          typedef functor_manager<FunctionPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply::manager_type	function/function_template.hpp	/^          typedef functor_manager<MemberPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply::manager_type	function/function_template.hpp	/^          typedef reference_manager<typename RefWrapper::type> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	function/function_template.hpp	/^        struct apply_a$/;"	s	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a::invoker_type	function/function_template.hpp	/^            invoker_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a::manager_type	function/function_template.hpp	/^          typedef functor_manager<FunctionPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a::manager_type	function/function_template.hpp	/^          typedef functor_manager<MemberPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a::manager_type	function/function_template.hpp	/^          typedef functor_manager_a<FunctionObj, Allocator> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a::manager_type	function/function_template.hpp	/^          typedef reference_manager<typename RefWrapper::type> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+boost::detail::function::BOOST_FUNCTION_GET_MEMBER_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_GET_MEMBER_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_GET_MEMBER_INVOKER::type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_MEMBER_INVOKER	access:public
+boost::detail::function::BOOST_FUNCTION_MEMBER_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_MEMBER_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_MEMBER_INVOKER::invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_MEMBER_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_FUNCTION_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_INVOKER::invoke	function/function_template.hpp	/^        invoke(function_buffer& function_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_INVOKER	access:public	signature:(function_buffer& function_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER::invoke	function/function_template.hpp	/^        invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER::invoke	function/function_template.hpp	/^        invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_VOID_MEMBER_INVOKER	function/function_template.hpp	/^      struct BOOST_FUNCTION_VOID_MEMBER_INVOKER$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_VOID_MEMBER_INVOKER::invoke	function/function_template.hpp	/^        invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_MEMBER_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+boost::detail::function::BOOST_FUNCTION_VTABLE	function/function_template.hpp	/^      struct BOOST_FUNCTION_VTABLE$/;"	s	namespace:boost::detail::function
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_functor	function/function_template.hpp	/^        assign_functor(FunctionObj f, function_buffer& functor, mpl::false_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, mpl::false_) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_functor	function/function_template.hpp	/^        assign_functor(FunctionObj f, function_buffer& functor, mpl::true_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, mpl::true_) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_functor_a	function/function_template.hpp	/^        assign_functor_a(FunctionObj f, function_buffer& functor, Allocator a, mpl::false_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, Allocator a, mpl::false_) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_functor_a	function/function_template.hpp	/^        assign_functor_a(FunctionObj f, function_buffer& functor, Allocator, mpl::true_) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, Allocator, mpl::true_) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to	function/function_template.hpp	/^        assign_to(FunctionObj f, function_buffer& functor, function_obj_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, function_obj_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to	function/function_template.hpp	/^        assign_to(FunctionPtr f, function_buffer& functor, function_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionPtr f, function_buffer& functor, function_ptr_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to	function/function_template.hpp	/^        assign_to(const reference_wrapper<FunctionObj>& f, $/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(const reference_wrapper<FunctionObj>& f, function_buffer& functor, function_obj_ref_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to	function/function_template.hpp	/^        bool assign_to(F f, function_buffer& functor) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public	signature:(F f, function_buffer& functor) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to	function/function_template.hpp	/^        bool assign_to(MemberPtr f, function_buffer& functor, member_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(MemberPtr f, function_buffer& functor, member_ptr_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to_a	function/function_template.hpp	/^        assign_to_a(FunctionObj f, function_buffer& functor, Allocator a, function_obj_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionObj f, function_buffer& functor, Allocator a, function_obj_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to_a	function/function_template.hpp	/^        assign_to_a(FunctionPtr f, function_buffer& functor, Allocator, function_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(FunctionPtr f, function_buffer& functor, Allocator, function_ptr_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to_a	function/function_template.hpp	/^        assign_to_a(const reference_wrapper<FunctionObj>& f, $/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(const reference_wrapper<FunctionObj>& f, function_buffer& functor, Allocator, function_obj_ref_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to_a	function/function_template.hpp	/^        bool assign_to_a(F f, function_buffer& functor, Allocator a) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public	signature:(F f, function_buffer& functor, Allocator a) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::assign_to_a	function/function_template.hpp	/^        bool assign_to_a(MemberPtr f, function_buffer& functor, Allocator a, member_ptr_tag) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:private	signature:(MemberPtr f, function_buffer& functor, Allocator a, member_ptr_tag) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::base	function/function_template.hpp	/^        vtable_base base;$/;"	m	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+boost::detail::function::BOOST_FUNCTION_VTABLE::clear	function/function_template.hpp	/^        void clear(function_buffer& functor) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public	signature:(function_buffer& functor) const
+boost::detail::function::BOOST_FUNCTION_VTABLE::invoker	function/function_template.hpp	/^        invoker_type invoker;$/;"	m	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+boost::detail::function::BOOST_FUNCTION_VTABLE::invoker_type	function/function_template.hpp	/^        typedef result_type (*invoker_type)(function_buffer&$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+boost::detail::function::BOOST_FUNCTION_VTABLE::result_type	function/function_template.hpp	/^        typedef R         result_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+boost::detail::function::check_functor_type_tag	function/function_base.hpp	/^        check_functor_type_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+boost::detail::function::clone_functor_tag	function/function_base.hpp	/^        clone_functor_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+boost::detail::function::compare_equal	function/function_base.hpp	/^        compare_equal(const Function& f, const Functor& g, long,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor& g, long, mpl::bool_<false>)
+boost::detail::function::compare_equal	function/function_base.hpp	/^        compare_equal(const Function& f, const Functor&, int, mpl::bool_<true>)$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor&, int, mpl::bool_<true>)
+boost::detail::function::compare_equal	function/function_base.hpp	/^        compare_equal(const Function& f, const reference_wrapper<Functor>& g,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const reference_wrapper<Functor>& g, int, mpl::bool_<false>)
+boost::detail::function::compare_not_equal	function/function_base.hpp	/^        compare_not_equal(const Function& f, const Functor& g, long,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor& g, long, mpl::bool_<false>)
+boost::detail::function::compare_not_equal	function/function_base.hpp	/^        compare_not_equal(const Function& f, const Functor&, int,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor&, int, mpl::bool_<true>)
+boost::detail::function::compare_not_equal	function/function_base.hpp	/^        compare_not_equal(const Function& f,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const reference_wrapper<Functor>& g, int, mpl::bool_<false>)
+boost::detail::function::destroy_functor_tag	function/function_base.hpp	/^        destroy_functor_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+boost::detail::function::function_allows_small_object_optimization	function/function_base.hpp	/^      struct function_allows_small_object_optimization$/;"	s	namespace:boost::detail::function
+boost::detail::function::function_allows_small_object_optimization::BOOST_STATIC_CONSTANT	function/function_base.hpp	/^        BOOST_STATIC_CONSTANT$/;"	p	struct:boost::detail::function::function_allows_small_object_optimization	access:public	signature:(bool, value = ((sizeof(F) <= sizeof(function_buffer) && (alignment_of<function_buffer>::value % alignment_of<F>::value == 0))))
+boost::detail::function::function_buffer	function/function_base.hpp	/^      union function_buffer$/;"	u	namespace:boost::detail::function
+boost::detail::function::function_buffer::bound_memfunc_ptr	function/function_base.hpp	/^        } bound_memfunc_ptr;$/;"	m	union:boost::detail::function::function_buffer	typeref:struct:boost::detail::function::function_buffer::bound_memfunc_ptr_t	access:public
+boost::detail::function::function_buffer::bound_memfunc_ptr_t	function/function_base.hpp	/^        struct bound_memfunc_ptr_t {$/;"	s	union:boost::detail::function::function_buffer	access:public
+boost::detail::function::function_buffer::bound_memfunc_ptr_t::memfunc_ptr	function/function_base.hpp	/^          void (X::*memfunc_ptr)(int);$/;"	m	struct:boost::detail::function::function_buffer::bound_memfunc_ptr_t	access:public
+boost::detail::function::function_buffer::bound_memfunc_ptr_t::obj_ptr	function/function_base.hpp	/^          void* obj_ptr;$/;"	m	struct:boost::detail::function::function_buffer::bound_memfunc_ptr_t	access:public
+boost::detail::function::function_buffer::data	function/function_base.hpp	/^        mutable char data;$/;"	m	union:boost::detail::function::function_buffer	access:public
+boost::detail::function::function_buffer::func_ptr	function/function_base.hpp	/^        mutable void (*func_ptr)();$/;"	m	union:boost::detail::function::function_buffer	access:public
+boost::detail::function::function_buffer::obj_ptr	function/function_base.hpp	/^        mutable void* obj_ptr;$/;"	m	union:boost::detail::function::function_buffer	access:public
+boost::detail::function::function_buffer::obj_ref	function/function_base.hpp	/^        } obj_ref;$/;"	m	union:boost::detail::function::function_buffer	typeref:struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+boost::detail::function::function_buffer::obj_ref_t	function/function_base.hpp	/^        struct obj_ref_t {$/;"	s	union:boost::detail::function::function_buffer	access:public
+boost::detail::function::function_buffer::obj_ref_t::is_const_qualified	function/function_base.hpp	/^          bool is_const_qualified;$/;"	m	struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+boost::detail::function::function_buffer::obj_ref_t::is_volatile_qualified	function/function_base.hpp	/^          bool is_volatile_qualified;$/;"	m	struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+boost::detail::function::function_buffer::obj_ref_t::obj_ptr	function/function_base.hpp	/^          mutable void* obj_ptr;$/;"	m	struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+boost::detail::function::function_buffer::type	function/function_base.hpp	/^        } type;$/;"	m	union:boost::detail::function::function_buffer	typeref:struct:boost::detail::function::function_buffer::type_t	access:public
+boost::detail::function::function_buffer::type_t	function/function_base.hpp	/^        struct type_t {$/;"	s	union:boost::detail::function::function_buffer	access:public
+boost::detail::function::function_buffer::type_t::const_qualified	function/function_base.hpp	/^          bool const_qualified;$/;"	m	struct:boost::detail::function::function_buffer::type_t	access:public
+boost::detail::function::function_buffer::type_t::type	function/function_base.hpp	/^          const detail::sp_typeinfo* type;$/;"	m	struct:boost::detail::function::function_buffer::type_t	access:public
+boost::detail::function::function_buffer::type_t::volatile_qualified	function/function_base.hpp	/^          bool volatile_qualified;$/;"	m	struct:boost::detail::function::function_buffer::type_t	access:public
+boost::detail::function::function_obj_ref_tag	function/function_base.hpp	/^      struct function_obj_ref_tag {};$/;"	s	namespace:boost::detail::function
+boost::detail::function::function_obj_tag	function/function_base.hpp	/^      struct function_obj_tag {};$/;"	s	namespace:boost::detail::function
+boost::detail::function::function_ptr_tag	function/function_base.hpp	/^      struct function_ptr_tag {};$/;"	s	namespace:boost::detail::function
+boost::detail::function::function_return_type	function/function_base.hpp	/^      struct function_return_type<void>$/;"	s	namespace:boost::detail::function
+boost::detail::function::function_return_type	function/function_base.hpp	/^      template<typename T> struct function_return_type { typedef T type; };$/;"	s	namespace:boost::detail::function
+boost::detail::function::function_return_type::type	function/function_base.hpp	/^        typedef unusable type;$/;"	t	struct:boost::detail::function::function_return_type	access:public
+boost::detail::function::function_return_type::type	function/function_base.hpp	/^      template<typename T> struct function_return_type { typedef T type; };$/;"	t	struct:boost::detail::function::function_return_type	access:public
+boost::detail::function::functor_manager	function/function_base.hpp	/^      struct functor_manager$/;"	s	namespace:boost::detail::function
+boost::detail::function::functor_manager::functor_type	function/function_base.hpp	/^        typedef Functor functor_type;$/;"	t	struct:boost::detail::function::functor_manager	access:private
+boost::detail::function::functor_manager::manage	function/function_base.hpp	/^        manage(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+boost::detail::function::functor_manager::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_obj_tag)
+boost::detail::function::functor_manager::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_ptr_tag)
+boost::detail::function::functor_manager::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, member_ptr_tag)
+boost::detail::function::functor_manager::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::false_)
+boost::detail::function::functor_manager::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::true_)
+boost::detail::function::functor_manager_a	function/function_base.hpp	/^      struct functor_manager_a$/;"	s	namespace:boost::detail::function
+boost::detail::function::functor_manager_a::functor_type	function/function_base.hpp	/^        typedef Functor functor_type;$/;"	t	struct:boost::detail::function::functor_manager_a	access:private
+boost::detail::function::functor_manager_a::manage	function/function_base.hpp	/^        manage(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+boost::detail::function::functor_manager_a::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_obj_tag)
+boost::detail::function::functor_manager_a::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_ptr_tag)
+boost::detail::function::functor_manager_a::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::false_)
+boost::detail::function::functor_manager_a::manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::true_)
+boost::detail::function::functor_manager_common	function/function_base.hpp	/^      struct functor_manager_common$/;"	s	namespace:boost::detail::function
+boost::detail::function::functor_manager_common::functor_type	function/function_base.hpp	/^        typedef Functor functor_type;$/;"	t	struct:boost::detail::function::functor_manager_common	access:public
+boost::detail::function::functor_manager_common::manage_ptr	function/function_base.hpp	/^        manage_ptr(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_common	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+boost::detail::function::functor_manager_common::manage_small	function/function_base.hpp	/^        manage_small(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_common	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+boost::detail::function::functor_manager_operation_type	function/function_base.hpp	/^      enum functor_manager_operation_type {$/;"	g	namespace:boost::detail::function
+boost::detail::function::functor_wrapper	function/function_base.hpp	/^      struct functor_wrapper: public F, public A$/;"	s	namespace:boost::detail::function	inherits:F,A
+boost::detail::function::functor_wrapper::functor_wrapper	function/function_base.hpp	/^        functor_wrapper( F f, A a ):$/;"	f	struct:boost::detail::function::functor_wrapper	access:public	signature:( F f, A a )
+boost::detail::function::functor_wrapper::functor_wrapper	function/function_base.hpp	/^        functor_wrapper(const functor_wrapper& f) :$/;"	f	struct:boost::detail::function::functor_wrapper	access:public	signature:(const functor_wrapper& f)
+boost::detail::function::get_function_tag	function/function_base.hpp	/^      class get_function_tag$/;"	c	namespace:boost::detail::function
+boost::detail::function::get_function_tag::or_ref_tag	function/function_base.hpp	/^                                   ptr_or_obj_or_mem_tag>::type or_ref_tag;$/;"	t	class:boost::detail::function::get_function_tag	access:private
+boost::detail::function::get_function_tag::ptr_or_obj_or_mem_tag	function/function_base.hpp	/^                                   ptr_or_obj_tag>::type ptr_or_obj_or_mem_tag;$/;"	t	class:boost::detail::function::get_function_tag	access:private
+boost::detail::function::get_function_tag::ptr_or_obj_tag	function/function_base.hpp	/^                                   function_obj_tag>::type ptr_or_obj_tag;$/;"	t	class:boost::detail::function::get_function_tag	access:private
+boost::detail::function::get_function_tag::type	function/function_base.hpp	/^        typedef or_ref_tag type;$/;"	t	class:boost::detail::function::get_function_tag	access:public
+boost::detail::function::get_functor_type_tag	function/function_base.hpp	/^        get_functor_type_tag$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+boost::detail::function::has_empty_target	function/function_base.hpp	/^    inline bool has_empty_target(...)$/;"	f	namespace:boost::detail::function	signature:(....)
+boost::detail::function::has_empty_target	function/function_base.hpp	/^    inline bool has_empty_target(const function_base* f)$/;"	f	namespace:boost::detail::function	signature:(const function_base* f)
+boost::detail::function::has_empty_target	function/function_base.hpp	/^    inline bool has_empty_target(const void*)$/;"	f	namespace:boost::detail::function	signature:(const void*)
+boost::detail::function::member_ptr_tag	function/function_base.hpp	/^      struct member_ptr_tag {};$/;"	s	namespace:boost::detail::function
+boost::detail::function::move_functor_tag	function/function_base.hpp	/^        move_functor_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+boost::detail::function::reference_manager	function/function_base.hpp	/^      struct reference_manager$/;"	s	namespace:boost::detail::function
+boost::detail::function::reference_manager::manage	function/function_base.hpp	/^        manage(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::reference_manager	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+boost::detail::function::unusable	function/function_base.hpp	/^      struct unusable$/;"	s	namespace:boost::detail::function
+boost::detail::function::unusable::unusable	function/function_base.hpp	/^        template<typename T> unusable(const T&) {}$/;"	f	struct:boost::detail::function::unusable	access:public	signature:(const T&)
+boost::detail::function::unusable::unusable	function/function_base.hpp	/^        unusable() {}$/;"	f	struct:boost::detail::function::unusable	access:public	signature:()
+boost::detail::function::useless_clear_type	function/function_base.hpp	/^      struct useless_clear_type {};$/;"	s	namespace:boost::detail::function
+boost::detail::function::vtable_base	function/function_base.hpp	/^      struct vtable_base$/;"	s	namespace:boost::detail::function
+boost::detail::function::vtable_base::manager	function/function_base.hpp	/^        void (*manager)(const function_buffer& in_buffer, $/;"	m	struct:boost::detail::function::vtable_base	access:public
+boost::function_base	function/function_base.hpp	/^class function_base$/;"	c	namespace:boost
+boost::function_base::contains	function/function_base.hpp	/^    bool contains(const F& f) const$/;"	f	class:boost::function_base	access:public	signature:(const F& f) const
+boost::function_base::empty	function/function_base.hpp	/^  bool empty() const { return !vtable; }$/;"	f	class:boost::function_base	access:public	signature:() const
+boost::function_base::function_base	function/function_base.hpp	/^  function_base() : vtable(0) { }$/;"	f	class:boost::function_base	access:public	signature:()
+boost::function_base::functor	function/function_base.hpp	/^  mutable detail::function::function_buffer functor;$/;"	m	class:boost::function_base	access:public
+boost::function_base::get_vtable	function/function_base.hpp	/^  detail::function::vtable_base* get_vtable() const {$/;"	f	class:boost::function_base	access:public	signature:() const
+boost::function_base::has_trivial_copy_and_destroy	function/function_base.hpp	/^  bool has_trivial_copy_and_destroy() const {$/;"	f	class:boost::function_base	access:public	signature:() const
+boost::function_base::operator !=	function/function_base.hpp	/^    operator!=(Functor g) const$/;"	f	class:boost::function_base	access:public	signature:(Functor g) const
+boost::function_base::operator ==	function/function_base.hpp	/^    operator==(Functor g) const$/;"	f	class:boost::function_base	access:public	signature:(Functor g) const
+boost::function_base::target	function/function_base.hpp	/^    Functor* target()$/;"	f	class:boost::function_base	access:public	signature:()
+boost::function_base::target	function/function_base.hpp	/^    const Functor* target( Functor * = 0 ) const$/;"	f	class:boost::function_base	access:public	signature:( Functor * = 0 ) const
+boost::function_base::target_type	function/function_base.hpp	/^  const detail::sp_typeinfo& target_type() const$/;"	f	class:boost::function_base	access:public	signature:() const
+boost::function_base::vtable	function/function_base.hpp	/^  detail::function::vtable_base* vtable;$/;"	m	class:boost::function_base	access:public
+boost::operator !=	function/function_base.hpp	/^  inline bool operator!=(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+boost::operator !=	function/function_base.hpp	/^  inline bool operator!=(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+boost::operator !=	function/function_base.hpp	/^  operator!=(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+boost::operator !=	function/function_base.hpp	/^  operator!=(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+boost::operator !=	function/function_base.hpp	/^  operator!=(const function_base& f, reference_wrapper<Functor> g)$/;"	f	namespace:boost	signature:(const function_base& f, reference_wrapper<Functor> g)
+boost::operator !=	function/function_base.hpp	/^  operator!=(reference_wrapper<Functor> g, const function_base& f)$/;"	f	namespace:boost	signature:(reference_wrapper<Functor> g, const function_base& f)
+boost::operator !=	function/function_base.hpp	/^inline bool operator!=(const function_base& f,$/;"	f	namespace:boost	signature:(const function_base& f, detail::function::useless_clear_type*)
+boost::operator !=	function/function_base.hpp	/^inline bool operator!=(detail::function::useless_clear_type*,$/;"	f	namespace:boost	signature:(detail::function::useless_clear_type*, const function_base& f)
+boost::operator ==	function/function_base.hpp	/^  inline bool operator==(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+boost::operator ==	function/function_base.hpp	/^  inline bool operator==(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+boost::operator ==	function/function_base.hpp	/^  operator==(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+boost::operator ==	function/function_base.hpp	/^  operator==(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+boost::operator ==	function/function_base.hpp	/^  operator==(const function_base& f, reference_wrapper<Functor> g)$/;"	f	namespace:boost	signature:(const function_base& f, reference_wrapper<Functor> g)
+boost::operator ==	function/function_base.hpp	/^  operator==(reference_wrapper<Functor> g, const function_base& f)$/;"	f	namespace:boost	signature:(reference_wrapper<Functor> g, const function_base& f)
+boost::operator ==	function/function_base.hpp	/^inline bool operator==(const function_base& f,$/;"	f	namespace:boost	signature:(const function_base& f, detail::function::useless_clear_type*)
+boost::operator ==	function/function_base.hpp	/^inline bool operator==(detail::function::useless_clear_type*,$/;"	f	namespace:boost	signature:(detail::function::useless_clear_type*, const function_base& f)
+boost::python	function/function_fwd.hpp	/^namespace boost { namespace python { namespace objects {$/;"	n	namespace:boost
+boost::python::objects	function/function_fwd.hpp	/^namespace boost { namespace python { namespace objects {$/;"	n	namespace:boost::python
+boost::swap	function/function_fwd.hpp	/^  inline void swap(function<Signature>& f1, function<Signature>& f2)$/;"	f	namespace:boost	signature:(function<Signature>& f1, function<Signature>& f2)
+bound_memfunc_ptr	function/function_base.hpp	/^        } bound_memfunc_ptr;$/;"	m	union:boost::detail::function::function_buffer	typeref:struct:boost::detail::function::function_buffer::bound_memfunc_ptr_t	access:public
+bound_memfunc_ptr_t	function/function_base.hpp	/^        struct bound_memfunc_ptr_t {$/;"	s	union:boost::detail::function::function_buffer	access:public
+check_functor_type_tag	function/function_base.hpp	/^        check_functor_type_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+clear	function/function_template.hpp	/^        void clear(function_buffer& functor) const$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public	signature:(function_buffer& functor) const
+clear_type	function/function_template.hpp	/^    struct clear_type {};$/;"	s	class:boost::BOOST_FUNCTION_FUNCTION	access:private
+clear_type	function/function_template.hpp	/^  struct clear_type {};$/;"	s	class:boost::BOOST_FUNCTION_FUNCTION::function	access:private
+clone_functor_tag	function/function_base.hpp	/^        clone_functor_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+compare_equal	function/function_base.hpp	/^        compare_equal(const Function& f, const Functor& g, long,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor& g, long, mpl::bool_<false>)
+compare_equal	function/function_base.hpp	/^        compare_equal(const Function& f, const Functor&, int, mpl::bool_<true>)$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor&, int, mpl::bool_<true>)
+compare_equal	function/function_base.hpp	/^        compare_equal(const Function& f, const reference_wrapper<Functor>& g,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const reference_wrapper<Functor>& g, int, mpl::bool_<false>)
+compare_not_equal	function/function_base.hpp	/^        compare_not_equal(const Function& f, const Functor& g, long,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor& g, long, mpl::bool_<false>)
+compare_not_equal	function/function_base.hpp	/^        compare_not_equal(const Function& f, const Functor&, int,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const Functor&, int, mpl::bool_<true>)
+compare_not_equal	function/function_base.hpp	/^        compare_not_equal(const Function& f,$/;"	f	namespace:boost::detail::function	signature:(const Function& f, const reference_wrapper<Functor>& g, int, mpl::bool_<false>)
+const_qualified	function/function_base.hpp	/^          bool const_qualified;$/;"	m	struct:boost::detail::function::function_buffer::type_t	access:public
+contains	function/function_base.hpp	/^    bool contains(const F& f) const$/;"	f	class:boost::function_base	access:public	signature:(const F& f) const
+data	function/function_base.hpp	/^        mutable char data;$/;"	m	union:boost::detail::function::function_buffer	access:public
+destroy_functor_tag	function/function_base.hpp	/^        destroy_functor_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+detail	function/function_base.hpp	/^  namespace detail {$/;"	n	namespace:boost
+detail	function/function_base.hpp	/^namespace detail {$/;"	n	namespace:boost
+detail	function/function_template.hpp	/^  namespace detail {$/;"	n	namespace:boost
+empty	function/function_base.hpp	/^  bool empty() const { return !vtable; }$/;"	f	class:boost::function_base	access:public	signature:() const
+f	function/function_template.hpp	/^    BOOST_FUNCTION_FUNCTION(Functor BOOST_FUNCTION_TARGET_FIX(const &) f$/;"	m	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+first_argument_type	function/function_template.hpp	/^    typedef T0 first_argument_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+func_ptr	function/function_base.hpp	/^        mutable void (*func_ptr)();$/;"	m	union:boost::detail::function::function_buffer	access:public
+function	function/function_base.hpp	/^    namespace function {$/;"	n	namespace:boost::detail
+function	function/function_base.hpp	/^  namespace function {$/;"	n	namespace:boost::detail
+function	function/function_template.hpp	/^    namespace function {$/;"	n	namespace:boost::detail
+function	function/function_template.hpp	/^  function() : base_type() {}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:()
+function	function/function_template.hpp	/^  function(Functor f$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(Functor f ,typename enable_if_c< (boost::type_traits::ice_not< (is_integral<Functor>::value)>::value), int>::type = 0 )
+function	function/function_template.hpp	/^  function(Functor f, Allocator a$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(Functor f, Allocator a ,typename enable_if_c< (boost::type_traits::ice_not< (is_integral<Functor>::value)>::value), int>::type = 0 )
+function	function/function_template.hpp	/^  function(base_type&& f): base_type(static_cast<base_type&&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(base_type&& f)
+function	function/function_template.hpp	/^  function(clear_type*) : base_type() {}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(clear_type*)
+function	function/function_template.hpp	/^  function(const base_type& f) : base_type(static_cast<const base_type&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const base_type& f)
+function	function/function_template.hpp	/^  function(const self_type& f) : base_type(static_cast<const base_type&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const self_type& f)
+function	function/function_template.hpp	/^  function(self_type&& f): base_type(static_cast<base_type&&>(f)){}$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(self_type&& f)
+function	function/function_template.hpp	/^class function<BOOST_FUNCTION_PARTIAL_SPEC>$/;"	c	class:boost::BOOST_FUNCTION_FUNCTION	inherits:BOOST_FUNCTION_FUNCTION	access:public
+function_allows_small_object_optimization	function/function_base.hpp	/^      struct function_allows_small_object_optimization$/;"	s	namespace:boost::detail::function
+function_base	function/function_base.hpp	/^  function_base() : vtable(0) { }$/;"	f	class:boost::function_base	access:public	signature:()
+function_base	function/function_base.hpp	/^class function_base$/;"	c	namespace:boost
+function_buffer	function/function_base.hpp	/^      union function_buffer$/;"	u	namespace:boost::detail::function
+function_obj_ref_tag	function/function_base.hpp	/^      struct function_obj_ref_tag {};$/;"	s	namespace:boost::detail::function
+function_obj_tag	function/function_base.hpp	/^      struct function_obj_tag {};$/;"	s	namespace:boost::detail::function
+function_ptr_tag	function/function_base.hpp	/^      struct function_ptr_tag {};$/;"	s	namespace:boost::detail::function
+function_return_type	function/function_base.hpp	/^      struct function_return_type<void>$/;"	s	namespace:boost::detail::function
+function_return_type	function/function_base.hpp	/^      template<typename T> struct function_return_type { typedef T type; };$/;"	s	namespace:boost::detail::function
+functor	function/function_base.hpp	/^  mutable detail::function::function_buffer functor;$/;"	m	class:boost::function_base	access:public
+functor_manager	function/function_base.hpp	/^      struct functor_manager$/;"	s	namespace:boost::detail::function
+functor_manager_a	function/function_base.hpp	/^      struct functor_manager_a$/;"	s	namespace:boost::detail::function
+functor_manager_common	function/function_base.hpp	/^      struct functor_manager_common$/;"	s	namespace:boost::detail::function
+functor_manager_operation_type	function/function_base.hpp	/^      enum functor_manager_operation_type {$/;"	g	namespace:boost::detail::function
+functor_type	function/function_base.hpp	/^        typedef Functor functor_type;$/;"	t	struct:boost::detail::function::functor_manager	access:private
+functor_type	function/function_base.hpp	/^        typedef Functor functor_type;$/;"	t	struct:boost::detail::function::functor_manager_a	access:private
+functor_type	function/function_base.hpp	/^        typedef Functor functor_type;$/;"	t	struct:boost::detail::function::functor_manager_common	access:public
+functor_wrapper	function/function_base.hpp	/^        functor_wrapper( F f, A a ):$/;"	f	struct:boost::detail::function::functor_wrapper	access:public	signature:( F f, A a )
+functor_wrapper	function/function_base.hpp	/^        functor_wrapper(const functor_wrapper& f) :$/;"	f	struct:boost::detail::function::functor_wrapper	access:public	signature:(const functor_wrapper& f)
+functor_wrapper	function/function_base.hpp	/^      struct functor_wrapper: public F, public A$/;"	s	namespace:boost::detail::function	inherits:F,A
+get_function_tag	function/function_base.hpp	/^      class get_function_tag$/;"	c	namespace:boost::detail::function
+get_functor_type_tag	function/function_base.hpp	/^        get_functor_type_tag$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+get_vtable	function/function_base.hpp	/^  detail::function::vtable_base* get_vtable() const {$/;"	f	class:boost::function_base	access:public	signature:() const
+get_vtable	function/function_template.hpp	/^    vtable_type* get_vtable() const {$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION	access:private	signature:() const
+has_empty_target	function/function_base.hpp	/^    inline bool has_empty_target(...)$/;"	f	namespace:boost::detail::function	signature:(....)
+has_empty_target	function/function_base.hpp	/^    inline bool has_empty_target(const function_base* f)$/;"	f	namespace:boost::detail::function	signature:(const function_base* f)
+has_empty_target	function/function_base.hpp	/^    inline bool has_empty_target(const void*)$/;"	f	namespace:boost::detail::function	signature:(const void*)
+has_trivial_copy_and_destroy	function/function_base.hpp	/^  bool has_trivial_copy_and_destroy() const {$/;"	f	class:boost::function_base	access:public	signature:() const
+invoke	function/function_template.hpp	/^        invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_OBJ_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_REF_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_MEMBER_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        invoke(function_buffer& function_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_VOID_FUNCTION_INVOKER	access:public	signature:(function_buffer& function_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_FUNCTION_OBJ_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_FUNCTION_REF_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_MEMBER_INVOKER	access:public	signature:(function_buffer& function_obj_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoke	function/function_template.hpp	/^        static R invoke(function_buffer& function_ptr BOOST_FUNCTION_COMMA$/;"	f	struct:boost::detail::function::BOOST_FUNCTION_FUNCTION_INVOKER	access:public	signature:(function_buffer& function_ptr BOOST_FUNCTION_COMMA BOOST_FUNCTION_PARMS)
+invoker	function/function_template.hpp	/^        invoker_type invoker;$/;"	m	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+invoker_type	function/function_template.hpp	/^            invoker_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+invoker_type	function/function_template.hpp	/^            invoker_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+invoker_type	function/function_template.hpp	/^        typedef result_type (*invoker_type)(function_buffer&$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+is_const_qualified	function/function_base.hpp	/^          bool is_const_qualified;$/;"	m	struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+is_volatile_qualified	function/function_base.hpp	/^          bool is_volatile_qualified;$/;"	m	struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+manage	function/function_base.hpp	/^        manage(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+manage	function/function_base.hpp	/^        manage(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+manage	function/function_base.hpp	/^        manage(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::reference_manager	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+manage_ptr	function/function_base.hpp	/^        manage_ptr(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_common	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+manage_small	function/function_base.hpp	/^        manage_small(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_common	access:public	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_obj_tag)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_ptr_tag)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, member_ptr_tag)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::false_)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::true_)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_obj_tag)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, function_ptr_tag)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::false_)
+manager	function/function_base.hpp	/^        manager(const function_buffer& in_buffer, function_buffer& out_buffer, $/;"	f	struct:boost::detail::function::functor_manager_a	access:private	signature:(const function_buffer& in_buffer, function_buffer& out_buffer, functor_manager_operation_type op, mpl::true_)
+manager	function/function_base.hpp	/^        void (*manager)(const function_buffer& in_buffer, $/;"	m	struct:boost::detail::function::vtable_base	access:public
+manager_type	function/function_template.hpp	/^          typedef functor_manager<FunctionObj> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+manager_type	function/function_template.hpp	/^          typedef functor_manager<FunctionPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+manager_type	function/function_template.hpp	/^          typedef functor_manager<FunctionPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+manager_type	function/function_template.hpp	/^          typedef functor_manager<MemberPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+manager_type	function/function_template.hpp	/^          typedef functor_manager<MemberPtr> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+manager_type	function/function_template.hpp	/^          typedef functor_manager_a<FunctionObj, Allocator> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+manager_type	function/function_template.hpp	/^          typedef reference_manager<typename RefWrapper::type> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply	access:public
+manager_type	function/function_template.hpp	/^          typedef reference_manager<typename RefWrapper::type> manager_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_INVOKER::apply_a	access:public
+member_ptr_tag	function/function_base.hpp	/^      struct member_ptr_tag {};$/;"	s	namespace:boost::detail::function
+memfunc_ptr	function/function_base.hpp	/^          void (X::*memfunc_ptr)(int);$/;"	m	struct:boost::detail::function::function_buffer::bound_memfunc_ptr_t	access:public
+move_functor_tag	function/function_base.hpp	/^        move_functor_tag,$/;"	e	enum:boost::detail::function::functor_manager_operation_type
+obj_ptr	function/function_base.hpp	/^          mutable void* obj_ptr;$/;"	m	struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+obj_ptr	function/function_base.hpp	/^          void* obj_ptr;$/;"	m	struct:boost::detail::function::function_buffer::bound_memfunc_ptr_t	access:public
+obj_ptr	function/function_base.hpp	/^        mutable void* obj_ptr;$/;"	m	union:boost::detail::function::function_buffer	access:public
+obj_ref	function/function_base.hpp	/^        } obj_ref;$/;"	m	union:boost::detail::function::function_buffer	typeref:struct:boost::detail::function::function_buffer::obj_ref_t	access:public
+obj_ref_t	function/function_base.hpp	/^        struct obj_ref_t {$/;"	s	union:boost::detail::function::function_buffer	access:public
+objects	function/function_fwd.hpp	/^namespace boost { namespace python { namespace objects {$/;"	n	namespace:boost::python
+operator !=	function/function_base.hpp	/^    operator!=(Functor g) const$/;"	f	class:boost::function_base	access:public	signature:(Functor g) const
+operator !=	function/function_base.hpp	/^  inline bool operator!=(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+operator !=	function/function_base.hpp	/^  inline bool operator!=(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+operator !=	function/function_base.hpp	/^  operator!=(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+operator !=	function/function_base.hpp	/^  operator!=(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+operator !=	function/function_base.hpp	/^  operator!=(const function_base& f, reference_wrapper<Functor> g)$/;"	f	namespace:boost	signature:(const function_base& f, reference_wrapper<Functor> g)
+operator !=	function/function_base.hpp	/^  operator!=(reference_wrapper<Functor> g, const function_base& f)$/;"	f	namespace:boost	signature:(reference_wrapper<Functor> g, const function_base& f)
+operator !=	function/function_base.hpp	/^inline bool operator!=(const function_base& f,$/;"	f	namespace:boost	signature:(const function_base& f, detail::function::useless_clear_type*)
+operator !=	function/function_base.hpp	/^inline bool operator!=(detail::function::useless_clear_type*,$/;"	f	namespace:boost	signature:(detail::function::useless_clear_type*, const function_base& f)
+operator !=	function/function_template.hpp	/^  void operator!=(const BOOST_FUNCTION_FUNCTION<$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>&, const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>& )
+operator =	function/function_template.hpp	/^  operator=(Functor f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(Functor f)
+operator =	function/function_template.hpp	/^  self_type& operator=(base_type&& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(base_type&& f)
+operator =	function/function_template.hpp	/^  self_type& operator=(clear_type*)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(clear_type*)
+operator =	function/function_template.hpp	/^  self_type& operator=(const base_type& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const base_type& f)
+operator =	function/function_template.hpp	/^  self_type& operator=(const self_type& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(const self_type& f)
+operator =	function/function_template.hpp	/^  self_type& operator=(self_type&& f)$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION::function	access:public	signature:(self_type&& f)
+operator ==	function/function_base.hpp	/^    operator==(Functor g) const$/;"	f	class:boost::function_base	access:public	signature:(Functor g) const
+operator ==	function/function_base.hpp	/^  inline bool operator==(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+operator ==	function/function_base.hpp	/^  inline bool operator==(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+operator ==	function/function_base.hpp	/^  operator==(Functor g, const function_base& f)$/;"	f	namespace:boost	signature:(Functor g, const function_base& f)
+operator ==	function/function_base.hpp	/^  operator==(const function_base& f, Functor g)$/;"	f	namespace:boost	signature:(const function_base& f, Functor g)
+operator ==	function/function_base.hpp	/^  operator==(const function_base& f, reference_wrapper<Functor> g)$/;"	f	namespace:boost	signature:(const function_base& f, reference_wrapper<Functor> g)
+operator ==	function/function_base.hpp	/^  operator==(reference_wrapper<Functor> g, const function_base& f)$/;"	f	namespace:boost	signature:(reference_wrapper<Functor> g, const function_base& f)
+operator ==	function/function_base.hpp	/^inline bool operator==(const function_base& f,$/;"	f	namespace:boost	signature:(const function_base& f, detail::function::useless_clear_type*)
+operator ==	function/function_base.hpp	/^inline bool operator==(detail::function::useless_clear_type*,$/;"	f	namespace:boost	signature:(detail::function::useless_clear_type*, const function_base& f)
+operator ==	function/function_template.hpp	/^  void operator==(const BOOST_FUNCTION_FUNCTION<$/;"	p	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>&, const BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS>&)
+or_ref_tag	function/function_base.hpp	/^                                   ptr_or_obj_or_mem_tag>::type or_ref_tag;$/;"	t	class:boost::detail::function::get_function_tag	access:private
+ptr_or_obj_or_mem_tag	function/function_base.hpp	/^                                   ptr_or_obj_tag>::type ptr_or_obj_or_mem_tag;$/;"	t	class:boost::detail::function::get_function_tag	access:private
+ptr_or_obj_tag	function/function_base.hpp	/^                                   function_obj_tag>::type ptr_or_obj_tag;$/;"	t	class:boost::detail::function::get_function_tag	access:private
+python	function/function_fwd.hpp	/^namespace boost { namespace python { namespace objects {$/;"	n	namespace:boost
+reference_manager	function/function_base.hpp	/^      struct reference_manager$/;"	s	namespace:boost::detail::function
+result_type	function/function_template.hpp	/^        typedef R         result_type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_VTABLE	access:public
+result_type	function/function_template.hpp	/^    typedef R         result_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+second_argument_type	function/function_template.hpp	/^    typedef T1 second_argument_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+self_type	function/function_template.hpp	/^    typedef BOOST_FUNCTION_FUNCTION self_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+self_type	function/function_template.hpp	/^  typedef function self_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION::function	access:private
+sig	function/function_template.hpp	/^    struct sig$/;"	s	class:boost::BOOST_FUNCTION_FUNCTION	access:public
+swap	function/function_fwd.hpp	/^  inline void swap(function<Signature>& f1, function<Signature>& f2)$/;"	f	namespace:boost	signature:(function<Signature>& f1, function<Signature>& f2)
+swap	function/function_template.hpp	/^  inline void swap(BOOST_FUNCTION_FUNCTION<$/;"	f	class:boost::BOOST_FUNCTION_FUNCTION	access:public	signature:(BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS >& f1, BOOST_FUNCTION_FUNCTION< R BOOST_FUNCTION_COMMA BOOST_FUNCTION_TEMPLATE_ARGS >& f2)
+target	function/function_base.hpp	/^    Functor* target()$/;"	f	class:boost::function_base	access:public	signature:()
+target	function/function_base.hpp	/^    const Functor* target( Functor * = 0 ) const$/;"	f	class:boost::function_base	access:public	signature:( Functor * = 0 ) const
+target_type	function/function_base.hpp	/^  const detail::sp_typeinfo& target_type() const$/;"	f	class:boost::function_base	access:public	signature:() const
+type	function/function_base.hpp	/^          const detail::sp_typeinfo* type;$/;"	m	struct:boost::detail::function::function_buffer::type_t	access:public
+type	function/function_base.hpp	/^        typedef or_ref_tag type;$/;"	t	class:boost::detail::function::get_function_tag	access:public
+type	function/function_base.hpp	/^        typedef unusable type;$/;"	t	struct:boost::detail::function::function_return_type	access:public
+type	function/function_base.hpp	/^        } type;$/;"	m	union:boost::detail::function::function_buffer	typeref:struct:boost::detail::function::function_buffer::type_t	access:public
+type	function/function_base.hpp	/^      template<typename T> struct function_return_type { typedef T type; };$/;"	t	struct:boost::detail::function::function_return_type	access:public
+type	function/function_template.hpp	/^                                        int>::type = 0$/;"	m	class:boost::BOOST_FUNCTION_FUNCTION::enable_if_c	access:public
+type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_INVOKER	access:public
+type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_OBJ_INVOKER	access:public
+type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_FUNCTION_REF_INVOKER	access:public
+type	function/function_template.hpp	/^                       >::type type;$/;"	t	struct:boost::detail::function::BOOST_FUNCTION_GET_MEMBER_INVOKER	access:public
+type	function/function_template.hpp	/^      typedef result_type type;$/;"	t	struct:boost::BOOST_FUNCTION_FUNCTION::sig	access:public
+type_t	function/function_base.hpp	/^        struct type_t {$/;"	s	union:boost::detail::function::function_buffer	access:public
+unusable	function/function_base.hpp	/^        template<typename T> unusable(const T&) {}$/;"	f	struct:boost::detail::function::unusable	access:public	signature:(const T&)
+unusable	function/function_base.hpp	/^        unusable() {}$/;"	f	struct:boost::detail::function::unusable	access:public	signature:()
+unusable	function/function_base.hpp	/^      struct unusable$/;"	s	namespace:boost::detail::function
+useless_clear_type	function/function_base.hpp	/^      struct useless_clear_type {};$/;"	s	namespace:boost::detail::function
+volatile_qualified	function/function_base.hpp	/^          bool volatile_qualified;$/;"	m	struct:boost::detail::function::function_buffer::type_t	access:public
+vtable	function/function_base.hpp	/^  detail::function::vtable_base* vtable;$/;"	m	class:boost::function_base	access:public
+vtable_base	function/function_base.hpp	/^      struct vtable_base$/;"	s	namespace:boost::detail::function
+vtable_type	function/function_template.hpp	/^      vtable_type;$/;"	t	class:boost::BOOST_FUNCTION_FUNCTION	access:private
