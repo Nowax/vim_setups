@@ -3,7 +3,6 @@
 :hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 :nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 :set cursorline! cursorcolumn!
-:set colorcolumn=101
 
 " Search settings
 :set hlsearch!
