@@ -53,7 +53,8 @@ endfunction
 :nnoremap <F4> <C-w>q
 " Directories
 map <F5> :NERDTreeToggle<CR>
-:nnoremap <F6> :ToggleWhitespace<CR>
+:nnoremap <F6> :Search <C-R><C-W><CR>
+:nnoremap <c-F6> :SearchReset<CR>
 :nnoremap <F7> :StripWhitespace<CR>
 :nnoremap <F9> :call MakeSession()<CR>
 :nnoremap <F11> :call LoadSession()<CR>

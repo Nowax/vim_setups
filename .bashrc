@@ -7,6 +7,7 @@
 alias vi='gvim'
 alias vim='gvim'
 alias eq='exit'
+alias mlogs='sudo mount -t cifs //eseefsn50.emea.nsn-net.net/eefs00011209/ /home/wonowak/Logs/remote -o uid=1000,domain=NSN-INTRA,user=wonowak,rw,sec=ntlm'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
