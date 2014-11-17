@@ -11,10 +11,11 @@ alias mlogs='sudo mount -t cifs //eseefsn50.emea.nsn-net.net/eefs00011209/ /home
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-export wrlinb126='sshfs -Y wonowak@wrlinb126.emea.nsn-net.net:/work/wonowak /home/wonowak/Remote_Linb126/ -o nonempty'
-export linb126='ssh -Y wonowak@wrlinb126.emea.nsn-net.net'
+export mwrlinb126='sshfs -Y wonowak@wrlinb126.emea.nsn-net.net:/work/wonowak /home/wonowak/Remote_Linb126/ -o nonempty'
 export PATH=~/bin/:$PATH
 export HISTFILESIZE=20000
+export wrl110='ssh -Y wonowak@wrling110.emea.nsn-net.net'
+export wrn34='ssh -Y wonowak@wrlinb34.emea.nsn-net.net'
 #----------
 # Prompt
 #---------

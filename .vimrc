@@ -54,6 +54,7 @@ endfunction
 " Directories
 map <F5> :NERDTreeToggle<CR>
 :nnoremap <F6> :Search <C-R><C-W><CR>
+:nnoremap <s-F6> :Search y/<C-R>"<C-W><CR>
 :nnoremap <c-F6> :SearchReset<CR>
 :nnoremap <F7> :StripWhitespace<CR>
 :nnoremap <F9> :call MakeSession()<CR>
