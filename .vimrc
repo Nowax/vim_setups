@@ -15,6 +15,7 @@ syntax enable
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+:set guifont=Monospace\ 9
 
 let g:solarized_bold=1
 let g:solarized_contrast="high"
@@ -66,7 +67,8 @@ map <F5> :NERDTreeToggle<CR>
 :nnoremap <C-Space> <C-n>
 " save file
 :nnoremap <C-s> :w<CR>
-
+:vmap <C-c> "+y
+:vmap <C-v> "+p
 
 " configure tags - add additional tags here or comment out not-used ones
 set tags+=~/.vim/tags/cpp
