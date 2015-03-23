@@ -71,33 +71,33 @@ map <F5> :NERDTreeToggle<CR>
 :vmap <C-v> "+p
 
 " configure tags - add additional tags here or comment out not-used ones
-set tags+=~/.vim/tags/cpp
+#set tags+=~/.vim/tags/cpp
 set tags+=~/.vim/tags/gl
 set tags+=~/.vim/tags/sdl
 set tags+=~/.vim/tags/qt4
-set tags+=~/.vim/tags/boost/algorithm
-set tags+=~/.vim/tags/boost/math
-set tags+=~/.vim/tags/boost/smart_ptr
-set tags+=~/.vim/tags/boost/assign
-set tags+=~/.vim/tags/boost/atomic
-set tags+=~/.vim/tags/boost/variant
-set tags+=~/.vim/tags/boost/bimap
-set tags+=~/.vim/tags/boost/intrusive
-set tags+=~/.vim/tags/boost/bind
-set tags+=~/.vim/tags/boost/flyweight
-set tags+=~/.vim/tags/boost/iostreams
-set tags+=~/.vim/tags/boost/ptr_container
-set tags+=~/.vim/tags/boost/thread
-set tags+=~/.vim/tags/boost/iterator
-set tags+=~/.vim/tags/boost/function
-set tags+=~/.vim/tags/boost/lambda
-set tags+=~/.vim/tags/boost/random
-set tags+=~/.vim/tags/boost/functional
-set tags+=~/.vim/tags/boost/optional
-set tags+=~/.vim/tags/boost/function_types
-set tags+=~/.vim/tags/boost/local_function
-set tags+=~/.vim/tags/boost/tuple
-set tags+=~/.vim/tags/boost/regex
+#set tags+=~/.vim/tags/boost/algorithm
+#set tags+=~/.vim/tags/boost/math
+#set tags+=~/.vim/tags/boost/smart_ptr
+#set tags+=~/.vim/tags/boost/assign
+#set tags+=~/.vim/tags/boost/atomic
+#set tags+=~/.vim/tags/boost/variant
+#set tags+=~/.vim/tags/boost/bimap
+#set tags+=~/.vim/tags/boost/intrusive
+#set tags+=~/.vim/tags/boost/bind
+#set tags+=~/.vim/tags/boost/flyweight
+#set tags+=~/.vim/tags/boost/iostreams
+#set tags+=~/.vim/tags/boost/ptr_container
+#set tags+=~/.vim/tags/boost/thread
+#set tags+=~/.vim/tags/boost/iterator
+#set tags+=~/.vim/tags/boost/function
+#set tags+=~/.vim/tags/boost/lambda
+#set tags+=~/.vim/tags/boost/random
+#set tags+=~/.vim/tags/boost/functional
+#set tags+=~/.vim/tags/boost/optional
+#set tags+=~/.vim/tags/boost/function_types
+#set tags+=~/.vim/tags/boost/local_function
+#set tags+=~/.vim/tags/boost/tuple
+#set tags+=~/.vim/tags/boost/regex
 
 " build tags of your own project with Ctrl-F11
 map <C-F10> :!ctags -R --sort=yes --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
