@@ -60,6 +60,7 @@ map <F5> :NERDTreeToggle<CR>
 :nnoremap <F7> :StripWhitespace<CR>
 :nnoremap <F9> :call MakeSession()<CR>
 :nnoremap <F11> :call LoadSession()<CR>
+:nnoremap <c-G> :Grep<CR>
 " Exit mapping
 :nnoremap <F12> :qa<CR>
 
