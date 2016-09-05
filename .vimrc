@@ -25,6 +25,8 @@ set textwidth=0 wrapmargin=0
 
 set sessionoptions-=options
 
+set makeprg=/home/wonowak/c1/BTS_BM/build/crosswaf_clang\ configure\ build\ --domain=synchronization
+
 function! MakeSession()
   let b:sessiondir = $HOME . "/.vim/sessions" . getcwd()
   if (filewritable(b:sessiondir) != 2)
@@ -61,6 +63,7 @@ map <F5> :NERDTreeToggle<CR>
 :nnoremap <F9> :call MakeSession()<CR>
 :nnoremap <F11> :call LoadSession()<CR>
 :nnoremap <c-G> :Grep<CR>
+:nnoremap <c-m> :make<CR>
 " Exit mapping
 :nnoremap <F12> :qa<CR>
 

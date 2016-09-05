@@ -20,6 +20,9 @@ export HISTFILESIZE=20000
 export wrl110='ssh -Y wonowak@wrling110.emea.nsn-net.net'
 export wrn33='ssh -Y wonowak@wrlinb33.emea.nsn-net.net'
 export mwrn33work='sshfs wonowak@wrlinb33.emea.nsn-net.net:/work/wonowak /home/wonowak/remoteLinb33/'
+export mwrn34work='sshfs wonowak@wrlinb34.emea.nsn-net.net:/work/wonowak /home/wonowak/remoteLinb34/'
+alias review="rbt post --server=http://10.154.49.54/reviewboard --target-groups=C1 --username=wonowak"
+
 #----------
 # Prompt
 #---------
@@ -42,3 +45,12 @@ alias hhome='cd ~'
 alias dl='cd ~/Downloads'
 alias doc='cd ~/Documents'
 
+function setproxy() {
+    export {http,https,ftp}_proxy='http://10.144.1.10:8080'
+}
+
+function unsetproxy() {
+    unset {http,https,ftp}_proxy
+}
+
+setproxy
